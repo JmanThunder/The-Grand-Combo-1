@@ -289,6 +289,9 @@ electrical_power_generation = {
 				big_producer = silk
 				big_producer = tobacco
 				big_producer = fruit
+			
+			
+			
 			}
 		}
 		modifier = {
@@ -385,6 +388,9 @@ interchangeable_parts = {
 				big_producer = grain
 				big_producer = tea
 				big_producer = cattle
+			
+			
+			
 			}
 		}
 		modifier = {
@@ -592,6 +598,9 @@ mechanized_mining = {
 	rgo_goods_output = {
 		sulphur = 0.25
 	}
+	rgo_goods_output = {
+		precious_metal = 0.25
+	}
 	ai_chance = {
 		factor = 4
 		modifier = {
@@ -600,34 +609,34 @@ mechanized_mining = {
 		}
 		modifier = {
 			factor = 5
-			big_producer = iron
-		}
-		modifier = {
-			factor = 1.8
-			big_producer = sulphur
+			OR = {
+				big_producer = iron
+				big_producer = coal
+				
+				
+				big_producer = steel
+				#
+				produces = precious_metal
+			}
 		}
 		modifier = {
 			factor = 2
 			any_owned_province = {
-				produces = coal
-			}
-		}
-		modifier = {
-			factor = 1.5
-			any_owned_province = {
-				produces = iron
+				OR = {
+					produces = iron
+					produces = coal
+					
+					
+					produces = steel
+					#
+					produces = precious_metal
+				}
 			}
 		}
 		modifier = {
 			factor = 1.1
 			any_owned_province = {
 				produces = sulphur
-			}
-		}
-		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
 			}
 		}
 		modifier = {
@@ -668,6 +677,12 @@ puddling = {
 	rgo_size = {
 		iron = 0.2
 	}
+	rgo_goods_output = {
+		precious_metal = 0.25
+	}
+	rgo_size = {
+		precious_metal = 0.2
+	}
 	
 	ai_chance = {
 		factor = 2
@@ -688,15 +703,15 @@ puddling = {
 		}
 		modifier = {
 			factor = 5
-			big_producer = coal
-		}
-		modifier = {
-			factor = 5
-			big_producer = iron
-		}
-		modifier = {
-			factor = 5
-			big_producer = steel
+			OR = {
+				big_producer = iron
+				big_producer = coal
+				
+				
+				big_producer = steel
+				#
+				produces = precious_metal
+			}
 		}
 		modifier = {
 			factor = 1.8
@@ -705,13 +720,15 @@ puddling = {
 		modifier = {
 			factor = 2
 			any_owned_province = {
-				produces = coal
-			}
-		}
-		modifier = {
-			factor = 1.5
-			any_owned_province = {
-				produces = iron
+				OR = {
+					produces = iron
+					produces = coal
+					
+					
+					produces = steel
+					#
+					produces = precious_metal
+				}
 			}
 		}
 		modifier = {
@@ -732,13 +749,10 @@ puddling = {
 				OR = {
 					produces = iron
 					produces = coal
+					
+					
+					produces = precious_metal
 				}
-			}
-		}
-		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
 			}
 		}
 		modifier = {
@@ -777,28 +791,32 @@ hot_blast = {
 	
 	ai_chance = {
 		factor = 2
+
 		modifier = {
-			factor = 20
+			factor = 25
 			OR = {
 				tag = NGF
 				tag = GER
 				tag = PRU
-				tag = BOR
 				tag = FRA
-				tag = RUS
+				tag = BOR
+				tag = AUS
+				tag = KUK
+				tag = USA
+				tag = ENG
 			}
 		}
 		modifier = {
 			factor = 5
-			big_producer = coal
-		}
-		modifier = {
-			factor = 5
-			big_producer = iron
-		}
-		modifier = {
-			factor = 5
-			big_producer = steel
+			OR = {
+				big_producer = iron
+				big_producer = coal
+				
+				
+				big_producer = steel
+				#
+				produces = precious_metal
+			}
 		}
 		modifier = {
 			factor = 1.8
@@ -806,16 +824,25 @@ hot_blast = {
 		}
 		modifier = {
 			factor = 2
-			any_owned_province = { produces = coal }
-		}
-		modifier = {
-			factor = 1.5
-			any_owned_province = { produces = iron }
+			any_owned_province = {
+				OR = {
+					produces = iron
+					produces = coal
+					
+					
+					produces = steel
+					#
+					produces = precious_metal
+				}
+			}
 		}
 		modifier = {
 			factor = 1.1
-			any_owned_province = { produces = sulphur }
+			any_owned_province = {
+				produces = sulphur
+			}
 		}
+
 		modifier = {
 			factor = 5
 			is_greater_power = yes
@@ -827,13 +854,10 @@ hot_blast = {
 				OR = {
 					produces = iron
 					produces = coal
+					
+					
+					produces = precious_metal
 				}
-			}
-		}
-		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
 			}
 		}
 		modifier = {
@@ -856,6 +880,9 @@ bessemer_process = {
 	rgo_goods_output = {
 		precious_metal = 0.15
 	}
+	rgo_size = {
+		precious_metal = 0.3
+	}
 	rgo_goods_output = {
 		coal = 0.4
 	}
@@ -865,50 +892,54 @@ bessemer_process = {
 	rgo_goods_output = {
 		iron = 0.9
 	}
-	rgo_size = {
-		precious_metal = 0.3
-	}
 	factory_goods_output = {
 		steel = 0.1
 	}
-	
 	ai_chance = {
 		factor = 2
+
 		modifier = {
-			factor = 40
+			factor = 25
 			OR = {
-				tag = FRA
-				tag = ENG
-				tag = USA
 				tag = NGF
-				tag = BOR
 				tag = GER
 				tag = PRU
-				tag = RUS
+				tag = FRA
+				tag = BOR
+				tag = AUS
+				tag = KUK
+				tag = USA
+				tag = ENG
 			}
 		}
 		modifier = {
 			factor = 5
-			big_producer = coal
+			OR = {
+				big_producer = iron
+				big_producer = coal
+				
+				
+				big_producer = steel
+				#
+				produces = precious_metal
+			}
 		}
 		modifier = {
-			factor = 5
-			big_producer = iron
-		}
-		modifier = {
-			factor = 10
-			big_producer = steel
+			factor = 1.8
+			big_producer = sulphur
 		}
 		modifier = {
 			factor = 2
 			any_owned_province = {
-				produces = coal
-			}
-		}
-		modifier = {
-			factor = 1.5
-			any_owned_province = {
-				produces = iron
+				OR = {
+					produces = iron
+					produces = coal
+					
+					
+					produces = steel
+					#
+					produces = precious_metal
+				}
 			}
 		}
 		modifier = {
@@ -929,13 +960,10 @@ bessemer_process = {
 				OR = {
 					produces = iron
 					produces = coal
+					
+					
+					produces = precious_metal
 				}
-			}
-		}
-		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
 			}
 		}
 		modifier = {
@@ -974,24 +1002,32 @@ advanced_metallurgy = {
 	
 	ai_chance = {
 		factor = 2
+
 		modifier = {
-			factor = 20
+			factor = 25
 			OR = {
-				tag = FRA
 				tag = NGF
 				tag = GER
 				tag = PRU
-				tag = RUS
+				tag = FRA
 				tag = BOR
+				tag = AUS
+				tag = KUK
+				tag = USA
+				tag = ENG
 			}
 		}
 		modifier = {
 			factor = 5
-			big_producer = coal
-		}
-		modifier = {
-			factor = 3
-			big_producer = iron
+			OR = {
+				big_producer = iron
+				big_producer = coal
+				
+				
+				big_producer = steel
+				#
+				produces = precious_metal
+			}
 		}
 		modifier = {
 			factor = 1.8
@@ -1000,13 +1036,15 @@ advanced_metallurgy = {
 		modifier = {
 			factor = 2
 			any_owned_province = {
-				produces = coal
-			}
-		}
-		modifier = {
-			factor = 1.5
-			any_owned_province = {
-				produces = iron
+				OR = {
+					produces = iron
+					produces = coal
+					
+					
+					produces = steel
+					#
+					produces = precious_metal
+				}
 			}
 		}
 		modifier = {
@@ -1015,6 +1053,7 @@ advanced_metallurgy = {
 				produces = sulphur
 			}
 		}
+
 		modifier = {
 			factor = 5
 			is_greater_power = yes
@@ -1026,17 +1065,14 @@ advanced_metallurgy = {
 				OR = {
 					produces = iron
 					produces = coal
+					
+					
+					produces = precious_metal
 				}
 			}
 		}
 		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
-			}
-		}
-		modifier = {
-			factor = 3
+			factor = 1.02
 			tech_school = industrial_tech_school
 		}
 		modifier = {
@@ -1062,31 +1098,55 @@ electric_furnace = {
 	rgo_goods_output = {
 		iron = 1
 	}
+	rgo_goods_output = {
+		precious_metal = 1
+	}
 	
 	ai_chance = {
 		factor = 2
+
 		modifier = {
-			factor = 5
-			big_producer = coal
+			factor = 25
+			OR = {
+				tag = NGF
+				tag = GER
+				tag = PRU
+				tag = FRA
+				tag = BOR
+				tag = AUS
+				tag = KUK
+				tag = USA
+				tag = ENG
+			}
 		}
 		modifier = {
 			factor = 5
-			big_producer = iron
+			OR = {
+				big_producer = iron
+				big_producer = coal
+				
+				
+				big_producer = steel
+				
+				produces = precious_metal
+			}
 		}
 		modifier = {
-			factor = 1.4
+			factor = 1.8
 			big_producer = sulphur
 		}
 		modifier = {
 			factor = 2
 			any_owned_province = {
-				produces = coal
-			}
-		}
-		modifier = {
-			factor = 1.5
-			any_owned_province = {
-				produces = iron
+				OR = {
+					produces = iron
+					produces = coal
+					
+					
+					produces = steel
+					
+					produces = precious_metal
+				}
 			}
 		}
 		modifier = {
@@ -1095,6 +1155,7 @@ electric_furnace = {
 				produces = sulphur
 			}
 		}
+
 		modifier = {
 			factor = 5
 			is_greater_power = yes
@@ -1106,17 +1167,14 @@ electric_furnace = {
 				OR = {
 					produces = iron
 					produces = coal
+					
+					
+					produces = precious_metal
 				}
 			}
 		}
 		modifier = {
-			factor = 1.1
-			any_owned_province = {
-				produces = precious_metal
-			}
-		}
-		modifier = {
-			factor = 3
+			factor = 1.02
 			tech_school = industrial_tech_school
 		}
 		modifier = {

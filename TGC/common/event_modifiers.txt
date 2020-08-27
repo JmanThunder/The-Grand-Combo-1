@@ -4145,3 +4145,528 @@ tax_reforms = {
 	tax_efficiency = 0.05
 	icon = 9
 }
+rightunify = {
+	RGO_throughput = -0.01
+	factory_output = -0.03
+	land_organisation = -0.02
+	naval_organisation = -0.04
+	org_regain = -0.05
+	research_points_modifier = -0.02
+	
+	icon = 18
+}
+
+clerksresist = {
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = 0.01
+	land_organisation = -0.005
+	factory_output = -0.085
+	rich_income_modifier = 0.02
+	poor_income_modifier = -0.04
+	loan_interest = 0.03
+	tax_efficiency = -0.03
+	
+	icon = 18
+}
+
+peasantryresist = {
+	global_pop_militancy_modifier = 0.013
+	global_pop_consciousness_modifier = 0.023
+	poor_life_needs = 0.076
+	middle_life_needs = 0.064
+	rich_life_needs = 0.04
+	farm_rgo_eff = -0.06
+	max_tariff = 100
+	min_tariff = 95
+	
+	icon = 18
+}
+
+bureaucratsresist = {
+	diplomatic_points_modifier = -0.3
+	cb_generation_speed_modifier = -0.05
+	global_pop_militancy_modifier = 0.024
+	global_pop_consciousness_modifier = 0.027
+	tax_efficiency = -0.06
+	suppression_points_modifier = -1.4
+	land_organisation = -0.045
+	loan_interest = 0.03
+	
+	icon = 18
+}
+
+bureaucratsresist2 = {
+	tax_efficiency = -0.03
+	research_points_modifier = -0.05
+	global_pop_militancy_modifier = 0.024
+	global_pop_consciousness_modifier = 0.027
+	max_tariff = 100
+	min_tariff = 95
+	
+	icon = 18
+}
+
+therightstrikes1 = {
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+	land_organisation = -0.02
+	factory_output = -0.02
+	global_pop_growth = -0.0009
+	global_immigrant_attract = 0.02
+	
+	icon = 18
+}
+
+therightstrikes2 = {
+	global_pop_militancy_modifier = 0.005
+	global_pop_consciousness_modifier = 0.005
+	land_organisation = -0.02
+	factory_output = -0.02
+	global_population_growth = -0.001
+	
+	icon = 18
+}
+
+strikeback = {
+	global_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = 0.02
+	land_organisation = -0.02
+	factory_output = -0.02
+	global_population_growth = -0.001
+	rich_life_needs = 0.09
+	rich_income_modifier = -1
+	
+	icon = 18
+}
+
+killlandlords = {
+	global_pop_militancy_modifier = 0.04
+	rich_income_modifier = -1
+	rich_life_needs = 0.9
+	
+	icon = 18
+}
+
+commies_have_succeeded_o = {
+	global_pop_militancy_modifier = 0.008
+	global_pop_consciousness_modifier = 0.01
+	
+	icon = 16
+}
+	
+peacebreadland = {
+	global_pop_militancy_modifier = 0.01
+	war_exhaustion = 0.01
+	global_pop_consciousness_modifier = 0.05
+	
+	icon = 16
+}
+
+killcommies = {
+	global_pop_militancy_modifier = 0.01
+	
+	icon = 16
+}
+
+nv_change = {
+	icon = 19
+}
+
+communist_propaganda = {
+	icon = 14
+}
+
+removed_fifth_pillar = {
+	icon = 14
+}
+### NV Changes ###
+national_confusion = {
+	research_points_modifier = -0.50
+	global_pop_consciousness_modifier = 0.05
+	global_pop_militancy_modifier = 0.05
+	prestige = -0.01
+	icon = 4
+}
+
+nv_tradition_modifier = {
+	research_points_modifier = -0.05
+	core_pop_militancy_modifier = -0.01
+	icon = 3
+}
+
+nv_enlightenment_modifier = {
+	research_points_modifier = 0.05
+	core_pop_consciousness_modifier = 0.01
+	icon = 3
+}
+
+nv_progress_modifier = {
+	research_points_modifier = 0.2
+	core_pop_consciousness_modifier = 0.02
+	poor_everyday_needs = 0.1
+	middle_everyday_needs = 0.1
+	rich_everyday_needs = 0.1
+	icon = 3
+}
+
+nv_loyalty_modifier = {
+	core_pop_militancy_modifier = -0.02
+	core_pop_consciousness_modifier = 0.01
+	rgo_output = 0.05
+	icon = 3
+}
+
+nv_independence_modifier = {
+	research_points_modifier = -0.2
+	core_pop_militancy_modifier = -0.01
+	land_unit_start_experience = 5
+	leadership_modifier = 0.2
+	war_exhaustion = -0.01
+	icon = 3
+}
+
+nv_liberty_modifier = {
+	mobilisation_size = 0.02
+	global_immigrant_attract = 0.5
+	research_points_modifier = 0.05
+	poor_everyday_needs = 0.1
+	middle_everyday_needs = 0.1
+	rich_everyday_needs = 0.1
+	icon = 3
+}
+
+nv_equality_modifier = {
+	mobilisation_size = 0.04
+	core_pop_militancy_modifier = -0.02
+	social_reform_desire = 0.01
+	assimilation_rate = 0.1
+	icon = 3
+}
+
+nv_might_modifier = {
+	mobilisation_size = 0.06
+	war_exhaustion = -0.02
+	leadership_modifier = 0.2
+	land_unit_start_experience = 5
+	assimilation_rate = -0.1
+	icon = 3
+}
+
+nv_order_modifier = {
+	mobilisation_size = 0.04
+	core_pop_consciousness_modifier = -0.01
+	rgo_output = 0.05
+	icon = 3
+}
+
+nv_freedom_modifier = {
+	mobilisation_size = 0.02
+	global_immigrant_attract = 1.00
+	assimilation_rate = 0.5
+	non_accepted_pop_militancy_modifier = 0.03
+	poor_everyday_needs = 0.1
+	middle_everyday_needs = 0.1
+	rich_everyday_needs = 0.1
+	poor_luxury_needs = 0.1
+	middle_luxury_needs = 0.1
+	rich_luxury_needs = 0.1
+	icon = 3
+}
+
+nv_fraternity_modifier = {
+	mobilisation_size = 0.06
+	core_pop_militancy_modifier = -0.05
+	social_reform_desire = 0.1
+	assimilation_rate = 0.5
+	culture_tech_research_bonus = 0.2
+	icon = 3
+}
+
+nv_unity_modifier = {
+	mobilisation_size = 0.04
+	core_pop_militancy_modifier = -0.05
+	core_pop_consciousness_modifier = -0.05
+	factory_owner_cost = -0.1
+	social_reform_desire = 0.2
+	assimilation_rate = 0.5
+	rgo_output = 0.05
+	factory_throughput = 0.05
+	army_tech_research_bonus = 0.1
+	industry_tech_research_bonus = 0.1
+	icon = 3
+}
+
+nv_supremacy_modifier = {
+	mobilisation_size = 0.08
+	global_pop_militancy_modifier = -0.02
+	war_exhaustion = -0.1
+	leadership_modifier = 0.15
+	land_unit_start_experience = 10
+	supply_consumption = -0.1
+	assimilation_rate = -0.1
+	global_immigrant_attract = -1
+	army_tech_research_bonus = 0.2
+	culture_tech_research_bonus = -0.1
+	icon = 3
+}
+
+nv_prosperity_modifier = {
+	mobilisation_size = 0.04
+	core_pop_militancy_modifier = -0.02
+	social_reform_desire = 0.3
+	assimilation_rate = 0.3
+	global_immigrant_attract = 0.50
+	commerce_tech_research_bonus = 0.2
+	industry_tech_research_bonus = 0.2
+	poor_everyday_needs = 0.3
+	middle_everyday_needs = 0.3
+	rich_everyday_needs = 0.3
+	poor_luxury_needs = 0.2
+	middle_luxury_needs = 0.2
+	rich_luxury_needs = 0.2
+	icon = 3
+}
+
+nv_productivity_modifier = {
+	mobilisation_size = 0.04
+	rgo_output = 0.15
+	factory_throughput = 0.15
+	factory_owner_cost = -0.2
+	poor_everyday_needs = -0.1
+	middle_everyday_needs = -0.1
+	rich_everyday_needs = -0.1
+	research_points_modifier = -0.05
+	industry_tech_research_bonus = 0.2
+	social_reform_desire = -0.2
+	icon = 3
+}
+
+nv_glory_modifier = {
+	mobilisation_size = 0.06
+	army_tech_research_bonus = 0.1
+	navy_tech_research_bonus = 0.1
+	non_accepted_pop_militancy_modifier = 0.03
+	poor_everyday_needs = 0.2
+	middle_everyday_needs = 0.2
+	rich_everyday_needs = 0.2
+	war_exhaustion = -0.01
+	leadership_modifier = 0.1
+	land_unit_start_experience = 10
+	assimilation_rate = -0.1
+	icon = 3
+}
+
+nv_dominion_modifier = {
+	mobilisation_size = 0.06
+	war_exhaustion = -0.02
+	leadership_modifier = 0.2
+	land_unit_start_experience = 5
+	assimilation_rate = -0.1
+	factory_owner_cost = -0.1
+	supply_consumption = -0.05
+	core_pop_consciousness_modifier = -0.02
+	rgo_output = 0.10
+	navy_tech_research_bonus = 0.2
+	icon = 3
+}
+#### 5 Year Plans ####
+5yp_industry = {
+	factory_owner_cost = -0.5
+	education_efficiency_modifier = 0.2
+	poor_everyday_needs = -0.2
+	poor_luxury_needs = -0.4
+	poor_life_needs = 0.4
+	mine_rgo_thoroughput = 0.1
+	factory_thoroughput = 0.2
+	rich_life_needs = 0.9
+	rich_luxury_needs = 0.9
+	rich_everyday_needs = 0.9
+	rgo_size = -0.2
+	farm_rgo_output = 0.5
+	
+	icon = 14
+}
+5yp_army = {
+	factory_owner_cost = -0.2
+	RGO_thoroughput = 0.3
+	mobilisation_economy_impact = -0.75
+	mobilisation_size = 0.3
+	poor_everyday_needs = -0.6
+	poor_life_needs = -0.6
+	poor_luxury_needs = 0.3
+
+	icon = 11
+}
+5yp_rank = {
+	prestige = 1.5
+	research_points = 2
+	research_points_modifier = 0.05
+	immigrant_attract = 0.50
+	poor_luxury_needs = -0.3
+	poor_everyday_needs = -0.3
+	poor_life_needs = -0.4
+	rich_luxury_needs = 0.7
+	culture_tech_research_bonus = 0.1
+	
+	icon = 14
+}
+
+### Political Leaders ###
+
+expert_diplomat = {
+	diplomatic_points_modifier = 0.25
+	badboy = -0.05
+	icon = 17
+}
+
+successful_industrialist = {
+	factory_owner_cost = -0.12
+	factory_throughput = 0.02
+	farm_RGO_size = -0.02
+	mine_RGO_size = -0.02
+	icon = 17
+}
+
+ivory_tower_intellectual = {
+	research_points = 1
+	global_pop_consciousness_modifier = 0.005
+	icon = 17
+}
+
+man_of_the_people = {
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = 0.01
+	ruling_party_support = 1
+	icon = 17
+}
+
+landed_gentleman = {
+	RGO_throughput = 0.03
+	farm_RGO_size = 0.03
+	mine_RGO_size = 0.03
+	factory_throughput = -0.03
+	icon = 17
+}
+
+military_man = {
+	org_regain = 0.05
+	land_organisation = 0.03
+	icon = 17
+}
+
+lord_admiral = {
+	org_regain = 0.05
+	naval_organisation = 0.03
+	icon = 17
+}
+
+raving_loon = {
+	global_pop_militancy_modifier = 0.03
+	research_points_modifier = -0.025
+	ruling_party_support = -0.25
+	icon = 18
+}
+
+luddite = {
+	research_points_modifier = -0.03
+	factory_owner_cost = 0.1
+	RGO_throughput = 0.025
+	icon = 17
+}
+
+great_statesman = {
+	prestige = 0.005
+	diplomatic_points_modifier = 0.12
+	ruling_party_support = 0.25
+	badboy = -0.025
+	icon = 17
+}
+
+backroom_boy = {
+	RGO_throughput = 0.01
+	research_points_modifier = 0.01
+	leadership = 0.01
+	icon = 17
+}
+
+great_reformer = {
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = 0.02
+	ruling_party_support = 0.1
+	issue_change_speed = 0.1
+	icon = 17
+}
+
+gauche_buffoon = {
+	prestige = -0.005
+	diplomatic_points_modifier = -0.25
+	issue_change_speed = 0.05
+	icon = 18
+}
+
+administrative_genius = {
+	mobilisation_size = 0.005
+	supply_consumption = -0.025
+	icon = 17
+}
+
+visionary_thinker = {
+	research_points_modifier = 0.1
+	icon = 17
+}
+
+competent_placeholder = {
+	icon = 17
+}
+
+imperious_autocrat = {
+	prestige = 0.01
+	icon = 17
+}
+
+prince_of_terror = {
+	global_pop_militancy_modifier = -0.05
+	badboy = 0.025
+	icon = 17
+}
+
+efficient_sociopath = {
+	factory_output = 0.01
+	leadership = -0.05
+	icon = 17
+}
+
+pig_headed_isolationist = {
+	global_pop_consciousness_modifier = -0.025
+	icon = 17
+}
+
+ambitious_union_boss = {
+	global_pop_consciousness_modifier = 0.015
+	icon = 17
+}
+
+dour_economist = {
+	factory_owner_cost = -0.05
+	ruling_party_support = -0.1
+	issue_change_speed = -0.05
+	icon = 17
+}
+
+otto_von_bismarck = {
+	prestige = 0.02
+	core_pop_militancy_modifier = -0.03
+	diplomatic_points_modifier = 0.2
+	ruling_party_support = 0.4
+	badboy = -0.04
+	icon = 17
+}
+
+louis_napoleon_iii = {
+	prestige = 0.02
+	ruling_party_support = 0.75
+	core_pop_militancy_modifier = -0.04
+	core_pop_consciousness_modifier = -0.04
+	land_organisation = -0.04
+	icon = 17
+}

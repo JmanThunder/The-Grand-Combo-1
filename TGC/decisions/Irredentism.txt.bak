@@ -1168,28 +1168,5 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
-	claim_ulster = {
-		picture = ulster_scot
-		potential = {
-			tag = SCO
-			is_vassal = no
-			NOT = { has_country_flag = ulster_scot }
-		}
-		
-		allow = {
-			is_greater_power = yes
-			revolution_n_counterrevolution = 1
-			war_policy = jingoism
-			war = no
-		}
-		
-		effect = {
-			set_country_flag = ulster_scot
-			ENG_254 = { add_core = SCO }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+
 }

@@ -1479,36 +1479,5 @@ political_decisions = {
             854 = { add_core = ITA }
         }
     }
-#Appoint Camillo Benso Cavour
-	appoint_camillo_cavour = {
-		picture = SAR_appoint_camillo_cavour
-		potential = {
-			tag = SAR
-			year = 1850
-			OR = {
-				government = hms_government
-				government = prussian_constitutionalism
-				government = absolute_monarchy
-			}
-			NOT = { has_country_flag = camillo_cavour_appointed }
-		}
 
-		allow = {
-			war = no
-			state_n_government = 1
-			#ruling_party_ideology = liberal
-		}
-
-		effect = {
-			set_country_flag = camillo_cavour_appointed
-			add_country_modifier = { name = camillo_cavour duration = 3650 }
-		
-			any_pop = {
-				limit = { is_culture_group = italian }
-				militancy = -1
-				dominant_issue = { factor = 0.2 value = jingoism }
-			}
-		}
-	}
-	
 }

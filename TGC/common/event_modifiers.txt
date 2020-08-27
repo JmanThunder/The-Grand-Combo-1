@@ -3396,3 +3396,752 @@ birthrate_push_high = {
 recently_selected_birthrate = {
     icon = 2
 }
+######
+#ANON#
+######
+
+
+city_good_education = {
+	assimilation_rate = 1.0
+	immigrant_attract = 0.5
+	population_growth = 0.01
+	administrative_efficiency_modifier = 0.05
+	education_efficiency_modifier = 0.05
+	icon = 19
+}
+
+lambert_charter_mod = {
+	loan_interest = 0.25
+	max_loan_modifier = 0.25
+	education_efficiency_modifier = 0.05
+	global_pop_consciousness_modifier = 0.02
+	supply_consumption = 0.15
+	min_military_spending = 0.25
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	icon = 5
+}
+
+serbian_uprising_mobilization = {
+	pop_militancy_modifier = -0.05
+	mobilisation_size = 0.5
+	prestige = -0.02
+	war_exhaustion = -0.1
+	tax_efficiency = 0.25
+	tariff_efficiency_modifier = 0.25
+	icon = 18
+}
+
+colonia_tovar_founded = {
+	icon = 13
+	population_growth = 0.005
+	immigrant_attract = 0.15
+	assimilation_rate = 0.025
+}
+good_immigrants = {
+	icon = 9
+	population_growth = 0.01
+	global_immigrant_attract = 1.5
+	global_assimilation_rate = 0.25
+}
+greek_supremacy = {
+	icon = 15
+	population_growth = 0.00025
+	assimilation_rate = 0.15
+}
+pentarchy_restored = {
+	icon = 17
+	tax_efficiency = 0.1 
+	administrative_efficiency_modifier = 0.05
+	population_growth = 0.001
+	assimilation_rate = 0.10
+}
+pentarchy_restored_plus = {
+	icon = 17
+	tax_efficiency = 0.2 
+	administrative_efficiency_modifier = 0.1
+	population_growth = 0.00075
+	assimilation_rate = 0.15
+}
+caudillo_encouragement = {
+	icon = 17
+	farm_rgo_eff = 0.2
+	mine_rgo_eff = 0.2
+	artisan_throughput = 0.2
+	#tax_efficiency = -0.05
+	administrative_efficiency_modifier = -0.05
+	tariff_efficiency_modifier = -0.05
+}
+cash_4_faggots = {
+	icon = 17
+	tax_efficiency = 0.1
+	administrative_efficiency_modifier = 0.05
+	tariff_efficiency_modifier = 0.05
+}
+encouraging_kraut_military_traditions = {
+	icon = 15
+	org_regain = 0.025
+	land_unit_start_experience = 0.25
+	land_organisation  = 0.025
+	leadership_modifier = 0.15
+}
+jews_taxes_in_advance = {
+	icon = 17
+	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.1
+	tariff_efficiency_modifier = 0.1
+}
+angostura_iron = {
+	icon = 11
+	local_rgo_throughput = 0.25
+	local_rgo_output = 0.15
+	local_factory_input = 0.25
+	local_factory_throughput = 0.25
+	local_factory_output = 0.15
+}
+#Hawaii -Anon
+hawaii_missionary_schools = {
+	icon = 3
+	education_efficiency = 0.15
+}
+hawaii_land_ownership = {
+	icon = 5
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	artisan_throughput = 0.05
+	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.1
+	tariff_efficiency_modifier = 0.1
+}
+hawaii_paniolos = {
+	icon = 17
+	farm_rgo_eff = 0.1
+	farm_rgo_size = 0.2
+}
+#Oregon
+beaver_coins = {
+	icon = 17
+	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.1
+	tariff_efficiency_modifier = 0.1
+}
+#################### ANON
+rebuilding_ani = {
+	#non_accepted_pop_militancy_modifier = 0.05
+	assimilation_rate = 0.25
+	immigrant_attract = 0.5
+	population_growth = 0.01
+	icon = 17
+}
+
+
+turkish_assimilation_act_policy = {
+	badboy = 0.01
+	global_assimilation_rate = 0.4
+	icon = 18
+}
+
+turkish_removal_act_policy = {
+	badboy = 0.02
+	icon = 18
+}
+#################### turkish question
+
+turkish_exodus = {
+	icon = 20
+}
+
+turkish_extermination = {
+	icon = 20
+}
+
+turkish_slaughter = {
+	badboy = 0.01
+	icon = 16
+	non_accepted_pop_consciousness_modifier = 0.2
+	non_accepted_pop_militancy_modifier = 0.2
+}
+
+turkish_displacement = {
+	badboy = 0.01
+	icon = 16
+	non_accepted_pop_consciousness_modifier = 0.1
+	non_accepted_pop_militancy_modifier = 0.05
+}
+
+turkish_reintegration = {
+	icon = 15
+	non_accepted_pop_consciousness_modifier = 0.1
+	non_accepted_pop_militancy_modifier = -0.05
+}
+
+depopulation_turk = {
+	life_rating = 0.5
+	assimilation_rate = 0.4
+	immigrant_attract = 0.5
+	icon = 11
+}
+
+#################### ANON Kebab
+
+#NOTE TO SELF:
+#WHEN CHANGING EVENT MODIFIERS, MAKE SURE TO CHECK ALL MODS OVERWRITING THE event_modifiers.txt FILE BEFORE 
+#ANON'S HFM EDITS LOADS.
+
+anti_circassian_sentiment = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	immigrant_push = -0.15
+	icon = 4
+}
+
+smol_badboy = {
+	import_cost = 1
+	loan_interest = 1.5
+	diplomatic_points_modifier = -0.15
+	factory_owner_cost = 0.15
+	global_immigrant_attract = -0.25
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.1
+	political_reform_desire = 0.25
+	cb_generation_speed_modifier = -0.05
+	icon = 8
+}
+
+###################### ANON guyanas
+
+anon_diamond_rush = {
+	immigrant_attract = 5
+	life_rating = 0.5
+	population_growth = 0.01
+	pop_consciousness_modifier = 0.1
+	icon = 11
+}
+
+anon_rubber_boom = {
+	immigrant_attract = 2.5
+	pop_consciousness_modifier = 0.2
+	population_growth = 0.005
+	icon = 11
+}
+rubber_boom_country = {
+	global_immigrant_attract = 0.15
+	icon = 9
+}
+
+indentured_workers = {
+	assimilation_rate = -0.5
+	population_growth = 0.001
+	pop_consciousness_modifier = 0.1
+	farm_rgo_eff = 0.1
+	farm_rgo_size = 0.1
+	icon = 17
+}
+
+################### ANON Cascadia-alaska
+
+alaskaification = {
+	global_immigrant_attract = 1.5
+	global_population_growth = 0.01
+	farm_RGO_size = 0.2
+	mine_RGO_size = 0.2
+	global_assimilation_rate = 0.5
+	icon = 7
+}
+
+home_of_the_mormons_2 = {
+	population_growth = 0.01
+	icon = 19
+}
+
+CAS_good_immigrants = {
+	icon = 9
+	population_growth = 0.01
+	global_immigrant_attract = 1.5
+	global_assimilation_rate = 0.25
+}
+
+klondike_gold_rush = {
+	immigrant_attract = 3		#300%
+	population_growth = 0.01
+	assimilation_rate = 1
+	icon = 19
+}
+
+alaska_gold_rush = {
+	immigrant_attract = 3		#300%
+	population_growth = 0.01
+	assimilation_rate = 1
+	icon = 19
+}
+
+colorado_gold_rush = {
+	immigrant_attract = 3		#300%
+	population_growth = 0.01
+	assimilation_rate = 1
+	icon = 19
+}
+
+silver_rush = {
+	immigrant_attract = 3.5
+	life_rating = 0.25
+	population_growth = 0.0075
+	icon = 11
+}
+silver_rush_nevada = {
+	immigrant_attract = 1.5
+	population_growth = 0.005
+	assimilation_rate = 0.5
+	icon = 19
+}
+silver_rush_colorado = {
+	immigrant_attract = 1.5
+	population_growth = 0.005
+	assimilation_rate = 0.5
+	icon = 19
+}
+silver_rush_country = {
+	global_immigrant_attract = 0.25
+	icon = 9
+}
+end_mineral_boom = {
+	immigrant_push = 0.2
+	icon = 18
+}
+
+diamond_rush_country = {
+	global_immigrant_attract = 0.5
+	icon = 9
+}
+
+################### ANON Aridoamerica
+
+political_tensions = {
+	farm_rgo_eff = -0.25
+	mine_rgo_eff = -0.25
+	pop_militancy_modifier = 0.075
+	pop_consciousness_modifier = 0.075
+	icon = 20
+}
+
+treaties_of_san_diego = {
+	icon = 5
+}
+treaties_of_ciudad_victoria = {
+	icon = 5
+}
+
+comanche_raiders = {
+	population_growth = -0.002	
+	local_RGO_output = -0.25
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+comanche_raids = {
+	immigrant_push = 0.5
+	local_RGO_output = -0.5
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	icon = 18
+}
+
+ANON_skirmishes = {
+	immigrant_push = 0.25
+	local_RGO_output = -0.25
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.125
+	icon = 18
+}
+
+USA_statehood = {
+	icon = 5
+}
+
+california_trade_RUS = {
+	population_growth = 0.0025
+	immigrant_attract = 0.10
+	local_artisan_output = 0.15
+	local_artisan_input = 0.15
+	icon = 19
+}
+california_trade_RPL = {
+	population_growth = 0.0025
+	immigrant_attract = 0.10
+	local_artisan_output = 0.15
+	local_artisan_input = 0.15
+	icon = 19
+}
+alaska_cloumbia_trade = {
+	population_growth = 0.0025
+	immigrant_attract = 0.10
+	local_artisan_output = 0.15
+	local_artisan_input = 0.15
+	icon = 19
+}
+
+######################### ANON Randumb
+
+malagasy_sanitorium = {
+	immigrant_attract = 0.25
+	assimilation_rate = 0.375
+	population_growth = 0.001
+	icon = 13
+}
+
+central_ukraine_modifier = {
+	mine_RGO_eff = 0.25
+	mine_RGO_size = 0.25
+	population_growth = 0.005
+	immigrant_attract = 0.0125
+	icon = 13
+}
+
+donbass_modifier = {
+	mine_RGO_eff = 0.5
+	mine_RGO_size = 0.5
+	population_growth = 0.0075
+	immigrant_attract = 0.025
+	icon = 13
+}
+
+jewish_polygamy = {
+	population_growth = 0.01
+	icon = 19
+}
+
+volga_don_canal_construction = {
+	icon = 11
+}
+baltic_white_canal_construction = {
+	icon = 11
+}
+
+nigga_exodus = {
+	icon = 20
+}
+
+nigga_displacement = {
+	badboy = 0.005
+	icon = 16
+	non_accepted_pop_consciousness_modifier = 0.05
+	non_accepted_pop_militancy_modifier = 0.025
+}
+
+depopulation_nigga = {
+	life_rating = 0.25
+	assimilation_rate = 0.2
+	immigrant_attract = 0.25
+	icon = 11
+}
+
+intense_farming = {
+	farm_RGO_eff = 0.15
+	icon = 13
+}
+
+new_production = {
+	farm_RGO_eff = -0.15
+	icon = 14
+}
+
+yankee_whaling = {
+	farm_RGO_eff = 2.5
+	local_factory_output = 0.25
+	local_RGO_output = 2.5
+	icon = 14
+}
+
+ayutla_sympathies = {
+	pop_militancy_modifier  = 0.3
+	pop_consciousness_modifier  = 0.3
+	local_ruling_party_support = -0.7
+	icon = 18
+}
+
+ANON_total_war_mod = {
+	icon = 14
+}
+
+pashmina_wool = {
+	farm_rgo_eff = 0.5
+	local_RGO_output = 0.125
+	rich_income_modifier = 0.25
+	middle_income_modifier = 0.125
+	poor_income_modifier = 0.0625
+	tariff_efficiency_modifier = 0.25
+	tax_efficiency = 0.125
+	icon = 13
+}
+
+british_sanitorium = {
+	immigrant_attract = 0.25
+	assimilation_rate = 0.375
+	population_growth = 0.001
+	icon = 13
+}
+
+sikkimese_raids = {
+	immigrant_push = 0.5
+	local_RGO_output = -0.5
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	icon = 4
+}
+
+bhutanese_raids = {
+	immigrant_push = 0.5
+	local_RGO_output = -0.5
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	icon = 4
+}
+
+dungan_revolt_happening = {
+	immigrant_push = 0.25
+	immigrant_attract = -0.5
+	assimilation_rate = -0.25
+	local_RGO_output = -0.25
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.15
+	icon = 4
+}
+
+YUC_autonomy_modifier = {
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.25
+	local_RGO_output = 0.25
+	pop_consciousness_modifier = 0.2
+	immigrant_attract = 0.1
+	population_growth = 0.001
+	icon = 4
+}
+
+
+global_federalist_agitation = {
+	global_pop_consciousness_modifier = 0.2
+	global_pop_militancy_modifier = 0.01
+	prestige = -0.03
+	icon = 4
+}
+
+federalist_sympathies = {
+	pop_militancy_modifier  = 0.3
+	pop_consciousness_modifier  = 0.3
+	local_ruling_party_support = -0.7
+	icon = 18
+}
+
+#########################
+# Habsburg Polans
+
+high_coronation = {
+	prestige = 0.02
+	diplomatic_points_modifier = 0.2
+	influence_modifier = 0.2
+	ruling_party_support = 0.25
+	core_pop_militancy_modifier = -0.015
+	icon = 17
+}
+medium_coronation = {
+	prestige = 0.01
+	diplomatic_points_modifier = 0.1
+	influence_modifier = 0.1
+	ruling_party_support = 0.125
+	core_pop_militancy_modifier = -0.0075
+	icon = 17
+}
+low_coronation = {
+	prestige = 0.005
+	diplomatic_points_modifier = 0.05
+	influence_modifier = 0.05
+	ruling_party_support = 0.0625
+	core_pop_militancy_modifier = -0.00375
+	icon = 17
+}
+old_and_wise_ruler = {
+	prestige = 0.01
+	diplomatic_points_modifier = 0.1
+	influence_modifier = 0.1
+	ruling_party_support = 0.125
+	core_pop_militancy_modifier = -0.0075
+	icon = 17
+}
+
+cultural_resurgence_polan = {
+	assimilation_rate = 0.75
+	immigrant_attract = 0.75
+	pop_consciousness_modifier = 0.01
+	icon = 7
+}
+#########################
+
+colonial_exploitation = {
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	icon = 18
+}
+
+kraut_assimilation_policy = {
+	badboy = 0.01
+	icon = 18
+}
+
+kraut_displacement_policy = {
+	badboy = 0.02
+	icon = 18
+}
+
+polonization_modifier = {
+	assimilation_rate = 1.0
+	immigrant_attract = 0.75
+	administrative_efficiency_modifier = 0.05
+	education_efficiency_modifier = 0.05
+	farm_rgo_size = 0.5
+	mine_RGO_size = 0.5
+	icon = 19
+}
+
+depopulation_kraut = {
+	life_rating = 0.5
+	assimilation_rate = 0.5
+	immigrant_attract = 0.75
+	icon = 11
+}
+
+religious_insurrection = {
+	pop_militancy_modifier = 0.1
+	immigrant_push = 0.25
+	immigrant_attract = -0.5
+	assimilation_rate = -0.25
+	icon = 18
+}
+
+new_fancy_palace_modifier = {
+	prestige = 0.05
+	immigrant_attract = 0.1
+	pop_consciousness_modifier = 0.02
+	icon = 15
+}
+persian_cossacks_modifier = {
+	core_pop_militancy_modifier = -0.05
+	land_organisation = 0.2
+	land_unit_start_experience = 1
+	leadership_modifier = 0.5
+	prestige = 0.01
+	icon = 105
+}
+secessionist_agitation = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	local_RGO_throughput = -0.25
+	assimilation_rate = -1
+	icon = 18
+}
+csa_draft = {
+	pop_militancy_modifier = 0.01
+	mobilisation_size = 0.15
+	mobilization_impact = 0.5
+	prestige = -0.05
+	war_exhaustion = -0.03
+	icon = 15
+}
+
+rgo_boycott_modifier = {
+	farm_rgo_eff = -0.99
+	pop_consciousness_modifier = 0.25
+	pop_militancy_modifier = 1
+	life_rating = -1
+	immigrant_push = 0.1
+	local_ruling_party_support = -0.99
+	icon = 2
+}
+futile = {
+	icon = 7
+}
+famine = {
+	population_growth = -0.01
+	icon = 85
+}
+
+nationalist_poland = {
+	icon = 17
+	core_pop_militancy_modifier = -0.05
+	core_pop_consciousness_modifier = -0.05
+}
+
+nationalist_BOH = {
+	icon = 17
+	core_pop_militancy_modifier = -0.05
+	core_pop_consciousness_modifier = -0.05
+}
+
+germanization_baltics_modifier = {
+	assimilation_rate = 1.0
+	administrative_efficiency_modifier = 0.05
+	education_efficiency_modifier = 0.05
+	icon = 19
+}
+
+######################### STEPPE WOLFE
+steppe_wolfe = {
+	research_points_modifier = 0.5
+	leadership_modifier = 0.75
+	education_efficiency_modifier = 0.20
+	mobilisation_size = 0.25
+	prestige = 0.05
+	icon = 3
+}
+
+turkish_women = {
+	population_growth = 0.008
+	icon = 19
+}
+######################### GSG general
+
+
+kebabbies_wait = {
+	icon = 20
+}
+
+border_control = {
+	global_immigrant_attract = -5
+	badboy = 0.01
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = 0.01
+	icon = 20
+}
+
+quilombo_presence = {
+	local_RGO_throughput = -0.05
+	pop_militancy_modifier = 0.03
+	pop_consciousness_modifier = 0.03
+	assimilation_rate = -0.1
+	icon = 20
+}	
+
+progressive_society_csa = {
+	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = 0.05
+	rich_income_modifier = -0.05
+	icon = 4
+}
+
+marxist_slaves = {
+	pop_consciousness_modifier = 0.025
+	local_ruling_party_support = -0.03
+	icon = 20
+}
+
+immigrant_workers_csa = {
+	local_RGO_output = -0.25
+	local_RGO_throughput = -0.25
+	local_factory_throughput = 0.1
+	local_factory_output = 0.1
+	pop_consciousness_modifier = 0.02
+	icon = 14
+}
+
+tax_reforms = {
+	tax_efficiency = 0.05
+	icon = 9
+}

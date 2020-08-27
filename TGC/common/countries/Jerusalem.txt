@@ -1,5 +1,5 @@
-color = { 128  125  89 }
-graphical_culture = MiddleEasternGC
+color = { 211  230  211 }
+graphical_culture = EuropeanGC
 
 party = {
 	name = "PLS_reactionary"

@@ -224,8 +224,7 @@ country_event = {
 		relation = { who = ENG value = -50 }
 		prestige = 4
 		ENG = { country_event = { i
-		d = 95256 
-		#days = 10 
+		days = 95256 
 		} 
 		}
 		ai_chance = {

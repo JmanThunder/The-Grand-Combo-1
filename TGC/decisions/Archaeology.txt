@@ -223,4 +223,5 @@ political_decisions = {
 				duration = -1
 			}
 		}
+	}
 }

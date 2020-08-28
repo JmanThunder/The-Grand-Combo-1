@@ -2228,4 +2228,4 @@ political_decisions = {
 	}
 }
 
-}
+

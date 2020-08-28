@@ -569,21 +569,21 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = Relocate to Philadelphia
+		name = "Relocate to Philadelphia"
 		prestige = -25
 		war_exhaustion = 25
 		capital = 223
 	}
 
 	option = {
-		name = Relocate to New York City
+		name = "Relocate to New York City"
 		prestige = -25
 		war_exhaustion = 25
 		capital = 232
 	}
 
 	option = {
-		name = Relocate to Boston
+		name = "Relocate to Boston"
 		prestige = -25
 		war_exhaustion = 25
 		capital = 243

@@ -5221,3 +5221,968 @@ eic_central_bank = {
 	administrative_efficiency_modifier = 0.05
 	icon = 17
 }
+### Pop Growth Trends ###
+population_trend = {
+	icon = 69
+}
+
+point_five_children = {
+	global_population_growth = -0.003
+	education_efficiency_modifier = 0.6
+	icon = 66
+}
+
+one_child = {
+	global_population_growth = -0.002
+	education_efficiency_modifier = 0.4
+	icon = 67
+}
+
+one_point_five_children = {
+	global_population_growth = -0.001
+	education_efficiency_modifier = 0.2
+	icon = 68
+}
+
+two_children = {
+	icon = 69
+}
+
+two_point_five_children = {
+	global_population_growth = 0.001
+	education_efficiency_modifier = -0.1
+	icon = 70
+}
+
+three_children = {
+	global_population_growth = 0.002
+	education_efficiency_modifier = -0.2
+	icon = 71
+}
+
+four_children = {
+	global_population_growth = 0.003
+	education_efficiency_modifier = -0.3
+	icon = 72
+}
+
+### HOD Modifiers ###
+apache_raiders	= {
+	population_growth = -0.002
+	pop_militancy_modifier = 0.2
+	icon = 106
+}
+
+### Crisis Modifiers ###
+recent_crisis = {
+	icon = 8
+}
+
+### French Events ###
+french_cultural_unity = {
+	assimilation_rate = 2
+	icon = 19
+}
+
+### Confederate Events ###
+atlantic_slave_trade = {
+	rgo_throughput = 0.1
+	global_pop_consciousness_modifier = 0.1
+	badboy = 0.025
+	mobilisation_economy_impact = -0.2
+	icon = 6
+}
+
+mississippi_floods = {
+	pop_militancy_modifier = 0.03
+	immigrant_push = 0.2
+	life_rating = -2
+	farm_rgo_eff = -0.3
+	assimilation_rate = 0.1
+	icon = 20
+}
+
+freedmen_enslaved = {
+	prestige = -0.1
+	badboy = 0.025
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+	icon = 18
+}
+
+### Brazil Events ###
+freemason_expulsion_modifier = {
+	education_efficiency_modifier = -0.25
+	global_pop_consciousness_modifier = 0.05
+	icon = 18
+}
+
+quilombo_presence = {
+	local_RGO_throughput = -0.05
+	pop_militancy_modifier = 0.03
+	pop_consciousness_modifier = 0.03
+	assimilation_rate = -0.1
+	icon = 20
+}
+
+### American Colonisation Modifiers ###
+new_settlement = {
+	immigrant_attract = 1.25
+	assimilation_rate = -0.5
+	icon = 19
+}
+
+frontiersmen_modifier = {
+	assimilation_rate = -10
+	immigrant_push = -10
+	icon = 19
+}
+
+native_american_minor_modifier = {
+	assimilation_rate = -1
+	global_pop_consciousness_modifier = -0.2
+	global_pop_militancy_modifier = -0.2
+	research_points = -.25
+	research_points_modifier = -0.5
+	icon = 106
+}
+
+english_band = {
+	immigrant_push = 0.5
+	rgo_throughput = -0.5
+	pop_consciousness_modifier = 0.02
+	icon = 106
+}
+
+indian_raiders = {
+	immigrant_push = 0.25
+	rgo_throughput = -0.25
+	pop_militancy_modifier = 0.02
+	population_growth = -0.001
+	icon = 106
+}
+
+# New modifiers by GAGA
+
+the_eye_of_the_storm = {
+	global_pop_militancy_modifier = -0.2
+	social_reform_desire = -0.25
+	political_reform_desire = -0.25
+	icon = 5
+}
+
+# New modifiers by Five_X
+
+######
+#### EuropeAfricaAsia modifiers ####
+######
+
+central_asia_refugees = {
+	icon = 18
+}
+
+israel_aliyah_modifier = {
+	global_assimilation_rate = 0.1
+	global_immigrant_attract = 1
+	non_accepted_pop_militancy_modifier = 0.05
+	icon = 17
+}
+
+modern_democracy_modifier = {
+	global_assimilation_rate = 0.05
+	global_immigrant_attract = 0.5
+	social_reform_desire = 0.1
+	prestige = 0.01
+	icon = 7
+}
+
+emergency_draft = {
+	pop_militancy_modifier = 0.05
+	mobilisation_size = 0.5
+	mobilisation_economy_impact = 4
+	org_regain = 0.25
+	global_population_growth = -0.002
+	leadership_modifier = 1
+	land_organisation = 0.5
+	prestige = -0.05
+	war_exhaustion = -0.05
+	icon = 15
+}
+
+circassian_expulsion = {
+	immigrant_attract = 100
+	life_rating = 100
+	assimilation_rate = 0.5
+	icon = 20
+}
+
+lanfang_republic_modifier = {
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = 0.05
+	mobilisation_size = 0.03
+	research_points = 0.25
+	suppression_points_modifier = -0.25
+	land_organisation = 0.1
+	icon = 108
+}
+
+new_fancy_palace_modifier = {
+	prestige = 0.05
+	immigrant_attract = 0.1
+	pop_consciousness_modifier = 0.02
+	icon = 15
+}
+
+malaria_modifier = {
+	population_growth = -0.001
+	local_RGO_throughput = -0.1
+	icon = 20
+}
+
+economic_revitalization = {
+	immigrant_attract = 1
+	local_RGO_throughput = 0.15
+	rich_income_modifier = 0.15
+	icon = 11
+}
+
+native_oppression_modifier = {
+	local_RGO_throughput = -0.25
+	immigrant_push = 0.5
+	pop_consciousness_modifier = 0.25
+	pop_militancy_modifier = -0.1
+	assimilation_rate = 0.5
+	population_growth = -0.0001
+	icon = 100
+}
+
+native_encouragement_modifier = {
+	local_RGO_throughput = 0.25
+	immigrant_attract = 1
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = -0.1
+	assimilation_rate = -1
+	population_growth = 0.0001
+	icon = 19
+}
+
+tribal_unrest_modifier = {
+	farm_RGO_eff = -0.1
+	mine_RGO_eff = -0.1
+	immigrant_attract = -0.5
+	pop_militancy_modifier = 0.02
+	icon = 18
+}
+
+dervish_dhaanto_modifier = {
+	org_regain = 0.5
+	land_organisation = 0.75
+	land_unit_start_experience = 10
+	mobilisation_size = 0.25
+	mobilisation_impact = 4
+	icon = 108
+}
+
+british_merchants_modifier = {
+	global_pop_militancy_modifier = 0.03
+	rgo_throughput = 0.1
+	research_points_modifier = 0.2
+	rich_income_modifier = 0.3
+	icon = 97
+}
+
+russian_merchants_modifier = {
+	global_pop_militancy_modifier = 0.03
+	rgo_throughput = 0.2
+	research_points_modifier = 0.1
+	rich_income_modifier = 0.15
+	icon = 103
+}
+
+no_terrace_farming = {
+	icon = 13
+}
+
+terrace_farming_modifier = {
+	farm_RGO_eff = 0.25
+	farm_RGO_size = 0.25
+	icon = 13
+}
+
+marsh_land_reclaimed = {
+	farm_RGO_eff = 0.4
+	farm_RGO_size = 0.4
+	mine_RGO_size = 0.5
+	icon = 13
+}
+
+bad_flooding_modifier = {
+	pop_militancy_modifier = 0.05
+	farm_rgo_eff = -0.5
+	farm_RGO_size = -0.5
+	icon = 20
+}
+
+good_flooding_modifier = {
+	pop_militancy_modifier = -0.05
+	farm_rgo_eff = 0.5
+	farm_RGO_size = 0.5
+	icon = 19
+}
+
+religious_insurrection = {
+	pop_militancy_modifier = 0.1
+	immigrant_push = 0.25
+	immigrant_attract = -0.5
+	assimilation_rate = -0.25
+	icon = 18
+}
+
+deforestation_modifier = {
+	farm_RGO_eff = -0.75
+	farm_RGO_size = -0.75
+	local_factory_throughput = 0.25
+	local_factory_output = 0.25
+	icon = 10
+}
+
+sprawling_forest = {
+	farm_RGO_eff = 1
+	farm_RGO_size = 1
+	icon = 9
+}
+
+dense_forest = {
+	farm_RGO_eff = 0.75
+	farm_RGO_size = 0.75
+	icon = 9
+}
+
+large_forest = {
+	farm_RGO_eff = 0.5
+	farm_RGO_size = 0.5
+	icon = 9
+}
+
+normal_forest = {
+	farm_RGO_eff = 0.25
+	farm_RGO_size = 0.25
+	icon = 9
+}
+
+small_forest = {
+	farm_RGO_eff = -0.25
+	farm_RGO_size = -0.25
+	icon = 10
+}
+
+marginal_forest = {
+	farm_RGO_eff = -0.5
+	farm_RGO_size = -0.5
+	icon = 10
+}
+
+scarce_forest = {
+	farm_RGO_eff = -0.75
+	farm_RGO_size = -0.75
+	icon = 10
+}
+
+no_forest = {
+	farm_RGO_eff = -0.99
+	farm_RGO_size = -0.99
+	icon = 10
+}
+
+serfdom_modifier = {
+	education_efficiency_modifier = -0.25
+	factory_throughput = -0.15
+	rgo_throughput = 0.15
+	tax_efficiency = 0.1
+	poor_life_needs = 0.1
+	poor_income_modifier = -0.1
+	core_pop_consciousness_modifier = -0.05
+	prestige = 0.05
+	icon = 17
+}
+
+military_collapse = {
+	global_pop_militancy_modifier = 0.05
+	org_regain = -0.33
+	land_organisation = -0.33
+	icon = 16
+}
+
+emancipation_modifier = {
+	education_efficiency_modifier = 1
+	factory_throughput = 0.15
+	factory_owner_cost = -0.15
+	rgo_throughput = -0.1
+	core_pop_consciousness_modifier = 0.02
+	prestige = 0.05
+	icon = 17
+}
+
+rgo_boycott_modifier = {
+	farm_rgo_eff = -0.99
+	pop_consciousness_modifier = 0.25
+	pop_militancy_modifier = 1
+	life_rating = -1
+	immigrant_push = 0.1
+	local_ruling_party_support = -0.99
+	icon = 2
+}
+
+persian_cossacks_modifier = {
+	core_pop_militancy_modifier = -0.05
+	land_organisation = 0.2
+	land_unit_start_experience = 1
+	leadership_modifier = 0.5
+	prestige = 0.01
+	icon = 105
+}
+
+secessionist_agitation = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	local_RGO_throughput = -0.25
+	assimilation_rate = -1
+	icon = 18
+}
+
+officer_training_1_mod = {
+	leadership_modifier = 0.1
+	icon = 15
+}
+
+officer_training_2_mod = {
+	leadership_modifier = 0.2
+	icon = 15
+}
+
+officer_training_3_mod = {
+	leadership_modifier = 0.3
+	icon = 15
+}
+
+officer_training_4_mod = {
+	leadership_modifier = 0.4
+	icon = 15
+}
+
+officer_training_5_mod = {
+	leadership_modifier = 0.5
+	icon = 15
+}
+
+officer_training_6_mod = {
+	leadership_modifier = 0.75
+	icon = 15
+}
+
+officer_training_7_mod = {
+	leadership_modifier = 1.0
+	icon = 15
+}
+
+colonial_exploitation_tech_effect = {
+local_RGO_throughput = 0.5
+pop_militancy_modifier = 0.03
+icon = 97
+}
+####+demand###
+
+water_wheel_power = {
+goods_demand = 0.1
+   icon = 12
+}
+
+practical_steam_engine = {
+goods_demand = 0.1
+   icon = 12
+}
+
+high_n_low_pressure_steam_engines = {
+goods_demand = 0.1
+   icon = 12
+}
+
+steam_turbine = {
+goods_demand = 0.1
+   icon = 12
+}
+
+combustion_engine = {
+goods_demand = 0.1
+   icon = 12
+}
+
+electrical_power_generation = {
+goods_demand = 0.1
+   icon = 12
+}
+
+modern_power_generation = {
+goods_demand = 0.1
+   icon = 12
+}
+
+publishing_industry = {
+goods_demand = 0.1
+   icon = 12
+}
+
+mechanical_production = {
+goods_demand = 0.1
+   icon = 12
+}
+
+interchangeable_parts = {
+goods_demand = 0.1
+   icon = 12
+}
+
+semi_automatization = {
+goods_demand = 0.1
+   icon = 12
+}
+
+assembly_line = {
+goods_demand = 0.1
+   icon = 12
+}
+
+shift_work = {
+goods_demand = 0.1
+   icon = 12
+}
+
+mechanized_manufacture = {
+goods_demand = 0.1
+   icon = 12
+}
+
+electricity = {
+goods_demand = 0.05
+   icon = 12
+}
+
+freedom_of_trade = {
+goods_demand = 0.05
+   icon = 12
+}
+
+market_structure = {
+goods_demand = 0.05
+   icon = 12
+}
+
+business_regulations = {
+goods_demand = 0.05
+   icon = 12
+}
+
+market_regulations = {
+goods_demand = 0.05
+   icon = 12
+}
+
+economic_responsibility = {
+goods_demand = 0.05
+   icon = 12
+}
+
+government_interventionism = {
+goods_demand = 0.05
+   icon = 12
+}
+
+globalized_markets = {
+goods_demand = 0.1
+   icon = 12
+}
+
+early_classical_theory_and_critique = {
+goods_demand = 0.05
+   icon = 12
+}
+
+late_classical_theory = {
+goods_demand = 0.025
+   icon = 12
+}
+
+collectivist_theory = {
+   factory_throughput = 0.05
+   mine_rgo_eff = 0.1
+   farm_rgo_eff = 0.1
+   goods_demand = -0.025
+   icon = 12
+}
+
+the_historical_theory = {
+goods_demand = 0.025
+   icon = 12
+}
+
+neoclassical_theory = {
+goods_demand = 0.025
+   icon = 12
+}
+
+keynesian_economics = {
+goods_demand = 0.025
+   icon = 12
+}
+
+neoliberal_theory = {
+goods_demand = 0.05
+   icon = 12
+}
+
+###+RGO_education###
+
+RGO_education_0 = {
+	local_RGO_output = -0.0
+	local_factory_output = -0.00
+	
+	#poor_life_needs = -0.5
+	#middle_life_needs = -0.5
+	#rich_life_needs = -0.5
+	#poor_everyday_needs = -0.5
+	#middle_everyday_needs = -0.5
+	#rich_everyday_needs = -0.5
+	#poor_luxury_needs = -0.5
+	#middle_luxury_needs = -0.5
+	#rich_luxury_needs = -0.5
+	
+    poor_income_modifier = 0
+    middle_income_modifier = 0
+    rich_income_modifier = 0
+	immigrant_push = 0
+	icon = 3
+}
+
+RGO_education_1 = {
+	local_RGO_output = 0.1
+	local_factory_output = 0.01
+	
+	#poor_life_needs = -0.45
+	#middle_life_needs = -0.45
+	#rich_life_needs = -0.45
+	#poor_everyday_needs = -0.45
+	#middle_everyday_needs = -0.45
+	#rich_everyday_needs = -0.45
+	#poor_luxury_needs = -0.45
+	#middle_luxury_needs = -0.45
+	#rich_luxury_needs = -0.45
+	
+    poor_income_modifier = 0.1
+    middle_income_modifier = 0.1
+    rich_income_modifier = 0.1
+	immigrant_push = 0.1
+	icon = 3
+}
+
+RGO_education_2 = {
+	local_RGO_output = 0.2
+	local_factory_output = 0.02
+	
+	#poor_life_needs = -0.4
+	#middle_life_needs = -0.4
+	#rich_life_needs = -0.4
+	#poor_everyday_needs = -0.4
+	#middle_everyday_needs = -0.4
+	#rich_everyday_needs = -0.4
+	#poor_luxury_needs = -0.4
+	#middle_luxury_needs = -0.4
+	#rich_luxury_needs = -0.4
+	
+    poor_income_modifier = 0.2
+    middle_income_modifier = 0.2
+    rich_income_modifier = 0.2
+	immigrant_push = 0.2
+	icon = 3
+}
+
+RGO_education_3 = {
+	local_RGO_output = 0.3
+	local_factory_output = 0.03
+	
+	#poor_life_needs = -0.35
+	#middle_life_needs = -0.35
+	#rich_life_needs = -0.35
+	#poor_everyday_needs = -0.35
+	#middle_everyday_needs = -0.35
+	#rich_everyday_needs = -0.35
+	#poor_luxury_needs = -0.35
+	#middle_luxury_needs = -0.35
+	#rich_luxury_needs = -0.35
+	
+    poor_income_modifier = 0.3
+    middle_income_modifier = 0.3
+    rich_income_modifier = 0.3
+	immigrant_push = 0.3
+	icon = 3
+}
+
+RGO_education_4 = {
+	local_RGO_output = 0.4
+	local_factory_output = 0.04
+	
+	#poor_life_needs = -0.30
+	#middle_life_needs = -0.30
+	#rich_life_needs = -0.30
+	#poor_everyday_needs = -0.30
+	#middle_everyday_needs = -0.30
+	#rich_everyday_needs = -0.30
+	#poor_luxury_needs = -0.30
+	#middle_luxury_needs = -0.30
+	#rich_luxury_needs = -0.30
+	
+    poor_income_modifier = 0.4
+    middle_income_modifier = 0.4
+    rich_income_modifier = 0.4
+	immigrant_push = 0.4
+	icon = 3
+}
+
+RGO_education_5 = {
+	local_RGO_output = 0.5
+	local_factory_output = 0.05
+	
+	#poor_life_needs = -0.25
+	#middle_life_needs = -0.25
+	#rich_life_needs = -0.25
+	#poor_everyday_needs = -0.25
+	#middle_everyday_needs = -0.25
+	#rich_everyday_needs = -0.25
+	#poor_luxury_needs = -0.25
+	#middle_luxury_needs = -0.25
+	#rich_luxury_needs = -0.25
+	
+    poor_income_modifier = 0.5
+    middle_income_modifier = 0.5
+    rich_income_modifier = 0.5
+	immigrant_push = 0.5
+	icon = 3
+}
+
+RGO_education_6 = {
+	local_RGO_output = 0.6
+	local_factory_output = 0.06
+	
+	#poor_life_needs = -0.20
+	#middle_life_needs = -0.20
+	#rich_life_needs = -0.20
+	#poor_everyday_needs = -0.20
+	#middle_everyday_needs = -0.20
+	#rich_everyday_needs = -0.20
+	#poor_luxury_needs = -0.20
+	#middle_luxury_needs = -0.20
+	#rich_luxury_needs = -0.20
+	
+    poor_income_modifier = 0.6
+    middle_income_modifier = 0.6
+    rich_income_modifier = 0.6
+	immigrant_push = 0.6
+	icon = 3
+}
+
+RGO_education_7 = {
+	local_RGO_output = 0.7
+	local_factory_output = 0.07
+	
+	#poor_life_needs = -0.15
+	#middle_life_needs = -0.15
+	#rich_life_needs = -0.15
+	#poor_everyday_needs = -0.15
+	#middle_everyday_needs = -0.15
+	#rich_everyday_needs = -0.15
+	#poor_luxury_needs = -0.15
+	#middle_luxury_needs = -0.15
+	#rich_luxury_needs = -0.15
+	
+    poor_income_modifier = 0.35
+    middle_income_modifier = 0.35
+    rich_income_modifier = 0.35
+	immigrant_push = 0.35
+	icon = 3
+}
+
+RGO_education_8 = {
+	local_RGO_output = 0.8
+	local_factory_output = 0.08
+	
+	#poor_life_needs = -0.10
+	#middle_life_needs = -0.10
+	#rich_life_needs = -0.10
+	#poor_everyday_needs = -0.10
+	#middle_everyday_needs = -0.10
+	#rich_everyday_needs = -0.10
+	#poor_luxury_needs = -0.10
+	#middle_luxury_needs = -0.10
+	#rich_luxury_needs = -0.10
+	
+    poor_income_modifier = 0.8
+    middle_income_modifier = 0.8
+    rich_income_modifier = 0.8
+	immigrant_push = 0.8
+	icon = 3
+}
+
+RGO_education_9 = {
+	local_RGO_output = 0.9
+	local_factory_output = 0.09
+	
+	#poor_life_needs = -0.05
+	#middle_life_needs = -0.05
+	#rich_life_needs = -0.05
+	#poor_everyday_needs = -0.05
+	#middle_everyday_needs = -0.05
+	#rich_everyday_needs = -0.05
+	#poor_luxury_needs = -0.05
+	#middle_luxury_needs = -0.05
+	#rich_luxury_needs = -0.05
+	
+    poor_income_modifier = 0.9
+    middle_income_modifier = 0.9
+    rich_income_modifier = 0.9
+	immigrant_push = 0.9
+	icon = 3
+}
+
+RGO_education_10 = {
+	local_RGO_output = 1
+	local_factory_output = 0.10
+	
+	#poor_life_needs = -0.0
+	#middle_life_needs = -0.0
+	#rich_life_needs = -0.0
+	#poor_everyday_needs = -0.0
+	#middle_everyday_needs = -0.0
+	#rich_everyday_needs = -0.0
+	#poor_luxury_needs = -0.0
+	#middle_luxury_needs = -0.0
+	#rich_luxury_needs = -0.0
+	
+	poor_income_modifier = 1.0
+    middle_income_modifier = 1.0
+    rich_income_modifier = 1.0
+	immigrant_push = 1.0
+	icon = 3
+}
+
+#####
+
+heavenly_china = {
+	core_pop_militancy_modifier = -0.01
+	core_pop_consciousness_modifier = 0.02
+	prestige = 0.05
+	icon = 17
+}
+
+chinese_christianity = {
+	core_pop_militancy_modifier = -0.03
+	core_pop_consciousness_modifier = 0.02
+	prestige = 0.1
+	icon = 17
+}
+
+book_burning = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = -0.05
+	research_points_modifier = -0.15
+	icon = 14
+}
+
+ziemia_obiecana = {
+	population_growth = 0.003
+	local_factory_output = 0.05
+	local_rgo_output = 0.1
+	global_immigrant_attract = 0.3
+	immigrant_attract = 0.2
+	icon = 11
+}
+
+relentless_progress = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.1
+	education_efficiency_modifier = 0.5
+	suppression_points_modifier = 0.3
+	leadership_modifier = -0.1
+	research_points_modifier = -0.2
+	prestige = -0.05
+	icon = 3
+}
+
+papal_rule = {
+	global_pop_militancy = -0.05
+	political_reform_desire = -0.3
+	prestige = 0.05
+	icon = 19
+}
+
+slavepopupdated = { }
+
+rights_suspended = { 
+	global_pop_consciousness_modifier = -0.05
+	global_pop_militancy_modifier = -0.05
+	icon = 3
+}
+
+rev_birth_place = { 
+	global_pop_consciousness_modifier = 0.10
+	global_pop_militancy_modifier = -0.10
+	leadership_modifier = 0.50
+	mobilisation_size = 0.10
+	prestige = 0.300
+	war_exhaustion = -0.10
+	icon = 3
+}
+
+rev_birth_place2 = { 
+	global_pop_consciousness_modifier = 0.01
+	global_pop_militancy_modifier = -0.01
+	leadership_modifier = 0.10
+	mobilisation_size = 0.025
+	prestige = 0.100
+	war_exhaustion = -0.05
+	icon = 3
+}
+
+demographic_collapse = {
+	global_population_growth = -0.006
+	culture_tech_research_bonus = 0.1
+	icon = 66
+}
+
+ghost_country_haunting = { 
+    mobilisation_size = -1
+	global_pop_militancy_modifier = -1
+	diplomatic_points_modifier = -10
+	icon = 66
+}
+
+gm_timer = {
+    icon = 3
+}
+
+settlement_colony = {
+	#local_RGO_output = -0.0
+	#local_factory_output = -0.00
+	immigrant_attract = 10
+	#goods_demand = -0.10
+	#immigrant_push = -0.10
+	icon = 3
+}
+
+exploitation_colony = {
+	local_RGO_output = 0.10
+	#local_factory_output = -0.00
+	immigrant_attract = -10
+	#goods_demand = 0.10
+	#immigrant_push = -0.10
+	icon = 3
+}
+

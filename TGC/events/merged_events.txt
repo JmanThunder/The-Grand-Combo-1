@@ -12307,7 +12307,7 @@ country_event = {
 			}
 		}
 		add_country_modifier = {
-			name = cash_4_faggots
+			name = cash_4_s
 			duration = 18250
 		}
 		treasury = -10000

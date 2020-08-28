@@ -3472,7 +3472,7 @@ caudillo_encouragement = {
 	administrative_efficiency_modifier = -0.05
 	tariff_efficiency_modifier = -0.05
 }
-cash_4_faggots = {
+cash_4_s = {
 	icon = 17
 	tax_efficiency = 0.1
 	administrative_efficiency_modifier = 0.05

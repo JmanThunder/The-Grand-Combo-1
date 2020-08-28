@@ -5605,8 +5605,8 @@ EVTOPTD100005;I believe our capital should remain as it is. ;;;;;;;;;;;;;x
 caudillo_encouragement;Encouraging Caudillos ;;;;;;;;;;;;;x
 caudillo_encouragement_desc;Independent military strongmen are being encouraged into our administration ;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-cash_4_faggots;Administrative Benefits ;;;;;;;;;;;;;x
-cash_4_faggots_desc;Our nation is reaping the benefits of an almost corruption-free administration ;;;;;;;;;;;;;x
+cash_4_s;Administrative Benefits ;;;;;;;;;;;;;x
+cash_4_s_desc;Our nation is reaping the benefits of an almost corruption-free administration ;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 encouraging_kraut_military_traditions;Encouraging Prussian Military Traditions ;;;;;;;;;;;;;x
 encouraging_kraut_military_traditions_desc;Our country is encouraging Prussian Military Traditions ;;;;;;;;;;;;;x

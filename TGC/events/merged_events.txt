@@ -1882,11 +1882,11 @@
 					}
 				}
 				random_list = {
-					30 = { add_province_modifier = { name = ANON_skirmishes duration = 46 } }
-					25 = { add_province_modifier = { name = ANON_skirmishes duration = 56 } }
-					20 = { add_province_modifier = { name = ANON_skirmishes duration = 66 } }
-					15 = { add_province_modifier = { name = ANON_skirmishes duration = 76 } }
-					10 = { add_province_modifier = { name = ANON_skirmishes duration = 36 } }
+					30 = { add_province_modifier = { name = _skirmishes duration = 46 } }
+					25 = { add_province_modifier = { name = _skirmishes duration = 56 } }
+					20 = { add_province_modifier = { name = _skirmishes duration = 66 } }
+					15 = { add_province_modifier = { name = _skirmishes duration = 76 } }
+					10 = { add_province_modifier = { name = _skirmishes duration = 36 } }
 				}
 			}
 		}
@@ -1973,7 +1973,7 @@
 			tag = TEX
 			has_country_flag = archive_war_austin
 			any_owned_province = {
-				NOT = { has_province_modifier = ANON_skirmishes }
+				NOT = { has_province_modifier = _skirmishes }
 			}
 			NOT = {
 				OR = {
@@ -2002,23 +2002,23 @@
 				}
 				random_list = {
 					30 = {
-						add_province_modifier = { name = ANON_skirmishes duration = 46 }
+						add_province_modifier = { name = _skirmishes duration = 46 }
 						add_province_modifier = { name = comanche_raiders duration = 46 }
 					}
 					25 = {
-						add_province_modifier = { name = ANON_skirmishes duration = 56 }
+						add_province_modifier = { name = _skirmishes duration = 56 }
 						add_province_modifier = { name = comanche_raiders duration = 56 }
 					}
 					20 = {
-						add_province_modifier = { name = ANON_skirmishes duration = 66 }
+						add_province_modifier = { name = _skirmishes duration = 66 }
 						add_province_modifier = { name = comanche_raiders duration = 66 }
 					}
 					15 = {
-						add_province_modifier = { name = ANON_skirmishes duration = 76 }
+						add_province_modifier = { name = _skirmishes duration = 76 }
 						add_province_modifier = { name = comanche_raiders duration = 76 }
 					}
 					10 = {
-						add_province_modifier = { name = ANON_skirmishes duration = 36 }
+						add_province_modifier = { name = _skirmishes duration = 36 }
 						add_province_modifier = { name = comanche_raiders duration = 36 }
 					}
 				}
@@ -2174,11 +2174,11 @@
 			any_owned = {
 				limit = {
 					OR = {
-						has_province_modifier = ANON_skirmishes
+						has_province_modifier = _skirmishes
 						has_province_modifier = comanche_raiders
 					}
 				}
-				remove_province_modifier = ANON_skirmishes
+				remove_province_modifier = _skirmishes
 				remove_province_modifier = comanche_raiders
 			}
 			war = {
@@ -2203,7 +2203,7 @@
 			any_owned_province = {
 				NOT = {
 					OR = {
-						has_province_modifier = ANON_skirmishes
+						has_province_modifier = _skirmishes
 						has_province_modifier = comanche_raiders
 					}
 				}
@@ -2238,7 +2238,7 @@
 			any_owned_province = {
 				NOT = {
 					OR = {
-						has_province_modifier = ANON_skirmishes
+						has_province_modifier = _skirmishes
 						has_province_modifier = comanche_raiders
 					}
 				}
@@ -16893,8 +16893,8 @@ country_event = {
 			artillery = 200
 			wine = 400
 			liquor = 400
-			add_country_modifier = { name = ANON_total_war duration = -1 }
-			set_country_flag = ANON_total_war_flag
+			add_country_modifier = { name = _total_war duration = -1 }
+			set_country_flag = _total_war_flag
 
 		}
 		option = {
@@ -16943,8 +16943,8 @@ country_event = {
 	picture = "News"
 	
 	trigger = {
-		invention = ANON_total_war
-		NOT = { has_country_flag = ANON_untotal_war_prepare }
+		invention = _total_war
+		NOT = { has_country_flag = _untotal_war_prepare }
 	}
 	
 	mean_time_to_happen = {
@@ -16965,10 +16965,10 @@ country_event = {
 		wool = 100
 					
 		add_country_modifier = {
-			name = ANON_total_war_mod
+			name = _total_war_mod
 			duration = 62 #AI is retarded
 		}
-		set_country_flag = ANON_untotal_war_prepare
+		set_country_flag = _untotal_war_prepare
 	}
 
 }
@@ -30721,8 +30721,8 @@ country_event = { #unga bu=gas capture american ship, hilarity ensues when ameri
 		owns = 3680
 		year = 1850
 		NOT = {
-			has_country_flag = johanna_niggardry
-			has_country_flag = johanna_no_niggardry
+			has_country_flag = johanna_blackrdry
+			has_country_flag = johanna_no_blackrdry
 		}
 	}
 	mean_time_to_happen = {
@@ -30731,7 +30731,7 @@ country_event = { #unga bu=gas capture american ship, hilarity ensues when ameri
 	
 	option = {
 		name = "EVT61610017OPTA"
-		set_country_flag = johanna_niggardry
+		set_country_flag = johanna_blackrdry
 		badboy = 1
 		3593 = {
 			any_pop = {
@@ -30751,7 +30751,7 @@ country_event = { #unga bu=gas capture american ship, hilarity ensues when ameri
 	}
 	option = {
 		name = "EVT61610017OPTB"
-		set_country_flag = johanna_no_niggardry
+		set_country_flag = johanna_no_blackrdry
 		prestige = 5
 		ai_chance = {
 			factor = 0
@@ -30771,7 +30771,7 @@ country_event = { #notification event for america
 		owns = 2146 #DC
 		CM0 = {
 			exists = yes
-			has_country_flag = johanna_niggardry
+			has_country_flag = johanna_blackrdry
 		}
 		NOT = { has_country_flag = johanna_expedition }
 		NOT = { has_country_flag = johanna_expedition_no }
@@ -30912,7 +30912,7 @@ country_event = { #ungabungas don't free sailors
 	}
 }
 
-country_event = { #niggas cough up 15k pounds ~20k dollars
+country_event = { #blacks cough up 15k pounds ~20k dollars
 	id = 61610021
 	title = "EVTNAME61610021"
 	desc = "EVTDESC61610021"
@@ -34743,7 +34743,7 @@ country_event = {
 	option = {
 		name = "Let the Poles be free! Let's Unite Poland and restore its glory!"
 		set_global_flag = greater_poland_uprising
-		set_country_flag = ANON_total_war_flag
+		set_country_flag = _total_war_flag
 		prestige = 25
 		
 		government = provisional_government
@@ -34995,7 +34995,7 @@ country_event = {
 			militancy = -6
 		}
 		
-		#ANON
+		#
 		any_country = {
 			limit = {
 				OR = {
@@ -35125,7 +35125,7 @@ country_event = {
 					}
 				}
 			}
-			#ANON
+			#
 			modifier = {
 				factor = 3.5
 				OR = {
@@ -35167,7 +35167,7 @@ country_event = {
 			militancy = -1
 		}
 		
-		#ANON
+		#
 		any_country = {
 			limit = {
 				OR = {
@@ -35312,7 +35312,7 @@ country_event = {
 			militancy = 1
 		}
 		
-		#ANON
+		#
 		any_country = {
 			limit = {
 				OR = {
@@ -35418,7 +35418,7 @@ country_event = {
 			consciousness = 7 
 		}
 		
-		#ANON
+		#
 		any_country = {
 			limit = {
 				OR = {
@@ -40781,7 +40781,7 @@ country_event = {
 		}
 		LIT = {
 			capital = 360 #Vilnius
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = absolute_monarchy
 			ruling_party_ideology = reactionary
 			any_owned = {
@@ -40815,7 +40815,7 @@ country_event = {
 		}
 		LIT = {
 			capital = 360 #Vilnius
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = absolute_monarchy
 			ruling_party_ideology = reactionary
 			any_owned = {
@@ -40845,7 +40845,7 @@ country_event = {
 		}
 		LIT = {
 			capital = 360 #Vilnius
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = absolute_monarchy
 			ruling_party_ideology = reactionary
 		}
@@ -40939,7 +40939,7 @@ country_event = {
 		}
 		RUT = {
 			capital = 702 #Lwów
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = absolute_monarchy
 			ruling_party_ideology = reactionary
 		}
@@ -40965,7 +40965,7 @@ country_event = {
 		}
 		RUT = {
 			capital = 702 #Lwów
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = absolute_monarchy
 			ruling_party_ideology = reactionary
 			any_owned = {
@@ -40993,7 +40993,7 @@ country_event = {
 		}
 		RUT = {
 			capital = 702 #Lwów
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = absolute_monarchy
 			ruling_party_ideology = reactionary
 		}
@@ -41144,7 +41144,7 @@ country_event = {
 		}
 		BOH = {
 			capital = 625 #Prague
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = prussian_constitutionalism
 			political_reform = landed_voting
 			political_reform = appointed
@@ -41179,7 +41179,7 @@ country_event = {
 		}
 		BOH = {
 			capital = 625 #Prague
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = prussian_constitutionalism
 			political_reform = landed_voting
 			political_reform = appointed
@@ -41211,7 +41211,7 @@ country_event = {
 		}
 		BOH = {
 			capital = 625 #Prague
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			government = prussian_constitutionalism
 			political_reform = landed_voting
 			political_reform = appointed
@@ -48449,8 +48449,8 @@ country_event = {
 	}
 }##############################################
 
-#1000000 ~ 1000006 FREE, moved to ANON_guyana_events
-#1100006 ~ 1100008 FREE, moved to ANON_Cascadia_n_Alaska
+#1000000 ~ 1000006 FREE, moved to _guyana_events
+#1100006 ~ 1100008 FREE, moved to _Cascadia_n_Alaska
 
 country_event = {
 	
@@ -51264,7 +51264,7 @@ country_event = {
 			add_accepted_culture = afro_caribbean
 		}
 		add_country_modifier = {
-			name = nigga_displacement
+			name = black_displacement
 			duration = 1095
 		}
 		any_owned = {
@@ -51276,11 +51276,11 @@ country_event = {
 				any_pop = { is_culture_group = african_diaspora_cultures }
 			}
 			add_province_modifier = {
-				name = nigga_exodus
+				name = black_exodus
 				duration = 3650
 			}
 		}
-		set_country_flag = nigga_displacement
+		set_country_flag = black_displacement
 		any_pop = {
 			limit = {
 				AND = {
@@ -51331,7 +51331,7 @@ province_event = {
 	desc = "EVTDESC1000083"
 
 	trigger = {
-		has_province_modifier = nigga_exodus
+		has_province_modifier = black_exodus
 	}
 
 	mean_time_to_happen = {
@@ -51345,10 +51345,10 @@ province_event = {
 		treasury = -100
 		state_scope = {
 			any_owned = {
-				limit = { has_province_modifier = nigga_exodus }
-				remove_province_modifier = nigga_exodus
+				limit = { has_province_modifier = black_exodus }
+				remove_province_modifier = black_exodus
 				add_province_modifier = {
-					name = depopulation_nigga
+					name = depopulation_black
 					duration = 1825
 				}
 				any_pop = {
@@ -52895,7 +52895,7 @@ country_event = {
 			}
 		}
 		#############################
-		random_country = { #ANON
+		random_country = { #
 			limit = {
 				owns = 1838
 				1739 = { empty = yes }
@@ -53814,7 +53814,7 @@ country_event = {
 		is_vassal = yes
 		civilized = yes	
 		vote_franschise = none_voting
-		#ANON
+		#
 		NOT = { tag = PZN }
 		#
 	}
@@ -53855,7 +53855,7 @@ country_event = {
 		is_vassal = yes
 		NOT = { vote_franschise = none_voting }		
 		civilized = yes	
-		#ANON
+		#
 		NOT = { tag = PZN }
 		#
 	}
@@ -55568,7 +55568,7 @@ country_event = {
 					region = ENG_1979
 					region = UCA_2186
 					region = UCA_2197
-					# ANON
+					# 
 					region = ENG_2219
 					region = UCA_2193
 					region = UCA_2200
@@ -58587,7 +58587,7 @@ country_event = {
 		release = PER
 		release_vassal = PER
 		#PER = { any_owned = { limit = { OR = { is_core = RUS is_core = KOK is_core = KHI is_core = BUK is_core = KAZ } NOT = { is_core = PER } } secede_province = RUS } }
-		#ANON
+		#
 		PER = {
 			any_owned = {
 				limit = {
@@ -60011,9 +60011,9 @@ country_event = {
 #99907-11 Don Pacifico Affair
 #99920-22 Military Aid Events
 #99930 Splendid Isolation GB
-#SEARCH ANON
+#SEARCH 
 
-#ANON
+#
 #The California Gold Rush
 country_event = {
 	id = 99903
@@ -60080,7 +60080,7 @@ country_event = {
 						}
 						reduce_pop = 0.2
 					}
-					#ANON
+					#
 					104 = { assimilate = yes }
 					89 = { assimilate = yes }
 					90 = { assimilate = yes }
@@ -60103,7 +60103,7 @@ country_event = {
 						}
 						reduce_pop = 0.2
 					}
-					#ANON
+					#
 					104 = { assimilate = yes }
 					89 = { assimilate = yes }
 					90 = { assimilate = yes }
@@ -60134,7 +60134,7 @@ country_event = {
 					duration = 365
 				}			
 			}
-			#ANON
+			#
 			87 = {
 				add_province_modifier = {
 					name = california_gold_rush
@@ -60226,7 +60226,7 @@ country_event = {
 	}
 }
 
-#ANON
+#
 country_event = {
 	id = 110060
 	title = "EVTNAME110060" #The Bear Flag Revolt
@@ -60338,7 +60338,7 @@ country_event = {
 
 }
 
-#ANON
+#
 country_event = {
 	id = 99971
 	title = "EVTNAME99971" #The Treaty of New York
@@ -60366,7 +60366,7 @@ country_event = {
 		add_accepted_culture = anglo_canadian
 		CAN_46 = { is_slave = no }
 		###############################
-		#ANON
+		#
 		MEX_85 = { add_core = CAL } #California
 		MEX_104 = { add_core = CAL } #California
 		MEX_94 = { add_core = DES } #Nevada
@@ -60409,7 +60409,7 @@ country_event = {
 	}
 }
 
-#ANON
+#
 # 3rd Wave of US Migration
 country_event = {
 	id = 99805
@@ -60573,7 +60573,7 @@ country_event = {
 					province_id = 155 #Minneapolis
 					#Wisconsin
 					province_id = 159 #Milwaukee
-					#ANON
+					#
 					#Prince Rupert/Columbia
 					province_id = 13 #New Westminster/Vancouver
 					province_id = 14 #Victoria/Vancouver Island

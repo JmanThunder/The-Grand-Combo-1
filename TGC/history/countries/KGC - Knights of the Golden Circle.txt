@@ -128,7 +128,7 @@ market_structure = 1
 	whitney_n_colts_standardized_small_arms = yes
 	food_packing_system = yes
 
-#ANON_total_war = yes
+#_total_war = yes
 
 # Political reforms
 slavery = yes_slavery

@@ -60,7 +60,7 @@ foreign_weapons = yes_foreign_weapons
 # Technologies
 flintlock_rifles = 1
 
-#ANON
+#
 decision = rename_syrdarya
 decision = rename_xin_zhetysu
 

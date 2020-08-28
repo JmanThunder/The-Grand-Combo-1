@@ -1,8 +1,8 @@
 
-ANON_untotal_war = {
+_untotal_war = {
 	limit = {
-		has_country_flag = ANON_untotal_war_prepare
-		NOT = { has_country_modifier = ANON_total_war_mod }
+		has_country_flag = _untotal_war_prepare
+		NOT = { has_country_modifier = _total_war_mod }
 	}
 	chance = {
 		base = 100
@@ -38,10 +38,10 @@ ANON_untotal_war = {
 	}
 }
 
-ANON_total_war = {
+_total_war = {
 	limit = {
 		OR = {
-			has_country_flag = ANON_total_war_flag
+			has_country_flag = _total_war_flag
 			tag = HUN
 			AND = {
 				tag = TPG
@@ -76,7 +76,7 @@ ANON_total_war = {
 		base = 100
 		#modifier = {
 		#	factor = -100
-		#	NOT = { has_country_modifier = ANON_total_war }
+		#	NOT = { has_country_modifier = _total_war }
 		#}
 	}
 	effect = {

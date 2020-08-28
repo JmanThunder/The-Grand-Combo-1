@@ -39,7 +39,7 @@ centralization = unitary
 colonial_policy = no_colonies 
 
 set_country_flag = catholic_country
-set_country_flag = ANON_total_war_flag
+set_country_flag = _total_war_flag
 
 ruling_party = YUC_liberal
 upper_house = {

@@ -632,7 +632,7 @@ EVTNEWS301117_long;Few could have missed the parralels between the death of Alex
 CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;HUNGARIAN;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;;x;;;;;;;;;;;;;;;;
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-VNZ_ask_USA_mediation_2;If you can see this, then it means I fucked up. Please contact ANON on 8/v/'s /gsg/ thread. Thanks.;;;;;;;;;;;;;x
+VNZ_ask_USA_mediation_2;If you can see this, then it means I fucked up. Please contact  on 8/v/'s /gsg/ thread. Thanks.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME1999998003;The Schomburgk Line;;;;;;;;;;;;;x
 EVTDESC1999998003;In 1835, under the aegis of the Royal Geographical Society, the German-born explorer and naturalist Robert Hermann Schomburgk conducted botanical and geographical exploration of $COUNTRY_ADJ$ Guiana. This resulted in a sketch of the territory with a line marking what he believed to be the western boundary claimed by the Dutch. As a result of this, he was commissioned in $YEAR$ by the $COUNTRY_ADJ$ government to survey Guiana's boundaries. This survey resulted in what came to be known as the "Schomburgk Line". The Line goes well beyond the area of $COUNTRY_ADJ$ occupation, and technically gives us control of the mouth of the Orinoco River, as well as other territories not currently under $COUNTRY_ADJ$ control ;;;;;;;;;;;;;x
@@ -3109,11 +3109,11 @@ found_fianarantsoa_desc;Fianarantsoa, or the City of Good Education in Malagasy,
 found_toliara_title;A Commercial hub for Menabe.;;;;;;;;;x
 found_toliara_desc;The small town of Toliary has been proposed as a new commercial hub for the province of Menabe. Located near a natural harbor at the confluence of the Fiherena river, with proper funds the $COUNTRY_ADJ$ Administration can turn Toliary into an important city in the region. ;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-the_lambert_charter_ANON_title;The Lambert Charter;;;;;;;;;x
-the_lambert_charter_ANON_desc;Mr. Lambert, naturalized $COUNTRY_ADJ$ citizen and avid entrepreneur, has been pushing for several reforms in the Merina Kingdom of Madagascar, the most notorious of which is the eponymous charter which gives $COUNTRY$ the exclusive right to exploit all minerals, forests and unoccupied land in Madagascar in exchange for a 10% royalty payable to the Merina monarchy. If the Malagasy accept these conditions, our influence in their court would vastly increase, pushing away any British interlopers.;;;;;;;;;x
+the_lambert_charter__title;The Lambert Charter;;;;;;;;;x
+the_lambert_charter__desc;Mr. Lambert, naturalized $COUNTRY_ADJ$ citizen and avid entrepreneur, has been pushing for several reforms in the Merina Kingdom of Madagascar, the most notorious of which is the eponymous charter which gives $COUNTRY$ the exclusive right to exploit all minerals, forests and unoccupied land in Madagascar in exchange for a 10% royalty payable to the Merina monarchy. If the Malagasy accept these conditions, our influence in their court would vastly increase, pushing away any British interlopers.;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-end_the_merina_monarchy_ANON_title;An End to the Merina Monarchy;;;;;;;;;x
-end_the_merina_monarchy_ANON_desc;It is high time we lay claim on the Island of Madagascar before anyone else does. By establishing a protectorate over the Merina Kingdom, we can secure the whole island... And if the Merina refuse, we can always use force.;;;;;;;;;x
+end_the_merina_monarchy__title;An End to the Merina Monarchy;;;;;;;;;x
+end_the_merina_monarchy__desc;It is high time we lay claim on the Island of Madagascar before anyone else does. By establishing a protectorate over the Merina Kingdom, we can secure the whole island... And if the Merina refuse, we can always use force.;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME61610025;The Lambert Charter;;;;;;;;;x
 EVTDESC61610025;Mr. Lambert, naturalized $FROMCOUNTRY_ADJ$ citizen and avid entrepreneur, has been of great influence in the $COUNTRY_ADJ$ court, up to the point of proposing several several reforms, the most notorious of which is the eponymous charter which gives $COUNTRY$ the exclusive right to exploit all minerals, forests and unoccupied land in Madagascar in exchange for a 10% royalty for us. If we accept his proposal, $FROMCOUNTRY_ADJ$ influence in our court would vastly increase but likewise will our local industry and relations with them.;;;;;;;;;x
@@ -5329,8 +5329,8 @@ welcome_european_immigrants_desc;After the great success that was the Colonia To
 good_immigrants;Encouraging European Immigration ;;;;;;;;;;;;;x
 good_immigrants_desc;A safe haven for European immigrants.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-dump_niggas_haiti_title;And end to the Negro Question;;;;;;;;;;;;;x
-dump_niggas_haiti_desc;'For hundreds of years the Negroes have yearned for freedom, but what can they dream of when they are not on their native soil?' Argues a $COUNTRY_ADJ$ statesman. While that might be true, the Negroes have always been part of $COUNTRY$ and some might argue they even helped build this country to be one of the greatest in the world. Even still, their distinct culture and customs, as well as ther unwillingness to integrate to $COUNTRY_ADJ$ culture makes most people look at them with suspicion. With that being said, several politicians have suggested that The $COUNTRY$ should make its own colony styled after the American Liberia: A place where Negroes could be sent to live and thrive in whatever way they want. As Africa would be too far away, and the shipping costs there would seriously injure our economy, they proposed sending them to Haiti, a placed ruled by ther kin… But first, we need permission from the Haitian Government to do so.;;;;;;;;;;;;;x
+dump_blacks_haiti_title;And end to the Negro Question;;;;;;;;;;;;;x
+dump_blacks_haiti_desc;'For hundreds of years the Negroes have yearned for freedom, but what can they dream of when they are not on their native soil?' Argues a $COUNTRY_ADJ$ statesman. While that might be true, the Negroes have always been part of $COUNTRY$ and some might argue they even helped build this country to be one of the greatest in the world. Even still, their distinct culture and customs, as well as ther unwillingness to integrate to $COUNTRY_ADJ$ culture makes most people look at them with suspicion. With that being said, several politicians have suggested that The $COUNTRY$ should make its own colony styled after the American Liberia: A place where Negroes could be sent to live and thrive in whatever way they want. As Africa would be too far away, and the shipping costs there would seriously injure our economy, they proposed sending them to Haiti, a placed ruled by ther kin… But first, we need permission from the Haitian Government to do so.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME1000080;The $FROMCOUNTRY_ADJ$ Request;;;;;;;;;;;;;x
 EVTDESC1000080;A request from $FROMCOUNTRY_ADJ$ has recently left our politicians baffled: The $FROMCOUNTRY$ wishes to move all their Negroes to $COUNTRY$! While this might be considered an insult to some, our statesmen believe we could benefit from this proposition: A huge population boost would help us kickstart our economy… The only catch is that we must become their protectorate. What shall be done about this, my $MONARCHTITLE$?;;;;;;;;;;;;;x
@@ -5349,13 +5349,13 @@ EVTNAME1000083;Negro Exodus;;;;;;;;;;;;;x
 EVTDESC1000083;Our plan to move the Negroes continues as planned. Another state has been cleared. ;;;;;;;;;;;;;x
 EVT1000083OPTA;Hurray!;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-nigga_exodus;Negro Exodus;;;;;;;;;;;;;x
+black_exodus;Negro Exodus;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-nigga_displacement;Negro Displacement;;;;;;;;;;;;;x
-nigga_displacement_desc;Negroes are being displaced from their homes.;;;;;;;;;;;;;x
+black_displacement;Negro Displacement;;;;;;;;;;;;;x
+black_displacement_desc;Negroes are being displaced from their homes.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-depopulation_nigga;Negro Depopulation;;;;;;;;;;;;;x
-depopulation_nigga_desc;With the Negro population moved to Haiti, new living opportunities open up on their decomised.;;;;;;;;;;;;;x
+depopulation_black;Negro Depopulation;;;;;;;;;;;;;x
+depopulation_black_desc;With the Negro population moved to Haiti, new living opportunities open up on their decomised.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -7891,8 +7891,8 @@ EVTNAME1110029;A Response from $FROMCOUNTRY$ ;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC1110029;$FROMCOUNTRY$ refuses to sign the treaty! ;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTOPTA1110029;Curse them! ;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-ANON_skirmishes;Minor Skirmishes ;;;;;;;;;;;;;;;;;;;;;;;;x
-ANON_skirmishes_title;Minor skirmishes are occurring in this area. ;;;;;;;;;;;;;;;;;;;;;;;;x
+_skirmishes;Minor Skirmishes ;;;;;;;;;;;;;;;;;;;;;;;;x
+_skirmishes_title;Minor skirmishes are occurring in this area. ;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME1110030;Comanches raid Houston!;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC1110030;Comanches have conducted a devastating raid in Houston, our capital, as retaliation for the killing of one of their Chiefs! Concerns have been raised about the state of the National Archives and their proneness in Houston, a border city with no real defenses. Several Congressmen have suggested moving the Archives to Houston, our former capital, but have been largely ignored.;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -10292,11 +10292,11 @@ EVTOPTB9999995;No ;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-ANON_total_war;Total War ;;;;;;;;;;;;;x
-ANON_untotal_war;Total War Disable ;;;;;;;;;;;;;x
-ANON_total_war_flag;Total War ;;;;;;;;;;;;;x
-ANON_total_war_mod;Total War ;;;;;;;;;;;;;x
-ANON_total_war_mod_desc;This Nation is going through Total War in order to survive. ;;;;;;;;;;;;;x
+_total_war;Total War ;;;;;;;;;;;;;x
+_untotal_war;Total War Disable ;;;;;;;;;;;;;x
+_total_war_flag;Total War ;;;;;;;;;;;;;x
+_total_war_mod;Total War ;;;;;;;;;;;;;x
+_total_war_mod_desc;This Nation is going through Total War in order to survive. ;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME9999991;Total War in $COUNTRY$ ;;;;;;;;;;;;;x
 EVTDESC9999991;The $COUNTRY_ADJ$ rages on and the fellow $COUNTRY_ADJ$ countrymen are gathering as many supplies as they can afford, levying troops shall be quicker and easier for a few days.;;;;;;;;;;;;;x

@@ -1510,7 +1510,7 @@ artisan_fabric_wool = {
 }
 
 #####################################
-# ANON
+# 
 
 sugar_plantation = {
 	template = RGO_template_farmers

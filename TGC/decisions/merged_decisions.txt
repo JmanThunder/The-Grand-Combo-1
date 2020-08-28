@@ -26783,17 +26783,17 @@ political_decisions = {
 	#}
 }political_decisions = {
 
-	#nigga_2_soldier
+	#black_2_soldier
 	#second wave of immigrants to tovar
 	
-	dump_niggas_haiti = {
+	dump_blacks_haiti = {
 		picture = map_caribbean
 		potential = {
 			OR = {
 				tag = GCO
 				tag = ANF
 			}
-			NOT = { has_country_flag = dump_niggas_haiti }
+			NOT = { has_country_flag = dump_blacks_haiti }
 			HAI = { exists = yes }
 			has_country_flag = liberate_spanish_caribbean
 		}
@@ -26815,7 +26815,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = dump_niggas_haiti
+			set_country_flag = dump_blacks_haiti
 			HAI = {
 				country_event = 1000080
 			}
@@ -27760,7 +27760,7 @@ political_decisions = {
 		potential = {
 			tag = GCO
 			NOT = {	has_country_flag = bolivar_claims_GCO	}
-			has_global_flag = ANONS_MAGICAL_DISABLE
+			has_global_flag = S_MAGICAL_DISABLE
 		}
 		
 		allow = {
@@ -27822,7 +27822,7 @@ political_decisions = {
 				}
 			}
 			NOT = {	has_country_flag = bolivar_claims_PBC	}
-			has_global_flag = ANONS_MAGICAL_DISABLE
+			has_global_flag = S_MAGICAL_DISABLE
 		}
 		
 		allow = {
@@ -41215,7 +41215,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	the_lambert_charter_ANON = {
+	the_lambert_charter_ = {
 		potential = {
 			NOT = {
 				has_global_flag = lambert_has_been_chartered
@@ -41263,7 +41263,7 @@ political_decisions = {
 		}
 	}
 	
-	end_the_merina_monarchy_ANON = {
+	end_the_merina_monarchy_ = {
 		picture = end_the_merina_monarchy
 		potential = {
 			has_global_flag = berlin_conference
@@ -51211,7 +51211,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = krakow_uprising_decision
 			set_global_flag = krakow_uprising
-			set_country_flag = ANON_total_war_flag
+			set_country_flag = _total_war_flag
 			prestige = 25
 		
 			government = provisional_government
@@ -64825,7 +64825,7 @@ political_decisions = {
 }
 political_decisions = {
 
-#ANON, changed ENG_254 to 254 255 265. added 3355 3356 to ric; added new regions to organize_west_indies
+#, changed ENG_254 to 254 255 265. added 3355 3356 to ric; added new regions to organize_west_indies
 
 	begin_pax_britannica = {
 		picture = "pax_britannica"
@@ -65165,7 +65165,7 @@ political_decisions = {
 						province_id = 263
 						province_id = 264
 						province_id = 265
-						#ANON#
+						##
 						province_id = 3355
 						province_id = 3356
 					}
@@ -65228,7 +65228,7 @@ political_decisions = {
 							region = ENG_1979
 							region = UCA_2186
 							region = UCA_2197
-							# ANON
+							# 
 							region = ENG_2219
 							region = UCA_2193
 							region = UCA_2200
@@ -65432,7 +65432,7 @@ political_decisions = {
 		}
 	}
 	
-	#ANON
+	#
 	purchase_alaska = {
 		picture = map_alaska
 		potential = {
@@ -68709,7 +68709,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-}##########SEARCH ANON
+}##########SEARCH 
 political_decisions = {
 	notre_dame_afrique = {
 		picture = notre_dame_afrique
@@ -68976,7 +68976,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	#ANON
+	#
 	integrate_guyana = {
 		picture = french_guyane
 		potential = {
@@ -68987,7 +68987,7 @@ political_decisions = {
 			owns = 2246			
 			year = 1880
 			NOT = { has_country_flag = french_guiana }
-			#ANON
+			#
 			OR = {
 				FGU = { exists = no }
 				UGU = { exists = no }
@@ -69911,7 +69911,7 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
-}#Search ANON
+}#Search 
 political_decisions = {
 	the_quebec_question = {
 		picture = vive_le_quebec
@@ -70399,7 +70399,7 @@ political_decisions = {
 		}
 	}
 	
-	#ANON
+	#
 	treaty_of_new_york = {
 		picture = establish_panfrenchism
 		potential = {
@@ -70455,7 +70455,7 @@ political_decisions = {
 							province_id = 110
 							province_id = 107
 							province_id = 128
-							#ANON
+							#
 							province_id = 103
 							province_id = 109
 							province_id = 108
@@ -70465,7 +70465,7 @@ political_decisions = {
 					}
 					add_core = ULA
 				}
-				#ANON - cleanup for next event.
+				# - cleanup for next event.
 				any_owned = {
 					limit = {
 						OR = {
@@ -70625,7 +70625,7 @@ political_decisions = {
 						province_id = 110
 						province_id = 107
 						province_id = 128
-						#ANON
+						#
 						province_id = 103
 						province_id = 109
 						province_id = 108
@@ -70664,7 +70664,7 @@ political_decisions = {
 							province_id = 110
 							province_id = 107
 							province_id = 128
-							#ANON
+							#
 							province_id = 103
 							province_id = 109
 							province_id = 108
@@ -70967,7 +70967,7 @@ political_decisions = {
 			2515 = { change_province_name = "Jeanne" }
 			2516 = { change_province_name = "Akaroa" }
 			2571 = { change_province_name = "Jeanne" }
-			#ANON
+			#
 			3348 = { change_province_name = "Œles Kermadec" }
 			3349 = { change_province_name = "Œles du Soleil Brumeux" }
 			any_pop = {
@@ -72645,7 +72645,7 @@ political_decisions = {
 			792 = {	add_core = BAN secede_province = THIS	}
 			2538 = { add_core = BAN secede_province = THIS	}
 			791 = { add_core = BAN secede_province = THIS	}
-			#ANON
+			#
 			3295 = { add_core = BAN secede_province = THIS	}
 			#
 			any_owned = {
@@ -72655,7 +72655,7 @@ political_decisions = {
 			792 = {	secede_province = BAN }
 			2538 = { secede_province = BAN }
 			791 = {	secede_province = BAN }
-			#ANON
+			#
 			3295 = {	secede_province = BAN	}
 			#
 			set_country_flag = ger_ai_banat
@@ -74080,7 +74080,7 @@ political_decisions = {
 								is_core = GRE
 								is_core = MON
 								is_core = ARM
-								#ANON
+								#
 								is_core = GRA
 								is_core = GEO
 								is_core = CLC
@@ -74652,7 +74652,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	#ANON
+	#
 	establish_karafuto_prefecture = {
 		picture = japanese_sakhalin
 		potential = {
@@ -74756,7 +74756,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = build_the_northern_railway
 			treasury = -10000
-			#ANON
+			#
 			619 = { infrastructure = 1 }
 			630 = { infrastructure = 1 }
 			3618 = { infrastructure = 1 }
@@ -74977,7 +74977,7 @@ political_decisions = {
 			inherit = SGF
 			add_accepted_culture = north_german
 			add_accepted_culture = siebenburger
-			# #ANON
+			# #
 			add_accepted_culture = danube_german
 			add_accepted_culture = carpathian_german
 			add_accepted_culture = baltic_german
@@ -75705,7 +75705,7 @@ political_decisions = {
 						tag = SIE
 						tag = ALS
 						tag = BAN
-						#ANON
+						#
 						#tag = PZN
 						#
 						tag = PML
@@ -78216,7 +78216,7 @@ political_decisions = {
 	}
 
 }
-#search: ANON
+#search: 
 
 political_decisions = {
 	colonial_reconquista = {
@@ -78508,7 +78508,7 @@ political_decisions = {
 				}
 			}
 			
-			#ANON; It's fucking Nueva Espa√±a, they get cores all over the Western USA because fuck you.
+			#; It's fucking Nueva Espa√±a, they get cores all over the Western USA because fuck you.
 			#Core Removal
 			3317 = { remove_core = VNS } #Bocas del Toro, Moskito
 			#LEBENSRAUM		
@@ -78659,7 +78659,7 @@ political_decisions = {
 				}
 			}
 			
-			#ANON; I'll try to emulate the original territories of the Viceroyalty of New Granada, which didn't include any Central American claims or territories,
+			#; I'll try to emulate the original territories of the Viceroyalty of New Granada, which didn't include any Central American claims or territories,
 			#except for Bocas del Toro.
 			#Core Removal:
 			2200 = { remove_core = VNG } #Bluefields, Moskito
@@ -78774,7 +78774,7 @@ political_decisions = {
 				}
 			}
 			
-			#ANON; Localization says to 'bring an end to Bolivia' and La Plata to 'better rule the region', I'm assuming BOL gets annexed to PEU so its cores are closer to
+			#; Localization says to 'bring an end to Bolivia' and La Plata to 'better rule the region', I'm assuming BOL gets annexed to PEU so its cores are closer to
 			#the government of Lima, and due to cultural similarities as well.
 			#Still, they lose cores on Alto Paraguay and modern (1836 modern) Bolivia's Salta region and Antofagasta and Calama provinces.
 			#Core Removal:
@@ -78998,7 +78998,7 @@ political_decisions = {
 				}
 			}
 			
-			#ANON; Localization says to 'bring an end to Bolivia' and La Plata says to 'better rule the region', I'm assuming BOL gets annexed to PEU so its cores are closer to
+			#; Localization says to 'bring an end to Bolivia' and La Plata says to 'better rule the region', I'm assuming BOL gets annexed to PEU so its cores are closer to
 			#the government of Lima, and due to cultural similarities as well. This means La Plata turns out way smaller than the original Viceroyalty.
 			#They obtain cores in Calama & Antofagasta, as well as the Chaco and the Alto Paraguay which were held by Bolivia.
 			#LEBENSRAUM			
@@ -79367,7 +79367,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	#ANON
+	#
 	rename_texas_mexico = {
 		picture = all_texas
 		potential = {
@@ -79401,7 +79401,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	#ANON
+	#
 	rename_texas_usa = {
 		picture = all_texas
 		potential = {
@@ -79461,7 +79461,7 @@ political_decisions = {
 			MEX_2149 = { add_core = USA }
 			MEX_2142 = { add_core = USA }
 			MEX_2138 = { add_core = USA }
-			#ANON
+			#
 			MEX_2147 = { add_core = USA }
 			MEX_2139 = { add_core = USA }
 			#
@@ -79687,7 +79687,7 @@ political_decisions = {
 # Rename Dalmatia & South-Tyrol/Trentino #
 ##########################################
 
-	#ANON
+	#
 	italian_trentino = {
 		picture = "italian_trentino"
 		potential = {

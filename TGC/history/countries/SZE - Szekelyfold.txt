@@ -26,7 +26,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
-#ANON: Austria had compulsory primary education since 1775, enacted by Maria Theressa, this probably rubbed off to the hungarians somehow
+#: Austria had compulsory primary education since 1775, enacted by Maria Theressa, this probably rubbed off to the hungarians somehow
 school_reforms = acceptable_schools
 
 

@@ -3397,7 +3397,7 @@ recently_selected_birthrate = {
     icon = 2
 }
 ######
-#ANON#
+##
 ######
 
 
@@ -3525,7 +3525,7 @@ beaver_coins = {
 	administrative_efficiency_modifier = 0.1
 	tariff_efficiency_modifier = 0.1
 }
-#################### ANON
+#################### 
 rebuilding_ani = {
 	#non_accepted_pop_militancy_modifier = 0.05
 	assimilation_rate = 0.25
@@ -3582,11 +3582,11 @@ depopulation_turk = {
 	icon = 11
 }
 
-#################### ANON Kebab
+####################  Kebab
 
 #NOTE TO SELF:
 #WHEN CHANGING EVENT MODIFIERS, MAKE SURE TO CHECK ALL MODS OVERWRITING THE event_modifiers.txt FILE BEFORE 
-#ANON'S HFM EDITS LOADS.
+#'S HFM EDITS LOADS.
 
 anti_circassian_sentiment = {
 	pop_consciousness_modifier = 0.2
@@ -3608,7 +3608,7 @@ smol_badboy = {
 	icon = 8
 }
 
-###################### ANON guyanas
+######################  guyanas
 
 anon_diamond_rush = {
 	immigrant_attract = 5
@@ -3638,7 +3638,7 @@ indentured_workers = {
 	icon = 17
 }
 
-################### ANON Cascadia-alaska
+###################  Cascadia-alaska
 
 alaskaification = {
 	global_immigrant_attract = 1.5
@@ -3714,7 +3714,7 @@ diamond_rush_country = {
 	icon = 9
 }
 
-################### ANON Aridoamerica
+###################  Aridoamerica
 
 political_tensions = {
 	farm_rgo_eff = -0.25
@@ -3745,7 +3745,7 @@ comanche_raids = {
 	icon = 18
 }
 
-ANON_skirmishes = {
+_skirmishes = {
 	immigrant_push = 0.25
 	local_RGO_output = -0.25
 	pop_consciousness_modifier = 0.1
@@ -3779,7 +3779,7 @@ alaska_cloumbia_trade = {
 	icon = 19
 }
 
-######################### ANON Randumb
+#########################  Randumb
 
 malagasy_sanitorium = {
 	immigrant_attract = 0.25
@@ -3816,18 +3816,18 @@ baltic_white_canal_construction = {
 	icon = 11
 }
 
-nigga_exodus = {
+black_exodus = {
 	icon = 20
 }
 
-nigga_displacement = {
+black_displacement = {
 	badboy = 0.005
 	icon = 16
 	non_accepted_pop_consciousness_modifier = 0.05
 	non_accepted_pop_militancy_modifier = 0.025
 }
 
-depopulation_nigga = {
+depopulation_black = {
 	life_rating = 0.25
 	assimilation_rate = 0.2
 	immigrant_attract = 0.25
@@ -3858,7 +3858,7 @@ ayutla_sympathies = {
 	icon = 18
 }
 
-ANON_total_war_mod = {
+_total_war_mod = {
 	icon = 14
 }
 

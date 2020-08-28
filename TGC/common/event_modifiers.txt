@@ -4670,3 +4670,181 @@ louis_napoleon_iii = {
 	land_organisation = -0.04
 	icon = 17
 }
+#################### VICTORIA UNIVERSALIS ####################
+
+admin_counter = {
+	icon = 8
+}
+
+requested_grant = {
+	icon = 10
+}
+
+immunity_from_influenza = {
+	icon = 17
+}
+
+strategic_rgo = {
+	local_rgo_throughput = 5
+	farm_rgo_size = 1
+	mine_rgo_size = 1
+	icon = 13
+}
+
+european_military_advisors = {
+	army_tech_research_bonus = 0.2
+	land_organisation = -0.2
+	supply_consumption = 0.2
+	min_military_spending = 0.5
+	tax_efficiency = -0.05
+	global_pop_militancy_modifier = 0.03
+	
+}
+
+########## PROVINCE SELECTOR DECISIONS ##########
+
+rgo_changed = {
+	icon = 12
+}
+
+switched_production = {
+	local_RGO_output = -0.50
+	icon = 14
+}
+
+rgo_expansion = {
+	farm_rgo_size = 1
+	mine_rgo_size = 1
+	icon = 13
+}
+
+political_propaganda = {
+	icon = 14
+}
+
+bad_boy = {
+	icon = 6
+}
+
+recruitment_drive = {
+	icon = 15
+}
+
+attract_immigrants = {
+	global_immigrant_attract = 0.5
+	icon = 7
+}
+
+restrict_emigration = {
+	icon = 7
+}
+
+draft_law_changed = {
+	icon = 15
+}
+
+assimilation = {
+	assimilation_rate = 10
+	icon = 1
+}
+
+literacy_campaign = {
+	icon = 7
+}
+
+small_baby_boom = {
+	population_growth = 0.001
+	icon = 19
+}
+
+recruited_leader = {
+	icon = 15
+}
+
+suppression = {
+	pop_militancy_modifier = -0.15
+	pop_consciousness_modifier = -0.15
+	icon = 20
+}
+
+country_suppression = {
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
+	icon = 18
+}
+
+province_attract_immigrants = {
+	immigrant_attract = 100
+	icon = 9
+}
+
+########## BACKGROUND STUFF ##########
+
+ghost_country = {
+	icon = 17
+}
+
+starting_healthcare1 = {
+	max_social_spending = 0.01
+}
+
+starting_healthcare2 = {
+	max_social_spending = 0.99
+}
+
+ai_healthcare = {
+	max_social_spending = 1
+}
+
+jan_mayen_isolationism = {
+}
+
+unemployment_fix = {
+	local_RGO_throughput = -0.5
+	icon = 14
+}
+
+rgo_unemployment_timer = {
+}
+
+########## COLONY THROUGHPUT NERFS ##########
+
+colonial_nerf_counter = {
+	icon = 14
+}
+
+colonial_railroad_nerf1 = {
+	local_RGO_throughput = -0.08
+	local_RGO_output = -0.08
+	icon = 14
+}
+
+colonial_railroad_nerf2 = {
+	local_RGO_throughput = -0.16
+	local_RGO_output = -0.16
+	icon = 14
+}
+
+colonial_railroad_nerf3 = {
+	local_RGO_throughput = -0.24
+	local_RGO_output = -0.24
+	icon = 14
+}
+
+colonial_railroad_nerf4 = {
+	local_RGO_throughput = -0.32
+	local_RGO_output = -0.32
+	icon = 14
+}
+
+colonial_railroad_nerf5 = {
+	local_RGO_throughput = -0.4
+	local_RGO_output = -0.4
+	icon = 14
+}
+
+colonial_railroad_nerf6 = {
+	local_RGO_throughput = -0.48
+	local_RGO_output = -0.48
+	icon = 14
+}

@@ -1,3 +1,8 @@
 name = "The Grand Combo 0.1.6 Dev-Build"
 path = "mod/TGC"
 user_dir = "TGC"
+replace_path = "common"
+replace_path = "units"
+replace_path = "events"
+replace_path = "decisions"
+replace_path = "music"

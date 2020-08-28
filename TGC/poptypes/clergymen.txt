@@ -2,6 +2,7 @@ sprite = 3
 color = { 234 227 40 }
 strata = middle
 
+can_reduce_consciousness = yes
 research_points = 3	#if max %, then 2 extra research points.
 research_optimum = 0.02	#2%
 
@@ -36,6 +37,7 @@ life_needs = {
 	fish =  2
 	fruit =  2
 	grain =  5
+	timber = 4
 }
 
 #Total cash needed: 126.9 - Vanilla value: 119.1
@@ -54,6 +56,8 @@ everyday_needs = {
 	steel = 0.1
 	cement = 0.1
 	lumber = 0.1
+	sugar = 1
+	spices = 1.5
 }
 
 #Total cash needed: 388.6 - Vanilla value: 383.4
@@ -73,6 +77,7 @@ luxury_needs = {
 	aeroplanes = 0.4
 	radio = 1
 	fuel = 0.2
+	cocoa = 0.5
 }
 
 country_migration_target = {

@@ -10,6 +10,8 @@ piston_steam_engine = {
 	rgo_goods_output = { oil = 0.05 }
 	rgo_goods_output = { precious_metal = 0.05 }
 	rgo_goods_output = { sulphur = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { lead = 0.5 }
 	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 1.1
@@ -24,6 +26,9 @@ piston_steam_engine = {
 				big_producer = silk
 				big_producer = tobacco
 				big_producer = fruit
+				big_producer = sugar
+				big_producer = spices
+				big_producer = cocoa
 			}
 		}
 		modifier = {
@@ -62,6 +67,8 @@ high_pressure_steam_engine = {
 	rgo_goods_output = { oil = 0.05 }
 	rgo_goods_output = { precious_metal = 0.05 }
 	rgo_goods_output = { sulphur = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { lead = 0.5 }
 	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 1.1
@@ -76,6 +83,9 @@ high_pressure_steam_engine = {
 				big_producer = silk
 				big_producer = tobacco
 				big_producer = fruit
+				big_producer = sugar
+				big_producer = spices
+				big_producer = cocoa
 			}
 		}
 		modifier = {
@@ -114,6 +124,8 @@ compound_steam_engines = {
 	rgo_goods_output = { oil = 0.1 }
 	rgo_goods_output = { precious_metal = 0.1 }
 	rgo_goods_output = { sulphur = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { lead = 0.5 }
 	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 1.1
@@ -128,6 +140,9 @@ compound_steam_engines = {
 				big_producer = silk
 				big_producer = tobacco
 				big_producer = fruit
+				big_producer = sugar
+				big_producer = spices
+				big_producer = cocoa
 			}
 		}
 		modifier = {
@@ -166,6 +181,8 @@ steam_turbine = {
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_metal = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { lead = 0.5 }
 	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 1.1
@@ -180,6 +197,9 @@ steam_turbine = {
 				big_producer = silk
 				big_producer = tobacco
 				big_producer = fruit
+				big_producer = sugar
+				big_producer = spices
+				big_producer = cocoa
 			}
 		}
 		modifier = {
@@ -222,6 +242,8 @@ combustion_engine = {
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_metal = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { lead = 0.5 }
 	farm_rgo_eff = 0.15
 	ai_chance = {
 		factor = 2
@@ -236,6 +258,9 @@ combustion_engine = {
 				big_producer = silk
 				big_producer = tobacco
 				big_producer = fruit
+				big_producer = sugar
+				big_producer = spices
+				big_producer = cocoa
 			}
 		}
 		modifier = {
@@ -274,6 +299,8 @@ electrical_power_generation = {
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_metal = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { lead = 0.5 }
 	farm_rgo_eff = 0.15
 	factory_throughput = 0.1
 	ai_chance = {
@@ -289,9 +316,9 @@ electrical_power_generation = {
 				big_producer = silk
 				big_producer = tobacco
 				big_producer = fruit
-			
-			
-			
+				big_producer = sugar
+				big_producer = spices
+				big_producer = cocoa
 			}
 		}
 		modifier = {
@@ -388,9 +415,6 @@ interchangeable_parts = {
 				big_producer = grain
 				big_producer = tea
 				big_producer = cattle
-			
-			
-			
 			}
 		}
 		modifier = {
@@ -420,6 +444,12 @@ semi_automatization = {
 	
 	rgo_goods_output = {
 		coal = 0.05
+	}
+	rgo_goods_output = {
+		copper = 0.05
+	}
+	rgo_goods_output = {
+		lead = 0.15
 	}
 	
 	factory_goods_output = {
@@ -593,6 +623,12 @@ mechanized_mining = {
 		iron = 0.25
 	}
 	rgo_goods_output = {
+		lead = 0.75
+	}
+	rgo_goods_output = {
+		copper = 0.25
+	}
+	rgo_goods_output = {
 		coal = 0.4
 	}
 	rgo_goods_output = {
@@ -612,10 +648,10 @@ mechanized_mining = {
 			OR = {
 				big_producer = iron
 				big_producer = coal
-				
-				
+				big_producer = copper
+				big_producer = lead
 				big_producer = steel
-				#
+				big_producer = bronze
 				produces = precious_metal
 			}
 		}
@@ -625,10 +661,10 @@ mechanized_mining = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = steel
-					#
+					produces = bronze
 					produces = precious_metal
 				}
 			}
@@ -678,6 +714,18 @@ puddling = {
 		iron = 0.2
 	}
 	rgo_goods_output = {
+		lead = 0.75
+	}
+	rgo_size = {
+		lead = 0.6
+	}
+	rgo_goods_output = {
+		copper = 0.25
+	}
+	rgo_size = {
+		copper = 0.2
+	}
+	rgo_goods_output = {
 		precious_metal = 0.25
 	}
 	rgo_size = {
@@ -706,10 +754,10 @@ puddling = {
 			OR = {
 				big_producer = iron
 				big_producer = coal
-				
-				
+				big_producer = copper
+				big_producer = lead
 				big_producer = steel
-				#
+				big_producer = bronze
 				produces = precious_metal
 			}
 		}
@@ -723,10 +771,10 @@ puddling = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = steel
-					#
+					produces = bronze
 					produces = precious_metal
 				}
 			}
@@ -749,8 +797,8 @@ puddling = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = precious_metal
 				}
 			}
@@ -788,6 +836,18 @@ hot_blast = {
 	rgo_size = {
 		iron = 0.2
 	}
+	rgo_goods_output = {
+		lead = 0.75
+	}
+	rgo_size = {
+		lead = 0.6
+	}
+	rgo_goods_output = {
+		copper = 0.25
+	}
+	rgo_size = {
+		copper = 0.2
+	}
 	
 	ai_chance = {
 		factor = 2
@@ -811,10 +871,10 @@ hot_blast = {
 			OR = {
 				big_producer = iron
 				big_producer = coal
-				
-				
+				big_producer = copper
+				big_producer = lead
 				big_producer = steel
-				#
+				big_producer = bronze
 				produces = precious_metal
 			}
 		}
@@ -828,10 +888,10 @@ hot_blast = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = steel
-					#
+					produces = bronze
 					produces = precious_metal
 				}
 			}
@@ -854,8 +914,8 @@ hot_blast = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = precious_metal
 				}
 			}
@@ -892,9 +952,19 @@ bessemer_process = {
 	rgo_goods_output = {
 		iron = 0.9
 	}
+	rgo_goods_output = {
+		lead = 1.2
+	}
+	rgo_goods_output = {
+		copper = 0.4
+	}
 	factory_goods_output = {
 		steel = 0.1
 	}
+	factory_goods_output = {
+		bronze = 0.1
+	}
+	
 	ai_chance = {
 		factor = 2
 
@@ -917,10 +987,10 @@ bessemer_process = {
 			OR = {
 				big_producer = iron
 				big_producer = coal
-				
-				
+				big_producer = copper
+				big_producer = lead
 				big_producer = steel
-				#
+				big_producer = bronze
 				produces = precious_metal
 			}
 		}
@@ -934,10 +1004,10 @@ bessemer_process = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = steel
-					#
+					produces = bronze
 					produces = precious_metal
 				}
 			}
@@ -960,8 +1030,8 @@ bessemer_process = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = precious_metal
 				}
 			}
@@ -993,6 +1063,12 @@ advanced_metallurgy = {
 	rgo_goods_output = {
 		iron = 0.5
 	}
+	rgo_goods_output = {
+		lead = 1.5
+	}
+	rgo_goods_output = {
+		copper = 0.5
+	}
 	rgo_size = {
 		sulphur = 0.4
 	}
@@ -1022,10 +1098,10 @@ advanced_metallurgy = {
 			OR = {
 				big_producer = iron
 				big_producer = coal
-				
-				
+				big_producer = copper
+				big_producer = lead
 				big_producer = steel
-				#
+				big_producer = bronze
 				produces = precious_metal
 			}
 		}
@@ -1039,10 +1115,10 @@ advanced_metallurgy = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = steel
-					#
+					produces = bronze
 					produces = precious_metal
 				}
 			}
@@ -1065,8 +1141,8 @@ advanced_metallurgy = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = precious_metal
 				}
 			}
@@ -1092,11 +1168,20 @@ electric_furnace = {
 	factory_goods_output = {
 		steel = 0.05 
 	}
+	factory_goods_output = {
+		bronze = 0.05 
+	}
 	rgo_goods_output = {
 		coal = 1
 	}
 	rgo_goods_output = {
 		iron = 1
+	}
+	rgo_goods_output = {
+		copper = 1
+	}
+	rgo_goods_output = {
+		lead = 3
 	}
 	rgo_goods_output = {
 		precious_metal = 1
@@ -1124,10 +1209,10 @@ electric_furnace = {
 			OR = {
 				big_producer = iron
 				big_producer = coal
-				
-				
+				big_producer = copper
+				big_producer = lead
 				big_producer = steel
-				
+				big_producer = bronze
 				produces = precious_metal
 			}
 		}
@@ -1141,10 +1226,10 @@ electric_furnace = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = steel
-					
+					produces = bronze
 					produces = precious_metal
 				}
 			}
@@ -1167,8 +1252,8 @@ electric_furnace = {
 				OR = {
 					produces = iron
 					produces = coal
-					
-					
+					produces = copper
+					produces = lead
 					produces = precious_metal
 				}
 			}

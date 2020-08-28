@@ -24,6 +24,7 @@ life_needs = {
 	fish = 4	#6
 	fruit = 4	#7.2
 	grain = 10	#22
+	timber = 40
 }
 
 #Total cash needed: 3775.1 - Vanilla value: 2852
@@ -36,22 +37,27 @@ everyday_needs = {
 	tobacco = 20 
 	coffee = 20
 	tea = 10
-	radio = 5
+	radio = 4
 	telephones = 5
 	automobiles = 1
-	steel = 0.5
-	cement = 0.5
+	steamer_convoy = 1.5
+	sugar = 20
+	spices = 20
+	cocoa = 10
 }
 
 #Total cash needed: 3883 - Vanilla value: 3863
 luxury_needs = {
-	#luxury_clothes = 0.5
-	#luxury_furniture = 0.5
-	opium = 20
-	steel = 0.5
-	cement = 0.5
+	steel = 1
+	cement = 1
 	lumber = 1
 	canned_food = 5
+	grain = 40
+	fruit = 40
+	wool = 40
+	cattle = 40
+	fish = 40
+	opium = 20
 	oil = 10
 	rubber = 10
 	telephones = 20
@@ -62,7 +68,7 @@ luxury_needs = {
 	ammunition = 1 
 	small_arms = 1 
 	clipper_convoy = 2
-	steamer_convoy = 2
+	steamer_convoy = 3
 }
 
 

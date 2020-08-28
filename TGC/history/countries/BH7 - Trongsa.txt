@@ -1,4 +1,4 @@
-capital = 3544
+
 primary_culture = south_tibetan
 culture = tibetan
 culture = himalayan_minor

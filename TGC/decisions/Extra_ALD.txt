@@ -1,0 +1,22 @@
+political_decisions = {
+	move_capital_to_algiers = {
+	picture = move_capital_to_algiers
+		potential = {
+			tag = ALD
+			NOT = { capital = 1700 }
+		}
+
+		allow = {
+			owns = 1700
+		}
+
+		effect = {
+			prestige = 1
+			capital = 1700
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

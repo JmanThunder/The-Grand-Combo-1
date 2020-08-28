@@ -1,0 +1,857 @@
+country_event = {
+	id = 133000
+	title = "EVTNAME133000"
+	desc = "EVTDESC133000"
+	picture = "avay"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PRG
+		war = no
+		is_secondary_power = yes
+		year = 1862
+		OR = {
+			BRZ = { owns = 2460 }
+		}
+		NOT = {
+			in_sphere = BRZ
+			in_sphere = ARG
+			government = democracy
+			government = hms_government
+		}
+	}
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.1
+			BRZ = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			URU = { ruling_party_ideology = liberal }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA133000"
+		2457 = { add_core = PRG }
+		2458 = { add_core = PRG }
+		2460 = { add_core = PRG }
+		set_global_flag = paraguayan_war
+		add_country_modifier = {
+			name = small_country_draft
+			duration = 365
+		}
+		any_pop = {
+			militancy = -6
+			dominant_issue = {
+				factor = 0.20
+				value = jingoism
+			}
+		}
+		random_country = {
+			limit = {
+				tag = BRZ
+				owns = 2460
+			}
+			THIS = {
+				leave_alliance = BRZ
+				war = {
+					target = BRZ
+					attacker_goal = {
+						casus_belli = acquire_any_state
+						state_province_id = 2460
+					}
+					defender_goal = {
+						casus_belli = acquire_core_state
+						state_province_id = 2420
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = BRZ
+				NOT = { owns = 2460 }
+				ARG = { owns = 2554 }
+			}
+			THIS = {
+				leave_alliance = ARG
+				war = {
+					target = ARG
+					attacker_goal = {
+						casus_belli = acquire_core_state
+						state_province_id = 2554
+					}
+					call_ally = yes
+				}
+			}
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	option = {
+		name = "EVTOPTB133000"
+		prestige = -5
+		any_pop = {
+			militancy = 3
+			dominant_issue = {
+				factor = 0.10
+				value = pacifism
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = 133100
+	title = "EVTNAME133100"
+	desc = "EVTDESC133100"
+	picture = "paraguayan_war"
+
+	trigger = {
+		tag = PRG
+		government = presidential_dictatorship
+		war = no
+		has_global_flag = paraguayan_war
+		NOT = { 
+			owns = 2460
+		}
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA133100"
+		government = democracy
+		political_reform = wealth_weighted_voting
+		political_reform = population_equal_weight
+		political_reform = gerrymandering
+		political_reform = first_past_the_post
+		clr_global_flag = paraguayan_war
+		upper_house = {
+			ideology = liberal
+			value = 0.5
+		}
+		upper_house = {
+			ideology = conservative
+			value = 0.25
+		}
+		any_owned = {
+			limit = {
+				is_colonial = no
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 2
+					ideology = reactionary
+				}
+				scaled_consciousness = {
+					factor = 4
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = -3
+					ideology = liberal
+				}
+				scaled_consciousness = {
+					factor = -5
+					ideology = liberal
+				}
+			}
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+		name = "EVTOPTB133100"
+		clr_global_flag = paraguayan_war
+
+		any_owned = {
+			limit = {
+				is_colonial = no
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 5
+					ideology = liberal
+				}
+				scaled_consciousness = {
+					factor = 8
+					ideology = liberal
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = 133200
+	title = "EVTNAME133200"
+	desc = "EVTDESC133200"
+	picture = "eloyalfaro"
+
+	trigger = {
+		tag = ECU 
+		year = 1885
+		government = presidential_dictatorship
+	}
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.6
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.7
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 5
+		}
+	}
+	fire_only_once = yes
+	option = {
+		name = "EVTOPTA133200"
+		government = democracy
+		political_reform = wealth_weighted_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = gerrymandering
+		political_reform = first_past_the_post
+		ruling_party_ideology = liberal
+		any_owned = {
+			limit = {
+				is_colonial = no
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 2
+					ideology = reactionary
+				}
+				scaled_consciousness = {
+					factor = 4
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = -2
+					ideology = liberal
+				}
+				scaled_consciousness = {
+					factor = -4
+					ideology = liberal
+				}
+			}
+		}
+		ai_chance = {
+			factor = 85
+		}
+	}	
+	option = {
+		name = "EVTOPTB133200"
+		any_owned = {
+			limit = {
+				is_colonial = no
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 5
+					ideology = liberal
+				}
+				scaled_consciousness = {
+					factor = 7
+					ideology = liberal
+				}
+			}
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+}
+
+country_event = {
+	id = 133300
+	title = "EVTNAME133300"
+	desc = "EVTDESC133300"
+	picture = "pierola"
+
+	trigger = {
+		tag = PEU
+		government = presidential_dictatorship
+		year = 1895
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA133300"
+		government = democracy
+		political_reform = population_equal_weight
+		political_reform = wealth_weighted_voting
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = gerrymandering
+		any_owned = {
+			limit = {
+				is_colonial = no
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 2
+					ideology = reactionary
+				}
+				scaled_consciousness = {
+					factor = 4
+					ideology = reactionary
+				}
+			}
+						any_pop = {
+				scaled_militancy = {
+					factor = -2
+					ideology = liberal
+				}
+				scaled_consciousness = {
+					factor = -4
+					ideology = liberal
+				}
+			}
+		}
+		ai_chance = {
+			factor = 85
+		}
+	}	
+	option = {
+		name = "EVTOPTB133300"
+		any_owned = {
+			limit = {
+				is_colonial = no
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = -2
+					ideology = reactionary
+				}
+				scaled_consciousness = {
+					factor = -4
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 3
+					ideology = liberal
+				}
+				scaled_consciousness = {
+					factor = 5
+					ideology = liberal
+				}
+			}
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+}
+
+country_event = {
+	id = 133400
+	title = "EVTNAME133400"
+	desc = "EVTDESC133400"
+	picture = "pacificwar"
+
+	trigger = {
+		tag = BOL
+		government = presidential_dictatorship
+		year = 1880
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA133300"
+		government = democracy
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = first_past_the_post
+		ruling_party_ideology = conservative
+		any_owned = {
+			limit = {
+				is_colonial = no
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 1
+					ideology = reactionary
+				}
+				scaled_consciousness = {
+					factor = 2
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = -1
+					ideology = liberal
+				}
+				scaled_consciousness = {
+					factor = -2
+					ideology = liberal
+				}
+			}
+		}
+		ai_chance = {
+			factor = 85
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB133400"
+		any_owned = {
+			limit = {
+				is_colonial = no
+			}
+
+			any_pop = {
+				scaled_militancy = {
+					factor = -2
+					ideology = reactionary
+				}
+				scaled_consciousness = {
+					factor = -4
+					ideology = reactionary
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 3
+					ideology = liberal
+				}
+				scaled_consciousness = {
+					factor = 5
+					ideology = liberal
+				}
+			}
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+}		
+
+country_event = {
+	id = 133500
+	title = "EVTNAME133500"
+	desc = "EVTDESC133500"
+	picture = "chilean_civil_war"
+	
+	trigger = {
+		tag = CHL
+		year = 1891
+		government = democracy
+		ruling_party_ideology = liberal
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.8
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.7
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.6
+			average_militancy = 5
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA133500"
+		ruling_party_ideology = conservative
+	
+		add_country_modifier = {
+			name = national_confusion
+			duration = 365
+		}
+		tech_school = naval_tech_school
+
+		add_country_modifier = {
+			name = academic_confusion
+			duration = 3650
+		}
+		
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			ideology = { factor = 0.1 value = conservative }
+			scaled_militancy = {
+				factor = -3
+				ideology = conservative
+			}
+			scaled_consciousness = {
+				factor = -5
+				ideology = conservative
+			}
+			scaled_militancy = {
+				factor = 3
+				ideology = liberal
+			}
+			scaled_consciousness = {
+				factor = 5
+				ideology = liberal
+			}
+		}
+		ai_chance = {
+			factor = 85
+		}
+	}	
+		
+	option = {
+		name = "EVTOPTB133500"
+		ruling_party_ideology = liberal
+		
+		add_country_modifier = {
+			name = national_confusion
+			duration = 365
+		}
+		tech_school = army_tech_school
+		add_country_modifier = {
+			name = academic_confusion
+			duration = 3650
+		}
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			ideology = { factor = 0.1 value = liberal }
+			scaled_militancy = {
+				factor = 3
+				ideology = conservative
+			}
+			scaled_consciousness = {
+				factor = 5
+				ideology = conservative
+			}
+			scaled_militancy = {
+				factor = -3
+				ideology = liberal
+			}
+			scaled_consciousness = {
+				factor = -5
+				ideology = liberal
+			}
+		}
+		ai_chance = {
+			factor = 15
+		}
+	}
+}
+
+country_event = {
+	id = 133600
+	title = "EVTNAME133600"
+	desc = "EVTDESC133600"
+	picture = "33orientals"
+
+	trigger = {
+		tag = URU
+		OR = {
+			ruling_party_ideology = reactionary
+			ruling_party_ideology = conservative
+		}
+		NOT = {
+			year = 1860
+		}
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA133600"
+		set_country_flag = EVTOPTA133600
+		add_country_modifier = { name = fight_the_power duration = 3650 }
+		any_pop = {
+
+			limit = {
+				is_primary_culture = yes
+				location = {
+					NOT = { province_id = 2344 }
+				}
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.3
+			}
+			ideology = {
+				value = conservative
+				factor = 0.7
+			}
+		}
+		any_pop = {
+
+
+			limit = {
+				is_primary_culture = yes
+				location = {
+					province_id = 2344
+				}
+			}
+			ideology = {
+				value = liberal
+				factor = 0.6
+			}
+			consciousness = 3
+		}
+
+		any_owned = {
+			limit = { province_id = 2344 }
+			add_province_modifier = {
+				name = peasant_revolt
+				duration = 1095
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 133700
+	title = "EVTNAME133700"
+	desc = "EVTDESC133700"
+	picture = "meeting"
+
+	trigger = {
+		tag = RGS
+		owns = 2461
+		NOT = {
+			year = 1840
+			has_country_flag = claim_santa_catarina
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 6
+	}
+	
+	option = {
+		name = "EVTOPTA133700"
+		set_country_flag = won_ragamuffin_war
+		BRZ_2461 = { 
+			add_core = RGS
+		}
+		BRZ_2467 = {
+			remove_core = BRZ
+		}
+	}
+}
+
+country_event = {
+	id = 133800
+	title = "EVTNAME133800"
+	desc = "EVTDESC133800"
+	picture = "Rebellion"
+
+	trigger = {
+		tag = RGS
+		year = 1836
+		war_with = BRZ
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVTOPTA133800"
+		define_general = {
+			name = "Giuseppe Garibaldi"
+			personality = heroic
+			background = rising_star
+		}
+		small_arms = 25
+		canned_food = 25
+		ammunition = 20
+		money = 500
+	}
+}
+
+country_event = {
+	id = 134000
+	title = "EVTNAME134000"
+	desc = "Because $FROMCOUNTRY$ lacks the capacity to construct the latest and most powerful warship type, the dreadnought, the $FROMCOUNTRY_ADJ$ government has purposed a deal with us to build their new ship. What should be our answer?"
+	picture = "dreadnought"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We agree to build their ship."
+		relation = { who = FROM value = 25 }
+		treasury = 100000
+		FROM = { country_event = 134100 }
+		
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "Refuse their offer."
+		relation = { who = FROM value = -50 }
+		FROM = { country_event = 134200 }
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				NOT = {
+					relation = { who = FROM value = -100 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 134100
+	title = "EVTNAME134000"
+	desc = "$FROMCOUNTRY$ has agreed to construct a dreadnought for us! The ship will be delivered in 2 years."
+	picture = "dreadnought"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Great!"
+		treasury = -100000
+		relation = { who = FROM value = 25 }
+		badboy = 2
+		set_country_flag = dreadnought_race
+		activate_technology = steel_steamers
+		activate_technology = steam_turbine_ships
+		country_event = { id = 134300 days = 730 }
+		random_country = {
+			limit = {
+				tag = BRZ
+				exists = yes
+				NOT = { tag = THIS }
+			}
+			relation = {
+				who = THIS
+				value = -50
+			}
+			casus_belli = {
+				target = THIS
+				type = cut_down_to_size
+				months = 24
+			}
+		}
+
+		random_country = {
+			limit = {
+				tag = ARG
+				exists = yes
+				NOT = { tag = THIS }
+			}
+			relation = {
+				who = THIS
+				value = -50
+			}
+			casus_belli = {
+				target = THIS
+				type = cut_down_to_size
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = LPL
+				exists = yes
+				NOT = { tag = THIS }
+			}
+			relation = {
+				who = THIS
+				value = -50
+			}
+			casus_belli = {
+				target = THIS
+				type = cut_down_to_size
+				months = 24
+			}
+		}
+		random_country = {
+			limit = {
+				tag = CHL
+				exists = yes
+				NOT = { tag = THIS }
+			}
+			relation = {
+				who = THIS
+				value = -50
+			}
+			casus_belli = {
+				target = THIS
+				type = cut_down_to_size
+				months = 24
+			}
+
+		}
+	}
+}
+
+country_event = {
+	id = 134200
+	title = "EVTNAME134000"
+	desc = "$FROMCOUNTRY$ has declined to sign our deal about constructing a dreadnought for us."
+	picture = "dreadnought"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Damn."
+		prestige = -5
+		relation = { who = FROM value = -50 }
+	}
+}
+
+country_event = {
+	id = 134300
+	title = "EVTNAME134000"
+	desc = "The dreadnought we ordered is finished and arrived in one of our naval bases."
+	picture = "dreadnought"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Wonderful!"
+		prestige = 5
+		random_owned = { limit = { has_building = naval_base } sub_unit = { type = dreadnought value = current } }
+	}
+}

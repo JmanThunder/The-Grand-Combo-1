@@ -1,0 +1,247 @@
+political_decisions = {
+
+	all_mexico = {
+		picture = map_central_america
+		potential = {
+           		tag = USA
+			is_greater_power = yes
+			has_country_flag = hasmanifestdestiny
+			war_with = MEX
+			NOT = { has_country_flag = mexico_annexation }
+			NOT = { has_global_flag = american_civil_war_has_happened }
+			MEX = { national_provinces_occupied = .75 }
+		}
+
+		allow = {
+			MEX = { national_provinces_occupied = .95 }
+			war_policy = jingoism
+		}
+
+		effect = {
+			set_country_flag = mexico_annexation
+           		badboy = 25
+           		end_war = MEX
+			inherit = MEX
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				scaled_militancy = {
+					issue = pacifism
+					factor = 6
+				}
+				scaled_militancy = {
+					issue = anti_military
+					factor = 4
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 0
+				badboy = 0.1
+			}
+		}
+	}
+	
+	total_war_in_mexico = {
+		alert = yes
+		picture = support_boxers
+		potential = {
+			tag = MEX
+			USA = { has_country_flag = mexico_annexation }
+			NOT = { has_country_modifier = small_country_draft }
+			NOT = { has_country_flag = mexico_draft_happened }
+		}
+		
+		allow = {
+			war_with = USA
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = small_country_draft
+				duration = 730
+			}
+			set_country_flag = mexico_draft_happened 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	take_canada = {
+        potential = {
+           	tag = USA
+			has_country_flag = hasmanifestdestiny
+			war_with = ENG
+			NOT = { has_country_flag = canada_annexation }
+		}
+
+		allow = {
+			controls = 65
+			controls = 46
+			controls = 58
+		}
+
+		effect = { 
+           	badboy = 20         
+            CAN_46 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_50 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_58 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG		
+			}
+			CAN_60 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_68 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_74 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_46 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_6 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_9 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_13 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			CAN_19 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_22 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_30 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			ENG_36 = { 
+				add_core = USA
+				add_core = CAN
+				add_core = ENG
+			}
+			set_country_flag = canada_annexation
+        }
+	}
+	
+	total_war_in_canada = {
+		alert = yes
+		picture = support_boxers
+		potential = {
+			tag = CAN
+			USA = { has_country_flag = canada_annexation }
+			NOT = { has_country_modifier = small_country_draft }
+			NOT = { has_country_flag = canada_draft_happened }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = small_country_draft
+				duration = 730
+			}
+			set_country_flag = canada_draft_happened 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reinstitute_slavery_USA = {
+	picture = reinstitute_slavery_USA
+		alert = no
+		potential = {
+			tag = USA
+			year = 1870
+			OR = {
+				government = fascist_dictatorship
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = presidential_dictatorship
+			}
+			has_country_flag = emancipation
+			slavery = no_slavery
+		}
+		allow = {
+			NOT = {
+				exists = CSA
+			}
+		}
+		effect = {
+			prestige = -70
+			badboy = 15
+			political_reform = yes_slavery
+			any_pop = {
+				limit = {
+					is_culture_group = african_diaspora_cultures
+					OR = {
+						pop_type = farmers
+						pop_type = labourers
+					}
+				}
+				pop_type = slaves
+			}
+			any_pop = {
+				limit = {
+					is_culture_group = african_diaspora_cultures
+					pop_type = craftsmen
+				}
+				pop_type = slaves_factory
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						government = fascist_dictatorship
+						government = absolute_monarchy
+					}
+				}
+			}
+		}
+	}
+}

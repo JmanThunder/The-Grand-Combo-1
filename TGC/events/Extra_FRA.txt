@@ -1,0 +1,40 @@
+country_event = {
+	id = 236900
+	title = "EVTNAME236900"
+	desc = "EVTDESC236900"
+	picture = "entente"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA236900"
+		prestige = 20
+		FRA = { prestige = 20 }
+		relation = { who = FRA value = 200 }
+		create_alliance = FRA
+		any_greater_power = {
+			limit = {
+				NOT = {
+					tag = FRA
+					tag = JAP
+					tag = USA
+				}
+				alliance_with = THIS
+			}
+			leave_alliance = THIS
+		}
+		ai_chance = {
+			factor = 85
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB236900"
+		prestige = -20
+		FRA = { prestige = -20 }
+		relation = { who = FRA value = -100 }
+		ai_chance = {
+			factor = 15
+		}
+	}
+}

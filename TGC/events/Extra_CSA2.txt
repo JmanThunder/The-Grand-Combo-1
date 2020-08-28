@@ -1,0 +1,619 @@
+# Belize Purchase
+country_event = {
+	id = 1500000
+	title = c_p_belize
+	desc = c_p_belize_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_belize_accept
+		money = 10000
+		CSA = {
+			country_event = 150000
+			money = -10000
+		}
+		2190 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_belize_decline
+		CSA = {
+			country_event = 150001
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# British Lesser Antilles Purchase
+country_event = {
+	id = 1500001
+	title = c_p_blantilles
+	desc = c_p_blantilles_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_blantilles_accept
+		money = 70000
+		CSA = {
+			country_event = 150002
+			money = -70000
+		}
+		2229 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2231 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2232 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2233 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2237 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2238 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2409 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_blantilles_decline
+		CSA = {
+			country_event = 150003
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# British West Indies Purchase
+country_event = {
+	id = 1500002
+	title = c_p_windies
+	desc = c_p_windies_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_windies_accept
+		money = 40000
+		CSA = {
+			country_event = 150004
+			money = -40000
+		}
+		2224 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2225 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2226 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2227 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_windies_decline
+		CSA = {
+			country_event = 150005
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# Caribbean Purchase
+country_event = {
+	id = 1500003
+	title = c_p_bermuda
+	desc = c_p_bermuda_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_bermuda_accept
+		money = 50000
+		CSA = {
+			country_event = 150006
+			money = -50000
+		}
+		ENG_203 = {
+			remove_core = THIS
+			secede_province = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_bermuda_decline
+		CSA = {
+			country_event = 150007
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# Cuban Purchase
+country_event = {
+	id = 1500004
+	title = c_p_cuba
+	desc = c_p_cuba_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_cuba_accept
+		money = 40000
+		CSA = {
+			country_event = 150008
+			money = -40000
+		}
+		SPA_2209 = {
+			remove_core = THIS
+			secede_province = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_cuba_decline
+		CSA = {
+			country_event = 150009
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# Guadeloupe Purchase
+country_event = {
+	id = 1500005
+	title = c_p_guadeloupe
+	desc = c_p_guadeloupe_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_guadeloupe_accept
+		money = 10000
+		CSA = {
+			country_event = 150010
+			money = -10000
+		}
+		2230 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_guadeloupe_decline
+		CSA = {
+			country_event = 150011
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# Martinique Purchase
+country_event = {
+	id = 1500006
+	title = c_p_martinique
+	desc = c_p_martinique_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_martinique_accept
+		money = 10000
+		CSA = {
+			country_event = 150012
+			money = -10000
+		}
+		2228 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_martinique_decline
+		CSA = {
+			country_event = 150013
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# Puerto Rico Purchase
+country_event = {
+	id = 1500007
+	title = c_p_puertorico
+	desc = c_p_puertorico_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_prico_accept
+		money = 10000
+		CSA = {
+			country_event = 150014
+			money = -10000
+		}
+		2222 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_prico_decline
+		CSA = {
+			country_event = 150015
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# St Martin Purchase
+country_event = {
+	id = 1500008
+	title = c_p_stmartin
+	desc = c_p_stmartin_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_stmartin_accept
+		money = 10000
+		CSA = {
+			country_event = 150016
+			money = -10000
+		}
+		2236 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_stmartin_decline
+		CSA = {
+			country_event = 150017
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# StThomas Purchase
+country_event = {
+	id = 1500009
+	title = c_p_stthomas
+	desc = c_p_stthomas_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_stthomas_accept
+		money = 10000
+		CSA = {
+			country_event = 150018
+			money = -10000
+		}
+		2223 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_stthomas_decline
+		CSA = {
+			country_event = 150019
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# Zulia Purchase
+country_event = {
+	id = 1500010
+	title = c_p_zulia
+	desc = c_p_zulia_desc
+	picture = "news"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = c_p_zulia_accept
+		money = 20000
+		CSA = {
+			country_event = 150020
+			money = -20000
+		}
+		2234 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		2235 = {
+			remove_core = THIS
+			secede_province = CSA
+			add_core = CSA
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = c_p_zulia_decline
+		CSA = {
+			country_event = 150021
+		}
+		relation = {
+			who = CSA
+			value = -100
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 1500011
+	title = washington_burned_title
+	desc = washington_burned_description
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Relocate to Philadelphia
+		prestige = -25
+		war_exhaustion = 25
+		capital = 223
+	}
+
+	option = {
+		name = Relocate to New York City
+		prestige = -25
+		war_exhaustion = 25
+		capital = 232
+	}
+
+	option = {
+		name = Relocate to Boston
+		prestige = -25
+		war_exhaustion = 25
+		capital = 243
+	}
+}
+
+# Spread of Slavery
+#province_event = {
+#	id = 1500012
+#	desc = slavery_spreads_desc
+#	picture = "Slaves"
+#	
+#	trigger = {
+#		owner = {
+#			tag = CSA
+#			slavery = yes_slavery
+#			has_global_flag = american_civil_war_has_happened
+#		}
+#		state_scope = {
+#			is_slave = no
+#		}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#
+#	option = {
+#		state_scope = {
+#			is_slave = yes
+#		}
+#	}
+#}
+

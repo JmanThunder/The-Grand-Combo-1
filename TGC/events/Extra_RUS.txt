@@ -1,0 +1,358 @@
+country_event = {
+	id = 132000
+	title = "EVTNAME132000"
+	desc = "EVTDESC132000"
+	picture = "picaso"
+
+	fire_only_once = yes
+		
+	trigger = {
+		NOT = {
+			exists = UKR
+		}
+		tag = RUS
+		year = 1837
+		NOT = {
+			year = 1842
+		}
+	}
+		
+	mean_time_to_happen = {
+		months = 3
+	}
+		
+	option = {
+		name = "EVTOPTA132000"
+		any_owned = {				
+		limit = {
+			is_core = UKR
+			}
+		any_pop = {
+			limit = {
+			has_pop_culture = ukrainian
+			}
+			consciousness = 2
+			}
+			add_province_modifier = {
+				name = taras_shevchenko_local
+				duration = -1
+				}
+		}
+		prestige = 5
+		set_global_flag = Taras1
+	}
+}
+
+country_event = {
+	id = 132100
+	title = "EVTNAME132100"
+	desc = "EVTDESC132100"
+	picture = "sight"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		year = 1842
+		NOT = {
+			year = 1847
+		}
+		has_global_flag = Taras1
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVTOPTA132100"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				consciousness = 2
+			}
+		}	
+		prestige = 5
+		set_global_flag = Taras2
+	}
+}
+
+country_event = {
+	id = 132200
+	title = "EVTNAME132200"
+	desc = "EVTDESC132200"
+	picture = "arrested"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		year = 1845
+		NOT = {
+			year = 1849
+		}
+		has_global_flag = Taras2
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVTOPTA132200"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				consciousness = 4
+				militancy = 3
+			}
+			remove_province_modifier = taras_shevchenko_local
+		}
+		set_global_flag = Taras3
+	}
+	
+	option = {
+		name = "EVTOPTB132200"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				consciousness = 2
+				militancy = 0.5
+			}
+			remove_province_modifier = taras_shevchenko_local
+			add_province_modifier = {
+				name = taras_works_local
+				duration = -1
+			}
+			set_global_flag = Taras3A
+		}
+	}
+}
+
+country_event = {
+	id = 132300
+	title = "EVTNAME132300"
+	desc = "EVTDESC132300"
+	picture = "fortification"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		has_global_flag = Taras3
+		year = 1849
+		NOT = {
+			year = 1855
+		}
+		NOT = {
+			has_global_flag = Taras5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name = "EVTOPTA132300"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				consciousness = 3
+				militancy = 0.5
+			}
+		}
+		set_global_flag = Taras4
+	}
+	
+	option = {
+		name = "EVTOPTB132300"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				consciousness = 0.5
+				militancy = 3
+			}
+		}
+		set_global_flag = Taras4
+	}
+}
+
+country_event = {
+	id = 132400
+	title = "EVTNAME132400"
+	desc = "EVTDESC132400"
+	picture = "Finepeople"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		year = 1856
+		NOT = {
+			year = 1860
+		}
+		has_global_flag = Taras4
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "EVTOPTA132400"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				consciousness = 2
+				militancy = -1
+			}
+			add_province_modifier = {
+				name = taras_works_local
+				duration = -1
+			}
+		}
+		set_global_flag = Taras5
+	}
+}
+
+country_event = {
+	id = 132500
+	title = "EVTNAME132500"
+	desc = "EVTDESC132500"
+	picture = "Unite"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = RUS
+		year = 1859
+		NOT = {
+			year = 1862
+		}
+		OR = {
+			has_global_flag = Taras5
+			has_global_flag = Taras3A
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA132500"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				consciousness = 3.5
+				militancy = 1
+			}
+		}
+		set_global_flag = Taras6
+	}
+}
+
+country_event = {
+	id = 132600
+	title = "EVTNAME132600"
+	desc = "EVTDESC132600"
+	picture = "Unite"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		year = 1860
+		has_global_flag = Taras6
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA132600"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				consciousness = 3
+			}
+			remove_province_modifier = taras_works_local
+		}
+		set_global_flag = Taras7
+	}
+}
+
+country_event = {
+	id = 132700
+	title = "EVTNAME132700"
+	desc = "EVTDESC132700"
+	picture = "Unite"
+	
+	trigger = {
+		has_global_flag = Taras7
+		any_owned = {
+			has_province_modifier = taras_works_local
+		}
+		NOT = {
+			tag = RUS
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA132700"
+		any_owned = {
+			remove_province_modifier = taras_works_local
+		}
+	}
+}

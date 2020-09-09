@@ -15,11 +15,11 @@ country_event = {
 		war = no
 		NOT = {
 			year = 1839
-		}
+		}	
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -27,7 +27,7 @@ country_event = {
 			factor = 0.75 #increase likelihood to happen
 			year = 1837
 		}
-
+		
 		modifier = {
 			factor = 0.95 #increase likelihood to happen
 			year = 1838
@@ -39,7 +39,7 @@ country_event = {
 	picture = "Diesterweg"
 
 	option = {
-		name = "EVTOPTA34600"
+		name = "EVTOPTA34600" 
 		prestige = 3
 		years_of_research = 0.05
 	}
@@ -65,9 +65,9 @@ country_event = {
 			year = 1844
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -88,15 +88,15 @@ country_event = {
 	picture = "Deutschlandlied"
 
 	option = {
-		name = "EVTOPTA34601"
+		name = "EVTOPTA34601" 
 		any_pop = {
 			limit = { has_pop_culture = north_german }
 			consciousness = 1
-		}
+		}	
 		any_pop = {
 			limit = { has_pop_culture = south_german }
 			consciousness = 1
-		}
+		}	
 	}
 }
 
@@ -119,9 +119,9 @@ country_event = {
 			year = 1843
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -141,12 +141,12 @@ country_event = {
 	picture = "WilhelmIV"
 
 	option = {
-		name = "EVTOPTA34602"
+		name = "EVTOPTA34602" 
 		any_pop = {
 			scaled_consciousness = {
 				factor = 2
 				ideology = liberal
-			}
+			}	
 		}
 	}
 }
@@ -170,9 +170,9 @@ country_event = {
 			year = 1847
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -180,7 +180,7 @@ country_event = {
 			factor = 0.75 #increase likelihood to happen
 			year = 1844
 		}
-
+		
 		modifier = {
 			factor = 0.95 #increase likelihood to happen
 			year = 1845
@@ -192,7 +192,7 @@ country_event = {
 	picture = "berlinzoo"
 
 	option = {
-		name = "EVTOPTA34603"
+		name = "EVTOPTA34603" 
 		prestige = 5
 	}
 }
@@ -214,11 +214,11 @@ country_event = {
 		NOT = {
 			year = 1848
 		}
-
+	
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -226,7 +226,7 @@ country_event = {
 			factor = 0.75 #increase likelihood to happen
 			year = 1846
 		}
-
+		
 		modifier = {
 			factor = 0.95 #increase likelihood to happen
 			year = 1847
@@ -238,15 +238,12 @@ country_event = {
 	picture = "jews"
 
 	option = {
-		name = "EVTOPTA34604"
+		name = "EVTOPTA34604" 
 		prestige = 5
-
-		add_accepted_culture = ashkenazi
-
 		any_pop = {
 			limit = { has_pop_religion = jewish }
 			consciousness = 1
-		}
+		}	
 	}
 }
 
@@ -268,9 +265,9 @@ country_event = {
 			year = 1849
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -278,7 +275,7 @@ country_event = {
 			factor = 0.75 #increase likelihood to happen
 			year = 1847
 		}
-
+		
 		modifier = {
 			factor = 0.95 #increase likelihood to happen
 			year = 1848
@@ -290,9 +287,9 @@ country_event = {
 	picture = "Gottlieb"
 
 	option = {
-		name = "EVTOPTA34605"
+		name = "EVTOPTA34605" 
 		prestige = 5
-	}
+	}	
 }
 
 country_event = {
@@ -312,11 +309,11 @@ country_event = {
 		NOT = {
 			year = 1852
 		}
-
+	
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -324,7 +321,7 @@ country_event = {
 			factor = 0.75 #increase likelihood to happen
 			year = 1850
 		}
-
+		
 		modifier = {
 			factor = 0.95 #increase likelihood to happen
 			year = 1851
@@ -336,9 +333,9 @@ country_event = {
 	picture = "theatre"
 
 	option = {
-		name = "EVTOPTA34606"
+		name = "EVTOPTA34606" 
 		prestige = 3
-	}
+	}	
 }
 
 country_event = {
@@ -360,9 +357,9 @@ country_event = {
 			year = 1859
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -370,7 +367,7 @@ country_event = {
 			factor = 0.75 #increase likelihood to happen
 			year = 1850
 		}
-
+		
 		modifier = {
 			factor = 0.95 #increase likelihood to happen
 			year = 1851
@@ -382,7 +379,7 @@ country_event = {
 	picture = "krupp"
 
 	option = {
-		name = "EVTOPTA34607"
+		name = "EVTOPTA34607" 
 		social_reform = trinket_safety
 		capitalists = {
 			consciousness = 2
@@ -393,10 +390,10 @@ country_event = {
 		artisans = {
 			consciousness = 1
 		}
-	}
+	}	
 
 	option = {
-		name = "EVTOPTB34607"
+		name = "EVTOPTB34607" 
 		labourers = {
 			consciousness = 1
 		}
@@ -406,7 +403,7 @@ country_event = {
 		clerks = {
 			consciousness = 1
 		}
-	}
+	}	
 }
 
 country_event = {
@@ -428,9 +425,9 @@ country_event = {
 			year = 1843
 		}
 	}
-
+ 
  	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -450,13 +447,13 @@ country_event = {
 	picture = "prussian_child_labor_act"
 
 	option = {
-		name = "EVTOPTA34608"
+		name = "EVTOPTA34608" 
 		prestige = 2
 		social_reform = child_labor_restricted
 		any_pop = {
 			limit = { has_pop_culture = north_german }
 			consciousness = 1
-		}
+		}	
 		any_pop = {
 			limit = { has_pop_culture = south_german }
 			consciousness = 1
@@ -465,14 +462,14 @@ country_event = {
 			factor = 1
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB34608"
+		name = "EVTOPTB34608" 
 		prestige = -5
 		any_pop = {
 			limit = { has_pop_culture = north_german }
 			militancy = 3
-		}
+		}	
 		any_pop = {
 			limit = { has_pop_culture = south_german }
 			militancy = 3
@@ -505,9 +502,9 @@ country_event = {
 			year = 1841
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -515,7 +512,7 @@ country_event = {
 			factor = 0.75 #increase likelihood to happen
 			year = 1839
 		}
-
+		
 		modifier = {
 			factor = 0.95 #increase likelihood to happen
 			year = 1840
@@ -527,23 +524,23 @@ country_event = {
 	picture = "Mozart"
 
 	option = {
-		name = "EVTOPTA34100"
+		name = "EVTOPTA34100" 
 		set_country_flag = MozartFest1838
 		plurality = 1
 		farmers = {
-			consciousness = 1
+			consciousness = 1 
 		}
 		artisans = {
-			consciousness = 1
+			consciousness = 1 
 		}
 		craftsmen = {
-			consciousness = 1
+			consciousness = 1 
 		}
 		clerks = {
-			consciousness = 1
+			consciousness = 1 
 		}
 		labourers = {
-			consciousness = 1
+			consciousness = 1 
 		}
 	}
 }
@@ -560,9 +557,9 @@ country_event = {
 		NOT = { year = 1844 }
 		NOT = { crime_fighting = 0.9 }
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 24
 		modifier = {
@@ -595,9 +592,9 @@ country_event = {
 		primary_culture = north_german
 		528 = { NOT = { has_province_modifier = rebuilding_city } }
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  { days = 10 }
 
 	option = {
@@ -607,26 +604,26 @@ country_event = {
 		HAM = { treasury = 5000 }
 		528 = { infrastructure = 1 }
 		random_list = {
-			33 = { 528 = {
-			add_province_modifier = {
-				name = rebuilding_city
-				duration = 910
-						}
-					}
+			33 = { 528 = { 
+			add_province_modifier = { 
+				name = rebuilding_city 
+				duration = 910 
+						} 
+					} 
 				}
-			33 = { 528 = {
-				add_province_modifier = {
+			33 = { 528 = { 
+				add_province_modifier = { 
 					name = rebuilding_city
-					duration = 730
-							}
-						}
+					duration = 730 
+							} 
+						} 
 					}
-			33 = { 528 = {
-				add_province_modifier = {
-					name = rebuilding_city
-					duration = 550
-						}
-					}
+			33 = { 528 = { 
+				add_province_modifier = { 
+					name = rebuilding_city 
+					duration = 550 
+						} 
+					} 
 				}
 			}
 		diplomatic_influence = {
@@ -645,33 +642,33 @@ country_event = {
 				}
 			}
 		}
-
+	
 	option = {
 		name = "EVTOPTB34611"
 		clr_global_flag = hamburg_great_fire
 		treasury = -1000
 		HAM = { treasury = 1000 }
 		random_list = {
-			33 = { 528 = {
-				add_province_modifier = {
-					name = rebuilding_city
-					duration = 500
-						}
-					}
+			33 = { 528 = { 
+				add_province_modifier = { 
+					name = rebuilding_city 
+					duration = 500 
+						} 
+					} 
 				}
-			33 = { 528 = {
-				add_province_modifier = {
-					name = rebuilding_city
-					duration = 365
-						}
-					}
+			33 = { 528 = { 
+				add_province_modifier = { 
+					name = rebuilding_city 
+					duration = 365 
+						} 
+					} 
 				}
-			33 = { 528 = {
-				add_province_modifier = {
-					name = rebuilding_city
-					duration = 180
-						}
-					}
+			33 = { 528 = { 
+				add_province_modifier = { 
+					name = rebuilding_city 
+					duration = 180 
+						} 
+					} 
 				}
 			}
 		diplomatic_influence = {
@@ -690,7 +687,7 @@ country_event = {
 				}
 			}
 		}
-
+		
 	option = {
 		name = "EVTOPTC34611"
 		clr_global_flag = hamburg_great_fire
@@ -710,21 +707,26 @@ country_event = {
 			}
 		}
 	}
-
 }
-
+	
 country_event = {
 	id = 34612
 	title = "EVTNAME34612"
 	desc = "EVTDESC34612"
 	picture = "prussian_constitution"
-
+	news = yes
+	news_desc_long = "EVTDESC10229_NEWS_LONG"
+	news_desc_medium = "EVTDESC10229_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC10229_NEWS_SHORT"
+	major = yes 
+	fire_only_once = yes
+	
 	trigger = {
-		OR = {
+		OR = { 
 			tag = PRU
 			tag = NGF
 		}
-		year = 1847
+		has_country_modifier = springtime_of_nations
 		militancy = 4
 		OR = {
 			AND = {
@@ -737,52 +739,86 @@ country_event = {
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
+			government = absolute_empire
+			government = semi_constitutional_empire
 		}
-		has_country_flag = medicine_invented
 	}
-
-	fire_only_once = yes
-
+	
 	mean_time_to_happen = { months = 6 }
 
 	option = {
 		name = "EVTOPTA34612"
-		add_country_modifier = {
-			name = new_constitution
-			duration = 7300
-			}
+		prestige = -5
+		add_country_modifier = { name = new_constitution duration = 9125 }
 		political_reform = wealth_weighted_voting
 		political_reform = free_press
 		political_reform = yes_meeting
 		political_reform = no_trade_unions
 		political_reform = mandatory_service
 		social_reform = trinket_health_care
-		any_pop = { militancy = -4 }
-		any_pop = { scaled_militancy = {
-			factor = 3
-			ideology = reactionary
+		any_owned = {
+			limit = { is_colonial = no }
+			any_pop = {
+				limit = { is_culture_group = germanic }
+				militancy = -2
+				consciousness = -2
+				scaled_militancy = {
+					ideology = liberal
+					factor = -8
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = -6
+				}
+				scaled_consciousness = {
+					ideology = liberal
+					factor = -4
+				}
+				scaled_militancy = {
+					factor = 3
+					ideology = reactionary 
 				}
 			}
-		ai_chance = { factor = 99 }
+			remove_province_modifier = liberal_agitation
 		}
-
+		any_pop = {
+			limit = {
+				OR = {
+					strata = rich
+					strata = middle
+				}
+			}
+			ideology = { factor = 0.15 value = conservative }
+			ideology = { factor = 0.05 value = reactionary }
+			ideology = { factor = -0.15 value = liberal }
+		}
+		any_pop = {
+			limit = { strata = poor }
+			ideology = { factor = 0.05 value = conservative }
+			ideology = { factor = -0.05 value = liberal }
+		}
+		
+		ai_chance = { factor = 99 }
+	}
+	
 	option = {
 		name = "EVTOPTB34612"
+		prestige = 5
 		any_pop = { scaled_militancy = {
 			factor = -5
-			ideology = reactionary
+			ideology = reactionary 
 				}
 			}
 		any_pop = { scaled_militancy = {
 			factor = 6
-			ideology = liberal
+			ideology = liberal 
 				}
 			}
 		ai_chance = { factor = 1 }
 		}
 	}
-
-#Neuchatel revolution
+	
+#Neuchatel Revolution
 country_event = {
 	id = 34613
 	title = "EVTNAME34613"
@@ -791,11 +827,14 @@ country_event = {
 
 	trigger = {
 		tag = PRU
-		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+		OR = { 
 			government = hms_government
-		}
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = absolute_empire
+			government = semi_constitutional_empire
+			government = constitutional_empire
+		}	
 		NCT = {
 			exists = yes
 			ai = yes
@@ -808,9 +847,9 @@ country_event = {
 		war = no
 		year = 1842
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen = { months = 3 }
 
 	option = {
@@ -824,7 +863,7 @@ country_event = {
 		}
 		ai_chance = { factor = 0.95 }
 	}
-
+	
 	option = {
 		name = "EVTOPTB34613"
 		prestige = -5
@@ -869,14 +908,19 @@ country_event = {
 			}
 		}
 		exists = yes
-		NOT = { government = absolute_monarchy }
-		NOT = { government = prussian_constitutionalism }
-		NOT = { government = hms_government }
+		NOT = { 
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = absolute_empire
+			government = semi_constitutional_empire
+			government = constitutional_empire
+		}	
 		war = no
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen = { days = 1 }
 
 	option = {
@@ -914,9 +958,14 @@ country_event = {
 		NCT = {
 			ai = yes
 			exists = yes
-			NOT = { government = absolute_monarchy }
-			NOT = { government = prussian_constitutionalism }
-			NOT = { government = hms_government }
+			NOT = { 
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+				government = absolute_empire
+				government = semi_constitutional_empire
+				government = constitutional_empire
+			}	
 			OR = {
 				average_consciousness = 2
 				average_militancy = 1
@@ -940,9 +989,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen = { months = 36 }
 
 	option = {
@@ -951,7 +1000,7 @@ country_event = {
 		set_country_flag = neuchatel_crisis_escalated
 		SWI = {
 			set_country_flag = neutrality_violated
-			remove_country_modifier = neutrality
+			remove_country_modifier = neutrality_modifier
 			relation = { who = THIS value = -200 }
 			set_country_flag = neuchatel_crisis_escalated
 		}
@@ -971,7 +1020,7 @@ country_event = {
 			limit = {
 				primary_culture = french
 				capital = 425
-			}
+			}	
 			create_alliance = SWI
 			set_country_flag = supports_switzerland
 			relation = { who = THIS value = -200 }
@@ -1016,7 +1065,7 @@ country_event = {
 			modifier = { factor = 0 badboy = 0.01 }
 		}
 	}
-
+	
 	option = {
 		name = "EVTOPTB34615"
 		prestige = 5
@@ -1038,137 +1087,7 @@ country_event = {
 			}
 			annex_to = SWI
 		}
-		ai_chance = { factor = 0.94 }
-	}
-
-	option = {
-		name = "EVTOPTC34615"
-		badboy = 10
-		SWI = { country_event = 34617 }
-
-		ai_chance = { factor = 0.01 }
-	}
-}
-
-country_event = {
-	id = 34617
-	title = "EVTNAME34617"
-	desc = "EVTDESC34617"
-	picture = "neuchatel_canton"
-
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA34617"
-		PRU = { country_event = 34618 }
-
-		relation = { who = PRU value = -400 }
-
-		random_country = {
-			limit = {
-				exists = yes
-				tag = NCT
-				ai = yes
-				OR = {
-					vassal_of = SWI
-					is_vassal = no
-				}
-			}
-			annex_to = SWI
-		}
-		ai_chance = { factor = 0.05 }
-	}
-
-	option = {
-
-		name = "EVTOPTB34617"
-		PRU = { country_event = 34619 }
-
-		SWI = {
-			relation = { who = PRU value = -100 }
-		}
-		ENG = {
-			relation = { who = PRU value = -50 }
-		}
-		FRA = {
-			relation = { who = PRU value = -50 }
-		}
-
-		PRU = { treasury = -50000 }
-		SWI = { treasury = +50000 }
-		leave_alliance = NCT
-		release_vassal = NCT
-		608 = { remove_core = NGF }
-		608 = { remove_core = GER }
-		608 = { remove_core = PRU }
-		608 = { remove_core = NCT }
-		3314 = {
-			add_core = PRU
-			add_core = GER
-			remove_core = SWI
-			secede_province = PRU
-		}
-
-		random_country = {
-			limit = {
-				exists = yes
-				tag = NCT
-				ai = yes
-				OR = {
-					vassal_of = SWI
-					is_vassal = no
-				}
-			}
-			annex_to = SWI
-		}
 		ai_chance = { factor = 0.95 }
 	}
-
 }
 
-country_event = {
-	id = 34618
-	title = "EVTNAME34618" #swiss rejection
-	desc = "EVTDESC34618"
-	picture = "neuchatel_canton"
-
-    	is_triggered_only = yes
-
-   	fire_only_once = yes
-
-  	mean_time_to_happen = { days = 1 }
-
-	option = {
-        name = "EVTOPTA34618"
-
-		ENG = {
-			relation = { who = PRU value = -100 }
-		}
-		FRA = {
-			relation = { who = PRU value = -100 }
-		}
-		SWI = {
-			set_country_flag = neutrality_violated
-			remove_country_modifier = neutrality
-			add_country_modifier = { name = preparations_for_war duration = 370 }
-		}
-
-		random_owned = { limit = { owner = { ai = no } } owner = { casus_belli = { target = SWI type = humiliate months = 12 } } }
-		random_owned = { limit = { owner = { ai = yes } } owner = { casus_belli = { target = SWI type = humiliate_AI months = 12 } } }
-		add_country_modifier = { name = preparations_for_war duration = 370 }
-
-	}
-}
-
-country_event = {
-    id = 34619
-    title = "EVTNAME34619" #swiss acceptance
-    desc = "EVTDESC34619"
-    picture = "neuchatel_canton"
-
-    is_triggered_only = yes
-
-    option = {
-        name = "EVTOPTA34619"
-    }
-}

@@ -1,17 +1,16 @@
-
 country_event = {
 
 	id = 30000 
 
 	trigger = {
 		year = 1849
-		NOT = { year = 1935 }
-		NOT = { has_global_flag = PlanWorldFair }
+		not = { year = 1935 }
+		not = { has_global_flag = PlanWorldFair }
 		war = no 
 		civilized = yes
-		OR = { 
+		or = { 
 			industrial_score = 500 # limit to major non-western economies if not a GP
-			AND = {
+			and = {
 				is_greater_power = yes # nation is a great power
 				industrial_score = 200 
 			}
@@ -29,7 +28,7 @@ country_event = {
 		modifier = {
 			factor = 0.01
 			primary_culture = french
-			regenerative_furnaces = 1
+			invention = bessemer_steel
 			NOT = { has_country_flag = the_eiffel_tower_was_built }
 		}
 		
@@ -49,7 +48,28 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA30000" # let's organize it
-		money = -1000
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { money = 10000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 10 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { money = 10000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 10 } }
+        }
+        random_owned = {
+            limit = { owner = { money = 10000 } }
+            owner = { treasury = -10000 }
+        }
 		set_global_flag = PlanWorldFair
 		set_country_flag = world_fair_planner
 	}
@@ -67,7 +87,7 @@ country_event = {
 		has_global_flag = PlanWorldFair
 		has_country_flag = world_fair_planner
 		year = 1849
-		NOT = { 
+		not = { 
 			year = 1935 
 		}
 		war = no 
@@ -117,14 +137,14 @@ country_event = {
 
 	trigger = {
 		year = 1849
-		NOT = { year = 1935 }
-		NOT = { has_global_flag = PlanRegionalFair }
-		NOT = { has_country_flag = regionalfairplanner }
+		not = { year = 1935 }
+		not = { has_global_flag = PlanRegionalFair }
+		not = { has_country_flag = regionalfairplanner }
 		war = no 
 		civilized = yes
-		OR = {
+		or = {
 			industrial_score = 75 # limit to major non-western economies if not a GP
-			AND = {
+			and = {
 				is_greater_power = yes # nation is a great power
 				industrial_score = 50 
 			}
@@ -182,7 +202,7 @@ country_event = {
 		has_global_flag = PlanRegionalFair
 		has_country_flag = regionalfairplanner
 		year = 1849
-		NOT = { year = 1935 }
+		not = { year = 1935 }
 		war = no 
 	}
  
@@ -229,9 +249,9 @@ country_event = {
 
 	trigger = {
 		year = 1880
-		NOT = { year = 1935 }
-		NOT = { has_global_flag = PlanColonialFair }
-		NOT = { has_country_flag = colonialfairplanner }
+		not = { year = 1935 }
+		not = { has_global_flag = PlanColonialFair }
+		not = { has_country_flag = colonialfairplanner }
 		war = no
 		colonial_nation = yes 
 		civilized = yes
@@ -279,7 +299,7 @@ country_event = {
 		has_global_flag = PlanColonialFair
 		has_country_flag = colonialfairplanner
 		year = 1882
-		NOT = { year = 1935 }
+		not = { year = 1935 }
 		war = no 
 	}
  

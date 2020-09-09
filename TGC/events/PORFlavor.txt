@@ -1,8 +1,8 @@
-# The revolution of Maria de Fonte Events
+# The Revolution of Maria de Fonte events
 country_event = {
 
 	id = 97000
-	title = "EVTNAME97000" #The revolution of Maria de Fonte
+	title = "EVTNAME97000" #The Revolution of Maria de Fonte
 	desc = "EVTDESC97000"
 	news = yes
 	news_desc_long = "EVTDESC97000_NEWS_LONG"
@@ -14,7 +14,10 @@ country_event = {
 
 	trigger = {
 		tag = POR
-		government = hms_government
+		OR = {
+			government = hms_government
+			government = constitutional_empire
+		}
 		has_global_flag = liberal_revolution_somewhere
 		NOT = { ruling_party_ideology = reactionary }
 		NOT = {
@@ -44,7 +47,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA97000"
+		name = "EVT97000OPTA"
 		set_country_flag = maria_de_fonte_revolution
 		random_owned = {
 			limit = {
@@ -73,14 +76,17 @@ country_event = {
 province_event = {
 	
 	id = 97001
-	title = "EVTNAME97001" #Peasant revolt
+	title = "EVTNAME97001" #Peasant Revolt
 	desc = "EVTDESC97001"
 	
 	trigger = {
 		owner = {
 			tag = POR
 			has_country_flag = maria_de_fonte_revolution
-			government = hms_government
+			OR = {
+				government = hms_government
+				government = constitutional_empire
+			}
 			NOT = { ruling_party_ideology = reactionary }
 		}
 		is_capital = no
@@ -96,7 +102,7 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA97001"
+		name = "EVT97001OPTA"
 		add_province_modifier = {
 			name = peasant_revolt
 			duration = 365
@@ -115,7 +121,7 @@ province_event = {
 country_event = {
 	
 	id = 97002
-	title = "EVTNAME97002" #End of the revolution
+	title = "EVTNAME97002" #End of the Revolution
 	desc = "EVTDESC97002"
 	picture = "administration"
 
@@ -132,7 +138,10 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.1
-			NOT = { government = hms_government }
+			NOT = { 
+				government = hms_government 
+				government = constitutional_empire
+			}
 		}
 		modifier = {
 			factor = 0.1
@@ -145,7 +154,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA97002"
+		name = "EVT97002OPTA"
 		prestige = 10
 		any_owned = {
 			limit = { has_province_modifier = peasant_revolt }
@@ -176,7 +185,10 @@ country_event = {
 		tag = POR
 		has_country_flag = maria_de_fonte_revolution
 		any_owned_province = { has_province_modifier = peasant_revolt }
-		government = hms_government
+		OR = {
+			government = hms_government
+			government = constitutional_empire
+		}
 		NOT = { ruling_party_ideology = reactionary }
 	}
 
@@ -197,12 +209,20 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA97003"
+		name = "EVT97003OPTA"
 		prestige = -5
 		ruling_party_ideology = reactionary
 		political_reform = appointed
 		political_reform = harassment
 		government = prussian_constitutionalism
+        clr_country_flag = election_started
+        clr_country_flag = conservative_party_in_power
+        clr_country_flag = liberal_party_in_power
+        set_country_flag = reactionary_party_in_power
+        clr_country_flag = socialist_party_in_power
+        clr_country_flag = communist_party_in_power
+        clr_country_flag = fascist_party_in_power
+        clr_country_flag = anarcho_liberal_party_in_power
 		
 		add_country_modifier = {
 			name = national_confusion
@@ -265,7 +285,7 @@ country_event = {
 	mean_time_to_happen = { months = 1 }
 	
 	option = {
-		name = "EVTOPTA97006"
+		name = "EVT97006OPTA"
 		random_owned = {
 			limit = {
 				2002 = { empty = no }
@@ -293,7 +313,7 @@ country_event = {
 				2008 = { empty = no }
 				2010 = { empty = no }
 				2011 = { empty = yes }
-				2010 = { owned_by = THIS }
+				2009 = { owned_by = THIS }
 			}
 			owner = { prestige = 2 }
 			2011 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
@@ -408,6 +428,9 @@ country_event = {
 			2581 = { empty = yes } #Mataka
 			2054 = { empty = yes } #Tete
 			2056 = { empty = yes } #Zumbo
+			2065 = { empty = yes } #Milange
+			2064 = { empty = yes } #Nampula
+			2063 = { empty = yes } #Ibo
 		}
 	}
 
@@ -416,7 +439,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA97006"
+		name = "EVT97006OPTA"
 		random_owned = {
 			limit = {
 				2581 = { empty = no }
@@ -428,7 +451,7 @@ country_event = {
 				2055 = { owned_by = THIS }
 			}
 			owner = { prestige = 2 }
-			2056 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
+			2056 = { secede_province = THIS any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
 		}
 		random_owned = {
 			limit = {
@@ -440,7 +463,7 @@ country_event = {
 				2054 = { owned_by = THIS }
 			}
 			owner = { prestige = 2 }
-			2055 = { secede_province = POR }
+			2055 = { secede_province = THIS }
 		}
 		random_owned = {
 			limit = {
@@ -451,7 +474,7 @@ country_event = {
 				2058 = { owned_by = THIS }
 			}
 			owner = { prestige = 2 }
-			2054 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
+			2054 = { secede_province = THIS any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
 		}
 		random_owned = {
 			limit = {
@@ -464,7 +487,7 @@ country_event = {
 				}
 			}
 			owner = { prestige = 2 }
-			2058 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } }
+			2058 = { secede_province = THIS any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } }
 		}
 		random_owned = {
 			limit = {
@@ -476,7 +499,7 @@ country_event = {
 				}
 			}
 			owner = { prestige = 2 }
-			2052 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } }
+			2052 = { secede_province = THIS any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } }
 		}
 		random_owned = {
 			limit = {
@@ -487,7 +510,31 @@ country_event = {
 				}
 			}
 			owner = { prestige = 2 }
-			2581 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 20 }
+			2581 = { secede_province = THIS any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 20 }
+		}
+		random_owned = {
+			limit = {
+				2063 = { empty = yes }
+				2064 = { owned_by = THIS }
+			}
+			owner = { prestige = 2 }
+			2063 = { secede_province = THIS any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
+		}
+		random_owned = {
+			limit = {
+				2065 = { empty = yes }
+				2059 = { owned_by = THIS }
+			}
+			owner = { prestige = 2 }
+			2065 = { secede_province = THIS any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
+		}
+		random_owned = {
+			limit = {
+				2065 = { empty = yes }
+				2061 = { owned_by = THIS }
+			}
+			owner = { prestige = 2 }
+			2064 = { secede_province = THIS any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
 		}
 	}
 }
@@ -501,7 +548,7 @@ country_event = {
 	is_triggered_only = yes	
 	
 	option = {
-		name = "EVTOPTA97008"
+		name = "EVT97008OPTA"
 		prestige = 5
 		relation = {
 			who = FROM
@@ -530,7 +577,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB97008"
+		name = "EVT97008OPTB"
 		prestige = -5
 		relation = {
 			who = FROM
@@ -551,7 +598,7 @@ country_event = {
 	is_triggered_only = yes	
 	
 	option = {
-		name = "EVTOPTA97008"
+		name = "EVT97008OPTA"
 		prestige = 5
 		relation = {
 			who = FROM
@@ -577,7 +624,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB97008"
+		name = "EVT97008OPTB"
 		prestige = -5
 		relation = {
 			who = FROM
@@ -600,7 +647,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA97010"
+		name = "EVT97010OPTA"
 		prestige = -20
 		FROM = { country_event = 97011 }
 		relation = {
@@ -619,7 +666,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB97010"
+		name = "EVT97010OPTB"
 		prestige = 5
 		FROM = { country_event = 97012 }
 		relation = {
@@ -651,7 +698,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA97011"
+		name = "EVT97011OPTA"
 		prestige = 10
 		FROM = {
 			any_owned = {
@@ -682,7 +729,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA97012"
+		name = "EVT97012OPTA"
 		prestige = -10
 		casus_belli = {
 			target = FROM
@@ -711,11 +758,14 @@ country_event = {
 	trigger = {
 		tag = POR
 		year = 1905
-			OR = {
-		government = hms_government
-		government = prussian_constitutionalism
-		government = absolute_monarchy
-				}
+		OR = { 
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+			government = absolute_empire
+			government = semi_constitutional_empire
+			government = constitutional_empire
+		}	
 		NOT = {
 			has_country_flag = regicide_king_carlos
 			year = 1915
@@ -759,7 +809,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA97015"
+		name = "EVT97015OPTA"
 		set_country_flag = regicide_king_carlos
 		prestige = -2
 		add_country_modifier = {
@@ -822,7 +872,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA97020"
+		name = "EVT97020OPTA"
 		prestige = -10
 		ruling_party_ideology = liberal
 		government = democracy
@@ -833,6 +883,15 @@ country_event = {
 		political_reform = non_socialist
 		political_reform = gerrymandering
 		political_reform = no_slavery
+        clr_country_flag = election_started
+        clr_country_flag = conservative_party_in_power
+        clr_country_flag = liberal_party_in_power
+        clr_country_flag = reactionary_party_in_power
+        clr_country_flag = socialist_party_in_power
+        clr_country_flag = communist_party_in_power
+        clr_country_flag = fascist_party_in_power
+        clr_country_flag = anarcho_liberal_party_in_power
+
 		random_owned = {
 			limit = { owner = { NOT = { child_labor = child_labor_illegal } } }
 			owner = { social_reform = child_labor_restricted }
@@ -846,7 +905,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB97020"
+		name = "EVT97020OPTB"
 		set_country_flag = regicide_king_carlos
 		prestige = -2
 		add_country_modifier = {
@@ -905,7 +964,7 @@ country_event = {
 	mean_time_to_happen = { days = 10 }
 
 	option = {
-		name = "EVTOPTA49514"
+		name = "EVT49514OPTA"
 		prestige = 2
 		2581 = {
 			secede_province = THIS
@@ -914,8 +973,9 @@ country_event = {
 		}
 		ai_chance = { factor = 100 }
 	}
+	
 	option = {
-		name = "EVTOPTB49514"
+		name = "EVT49514OPTB"
 		prestige = -5
 		ai_chance = { factor = 0 }
 	}
@@ -931,7 +991,7 @@ country_event = {
 	
 	trigger = {
 		tag = POR
-		year = 1850
+		year = 1845
 		2049 = { owner = { civilized = no ai = yes war = no } }
 		2050 = { owner = { civilized = no ai = yes war = no } }
 	}
@@ -941,7 +1001,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		name = "EVTOPTA49516"
+		name = "EVT49516OPTA"
 		prestige = 2
 		2049 = { owner = { relation = { who = THIS value = -250 } } }
 		2049 = {
@@ -949,11 +1009,11 @@ country_event = {
 			any_pop = { reduce_pop = 0.9 }
 			change_province_name = "Lourenço Marques"
 		}
-		2050 = {
+		2051 = {
 			secede_province = THIS
-			change_province_name = "Manjacaze"
+			change_province_name = "Terra de Boa Gente"
+			state_scope = { change_region_name = "Lourenço Marques" } 
 		}
-		2051 = { state_scope = { change_region_name = "Lourenço Marques" } }
 	}
 }
 
@@ -980,7 +1040,7 @@ country_event = {
 	mean_time_to_happen = { months = 6 }
 
 	option = {
-		name = "EVTOPTA49517"
+		name = "EVT49517OPTA"
 		GAZ = {
 			any_pop = { militancy = 6 }
 			random_owned = { limit = { province_id = 2057 } secede_province = THIS }
@@ -1001,13 +1061,13 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA49518"
+		name = "EVT49518OPTA"
 		relation = { who = FROM value = 25 }
 		ai_chance = { factor = 0.75 }
 	}
 	
 	option = {
-		name = "EVTOPTB49518"
+		name = "EVT49518OPTB"
 		badboy = 2
 		relation = { who = FROM value = -50 }
 		casus_belli = { target = FROM type = add_to_sphere months = 24 }

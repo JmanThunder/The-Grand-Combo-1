@@ -2,7 +2,7 @@
 #
 # Assimilation Troubles
 #
-# event IDs 2000 - 2500 are reserved for this. DO NOT CHANGE.
+# Event IDs 2000 - 2500 are reserved for this. DO NOT CHANGE.
 #
 ###########################################################################
 
@@ -366,7 +366,7 @@ province_event = {
 			citizenship_policy = residency
 			public_meetings = yes_meeting
 		}
-		OR = {
+		or = {
 			full_citizenship = 10
 			limited_citizenship = 10
 		}

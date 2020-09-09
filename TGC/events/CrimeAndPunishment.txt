@@ -115,10 +115,8 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA22010"
-		add_country_modifier = {
-			name = penal_colonies
-			duration = -1
-		}
+		add_country_modifier = { name = penal_colonies duration = -1 }
+		social_reform = colonial_transportation
 	}
 	
 	option = {
@@ -129,7 +127,7 @@ country_event = {
 	}
 }
 
-# Penal Colony Gone (Cleanup event)
+# Penal Colony Gone (Cleanup Event)
 country_event = {
 	id = 22011
 	title = "EVTNAME22011"

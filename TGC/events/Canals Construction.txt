@@ -1,15 +1,39 @@
-#The Suez Canal Company
+#The Suez Canal Construction
 country_event = {
 	id = 36970
 	title = "EVTNAME36970"
 	desc = "EVTDESC36970"
 	picture = "Suez3"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
-		name = "EVTOPTA36970"
-		treasury = -500000
+		name = "EVT36970OPTA"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 3000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 3000 } }
+        }
+
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 3000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 3000 } }
+        }
+
+        # random_owned = {
+            # owner = { country = { treasury = 3000000 } }
+            # limit = { owner = { treasury = -3000000 } }
+        # }
+
 		set_global_flag = suez_canal_construction
 		random_list = {
 			35 = { 1755 = { add_province_modifier = { name = suez_canal_construction duration = 2190 } } }
@@ -20,14 +44,35 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 20
-			modifier = { factor = 0 NOT = { money = 501000 } }
-			modifier = { factor = 100 money = 501000 }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB36970"
-		treasury = -400000
+		name = "EVT36970OPTB"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 2500000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 2500 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 2500000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 2500 } }
+        }
+
+        # random_owned = {
+            # limit = { owner = { treasury = 2500000 } }
+            # owner = { treasury = -2500000 }
+        # }
+
 		set_global_flag = suez_canal_construction
 		random_list = {
 			30 = { 1755 = { add_province_modifier = { name = suez_canal_construction duration = 2555 } } }
@@ -38,14 +83,33 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 20
-			modifier = { factor = 0 NOT = { money = 401000 } }
-			modifier = { factor = 100 NOT = { money = 501000 } money = 401000 }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTC36970"
-		treasury = -300000
+		name = "EVT36970OPTC"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 2000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 2000 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 2000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 2000 } }
+        }
+        random_owned = {
+            limit = { owner = { treasury = 2000000 } }
+            owner = { treasury = -2000000 }
+        }
 		set_global_flag = suez_canal_construction
 		random_list = {
 			40 = { 1755 = { add_province_modifier = { name = suez_canal_construction duration = 3285 } } }
@@ -56,14 +120,33 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 20
-			modifier = { factor = 0 NOT = { money = 301000 } }
-			modifier = { factor = 100 NOT = { money = 401000 } money = 301000 }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTD36970"
-		treasury = -275000
+		name = "EVT36970OPTD"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 1500000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 1500 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 1500000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 1500 } }
+        }
+        random_owned = {
+            limit = { owner = { treasury = 1500000 } }
+            owner = { treasury = -1500000 }
+        }
 		set_global_flag = suez_canal_construction
 		random_list = {
 			30 = { 1755 = { add_province_modifier = { name = suez_canal_construction duration = 2920 } } }
@@ -74,14 +157,33 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 20
-			modifier = { factor = 0 NOT = { money = 275000 } }
-			modifier = { factor = 100 NOT = { money = 301000 } money = 275000 }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTE36970"
-		treasury = -250000
+		name = "EVT36970OPTE"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 1000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 1000 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 1000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 1000 } }
+        }
+        random_owned = {
+            limit = { owner = { treasury = 1000000 } }
+            owner = { treasury = -1000000 }
+        }
 		set_global_flag = suez_canal_construction
 		random_list = {
 			40 = { 1755 = { add_province_modifier = { name = suez_canal_construction duration = 3285 } } }
@@ -92,7 +194,6 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 20
-			modifier = { factor = 0 money = 251000 }
 		}
 	}
 }
@@ -103,9 +204,9 @@ country_event = {
 	title = "EVTNAME36971"
 	desc = "EVTDESC36971"
 	picture = "suez_canal_built"
-
+	
 	fire_only_once = yes
-
+	
 	trigger = {
 		has_global_flag = suez_canal_built
 		has_global_flag = suez_canal_construction
@@ -115,15 +216,15 @@ country_event = {
 			1755 = { has_province_modifier = suez_canal_construction }
 		}
 	}
-
+	
 	mean_time_to_happen = { days = 1 }
-
+			
 	option = {
-		name = "EVTOPTA36971"
+		name = "EVT36971OPTA"
 		set_global_flag = suez_inauguration
 		set_country_flag = suez_builder
 		clr_global_flag = suez_canal_construction
-		prestige = 5
+        prestige = 20
 		enable_canal = 2
 		1755 = {
 			trade_goods = precious_goods
@@ -153,8 +254,8 @@ country_event = {
 		random_owned = {
 			limit = {
 				province_id = 1755
-				EGY = {
-					exists = yes
+				EGY = { 
+					exists = yes 
 					owns = 1757
 				}
 			}
@@ -170,46 +271,58 @@ country_event = {
 		}
 	}
 }
-
-#owner the canal crosses
+		
+#owner the canal crosses	
 country_event = {
 	id = 36972
-	title = "EVTNAME36972"
+	title = "EVTNAME36972"		
 	desc = "EVTDESC36972"
 	picture = "suez_crossing"
-
+	
 	fire_only_once = yes
-
+	
 	trigger = {
 		is_greater_power = yes
 		has_country_flag = suez_builder
 		has_global_flag = suez_inauguration
 		is_canal_enabled = 2
 	}
-
+	
 		mean_time_to_happen = {
 			days = 30
-			modifier = { factor = 0.5 OR = { num_of_ports = 40 total_amount_of_ships = 60 } }
-			modifier = { factor = 0.8 total_sunk_by_us = 60 }
-			modifier = { factor = 0.9 rank = 1 }
+            modifier = {
+                factor = 0.5
+                    OR = {
+                        num_of_ports = 40
+                        total_amount_of_ships = 60
+                    }
+            }
+            modifier = {
+                factor = 0.8
+                total_sunk_by_us = 60
+            }
+            modifier = {
+                factor = 0.9
+                NOT = { rank = 2 }
+            }
 		}
-
+			
 	option = {
-		name = "EVTOPTA36972"
+		name = "EVT36972OPTA"
 		clr_global_flag = suez_inauguration
-		prestige = 5
+        prestige = 20
 	}
 }
 
 #someone else crosses the channel
 country_event = {
 	id = 36973
-	title = "EVTNAME36973"
+	title = "EVTNAME36973"		
 	desc = "EVTDESC36973"
 	picture = "suez_crossing"
-
+	
 	fire_only_once = yes
-
+	
 	trigger = {
 		is_greater_power = yes
 		colonial_nation = yes
@@ -223,19 +336,19 @@ country_event = {
 			rank = 1
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		days = 40
 		modifier = { factor = 0.6 OR = { num_of_ports = 100 total_amount_of_ships = 200 } }
 		modifier = { factor = 0.75 total_sunk_by_us = 60 }
 		modifier = { factor = 0.75 rank = 1 }
 	}
-
+			
 	option = {
-		name = "EVTOPTA36973"
+		name = "EVT36973OPTA"
 		any_country = { limit = { owns = 1755 } country_event = 36974 }
 		clr_global_flag = suez_inauguration
-		prestige_factor = 0.05
+        prestige = 20
 	}
 }
 
@@ -245,31 +358,31 @@ country_event = {
 	title = "EVTNAME36974"
 	desc = "EVTDESC36974"
 	picture = "suez_crossing"
-
+	
 	is_triggered_only = yes
-
+			
 	option = {
-		name = "EVTOPTA36974"
-		relation = { who = FROM value = -25 }
+		name = "EVT36974OPTA"
+        relation = { who = FROM value = -10 }
 	}
 }
 
-
+	
 #Intervention in Egypt
 country_event = {
 	id = 36975
 	title = "EVTNAME36975"
 	desc = "EVTDESC36975"
 	picture = "deliberation"
-
+	
 	trigger = {
 		is_greater_power = yes
 		nationalism_n_imperialism = 1
 		is_canal_enabled = 2
 		owns = 1755
 		NOT = {
-			#war_policy = pacifism
-			has_country_modifier = neutrality
+            war_policy = pacifism
+			has_country_modifier = neutrality_modifier
 			has_country_flag = suez_egypt_intervention
 		}
 		EGY = {
@@ -294,7 +407,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		months = 12
 		modifier = {
@@ -315,11 +428,11 @@ country_event = {
 				NOT = { revolt_percentage = 0.25 }
 				NOT = { capital_scope = { controlled_by_rebels = yes } }
 			}
-		}
+		}	
 	}
-
+	
 	option = {
-		name = "EVTOPTA36975"
+		name = "EVT36975OPTA"
 		set_country_flag = suez_egypt_intervention
 		badboy = 3
 		leave_alliance = EGY
@@ -363,9 +476,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB36975"
+		name = "EVT36975OPTB"
 		set_country_flag = suez_egypt_intervention
 		badboy = -1
 		prestige = -10
@@ -389,12 +502,33 @@ country_event = {
 	title = "EVTNAME36976"
 	desc = "EVTDESC36976"
 	picture = "kiel_canal_construction"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
-		name = "EVTOPTA369706"
-		treasury = -125000
+		name = "EVT369706PTA"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 1500000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 1500 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 1500000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 1500 } }
+        }
+        random_owned = {
+            limit = { owner = { treasury = 1500000 } }
+            owner = { treasury = -1500000 }
+        }
 		set_global_flag = kiel_canal_construction
 		random_list = {
 			60 = { 369 = { add_province_modifier = { name = kiel_canal_construction duration = 2555 } } }
@@ -403,14 +537,33 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0.33
-			modifier = { factor = 0 NOT = { money = 125000 } }
-			modifier = { factor = 100 money = 125000 }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB369706"
-		treasury = -95000
+		name = "EVT369706PTB"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 1000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 1000 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 1000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 1000 } }
+        }
+        random_owned = {
+            limit = { owner = { treasury = 1000000 } }
+            owner = { treasury = -1000000 }
+        }
 		set_global_flag = kiel_canal_construction
 		random_list = {
 			40 = { 369 = { add_province_modifier = { name = kiel_canal_construction duration = 2920 } } }
@@ -418,15 +571,34 @@ country_event = {
 			30 = { 369 = { add_province_modifier = { name = kiel_canal_construction duration = 3285 } } }
 		}
 		ai_chance = {
-			factor = 0.33
-			modifier = { factor = 0 NOT = { money = 95000 } }
-			modifier = { factor = 100 money = 95000 NOT = { money = 125000 } }
+            factor = 0.34
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTC369706"
-		treasury = -75000
+		name = "EVT369706PTC"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 500000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 500 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 500000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 500 } }
+        }
+        random_owned = {
+            limit = { owner = { treasury = 500000 } }
+            owner = { treasury = -500000 }
+        }
 		set_global_flag = kiel_canal_construction
 		random_list = {
 			55 = { 369 = { add_province_modifier = { name = kiel_canal_construction duration = 3285 } } }
@@ -434,8 +606,7 @@ country_event = {
 			15 = { 369 = { add_province_modifier = { name = kiel_canal_construction duration = 2555 } } }
 		}
 		ai_chance = {
-			factor = 0.34
-			modifier = { factor = 0 money = 75000 }
+            factor = 0.33
 		}
 	}
 }
@@ -446,9 +617,9 @@ country_event = {
 	title = "EVTNAME36977"
 	desc = "EVTDESC36977"
 	picture = "kiel_canal_finished"
-
+	
 	fire_only_once = yes
-
+	
 	trigger = {
 		has_global_flag = kiel_canal_construction
 		owns = 369
@@ -457,30 +628,51 @@ country_event = {
 			369 = { has_province_modifier = kiel_canal_construction }
 		}
 	}
-
+	
 		mean_time_to_happen = { days = 5 }
-
+			
 	option = {
-		name = "EVTOPTA36977"
+		name = "EVT36977OPTA"
 		clr_global_flag = kiel_canal_construction
 		enable_canal = 1
 		369 = { set_province_flag = kiel_canal }
-		prestige = 5
+        prestige = 15
 	}
 }
-
+		
 #The Panama Canal Construction
 country_event = {
 	id = 36978
 	title = "EVTNAME36978"
 	desc = "EVTDESC36978"
 	picture = "panama_canal_construction"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
-		name = "EVTOPTA36978"
-		treasury = -500000
+		name = "EVT36978OPTA"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 6000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 6000 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 6000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 6000 } }
+        }
+        # random_owned = {
+            # limit = { owner = { treasury = 6000000 } }
+            # owner = { treasury = -6000000 }
+        # }
 		set_global_flag = panama_canal_construction
 		random_list = {
 			35 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 2920 } } }
@@ -491,14 +683,33 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0.25
-			modifier = { factor = 0 NOT = { money = 500100 } }
-			modifier = { factor = 100 money = 500100 }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB36978"
-		treasury = -450000
+		name = "EVT36978OPTB"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 5000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 5000 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 5000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 5000 } }
+        }
+        # random_owned = {
+            # limit = { owner = { treasury = 5000000 } }
+            # owner = { treasury = -5000000 }
+        # }
 		set_global_flag = panama_canal_construction
 		random_list = {
 			30 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 2920 } } }
@@ -509,14 +720,33 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0.25
-			modifier = { factor = 0 NOT = { money = 450000 } }
-			modifier = { factor = 100 money = 350000 NOT = { money = 450000 } }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTC36978"
-		treasury = -350000
+		name = "EVT36978OPTC"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 4000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 4000 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 4000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 4000 } }
+        }
+        # random_owned = {
+            # limit = { owner = { treasury = 4000000 } }
+            # owner = { treasury = -4000000 }
+        # }
 		set_global_flag = panama_canal_construction
 		random_list = {
 			40 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 2920 } } }
@@ -527,14 +757,33 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0.25
-			modifier = { factor = 0 NOT = { money = 350000 } }
-			modifier = { factor = 100 money = 350000 NOT = { money = 450000 } }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTD36978"
-		treasury = -300000
+		name = "EVT36978OPTD"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 3000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 3000 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 3000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 3000 } }
+        }
+        # random_owned = {
+            # limit = { owner = { treasury = 3000000 } }
+            # owner = { treasury = -3000000 }
+        # }
 		set_global_flag = panama_canal_construction
 		random_list = {
 			30 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 3650 } } }
@@ -545,14 +794,33 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0.25
-			modifier = { factor = 0 NOT = { money = 300000 } }
-			modifier = { factor = 100 money = 300000 NOT = { money = 450000 } }
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTE36978"
-		treasury = -250000
+		name = "EVT36978OPTE"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 2000000 }
+                    check_variable = { which = owed_cash_money value = 9 }
+                }
+            }
+            owner = { change_variable = { which = owed_cash_money value = 2000 } }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { treasury = 2000000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 2000 } }
+        }
+        random_owned = {
+            limit = { owner = { treasury = 2000000 } }
+            owner = { treasury = -2000000 }
+        }
 		set_global_flag = panama_canal_construction
 		random_list = {
 			40 = { 1723 = { add_province_modifier = { name = panama_canal_construction duration = 3650 } } }
@@ -563,7 +831,6 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0.25
-			modifier = { factor = 0 money = 250000 }
 		}
 	}
 }
@@ -574,9 +841,9 @@ country_event = {
 	title = "EVTNAME36979"
 	desc = "EVTDESC36979"
 	picture = "panama_canal_finished"
-
+	
 	fire_only_once = yes
-
+	
 	trigger = {
 		has_global_flag = panama_canal_construction
 		owns = 1723
@@ -585,15 +852,15 @@ country_event = {
 			1723 = { has_province_modifier = panama_canal_construction }
 		}
 	}
-
+	
 		mean_time_to_happen = { days = 5 }
-
+			
 	option = {
-		name = "EVTOPTA36979"
+		name = "EVT36979OPTA"
 		enable_canal = 3
-		prestige = 20
+        prestige = 75
 		clr_global_flag = panama_canal_construction
-			1723 = {
+			1723 = { 
 				trade_goods = precious_goods
 				set_province_flag = panama_canal
 				any_pop = {
@@ -629,18 +896,18 @@ country_event = {
 		}
 	}
 }
-
+		
 #The Canals are Seized - Bankrupt
 country_event = {
 	id = 36980
 	title = "EVTNAME36980"
 	desc = "EVTDESC36980"
 	picture = "suez_canal_built"
-
+	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA36980"
+		name = "EVT36980OPTA"
 		random_country = {
 			limit = { tag = FROM NOT = { is_sphere_leader_of = THIS } }
 			money = -200000
@@ -665,17 +932,17 @@ country_event = {
 	title = "EVTNAME36981"
 	desc = "EVTDESC36981"
 	picture = "Suez3"
-
+	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA36981"
+		name = "EVT36981OPTA"
 		treasury = 50000
 		random_owned = {
 			limit = { owner = { civilized = no } }
-			owner = {
+			owner = { 
 				plurality = -10
-				economic_reform = yes_finance_reform
+				economic_reform = yes_finance_reform 
 			}
 		}
 		relation = { who = FROM value = 100 }
@@ -694,11 +961,11 @@ country_event = {
 	title = "EVTNAME36981"
 	desc = "EVTDESC36981"
 	picture = "Suez3"
-
+	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA36981"
+		name = "EVT36981OPTA"
 		treasury = 450000
 		plurality = -15
 		relation = { who = FROM value = 100 }

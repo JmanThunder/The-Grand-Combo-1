@@ -169,13 +169,13 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
-		NOT = { has_country_modifier = neutrality }
+		NOT = { has_country_modifier = neutrality_modifier }
 		is_greater_power = yes
 		prestige = 100
 		any_greater_power = {
 			prestige = 100
 			NOT = {
-				has_country_modifier = neutrality
+				has_country_modifier = neutrality_modifier
 				war_with = THIS
 				truce_with = THIS			
 				relation = {
@@ -241,7 +241,7 @@ country_event = {
 				is_greater_power = yes
 				prestige = 100
 				NOT = {
-					has_country_modifier = neutrality
+					has_country_modifier = neutrality_modifier
 					war_with = THIS
 					truce_with = THIS			
 					relation = {
@@ -265,11 +265,12 @@ country_event = {
 			factor = 45
 			modifier = {
 				factor = 0.75
-				government = democracy
-			}
-			modifier = {
-				factor = 0.75
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = dominion
+					government = democracy
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 1.25
@@ -297,7 +298,7 @@ country_event = {
 				is_greater_power = yes
 				prestige = 100
 				NOT = {
-					has_country_modifier = neutrality
+					has_country_modifier = neutrality_modifier
 					war_with = THIS
 					truce_with = THIS			
 					relation = {
@@ -316,11 +317,12 @@ country_event = {
 			factor = 55
 			modifier = {
 				factor = 1.25
-				government = democracy
-			}
-			modifier = {
-				factor = 1.25
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = dominion
+					government = democracy
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -352,7 +354,7 @@ country_event = {
 	picture = "patrol"
 	
 	trigger = {
-		NOT = { has_country_modifier = neutrality }
+		NOT = { has_country_modifier = neutrality_modifier }
 		ai = no
 		war = no
 		colonial_nation = yes
@@ -366,7 +368,7 @@ country_event = {
 					NOT = {
 						war_with = THIS
 						truce_with = THIS
-						has_country_modifier = neutrality
+						has_country_modifier = neutrality_modifier
 						relation = {
 							who = THIS
 							value = 50
@@ -463,7 +465,7 @@ country_event = {
 						NOT = {
 							war_with = THIS
 							truce_with = THIS
-							has_country_modifier = neutrality
+							has_country_modifier = neutrality_modifier
 							relation = {
 								who = THIS
 								value = 100
@@ -481,7 +483,7 @@ country_event = {
 						NOT = {
 							war_with = THIS
 							truce_with = THIS
-							has_country_modifier = neutrality
+							has_country_modifier = neutrality_modifier
 							relation = {
 								who = THIS
 								value = 100
@@ -526,7 +528,7 @@ country_event = {
 	
 	trigger = {
 		num_of_ports = 1
-		NOT = { has_country_modifier = neutrality }
+		NOT = { has_country_modifier = neutrality_modifier }
 		economic_policy = laissez_faire	
 		OR = {
 			war_policy = jingoism
@@ -537,7 +539,7 @@ country_event = {
 			num_of_ports = 1
 			NOT = {
 				economic_policy = laissez_faire
-				has_country_modifier = neutrality
+				has_country_modifier = neutrality_modifier
 				relation = {
 					who = THIS
 					value = 100
@@ -612,7 +614,7 @@ country_event = {
 				neighbour = THIS
 				NOT = {
 					economic_policy = laissez_faire
-					has_country_modifier = neutrality			
+					has_country_modifier = neutrality_modifier			
 					relation = {
 						who = THIS
 						value = 100
@@ -651,7 +653,7 @@ country_event = {
 			colonial_nation = yes
 			civilized = yes
 			NOT = {				
-				has_country_modifier = neutrality			
+				has_country_modifier = neutrality_modifier			
 				relation = {
 					who = THIS
 					value = 100
@@ -737,7 +739,7 @@ country_event = {
 				colonial_nation = yes
 				civilized = yes
 				NOT = {				
-					has_country_modifier = neutrality			
+					has_country_modifier = neutrality_modifier			
 					relation = {
 						who = THIS
 						value = 100
@@ -800,7 +802,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2560"
+		name = "EVT2560OPTA"
 		any_neighbor_country = {
 			limit = {
 				is_vassal = yes
@@ -842,7 +844,7 @@ country_event = {
 			is_vassal = no
 			NOT = {
 				brigades_compare = 1
-				has_country_modifier = neutrality
+				has_country_modifier = neutrality_modifier
 				alliance_with = THIS
 				truce_with = THIS
 				in_sphere = THIS
@@ -852,7 +854,7 @@ country_event = {
 		}
 		NOT = {
 			badboy = 0.5
-			has_country_modifier = neutrality
+			has_country_modifier = neutrality_modifier
 			war_policy = pacifism
 			has_country_flag = in_great_war
 			has_country_modifier = no_more_war
@@ -905,7 +907,7 @@ country_event = {
 				number_of_states = 4
 				NOT = {
 					brigades_compare = 1
-					has_country_modifier = neutrality
+					has_country_modifier = neutrality_modifier
 					alliance_with = THIS
 					truce_with = THIS
 					in_sphere = THIS
@@ -927,7 +929,7 @@ country_event = {
 				NOT = { number_of_states = 4 }
 				NOT = {
 					brigades_compare = 1
-					has_country_modifier = neutrality
+					has_country_modifier = neutrality_modifier
 					alliance_with = THIS
 					truce_with = THIS
 					in_sphere = THIS
@@ -1039,7 +1041,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2600"
+		name = "EVT2600OPTA"
 		owner = { badboy = 2 }
 		state_scope = {
 			any_owned = {
@@ -1093,7 +1095,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB2600"
+		name = "EVT2600OPTB"
 		state_scope = {
 			any_owned = {
 				limit = {
@@ -1158,7 +1160,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2601"
+		name = "EVT2601OPTA"
 		state_scope = {
 			any_owned = {
 				limit = {
@@ -1253,7 +1255,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2605"
+		name = "EVT2605OPTA"
 		owner = { prestige = 2 }
 		remove_province_modifier = core_integration
 		add_core = THIS
@@ -1353,7 +1355,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2610"
+		name = "EVT2610OPTA"
 		owner = { badboy = 2 }
 		state_scope = {
 			any_owned = {
@@ -1420,7 +1422,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB2610"
+		name = "EVT2610OPTB"
 		state_scope = {
 			any_owned = {
 				limit = {
@@ -1500,7 +1502,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2611"
+		name = "EVT2611OPTA"
 		any_owned = {
 			limit = { has_province_modifier = national_assimilation }
 			remove_province_modifier = national_assimilation
@@ -1562,7 +1564,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2612"
+		name = "EVT2612OPTA"
 		state_scope = {
 			any_owned = {
 				limit = {
@@ -1684,7 +1686,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2615"
+		name = "EVT2615OPTA"
 		remove_province_modifier = national_assimilation_acceptance
 		add_province_modifier = {
 			name = national_assimilation_rejection
@@ -1728,7 +1730,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB2615"
+		name = "EVT2615OPTB"
 		state_scope = {
 			any_owned = {
 				limit = {
@@ -1858,7 +1860,7 @@ province_event = {
 	}
 
 	option = {
-		name = "EVTOPTA2616"
+		name = "EVT2616OPTA"
 		add_province_modifier = {
 			name = nationalist_agitation
 			duration = 1095
@@ -1969,7 +1971,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2620"
+		name = "EVT2620OPTA"
 		remove_province_modifier = national_assimilation_rejection
 		add_province_modifier = {
 			name = national_assimilation_acceptance
@@ -2086,7 +2088,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA2605"
+		name = "EVT2605OPTA"
 		owner = {
 			badboy = 2
 			prestige = 5
@@ -2125,7 +2127,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA2626"
+		name = "EVT2626OPTA"
 		prestige = -5
 		FROM = {
 			random_owned = {
@@ -2162,7 +2164,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB2626"
+		name = "EVT2626OPTB"
 		relation = { who = FROM value = -50 }
 		random_owned = {
 			limit = {
@@ -2238,7 +2240,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA2650"
+		name = "EVT2650OPTA"
 		FROM = {
 			country_event = 2660
 		}
@@ -2254,7 +2256,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA2650"
+		name = "EVT2650OPTA"
 		any_country = {
 			limit = {
 				NOT = { tag = THIS }
@@ -2289,7 +2291,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA2660"
+		name = "EVT2660OPTA"
 		any_owned = {
 			limit = {
 				NOT = { has_province_modifier = chinese_treaty_port }
@@ -2325,7 +2327,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB2660"
+		name = "EVT2660OPTB"
 		ai_chance = { factor = 0 }
 	}
 }

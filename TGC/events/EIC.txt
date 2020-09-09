@@ -27,7 +27,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA9990001"
+		name = "EVT9990001OPTA"
 		ENG = {
 			any_owned = {
 				limit = {
@@ -52,16 +52,15 @@ country_event = {
 	title = "EVTNAME9990000"
 	desc = "EVTDESC9990002"
 	picture = "deliberation"
-	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA9990002"
+		name = "EVT9990002OPTA"
 		3263 = { add_core = HND }
 		remove_country_modifier = eic_balance
 		research_points = 10000
 		civilized = yes
-		ENG = {
+		FROM = {
 			any_owned = {
 				limit = {
 					is_core = BUR
@@ -77,28 +76,20 @@ country_event = {
 				secede_province = THIS
 			}
 		}
-		FROM = {
-			country_event = 9990003
-		}
+		FROM = { country_event = 9990003 }
 		EIC = {
-			any_pop = {
-				limit = {
-					is_primary_culture = no
-				}
-				militancy = 4
+			any_pop = { limit = { is_primary_culture = no }
+			militancy = 4
 			}
 		}
-		ai_chance = {
-			factor = 0
-		}
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
-		name = "EVTOPTB9990002"
+		name = "EVT9990002OPTB"
 		3263 = { add_core = HND }
-		FROM = {
-			country_event = 9990004
-		}
+		FROM = { country_event = 9990004 }
+
 		ai_chance = {
 			factor = 100
 		}
@@ -114,7 +105,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA9990003"
+		name = "EVT9990003OPTA"
 		badboy = -10
 		release_vassal = EIC
 		diplomatic_influence = {
@@ -135,13 +126,9 @@ country_event = {
 		}	
 		war = {
 			target = EIC
-			attacker_goal = {
-				casus_belli = civil_war
-			}
-			defender_goal = {
-				casus_belli = status_quo
-			}
-				call_ally = yes
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = yes
 		}
 		set_global_flag = war_with_EIC
 	}
@@ -157,14 +144,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA9990004"
+		name = "EVT9990004OPTA"
 		treasury = 50000
-		3263 = {
-			naval_base = -2
-		}
-		EIC = {
-			country_event = 9990007
-		}
+		3263 = { naval_base = -2 }
+		EIC = { country_event = 9990007 }
 	}
 }
 
@@ -189,7 +172,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA9990005"
+		name = "EVT9990005OPTA"
 		prestige = 50
 		civilized = yes
 		government = prussian_constitutionalism
@@ -296,18 +279,11 @@ country_event = {
 		any_country = {
 			limit = {
 				vassal_of = ENG
-				NOT = {
-					continent = europe
-					continent = australia_new_zealand
-					continent = north_america
-					continent = africa
-					continent = west_africa
-					continent = east_africa
-					continent = central_africa
-					continent = south_west_africa
-					continent = south_america
-					continent = oceania
-					continent = polynesia
+				OR = {
+					is_culture_group = indo_iranian
+					is_culture_group = southeast_asian
+					is_culture_group = south_asian
+					is_culture_group = central_asian
 				}
 			}
 			country_event = 9990006
@@ -336,7 +312,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA9990006"
+		name = "EVT9990006OPTA"
 		leave_alliance = ENG
 		prestige = -50
 		ENG = {
@@ -362,7 +338,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB9990006"
+		name = "EVT9990006OPTB"
 		leave_alliance = ENG
 		prestige = -50
 		ENG = {
@@ -396,28 +372,24 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPTA9990007"
-		any_owned = {
-			secede_province = ENG
-		}
-		ENG = {
-			inherit = THIS
-		}
+		name = "EVT9990007OPTA"
+		any_owned = { secede_province = FROM }
+		FROM = { inherit = THIS }
 	}
 }
 
-# country_event = {
-	# id = 9990008
-	# title = "EVTNAME9990008"
-	# desc = "EVTDESC9990008"
-	# picture = "deliberation"
+country_event = {
+	id = 9990008
+	title = "EVTNAME9990008"
+	desc = "EVTDESC9990008"
+	picture = "deliberation"
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = "EVTOPTA9990002"
-	# }
-# }
+	option = {
+		name = "EVT9990002OPTA"
+	}
+}
 
 country_event = {
 	id = 9990009
@@ -763,11 +735,11 @@ country_event = {
 			}
 			AND = {
 				ENG = {
-					regenerative_furnaces = 1
+					bessemer_process = 1
 				}
 				NOT = {
 					EIC = {
-						regenerative_furnaces = 1
+						bessemer_process = 1
 					}
 				}
 			}
@@ -914,15 +886,15 @@ country_event = {
 			limit = {
 				owner = {
 					NOT = {
-						regenerative_furnaces = 1
+						bessemer_process = 1
 					}
 				}
 				ENG = {
-					regenerative_furnaces = 1
+					bessemer_process = 1
 				}
 			}
 			owner = {
-				activate_technology = regenerative_furnaces
+				activate_technology = bessemer_process
 			}
 		}
 		random_owned = {
@@ -997,7 +969,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA9990011"
+		name = "EVT9990011OPTA"
 		casus_belli = {
 			target = FROM
 			type = make_puppet
@@ -1015,7 +987,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA9990012"
+		name = "EVTDESC9990012OPTA"
 		release = MAH
 		release = BER
 		ENG = {
@@ -1034,7 +1006,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA9990013"
+		name = "EVTDESC9990013OPTA"
 		release = SRI
 		ENG = {
 			inherit = SRI

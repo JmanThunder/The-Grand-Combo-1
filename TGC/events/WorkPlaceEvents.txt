@@ -7,7 +7,13 @@ country_event = {
 	picture = "Mining"
 	
 	trigger = {
-		any_owned_province = { state_scope = { has_pop_type = capitalists any_owned_province = { produces = coal } is_colonial = no } }
+        any_state = {
+            is_colonial = no
+            any_owned_province = {
+                has_pop_type = capitalists
+                produces = coal
+            }
+        }
 	}
 	
 	mean_time_to_happen = {
@@ -61,13 +67,18 @@ country_event = {
 	picture = "Mining"
 	
 	trigger = {
-		any_owned_province = { produces = coal is_colonial = no }
+        any_owned_province = {
+            produces = coal
+            is_colonial = no
+        }
 		plurality = 30
 		civilized = yes
 		OR = {
 			government = hms_government
 			government = prussian_constitutionalism
 			government = democracy
+			government = semi_constitutional_empire
+			government = constitutional_empire
 		}
 		child_labor = child_labor_legal
 		OR = {
@@ -152,7 +163,7 @@ province_event = {
 		state_scope = { has_building = ammunition_factory }
 		owner = { ammunition = 50 }
 		NOT = { owner = { economic_policy = laissez_faire } }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -202,7 +213,7 @@ province_event = {
 		state_scope = { has_building = fertilizer_factory }
 		NOT = { unemployment_by_type = { type = craftsmen value = 0.3 } }
 		state_scope = { has_pop_type = capitalists }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 		
 	mean_time_to_happen = {
@@ -245,7 +256,7 @@ province_event = {
 		produces = tea
 		state_scope = { has_pop_type = bureaucrats }
 		owner = { tea = 40 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 		
 	mean_time_to_happen = {
@@ -306,7 +317,7 @@ province_event = {
 		owner = { war = yes }
 		state_scope = { has_building = canned_food_factory }
 		NOT = { unemployment_by_type = { type = craftsmen value = 0.3 } }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -350,7 +361,7 @@ province_event = {
 		state_scope = { has_building = canned_food_factory }
 		NOT = { unemployment_by_type = { type = craftsmen value = 0.5 } }
 		owner = { canned_food = 15 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -389,7 +400,7 @@ province_event = {
 	trigger = {
 		produces = cattle
 		owner = { cattle = 10 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -432,7 +443,7 @@ province_event = {
 	trigger = {
 		produces = silk
 		owner = { silk = 10 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -482,7 +493,7 @@ province_event = {
 	
 	trigger = {
 		has_province_modifier = silk_famine
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -541,7 +552,7 @@ province_event = {
 		owner = { civilized = yes }
 		owner = { cotton = 10 }
 		NOT = { unemployment_by_type = { type = farmers value = 0.4 } }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 		
 	mean_time_to_happen = {
@@ -590,7 +601,7 @@ province_event = {
 		produces = iron
 		NOT = { has_province_modifier = blood_and_iron_mine }
 		owner = { civilized = yes }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -625,7 +636,7 @@ province_event = {
 	trigger = {
 		produces = wool
 		NOT = { unemployment_by_type = { type = farmers value = 0.1 } }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -675,7 +686,7 @@ province_event = {
 		NOT = { unemployment_by_type = { type = craftsmen value = 0.3 } }
 		NOT = { owner = { has_country_modifier = naval_school } }
 		is_coastal = yes
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -715,7 +726,7 @@ province_event = {
 	trigger = {
 		state_scope = { has_building = steamer_shipyard }
 		owner = { steamer_convoy = 5 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -758,7 +769,7 @@ province_event = {
 		state_scope = { has_building = cement_factory }
 		state_scope = { has_pop_type = capitalists }
 		NOT = { unemployment_by_type = { type = craftsmen value = 0.3 } }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -853,7 +864,7 @@ province_event = {
 	trigger = {
 		state_scope = { has_building = fuel_refinery }
 		owner = { fuel = 30 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -992,7 +1003,7 @@ province_event = {
 		produces = fish
 		is_coastal = yes
 		NOT = { unemployment_by_type = { type = farmers value = 0.1 } }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -1030,7 +1041,7 @@ province_event = {
 	trigger = {
 		produces = tea
 		NOT = { unemployment_by_type = { type = farmers value = 0.1 } }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -1091,7 +1102,7 @@ province_event = {
 			war = yes
 		}
 		state_scope = { has_building = radio_factory }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -1142,7 +1153,7 @@ province_event = {
 			state_scope = { has_building = liquor_distillery }
 		}
 		NOT = { unemployment_by_type = { type = craftsmen value = 0.1 } }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -1235,7 +1246,7 @@ province_event = {
 		state_scope = { has_building = luxury_furniture_factory }
 		state_scope = { has_pop_type = bureaucrats }
 		owner = { luxury_furniture = 10 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -1283,7 +1294,7 @@ province_event = {
 		state_scope = { has_building = luxury_clothes_factory }
 		state_scope = { has_pop_type = capitalists }
 		owner = { luxury_clothes = 30 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -1319,7 +1330,7 @@ province_event = {
 	trigger = {
 		state_scope = { has_building = regular_clothes_factory }
 		owner = { regular_clothes = 30 }
-		NOT = { has_global_flag = workplace_Events_disabled }
+		NOT = { has_global_flag = workplace_events_disabled }
 	}
 	
 	mean_time_to_happen = {

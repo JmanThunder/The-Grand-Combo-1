@@ -20,13 +20,12 @@ country_event = {
 			tag = NCT
 			tag = KUK
 			tag = SIC
-			tag = NPL
 			tag = MOL
 			tag = WAL
 			tag = SER
 			literacy = 0.3
 		}
-		year = 1840
+		year = 1842
 		NOT = {
 			OR = {
 				has_country_flag = liberal_revolution_in_progress
@@ -68,15 +67,15 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.8
-			year = 1841
-		}
-		modifier = {
-			factor = 0.8
-			year = 1842
-		}
-		modifier = {
-			factor = 0.8
 			year = 1843
+		}
+		modifier = {
+			factor = 0.8
+			year = 1844
+		}
+		modifier = {
+			factor = 0.8
+			year = 1845
 		}
 		modifier = {
 			factor = 0.5
@@ -102,6 +101,10 @@ country_event = {
 			name = global_liberal_agitation
 			duration = -1
 		}
+		upper_house = {
+			ideology = reactionary
+			value = 0.1
+		}
 		any_pop = {
 			limit = {
 				location = { is_colonial = no }
@@ -126,7 +129,7 @@ country_event = {
 	id = 10000
 	title = "EVTNAME10000"
 	desc = "EVTDESC10000"
-	picture = "revolution"
+	picture = "Revolution"
 	
 	trigger = {
 		has_country_flag = liberal_revolution_in_progress
@@ -231,7 +234,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { political_reform_want = 0.05 }
+			not = { political_reform_want = 0.05 }
 		}
 	}
 	option = {
@@ -263,7 +266,7 @@ country_event = {
 }
 
 
-#End of The Liberal revolution
+#End of The Liberal Revolution
 country_event = {
 	title = "EVTNAME10050"
 	desc = "EVTDESC10050"
@@ -366,7 +369,7 @@ country_event = {
 }
 	
 	
-#End of The Liberal revolution Part 2
+#End of The Liberal Revolution Part 2
 country_event = {
 	title = "EVTNAME10050"
 	desc = "EVTDESC10050"
@@ -637,7 +640,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 			modifier = {
 				factor = 1.2
@@ -689,7 +695,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.8
@@ -762,7 +771,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA10110" # Bloody revolutionaries!
+		name = "EVTOPTA10110" # Bloody Revolutionaries!
 		random_state = {
 			limit = {
 				is_colonial = no
@@ -792,7 +801,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.8
@@ -846,8 +858,11 @@ country_event = {
 				ruling_party_ideology = reactionary
 			}
 			modifier = {
-				factor = 1.2
-				government = absolute_monarchy
+				factor = 2.0
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 			modifier = {
 				factor = 1.2
@@ -961,7 +976,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.8
@@ -1031,7 +1049,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 			modifier = {
 				factor = 1.2
@@ -1155,7 +1176,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.8
@@ -1230,7 +1254,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 			modifier = {
 				factor = 1.2
@@ -1339,7 +1366,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.8
@@ -1409,7 +1439,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 			modifier = {
 				factor = 1.2
@@ -1581,7 +1614,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.4
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 			modifier = {
 				factor = 1.4
@@ -1645,7 +1681,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.6
@@ -1743,7 +1782,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA10155"
+		name = "EVT10155OPTA"
 		random_state = {
 			limit = {
 				is_colonial = no
@@ -1879,7 +1918,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 			modifier = {
 				factor = 1.2
@@ -1936,7 +1978,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.8
@@ -2091,7 +2136,7 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.5
-			owner = { is_culture_group = pan_french }
+			owner = { is_culture_group = french }
 		}
 		modifier = {
 			factor = 0.5
@@ -2461,7 +2506,12 @@ province_event = {
 			}
 			modifier = {
 				factor = 1.4
-				owner = { government = absolute_monarchy }
+				owner = { 
+					OR = { 
+						government = absolute_monarchy
+						government = absolute_empire
+					}	
+				}
 			}
 			modifier = {
 				factor = 1.4
@@ -2518,7 +2568,12 @@ province_event = {
 			}
 			modifier = {
 				factor = 1.2
-				owner = { government = hms_government }
+				owner = {
+					OR = {
+						government = hms_government
+						government = constitutional_empire
+					}
+				}
 			}
 			modifier = {
 				factor = 0.6
@@ -2631,7 +2686,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA10205"
+		name = "EVT10205OPTA"
 		random_owned = {
 			limit = {
 				controlled_by = THIS
@@ -2664,7 +2719,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB10205"
+		name = "EVT10205OPTB"
 		random_owned = {
 			limit = {
 				controlled_by = THIS
@@ -2697,7 +2752,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTC10205"
+		name = "EVT10205OPTC"
 		random_owned = {
 			limit = {
 				controlled_by = THIS
@@ -2732,7 +2787,7 @@ country_event = {
 	}				
 }		
 
-# revolt
+# Revolt
 province_event = {
 	title = "EVTNAME10210_NEW"
 	desc = "EVTDESC10210"
@@ -2915,7 +2970,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA10215"
+		name = "EVT10215OPTA"
 		random_state = {
 			limit = {
 				any_owned_province = {
@@ -3067,7 +3122,7 @@ province_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTA10216"
+		name = "EVT10216OPTA"
 		state_scope = {
 			any_pop = {
 				limit = {
@@ -3101,7 +3156,12 @@ province_event = {
 			}
 			modifier = {
 				factor = 1.4
-				owner = { government = absolute_monarchy }
+				owner = { 
+					OR = { 
+						government = absolute_monarchy
+						government = absolute_empire
+					}	
+				}
 			}
 			modifier = {
 				factor = 1.4
@@ -3126,7 +3186,7 @@ province_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB10216"
+		name = "EVT10216OPTB"
 		state_scope = {
 			any_pop = {
 				limit = {
@@ -3164,7 +3224,12 @@ province_event = {
 			}
 			modifier = {
 				factor = 1.2
-				owner = { government = hms_government }
+				owner = {
+					OR = {
+						government = hms_government
+						government = constitutional_empire
+					}
+				}
 			}
 			modifier = {
 				factor = 0.6
@@ -3405,7 +3470,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA10221"
+		name = "EVT10221OPTA"
 		prestige = 5
 		political_reform = universal_voting
 		political_reform = secret_ballots
@@ -3454,7 +3519,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB10221"
+		name = "EVT10221OPTB"
 		political_reform = no_meeting
 		random_owned = {
 			limit = {
@@ -3484,10 +3549,10 @@ country_event = {
 	}
 }
 
-# Hungarian revolution Events
+# Hungarian Revolution events
 country_event = {
 	id = 10225
-	title = "EVTNAME10225" #Hungarian revolution of $YEAR$
+	title = "EVTNAME10225" #Hungarian Revolution of $YEAR$
 	desc = "EVTDESC10225"
 	news = yes
 	news_desc_long = "EVTDESC10225_NEWS_LONG"
@@ -3518,16 +3583,12 @@ country_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		months = 1
-	}
+	mean_time_to_happen = { months = 1 }
 
-	immediate = {
-		set_global_flag = hungarian_revolution_occurred
-	}
+	immediate = { set_global_flag = hungarian_revolution_occurred }
 
 	option = {
-		name = "EVTOPTA10225"
+		name = "EVT10225OPTA"
 		778 = { remove_core = HUN }
 		any_owned = {
 			limit = {
@@ -3545,9 +3606,40 @@ country_event = {
 			limit = { is_primary_culture = yes }
 			militancy = -6
 		}
-		add_country_modifier = {
-			name = no_more_war
-			duration = 7
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						national_provinces_occupied = .25
+						any_greater_power = { war_with = THIS }
+					}
+				}
+			}
+			owner = {
+				prestige = -10
+				war = {
+					target = HUN
+					attacker_goal = { casus_belli = annex_core_country }
+					call_ally = yes
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						national_provinces_occupied = .25
+						any_greater_power = { war_with = THIS }
+					}
+				}
+			}
+			owner = {
+				prestige = 20
+				war = {
+					target = HUN
+					attacker_goal = { casus_belli = annex_core_country }
+				}
+			}
 		}
 		HUN = {
 			capital = 641
@@ -3566,22 +3658,22 @@ country_event = {
 			clr_country_flag = presidential_dictatorship_gov
 			clr_country_flag = fascist_gov
 			clr_country_flag = anarcho_liberal_gov
-			add_country_modifier = {
-				name = no_more_war
-				duration = 7
-			}
-			relation = {
-				who = RUS
-				value = -200
-			}
+			set_country_flag = state_of_emergency_country
+			add_country_modifier = { name = emergency_draft duration = 365 }
+			relation = { who = RUS value = -200 }
+			treasury = 35000
+			small_arms = 50
+			ammunition = 50
+			canned_food = 50
+			regular_clothes = 50
+			artillery = 50
 		}
-		ai_chance = {
-			factor = 95
-		}
+		
+		ai_chance = { factor = 95 }
 	}
 
 	option = {
-		name = "EVTOPTB10225"
+		name = "EVT10225OPTB"
 		set_country_flag = austria_let_hungary_go
 		any_owned = {
 			limit = {
@@ -3592,16 +3684,8 @@ country_event = {
 		}
 		relation = { who = HUN value = -100 }
 		prestige = -25
-		casus_belli = {
-			target = HUN
-			type = acquire_state
-			months = 60
-		}
-		casus_belli = {
-			target = HUN
-			type = cut_down_to_size
-			months = 60
-		}
+		casus_belli = { target = HUN type = acquire_state months = 60 }
+		casus_belli = { target = HUN type = cut_down_to_size months = 60 }
 		any_pop = {
 			limit = {
 				has_pop_culture = romanian
@@ -3636,6 +3720,32 @@ country_event = {
 				duration = 1095
 			}
 		}
+		HUN = {
+			capital = 641
+			political_reform = mandatory_service 
+			government = hms_government
+			political_reform = non_secret_ballots
+			political_reform = universal_weighted_voting
+			political_reform = population_equal_weight
+			political_reform = free_press
+			political_reform = yes_meeting
+			clr_country_flag = communist_gov
+			clr_country_flag = absolute_monarchy_gov
+			clr_country_flag = semi_constitutional_monarchy_gov
+			set_country_flag = constitutional_monarchy_gov
+			clr_country_flag = democracy_gov
+			clr_country_flag = presidential_dictatorship_gov
+			clr_country_flag = fascist_gov
+			clr_country_flag = anarcho_liberal_gov
+			relation = { who = RUS value = -200 }
+			treasury = 35000
+			small_arms = 50
+			ammunition = 50
+			canned_food = 50
+			regular_clothes = 50
+			artillery = 50
+		}
+		
 		ai_chance = {
 			factor = 5
 			modifier = {
@@ -3655,7 +3765,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTC10225"
+		name = "EVT10225OPTC"
 		any_owned = {
 			limit = {
 				is_core = HUN
@@ -3672,27 +3782,33 @@ country_event = {
 			limit = { is_primary_culture = yes }
 			militancy = -6
 		}
-		add_country_modifier = {
-				name = no_more_war
-				duration = 14
-		}
 		casus_belli = {
 			target = HUN
 			type = annex_core_country
 			months = 60
 		}
 		HUN = {
-			political_reform = mandatory_service 
 			capital = 641
-			add_country_modifier = {
-				name = no_more_war
-				duration = 14
-			}
+			political_reform = mandatory_service 
+			government = hms_government
+			political_reform = non_secret_ballots
+			political_reform = universal_weighted_voting
+			political_reform = population_equal_weight
+			political_reform = free_press
+			political_reform = yes_meeting
+			clr_country_flag = communist_gov
+			clr_country_flag = absolute_monarchy_gov
+			clr_country_flag = semi_constitutional_monarchy_gov
+			set_country_flag = constitutional_monarchy_gov
+			clr_country_flag = democracy_gov
+			clr_country_flag = presidential_dictatorship_gov
+			clr_country_flag = fascist_gov
+			clr_country_flag = anarcho_liberal_gov
+			relation = { who = RUS value = -200 }
 		}
 		change_tag_no_core_switch = HUN
-		ai_chance = {
-			factor = 0
-		}
+		
+		ai_chance = { factor = 0 }
 	}
 }
 
@@ -3719,7 +3835,8 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA10226"
+		name = "EVT10226OPTA"
+		clr_country_flag = state_of_emergency_country
 		AUS_771 = { add_core = HUN }
 		prestige = 10
 		AUS = { country_event = 10227 }
@@ -3764,7 +3881,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA10227"
+		name = "EVT10227OPTA"
 		diplomatic_influence = {
 			who = HUN
 			value = -100
@@ -3793,7 +3910,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB10227"
+		name = "EVT10227OPTB"
 		set_country_flag = austria_let_hungary_go
 		prestige = -25
 		badboy = -2
@@ -3861,6 +3978,8 @@ country_event = {
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
+			government = semi_constitutional_empire
+			government = absolute_empire
 		}
 		OR = {
 			has_country_flag = liberal_revolution_in_progress
@@ -3881,16 +4000,14 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA10228"
+		name = "EVT10228OPTA"
 		prestige = -10
 		add_country_modifier = {
 			name = thorbecke_reforms
 			duration = 7300
 		}
 		random_owned = {
-			limit = {
-				owner = { government = prussian_constitutionalism }
-			}
+			limit = { owner = { government = prussian_constitutionalism } }
 			owner = {
 				political_reform = universal_weighted_voting
 				political_reform = yes_meeting
@@ -3898,11 +4015,26 @@ country_event = {
 			}
 		}
 		random_owned = {
-			limit = {
-				owner = { government = absolute_monarchy }
+			limit = { owner = { government = semi_constitutional_empire } }
+			owner = {
+				political_reform = universal_weighted_voting
+				political_reform = yes_meeting
+				political_reform = free_press
 			}
+		}
+		random_owned = {
+			limit = { owner = { government = absolute_monarchy } }
 			owner = {
 				government = prussian_constitutionalism
+				political_reform = landed_voting
+				political_reform = yes_meeting
+				political_reform = free_press
+			}
+		}
+		random_owned = {
+			limit = { owner = { government = absolute_empire } }
+			owner = {
+				government = semi_constitutional_empire
 				political_reform = landed_voting
 				political_reform = yes_meeting
 				political_reform = free_press
@@ -3933,7 +4065,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB10228"
+		name = "EVT10228OPTB"
 		prestige = -5
 		ruling_party_ideology = liberal
 		political_reform = yes_meeting
@@ -3966,7 +4098,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTC10228"
+		name = "EVT10228OPTC"
 		prestige = 5
 		random_owned = {
 			limit = {
@@ -4008,8 +4140,10 @@ country_event = {
 			tag = GER
 		}
 		OR = {
-			government = absolute_monarchy
 			government = prussian_constitutionalism
+			government = semi_constitutional_empire
+			government = hms_government
+			government = constitutional_empire
 		}
 		OR = {
 			vote_franschise = none_voting
@@ -4038,7 +4172,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA10229"
+		name = "EVT10229OPTA"
 		set_country_flag = march_revolution
 		prestige = -10
 		upper_house = {
@@ -4046,30 +4180,24 @@ country_event = {
 			value = 0.5
 		}
 		random_owned = {
-			limit = {
-				owner = { NOT = { vote_franschise = universal_voting } }
-			}
-			owner = {
-				political_reform = universal_weighted_voting
-			}
+			limit = { owner = { NOT = { vote_franschise = universal_voting } } }
+			owner = { political_reform = universal_weighted_voting }
 		}		
 		random_owned = {
-			limit = {
-				owner = { NOT = { political_parties = gerrymandering } }
-			}
+			limit = { owner = { NOT = { political_parties = gerrymandering } } }
 			owner = { political_reform = gerrymandering }
 		}		
 		random_owned = {
-			limit = {
-				owner = { NOT = { upper_house_composition = appointed } }
-			}
+			limit = { owner = { NOT = { upper_house_composition = appointed } } }
 			owner = { political_reform = appointed }
 		}
 		random_owned = {
-			limit = {
-				owner = { government = absolute_monarchy }
-			}
+			limit = { owner = { government = absolute_monarchy } }
 			owner = { government = prussian_constitutionalism }
+		}
+		random_owned = {
+			limit = { owner = { government = absolute_empire } }
+			owner = { government = semi_constitutional_empire }
 		}
 		election = yes		
 		random_owned = {
@@ -4107,7 +4235,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB10229"
+		name = "EVT10229OPTB"
 		set_country_flag = march_revolution
 		political_reform = no_meeting
 		upper_house = {
@@ -4244,7 +4372,7 @@ country_event = {
 	id = 10270
 	title = "EVTNAME10270"
 	desc = "EVTDESC10270"
-	picture = "revolution"
+	picture = "Revolution"
 
 	trigger = {
 		has_country_flag = liberal_revolution_in_progress
@@ -4322,7 +4450,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 0.8
@@ -4368,7 +4499,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 			modifier = {
 				factor = 1.2

@@ -8,7 +8,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "We shall make the attempt"
+		name = "EVT800012OPTA"
 		set_country_flag = meddled_in_foreign_affairs
 		FROM = { set_country_flag = foreign_intervention }
 		badboy = 3
@@ -53,7 +53,7 @@ country_event = {
 	}
 
 	option = {
-		name = "No, it is too risky"
+		name = "EVT800012OPTB"
 		FROM = { country_event = 800015 }
 		diplomatic_influence = {
 			who = FROM
@@ -110,7 +110,7 @@ country_event = {
 	picture = "Unite"
 
 	option = {
-		name = "There will be hell to pay!"
+		name = "EVT800013OPTA"
 		prestige = 5
 		any_pop = {
 			scaled_militancy = {
@@ -195,7 +195,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Punish the meddler only"		
+		name = "EVT800013OPTB"		
 		relation = {
 			who = FROM
 			value = -50
@@ -267,7 +267,7 @@ country_event = {
 	}
 
 	option = {
-		name = "We must salvage our relationship with $FROMCOUNTRY$"
+		name = "EVT800013OPTC"
 		prestige = -5
 		any_pop = {
 			scaled_militancy = {
@@ -352,7 +352,7 @@ country_event = {
 	picture = "Unite"
 
 	option = {
-		name = "There will be hell to pay!"
+		name = "EVT800013OPTA"
 		prestige = 5
 		any_pop = {
 			scaled_militancy = {
@@ -433,7 +433,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Punish the meddler only."		
+		name = "EVT800013OPTB"		
 		relation = {
 			who = FROM
 			value = -50
@@ -460,7 +460,7 @@ country_event = {
 	}
 
 	option = {
-		name = "We must salvage our relationship with $FROMCOUNTRY$"
+		name = "EVT800013OPTC"
 		prestige = -5
 		any_pop = {
 			scaled_militancy = {
@@ -541,7 +541,7 @@ country_event = {
 
 	option = {
 		clr_country_flag = freedom_attempt_made
-		name = "Too bad"
+		name = "EVT800015OPTA"
 		relation = {
 			who = FROM
 			value = -25
@@ -580,7 +580,7 @@ country_event = {
 	}
 
 	option = {
-		name = "We shall see"
+		name = "EVT800016OPTA"
 		any_pop = { militancy = 1 }
 		random_country = {
 			limit = { is_our_vassal = THIS }
@@ -627,7 +627,7 @@ country_event = {
 	}
 
 	option = {
-		name = "We shall see"
+		name = "EVT800016OPTA"
 		any_pop = { militancy = 2 }
 		random_country = {
 			limit = {
@@ -655,10 +655,11 @@ country_event = {
 	}
 }
 
+#Free At Last!
 country_event = {
 
 	id = 800018
-	title = "EVTNAME800018" #Free At Last!
+	title = "EVTNAME800018"
 	desc = "EVTDESC800018"
 	picture = "unite"
 
@@ -682,7 +683,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Hurrah!"
+		name = "EVT800018OPTA"
 		any_pop = { militancy = -2 }
 		random_country = {
 			limit = {
@@ -721,7 +722,7 @@ country_event = {
 	picture = "administration"
 
 	option = {
-		name = "Punish the meddler!"		
+		name = "EVT800021OPTA"
 		random_country = {
 			limit = { has_country_flag = meddled_in_foreign_affairs }
 			clr_country_flag = meddled_in_foreign_affairs
@@ -798,7 +799,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Let it pass"
+		name = "EVT800021OPTB"
 		prestige = -5
 		any_pop = {
 			scaled_militancy = {
@@ -887,7 +888,7 @@ country_event = {
 	picture = "administration"
 
 	option = {
-		name = "Oops!"
+		name = "EVT800022OPTA"
 		diplomatic_influence = {
 			who = FROM
 			value = -100
@@ -910,7 +911,7 @@ country_event = {
 	picture = "administration"
 
 	option = {
-		name = "Whew!"
+		name = "EVT800023OPTA"
 		diplomatic_influence = {
 			who = FROM
 			value = -100
@@ -933,7 +934,7 @@ country_event = {
 	picture = "administration"
 
 	option = {
-		name = "Excellent!"
+		name = "EVT800024OPTA"
 		badboy = 1
 		relation = {
 			who = FROM

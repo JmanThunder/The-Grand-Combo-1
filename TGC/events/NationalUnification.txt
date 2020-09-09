@@ -5,7 +5,7 @@ country_event = {
 	picture = "Celebration"
 
 	id = 11100
-
+	
 	trigger = {
 		war = no
 		has_country_flag = crown_from_the_gutter
@@ -24,32 +24,32 @@ country_event = {
 	mean_time_to_happen = {
 		months = 1
 	}
-
+	
 	option = {				# Accept inheritance
 		name = "EVTOPTA11100"
 		clr_country_flag = crown_from_the_gutter
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { primary_culture = polish accepted_culture = south_german } } owner = { remove_accepted_culture = south_german }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { primary_culture = polish accepted_culture = north_german } } owner = { remove_accepted_culture = north_german }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { primary_culture = polish accepted_culture = czech } } owner = { remove_accepted_culture = czech }
 		}
 		random_owned = {
 			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = french } }
 			owner = { remove_accepted_culture = french }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = south_german } }
 			owner = { remove_accepted_culture = south_german }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = british } }
 			owner = { remove_accepted_culture = british }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = polish } }
 			owner = { remove_accepted_culture = polish }
 		}
@@ -125,7 +125,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 5
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 10
@@ -144,7 +147,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EVTOPTB11100"
 		clr_country_flag = crown_from_the_gutter
@@ -153,7 +156,10 @@ country_event = {
 			factor = 95
 			modifier = {
 				factor = 1.5
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 		}
 		any_pop = {
@@ -163,15 +169,15 @@ country_event = {
 	}
 }
 
-# event to Inherit
+# Event to Inherit
 country_event = {
 	id = 11101
 	title = "EVTNAME11101"
 	desc = "EVTDESC11101"
 	picture = "Celebration"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EVTOPTA11101"
 		any_country = {
@@ -204,7 +210,6 @@ country_event = {
 					NOT = { tag = KUK }
 					NOT = { tag = MOL }
 					NOT = { tag = SIE }
-					NOT = { tag = SWI }
 					NOT = { tag = LUX }
 					NOT = { tag = LIE }
 					NOT = { tag = BAN }
@@ -217,7 +222,7 @@ country_event = {
 			}
 			owner = { all_core = { remove_core = THIS } }
 		}
-
+		
 		any_owned = { secede_province = FROM }
 
 		random_owned = {
@@ -228,11 +233,11 @@ country_event = {
 				any_owned = { limit = { is_core = RMG } remove_core = RMG }
 			}
 		}
-
+		
 		FROM = { release_vassal = THIS }
 		FROM = { inherit = THIS }
-
-
+		
+		
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -250,15 +255,18 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				tag = NGF
-				is_greater_power = no
+				AND = {
+					tag = NGF
+					is_greater_power = no
+				}
 			}
 			modifier = {
 				factor = 5
-
-				tag = PRU
-				FROM = {
-					ai = yes
+				AND = {
+					tag = PRU
+					FROM = {
+						ai = yes
+					}
 				}
 			}
 			modifier = {
@@ -277,7 +285,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EVTOPTB11101"
 		clr_country_flag = wants_to_unify
@@ -338,7 +346,7 @@ country_event = {
 			modifier = {
 				factor = 0.25
 				in_sphere = FROM
-			}
+			} 
 			modifier = {
 				factor = 0.25
 				government = fascist_dictatorship
@@ -354,13 +362,17 @@ country_event = {
 				OR = {
 					government = democracy
 					government = prussian_constitutionalism
+					government = semi_constitutional_empire
 					government = hms_government
+					government = constitutional_empire
 				}
 				FROM = {
 					OR = {
 						government = democracy
 						government = prussian_constitutionalism
+						government = semi_constitutional_empire
 						government = hms_government
+						government = constitutional_empire
 					}
 				}
 			}
@@ -368,7 +380,7 @@ country_event = {
 				factor = 0.1
 				is_greater_power = no
 				is_secondary_power = no
-			}
+			} 
 		}
 	}
 }
@@ -380,37 +392,37 @@ country_event = {
 	picture = "Celebration"
 
 	id = 11103
-
+	
 	is_triggered_only = yes
-
+	
 	option = {				# Accept inheritance
 		name = "EVTOPTA11103"
 		clr_country_flag = made_the_call_to_union
 		add_accepted_culture = south_italian
 		add_accepted_culture = north_italian
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = french } }
 			owner = { remove_accepted_culture = french }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = south_german } }
 			owner = { remove_accepted_culture = south_german }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = british } }
 			owner = { remove_accepted_culture = british }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = polish } }
 			owner = { remove_accepted_culture = polish }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { primary_culture = polish accepted_culture = south_german } } owner = { remove_accepted_culture = south_german }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { primary_culture = polish accepted_culture = north_german } } owner = { remove_accepted_culture = north_german }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { primary_culture = polish accepted_culture = czech } } owner = { remove_accepted_culture = czech }
 		}
 		all_core = { remove_core = THIS }
@@ -468,10 +480,7 @@ country_event = {
 					tag = AUS
 					tag = KUK
 					AND = {
-						OR = {
-							neighbour = ITA
-							neighbour = ITS
-						}
+						neighbour = ITA
 						is_greater_power = yes
 					}
 				}
@@ -483,7 +492,7 @@ country_event = {
 			factor = 95
 		}
 	}
-
+	
 	option = {
 		name = "EVTOPTB11103"
 		prestige = 5
@@ -508,7 +517,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA11104"
+		name = "EVT11104OPTA"
 		prestige = 5
 		diplomatic_influence = {
 			who = FROM
@@ -540,7 +549,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB11104"
+		name = "EVT11104OPTB"
 		prestige = -5
 		diplomatic_influence = {
 			who = FROM
@@ -549,9 +558,9 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-	}
+	}		
 }
-
+		
 
 # Removing cores for non-existing countries
 country_event = {
@@ -562,20 +571,20 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA11105"
+		name = "EVT11105OPTA"
 		all_core = { remove_core = THIS }
 	}
 }
 
-# event to Inherit (For NGF & SGF )
+# Event to Inherit (For NGF & SGF )
 country_event = {
 	id = 11106
 	title = "EVTNAME11106"
 	desc = "EVTDESC11106"
 	picture = "threehurrahs"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EVTOPTA11101"
 		set_country_flag = wants_to_unify
@@ -657,7 +666,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EVTOPTB11101"
 		clr_country_flag = wants_to_unify
@@ -718,7 +727,7 @@ country_event = {
 	picture = "threehurrahs"
 
 	id = 11107
-
+	
 	trigger = {
 		war = no
 		NOT = { tag = UBD }
@@ -727,7 +736,7 @@ country_event = {
 		NOT = { tag = GCF }
 		NOT = { tag = SIE }
 		NOT = { tag = BAN }
-		NOT = {
+		NOT = { 
 			capital_scope = { continent = africa }
 			capital_scope = { continent = west_africa }
 			capital_scope = { continent = east_africa }
@@ -760,24 +769,24 @@ country_event = {
 	mean_time_to_happen = {
 		months = 1
 	}
-
+	
 	option = {				# Accept inheritance
 		name = "EVTOPTA11100"
 		clr_country_flag = crown_from_the_gutter
 		set_global_flag = 3hurrahs
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = polish } }
 			owner = { remove_accepted_culture = polish }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = french } }
 			owner = { remove_accepted_culture = french }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = danish } }
 			owner = { remove_accepted_culture = danish }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = hungarian } }
 			owner = { remove_accepted_culture = hungarian }
 		}
@@ -809,7 +818,7 @@ country_event = {
 				}
 				NOT = {
 					any_owned_province = {
-						NOT = {
+						NOT = { 
 							OR = {
 								is_core = AUS
 								is_core = GER
@@ -836,7 +845,7 @@ country_event = {
 					is_vassal = no
 				}
 				any_owned_province = {
-					NOT = {
+					NOT = { 
 						OR = {
 							is_core = AUS
 							is_core = GER
@@ -885,7 +894,7 @@ country_event = {
 				THIS = { capital = 549 }
 			}
 			country_event = 11105
-		}
+		}			
 		any_country = {
 			limit = {
 				exists = yes
@@ -930,7 +939,10 @@ country_event = {
 			factor = 5
 			modifier = {
 				factor = 5
-				government = hms_government
+				OR = {
+					government = hms_government
+					government = constitutional_empire
+				}
 			}
 			modifier = {
 				factor = 10
@@ -949,7 +961,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EVTOPTB11100"
 		clr_country_flag = crown_from_the_gutter
@@ -958,7 +970,10 @@ country_event = {
 			factor = 95
 			modifier = {
 				factor = 1.5
-				government = absolute_monarchy
+				OR = { 
+					government = absolute_monarchy
+					government = absolute_empire
+				}	
 			}
 		}
 		any_pop = {
@@ -974,7 +989,7 @@ country_event = {
 	title = "EVTNAME11110"
 	desc = "EVTDESC11110"
 	picture = "threehurrahs"
-
+	
 	trigger = {
 		primary_culture = north_german
 		war = no
@@ -1011,7 +1026,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		months = 100
 		modifier = {
@@ -1021,7 +1036,7 @@ country_event = {
 					NOT = { province_id = 370 }
 					NOT = { province_id = 371 }
 					culture = north_german
-					OR = {
+					OR = { 
 						owned_by = FRA
 						owned_by = BOR
 					}
@@ -1053,37 +1068,38 @@ country_event = {
 			OR = {
 				government = hms_government
 				government = democracy
+				government = constitutional_empire
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTA11110"
+		name = "EVT11110OPTA"
 		prestige = -15
 		badboy = 10
 		clr_country_flag = crown_from_the_gutter
 		all_core = { add_core = NGF }
 		change_tag = NGF
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = polish } }
 			owner = { remove_accepted_culture = polish }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = french } }
 			owner = { remove_accepted_culture = french }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = danish } }
 			owner = { remove_accepted_culture = danish }
 		}
-		random_owned = {
+		random_owned = { 
 			limit = { owner = { is_culture_group = germanic accepted_culture = hungarian } }
 			owner = { remove_accepted_culture = hungarian }
 		}
 		set_country_flag = secondary_union_formation
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = north_german 
 				NOT = {
 					tag = THIS
 					has_country_flag = post_colonial_country
@@ -1094,7 +1110,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				primary_culture = north_german
+				primary_culture = north_german 
 				exists = yes
 				NOT = { tag = THIS }
 				NOT = { tag = UBD }
@@ -1110,9 +1126,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB11110"
+		name = "EVT11110OPTB"
 		clr_country_flag = crown_from_the_gutter
 		clr_country_flag = wants_to_unify
 		set_country_flag = refused_NGF_idea
@@ -1143,7 +1159,7 @@ country_event = {
 	title = "EVTNAME11115"
 	desc = "EVTDESC11115"
 	picture = "Celebration"
-
+	
 	trigger = {
 		is_culture_group = south_slavic
 		war = no
@@ -1204,9 +1220,9 @@ country_event = {
 					tag = BUL
 				}
 			}
-		}
+		}		
 	}
-
+	
 	mean_time_to_happen = {
 		months = 12
 		modifier = {
@@ -1241,9 +1257,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTA11115"
+		name = "EVT11115OPTA"
 		set_global_flag = yugoslavia_formed
 		badboy = 10
 		prestige = 20
@@ -1291,18 +1307,18 @@ country_event = {
 			factor = 100
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB11115"
+		name = "EVT11115OPTB"
 		set_country_flag = refused_yugoslavia
 		prestige = -10
 		ai_chance = {
 			factor = 0
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTC11115"
+		name = "EVT11115OPTC"
 		set_country_flag = refused_yugoslavia_final
 		prestige = -10
 		ai_chance = {
@@ -1316,11 +1332,11 @@ country_event = {
 	title = "EVTNAME11120" #Slavic Unification
 	desc = "EVTDESC11120"
 	picture = "Celebration"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
-		name = "EVTOPTA11120"
+		name = "EVT11120OPTA"
 		all_core = {
 			limit = { continent = europe }
 			add_core = YUG
@@ -1434,11 +1450,13 @@ country_event = {
 				OR = {
 					government = democracy
 					government = hms_government
+					government = constitutional_empire
 				}
 				FROM = {
 					NOT = {
 						government = democracy
 						government = hms_government
+						government = constitutional_empire
 					}
 				}
 			}
@@ -1451,9 +1469,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB11120"
+		name = "EVT11120OPTB"
 		set_country_flag = not_join_yugoslavia
 		prestige = 5
 		any_pop = {
@@ -1527,11 +1545,11 @@ country_event = {
 	title = "EVTNAME11121"
 	desc = "EVTDESC11121"
 	picture = "administration"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
-		name = "EVTOPTA11121"
+		name = "EVT11121OPTA"
 		prestige = 5
 		relation = { who = FROM value = 50 }
 		ai_chance = {
@@ -1546,9 +1564,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB11121"
+		name = "EVT11121OPTB"
 		badboy = 10
 		relation = { who = FROM value = -200 }
 		diplomatic_influence = { who = FROM value = -200 }
@@ -1580,7 +1598,7 @@ country_event = {
 				type = cut_down_to_size
 				months = 60
 			}
-		}
+		}	
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -1619,7 +1637,7 @@ country_event = {
 	title = "EVTNAME11122"
 	desc = "EVTDESC11122"
 	picture = "celebration"
-
+	
 	trigger = {
 		ai = yes
 		war = no
@@ -1654,7 +1672,7 @@ country_event = {
 			tag = BUL
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		months = 12
 		modifier = {
@@ -1664,7 +1682,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EVTOPTA60120"
 		set_country_flag = not_join_yugoslavia
@@ -1675,17 +1693,17 @@ country_event = {
 	}
 }
 
-# Generic event to Inherit
+# Generic Event to Inherit
 country_event = {
 	id = 98650
 	title = "EVTNAME98650" #Unification
 	desc = "EVTDESC98650"
 	picture = "Celebration"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
-		name = "EVTOPTA98650"
+		name = "EVT98650OPTA"
 		any_country = {
 			limit = {
 				OR = {
@@ -1704,7 +1722,7 @@ country_event = {
 				months = 12
 			}
 		}
-		FROM = { inherit = THIS }
+		FROM = { inherit = THIS }	
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -1731,9 +1749,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB98650"
+		name = "EVT98650OPTB"
 		clr_country_flag = wants_to_unify
 		prestige = 1
 		FROM = { country_event = 98651 }
@@ -1761,7 +1779,7 @@ country_event = {
 			modifier = {
 				factor = 0.25
 				in_sphere = FROM
-			}
+			} 
 			modifier = {
 				factor = 0.25
 				government = fascist_dictatorship
@@ -1777,13 +1795,17 @@ country_event = {
 				OR = {
 					government = democracy
 					government = prussian_constitutionalism
+					government = semi_constitutional_empire
 					government = hms_government
+					government = constitutional_empire
 				}
 				FROM = {
 					OR = {
 						government = democracy
 						government = prussian_constitutionalism
+						government = semi_constitutional_empire
 						government = hms_government
+						government = constitutional_empire
 					}
 				}
 			}
@@ -1796,11 +1818,11 @@ country_event = {
 	title = "EVTNAME98651"
 	desc = "EVTDESC98651"
 	picture = "administration"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
-		name = "EVTOPTA98651"
+		name = "EVT98651OPTA"
 		leave_alliance = FROM
 		relation = { who = FROM value = -200 }
 		diplomatic_influence = { who = FROM value = -200 }
@@ -1842,9 +1864,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EVTOPTB98651"
+		name = "EVT98651OPTB"
 		prestige = -5
 		relation = { who = FROM value = 50 }
 		ai_chance = {
@@ -1861,16 +1883,122 @@ country_event = {
 	}
 }
 
+# Unification of Greater Finland
+country_event = {
+	id = 11109
+	title = "EVTNAME11109" #Ugric Unification
+	desc = "EVTDESC11109"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT11109OPTA"
+		FROM = {
+			inherit = THIS
+			badboy = 3
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				in_sphere = FROM
+			}
+			modifier = {
+				factor = 1.5
+				relation = {
+					who = FROM
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 1.5
+				relation = {
+					who = FROM
+					value = 175
+				}
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = FROM
+			}
+			modifier = {
+				factor = 2
+				government = fascist_dictatorship
+				FROM = {
+					government = fascist_dictatorship
+				}
+			}
+			modifier = {
+				factor = 2
+				government = proletarian_dictatorship
+				FROM = {
+					government = proletarian_dictatorship
+				}
+			}
+			modifier = {
+				factor = 3
+				vassal_of = FROM
+			}
+		}
+	}
+		
+	option = {
+		name = "EVT11109OPTB"
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -100
+		}
+		leave_alliance = FROM
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				NOT = {
+					relation = {
+						who = FROM
+						value = -100
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = {
+					relation = {
+						who = FROM
+						value = -175
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				government = fascist_dictatorship
+				FROM = {
+					government = proletarian_dictatorship
+				}
+			}
+			modifier = {
+				factor = 10
+				government = proletarian_dictatorship
+				FROM = {
+					government = fascist_dictatorship
+				}
+			}
+		}
+	}
+}
+
 country_event = {
 	id = 111100
 	title = "EVTNAME111100" #Yugoslavian ultimatium for Albania
 	desc = "EVTDESC111100"
 	picture = "Demonstration"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
-		name = "EVTOPTA111100"
+		name = "EVT111100OPTA"
 		random_owned = { limit = { owner = { tag = ALB } } owner = { annex_to = YUG } }
 		any_owned = { limit = { is_core = ALB } secede_province = YUG }
 		ai_chance = {
@@ -1885,9 +2013,9 @@ country_event = {
 			}
 		}
 	}
-
+		
 	option = {
-		name = "EVTOPTB111100"
+		name = "EVT111100OPTB"
 		relation = { who = FROM value = -200 }
 		leave_alliance = FROM
 		sphere_owner = { diplomatic_influence = { who = THIS value = -400 } }
@@ -1902,20 +2030,5 @@ country_event = {
 				tag = ALB
 			}
 		}
-	}
-}
-
-#National Unification - Notification if Country Refuses Unification
-country_event = {
-	id = 11102
-	title = "EVTNAME11102"
-	desc = "EVTDESC11102"
-	picture = "Administration"
-
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA11102"
-		prestige = -25
 	}
 }

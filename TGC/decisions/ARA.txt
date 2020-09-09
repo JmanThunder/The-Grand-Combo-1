@@ -2,6 +2,7 @@ political_decisions = {
 	exile_house_of_saud = {
 		picture = ibn_saud
 		potential = {
+    exists = yes
 			OR = {
 				tag = HAL
 				tag = ASR
@@ -36,6 +37,7 @@ political_decisions = {
 	claim_nejd = {
 		picture = map_arabia
 		potential = {
+    exists = yes
 			tag = HAL
 			NOT = { has_country_flag = claimed_nejd }
 			NEJ = { exists = no }
@@ -77,6 +79,7 @@ political_decisions = {
 
 	exile_house_of_rashid = {
 		potential = {
+    exists = yes
 			OR = {
 				tag = NEJ
 				tag = ASR
@@ -111,6 +114,7 @@ political_decisions = {
 	claim_hail = {
 		picture = map_arabia
 		potential = {
+    exists = yes
 			tag = NEJ
 			NOT = { has_country_flag = claimed_hail }
 			HAL = { exists = no }
@@ -147,6 +151,7 @@ political_decisions = {
 	claim_hedjaz_NEJ = {
 		picture = map_arabia
 		potential = {
+    exists = yes
 			tag = NEJ
 			NOT = { exists = ARB }
 			NOT = {
@@ -185,6 +190,7 @@ political_decisions = {
 	claim_hedjaz_HAL = {
 		picture = map_arabia
 		potential = {
+    exists = yes
 			tag = HAL
 			NOT = { exists = ARB }
 			NOT = {
@@ -223,6 +229,7 @@ political_decisions = {
 	claim_arabia_HDJ = {
 		picture = map_arabia
 		potential = {
+    exists = yes
 			tag = HDJ
 			exists = yes
 			NOT = { exists = ARB }
@@ -281,6 +288,7 @@ political_decisions = {
 	claim_arabia_ASR = {
 		picture = map_arabia
 		potential = {
+    exists = yes
 			tag = ASR
 			exists = yes
 			NOT = { exists = ARB }
@@ -339,6 +347,7 @@ political_decisions = {
 	encourage_arab_nationalism = {
 		picture = form_the_ikhwan
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			NOT = { has_global_flag = arab_nationalism_encouraged }
 			TUR = {
@@ -384,6 +393,7 @@ political_decisions = {
 
 	ibn_saud = {
 		potential = {
+    exists = yes
 			has_global_flag = arab_revolt_has_begun
 			NOT = { has_country_flag = ibn_saud }
 			tag = NEJ
@@ -408,6 +418,7 @@ political_decisions = {
 
 	form_the_ikhwan = {
 		potential = {
+    exists = yes
 			OR = {
 				AND = {
 					tag = NEJ
@@ -463,6 +474,7 @@ political_decisions = {
 
 	arabian_conquests = {
 		potential = {
+    exists = yes
 			tag = ARA
 			NOT = { has_country_flag = arabian_expansion }
 		}
@@ -496,6 +508,7 @@ political_decisions = {
 	
 	form_umayyad = {
 		potential = {
+    exists = yes
 			tag = ARB
 			has_country_flag = arabian_expansion
 		}
@@ -601,6 +614,7 @@ political_decisions = {
 
 	the_holy_city = {
 		potential = {
+    exists = yes
 			1151 = {
 				NOT = { has_province_modifier = holy_city }
 			}
@@ -630,6 +644,7 @@ political_decisions = {
 	claim_arabian_peninsula = {
 		picture = map_arabia
 		potential = {
+    exists = yes
 			tag = ARB
 			NOT = { has_country_flag = claim_arabian_peninsula }
 		}
@@ -666,6 +681,7 @@ political_decisions = {
 	hedjaz_independent = {
 		picture = form_the_ikhwan
 		potential = {
+    exists = yes
 			tag = HDJ
 			vassal_of = EGY
 		}

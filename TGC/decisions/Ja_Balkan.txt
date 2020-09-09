@@ -1,6 +1,7 @@
 political_decisions = {
 	form_sks = {
 		potential = {
+    exists = yes
 			OR = {
 				tag = SLO
 				tag = CRO

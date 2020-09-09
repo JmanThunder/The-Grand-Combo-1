@@ -5,6 +5,7 @@ country_event = {
 	picture = "deliberation"
 
 	trigger = {
+	exists = yes
 		OR = {
 			AND = {
 				tag = CHL
@@ -129,6 +130,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = PBC
 		war = no
 		has_recently_lost_war = yes
@@ -291,6 +293,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = BRZ
 		war = no
 		neighbour = URU
@@ -434,6 +437,7 @@ country_event = {
 	picture = "administration"
 
 	trigger = {
+	exists = yes
 		tag = URU
 		has_country_flag = war_with_brazil
 		ruling_party_ideology = conservative
@@ -522,6 +526,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = ECU
 		government = democracy
 		year = 1842
@@ -618,6 +623,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = ECU
 		government = democracy
 		year = 1860
@@ -715,6 +721,7 @@ country_event = {
 	picture = "BurkeandWills"
 	
 	trigger = {
+	exists = yes
 		war = no
 		2549 = {
 			empty = yes
@@ -789,6 +796,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		tag = CHL
 		OR = {
 			2332 = { empty = yes }
@@ -990,6 +998,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			tag = ARG
 			tag = LPL
@@ -1192,6 +1201,7 @@ province_event = {
 	desc = "EVTDESC97086"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = CHL_2332
 			region = ARG_2398

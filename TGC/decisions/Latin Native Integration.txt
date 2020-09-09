@@ -1,6 +1,7 @@
 political_decisions = {
 	native_integration_mexico = {
 		potential = {
+    exists = yes
 			tag = MEX
 			OR = {
 				government = hms_government
@@ -31,6 +32,7 @@ political_decisions = {
 	}
 	native_integration_usca = {
 		potential = {
+    exists = yes
 			OR = {
 				tag = UCA
 				tag = GUA
@@ -61,6 +63,7 @@ political_decisions = {
 	}	
 	native_integration_peru = {
 		potential = {
+    exists = yes
 			OR = {
 				tag = PEU
 				tag = SPU

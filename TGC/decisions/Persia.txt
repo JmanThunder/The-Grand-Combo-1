@@ -5,6 +5,7 @@ travel_to_europe = {
 		picture = dreams_of_empire
 
 		potential = {
+    exists = yes
 			tag = PER 
 			NOT = {	has_country_flag = travel_to_europe }
 		}
@@ -32,7 +33,8 @@ travel_to_europe = {
 persian_cinema = {
 		picture = fatherland_altar
 		
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = PER
 			NOT = { has_country_flag = persian_cinema }
 			NOT = { has_country_modifier = silver_age }
@@ -63,7 +65,8 @@ persian_cinema = {
 greater_iran = {
 		picture = greater_iran
 
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = PER
 			civilized = yes
 			NOT = { has_country_flag = greater_iran }
@@ -105,6 +108,7 @@ greater_iran = {
 establish_the_dar_al_funun = {
 		picture = suezcanalcompany
 		potential = {
+    exists = yes
 			tag = PER
 			civilized = no
 			has_country_modifier = silver_age
@@ -152,6 +156,7 @@ establish_the_dar_al_funun = {
 	revoke_kurdish_autonomy = {
 		picture = old_kurdistan_map
 		potential = {
+    exists = yes
 			tag = PER
 			NOT = { has_country_flag = kurdish_states_integrated }
 			OR = {
@@ -203,6 +208,7 @@ establish_the_dar_al_funun = {
 establish_the_majles = {
 		picture = caucasus_viceroyalty
 		potential = {
+    exists = yes
 			tag = PER
 			year = 1900
 			NOT = { has_country_flag = majles_established }
@@ -231,7 +237,8 @@ establish_the_majles = {
 # End the bazaari strike.
 end_bazaari_strike = {
 		picture = PER_bazaari_strike
-		potential = { has_country_modifier = bazaari_strike }
+		potential = {
+    exists = yes has_country_modifier = bazaari_strike }
 				
 		allow = { has_country_modifier = bazaari_strike }
 				
@@ -264,6 +271,7 @@ end_bazaari_strike = {
 appoint_amir_kabir = {
 		picture = amir_kabir
 		potential = {
+    exists = yes
 			tag = PER
 			NOT = { year = 1852 }
 			NOT = {	has_country_flag = amir_kabir }
@@ -311,6 +319,7 @@ appoint_amir_kabir = {
 bring_tea_to_iran = {
 		picture = prince_mirza
 		potential = {
+    exists = yes
 			tag = PER
 			NOT = { has_country_flag = tea_in_iran }
 			OR = {
@@ -349,6 +358,7 @@ bring_tea_to_iran = {
 	the_treaty_of_erzurum_ii = {
 		picture = persia_map
 		potential = {
+    exists = yes
 			tag = TUR
 			1131 = { is_core = THIS }
 			925 = { is_core = PER }
@@ -381,6 +391,7 @@ bring_tea_to_iran = {
 	revoke_coastal_emirate_autonomy = {
 		picture = persia_map
 		potential = {
+    exists = yes
 			tag = PER
 			OR = {
 				AND = { 1136 = { owner = { civilized = no } NOT = { owned_by = PER } }  NOT = { has_country_flag  = bushire_regained } }
@@ -502,6 +513,7 @@ bring_tea_to_iran = {
 	regain_omani_coast = {
 		picture = gwadar_pakistan
 		potential = {
+    exists = yes
 			tag = PER
 			OR = {
 				AND = { owns = 2643 1142 = { owner = { civilized = no } NOT = { owned_by = PER } }  NOT = { has_country_flag  = bandar_abbas_regained } } #Bandar Abbas

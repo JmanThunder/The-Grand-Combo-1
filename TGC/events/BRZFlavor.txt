@@ -8,6 +8,7 @@ country_event = {
 	news_desc_short = "EVTDESC46300_NEWS_SHORT"
 
 	trigger = {
+	exists = yes
 		tag = BRZ 
 		year = 1864
 		romanticism = 1 #has romanticism tech
@@ -63,6 +64,7 @@ country_event = {
 	news_desc_short = "EVTDESC46301_NEWS_SHORT"
 
 	trigger = {
+	exists = yes
 		tag = BRZ 
 		year = 1895
 		NOT = {
@@ -109,6 +111,7 @@ province_event = {
 	news_desc_short = "EVTDESC46302_NEWS_SHORT"
 
 	trigger = {
+	exists = yes
 		province_id = 2436 #Bahia
 		owned_by = BRZ 
 		year = 1837
@@ -161,6 +164,7 @@ country_event = {
 	picture = "vargas"
 
 	trigger = {
+	exists = yes
 		tag = BRZ
 		month = 3
 		year = 1930
@@ -253,6 +257,7 @@ country_event = {
 	picture = "DPII"
 
 	trigger = {
+	exists = yes
 		tag = BRZ 
 		year = 1889
 		OR = {
@@ -339,6 +344,7 @@ country_event = {
 	picture = "juiz_de_fora"
 
 	trigger = {
+	exists = yes
 		tag = BRZ 
 		year = 1860
 	}
@@ -364,6 +370,7 @@ country_event = {
 	picture = "BRZ_pedro_coronation"
 	
 	trigger = {
+	exists = yes
 		tag = BRZ
 		OR = {
             government = absolute_monarchy
@@ -397,6 +404,7 @@ country_event = {
 	picture = "BRZ_pedro_death"
 	
 	trigger = {
+	exists = yes
 		tag = BRZ
 		has_country_flag = coronation_of_pedro
 		year = 1889
@@ -455,6 +463,7 @@ country_event = {
 	picture = "cabanagem"
 	
 	trigger = {
+	exists = yes
 		tag = BRZ
 		owns = 2410
 		NOT = { upper_house_composition = state_equal_weight }
@@ -514,6 +523,7 @@ country_event = {
 	picture = "balaiada"
 	
 	trigger = {
+	exists = yes
 		owns = 2425 #Chapada
 		tag = BRZ 
 		year = 1838

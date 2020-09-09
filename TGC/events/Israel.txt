@@ -12,6 +12,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -92,6 +93,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -164,6 +166,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -245,6 +248,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -322,6 +326,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -401,6 +406,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -479,6 +485,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -553,6 +560,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -632,6 +640,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+	exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -713,6 +722,7 @@ province_event = {
 	desc = "EVTDESC98405"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_palestine
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -824,6 +834,7 @@ province_event = {
 	desc = "EVTDESC98405"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_palestine
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -935,6 +946,7 @@ province_event = {
 	desc = "EVTDESC98405"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_palestine
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1046,6 +1058,7 @@ province_event = {
 	desc = "EVTDESC98405"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_palestine
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1157,6 +1170,7 @@ province_event = {
 	desc = "EVTDESC98410"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_madagascar
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1268,6 +1282,7 @@ province_event = {
 	desc = "EVTDESC98410"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_madagascar
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1379,6 +1394,7 @@ province_event = {
 	desc = "EVTDESC98410"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_madagascar
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1490,6 +1506,7 @@ province_event = {
 	desc = "EVTDESC98410"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_madagascar
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1601,6 +1618,7 @@ province_event = {
 	desc = "EVTDESC98410"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_madagascar
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1712,6 +1730,7 @@ province_event = {
 	desc = "EVTDESC98410"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_madagascar
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1823,6 +1842,7 @@ province_event = {
 	desc = "EVTDESC98410"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_madagascar
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -1934,6 +1954,7 @@ province_event = {
 	desc = "EVTDESC98410"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_madagascar
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2045,6 +2066,7 @@ province_event = {
 	desc = "EVTDESC98418"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_andinia
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2156,6 +2178,7 @@ province_event = {
 	desc = "EVTDESC98418"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_andinia
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2267,6 +2290,7 @@ province_event = {
 	desc = "EVTDESC98418"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_andinia
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2378,6 +2402,7 @@ province_event = {
 	desc = "EVTDESC98418"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_andinia
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2489,6 +2514,7 @@ province_event = {
 	desc = "EVTDESC98418"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_andinia
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2600,6 +2626,7 @@ province_event = {
 	desc = "EVTDESC98418"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_andinia
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2711,6 +2738,7 @@ province_event = {
 	desc = "EVTDESC98418"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_andinia
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2822,6 +2850,7 @@ province_event = {
 	desc = "EVTDESC98418"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_andinia
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -2933,6 +2962,7 @@ province_event = {
 	desc = "EVTDESC98426"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_guiana
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3044,6 +3074,7 @@ province_event = {
 	desc = "EVTDESC98426"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_guiana
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3155,6 +3186,7 @@ province_event = {
 	desc = "EVTDESC98426"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_guiana
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3266,6 +3298,7 @@ province_event = {
 	desc = "EVTDESC98426"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_guiana
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3377,6 +3410,7 @@ province_event = {
 	desc = "EVTDESC98430"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_alaska
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3488,6 +3522,7 @@ province_event = {
 	desc = "EVTDESC98430"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_alaska
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3599,6 +3634,7 @@ province_event = {
 	desc = "EVTDESC98430"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_alaska
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3710,6 +3746,7 @@ province_event = {
 	desc = "EVTDESC98430"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_alaska
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3821,6 +3858,7 @@ province_event = {
 	desc = "EVTDESC98430"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_alaska
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -3932,6 +3970,7 @@ province_event = {
 	desc = "EVTDESC98435"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_uganda
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4043,6 +4082,7 @@ province_event = {
 	desc = "EVTDESC98435"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_uganda
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4154,6 +4194,7 @@ province_event = {
 	desc = "EVTDESC98435"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_uganda
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4265,6 +4306,7 @@ province_event = {
 	desc = "EVTDESC98435"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_uganda
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4376,6 +4418,7 @@ province_event = {
 	desc = "EVTDESC98435"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_uganda
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4487,6 +4530,7 @@ province_event = {
 	desc = "EVTDESC98435"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_uganda
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4598,6 +4642,7 @@ province_event = {
 	desc = "EVTDESC98442"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_japan
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4709,6 +4754,7 @@ province_event = {
 	desc = "EVTDESC98442"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_japan
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4820,6 +4866,7 @@ province_event = {
 	desc = "EVTDESC98442"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_japan
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -4931,6 +4978,7 @@ province_event = {
 	desc = "EVTDESC98442"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_japan
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5042,6 +5090,7 @@ province_event = {
 	desc = "EVTDESC98442"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_japan
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5153,6 +5202,7 @@ province_event = {
 	desc = "EVTDESC98449"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_cyrenaica
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5264,6 +5314,7 @@ province_event = {
 	desc = "EVTDESC98449"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_cyrenaica
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5375,6 +5426,7 @@ province_event = {
 	desc = "EVTDESC98449"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_cyrenaica
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5486,6 +5538,7 @@ province_event = {
 	desc = "EVTDESC98449"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_cyrenaica
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5597,6 +5650,7 @@ province_event = {
 	desc = "EVTDESC98449"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_cyrenaica
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5708,6 +5762,7 @@ province_event = {
 	desc = "EVTDESC98449"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_cyrenaica
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5819,6 +5874,7 @@ province_event = {
 	desc = "EVTDESC98455"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_angola
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -5930,6 +5986,7 @@ province_event = {
 	desc = "EVTDESC98455"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_angola
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -6041,6 +6098,7 @@ province_event = {
 	desc = "EVTDESC98455"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_angola
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -6152,6 +6210,7 @@ province_event = {
 	desc = "EVTDESC98455"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_angola
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -6263,6 +6322,7 @@ province_event = {
 	desc = "EVTDESC98455"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_angola
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -6374,6 +6434,7 @@ province_event = {
 	desc = "EVTDESC98455"
 
 	trigger = {
+	exists = yes
 		has_global_flag = israel_angola
 		has_province_modifier = jewish_diaspora
 		owner = {
@@ -6486,6 +6547,7 @@ province_event = {
 	desc = "EVTDESC30089"
 
 	trigger = {
+	exists = yes
 		has_province_modifier = armenian_diaspora
 		NOT = { is_core = ARM }
 		owner = {
@@ -6577,6 +6639,7 @@ province_event = {
 	desc = "EVTDESC30089"
 
 	trigger = {
+	exists = yes
 		has_province_modifier = armenian_diaspora
 		NOT = { is_core = ARM }
 		owner = {
@@ -6668,6 +6731,7 @@ province_event = {
 	desc = "EVTDESC30089"
 
 	trigger = {
+	exists = yes
 		has_province_modifier = armenian_diaspora
 		NOT = { is_core = ARM }
 		owner = {

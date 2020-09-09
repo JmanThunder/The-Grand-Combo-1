@@ -6,6 +6,7 @@ country_event = {
 	picture = "BAV_swan_king"
 
 	trigger = {
+	exists = yes
 		tag = BAV
 		OR = {
 			government = hms_government
@@ -42,6 +43,7 @@ country_event = {
 	picture = "map_trentin"
 
 	trigger = {
+	exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -105,6 +107,7 @@ country_event = {
 	picture = "map_trentin"
 
 	trigger = {
+	exists = yes
 		tag = ITA
 		owns = 734 #Trentin
 		owns = 735 #Bozen
@@ -161,6 +164,7 @@ country_event = {
 #	desc = "EVTDESC110092"
 #	
 #	trigger = {
+	exists = yes
 #		owner = { 
 #			tag = USA 
 #			has_country_flag = has_used_radical_reconstruction

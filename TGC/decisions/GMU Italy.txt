@@ -21,6 +21,7 @@ political_decisions = {
 	vesuvius_observatory = {
 		picture = "vesuvius_observatory"
 		potential = {
+    exists = yes
 			owns = 754
 			NOT = { has_country_flag = vesuvius_observatory_build }
 		}
@@ -49,6 +50,7 @@ political_decisions = {
 	pompeji_fiorelli = {
 		picture = pompeji_fiorelli
 		potential = {
+    exists = yes
 			owns = 754
 			NOT = { has_country_flag = fiorelli }
 		}
@@ -78,6 +80,7 @@ political_decisions = {
 	italian_islands = {
 		picture = "italian_islands"
 		potential = {
+    exists = yes
 			tag = ITA
 			has_global_flag = italian_claimed_venetia
 			NOT = { has_country_flag = italian_islands_claimed }
@@ -133,6 +136,7 @@ political_decisions = {
 	encourage_italian_aircraft = {
 		picture = "encourage_italian_aircraft"
 		potential = {
+    exists = yes
 			tag = ITA
 			year = 1900
 			NOT = { has_country_flag = porco_rosso }
@@ -169,6 +173,7 @@ political_decisions = {
 	italian_trentino = {
 		picture = "italian_trentino"
 		potential = {
+    exists = yes
 			OR = {
 				primary_culture = north_italian
 				primary_culture = south_italian
@@ -208,6 +213,7 @@ political_decisions = {
 	german_tyrol = {
 		picture = "german_tyrol"
 		potential = {
+    exists = yes
 			OR = {
 				primary_culture = north_german
 				primary_culture = south_german
@@ -246,6 +252,7 @@ political_decisions = {
 	galleria_ve = {
 		picture = "galleria_ve"
 		potential = {
+    exists = yes
 			tag = ITA
 			owns = 726
 			NOT = { has_country_flag = shopping_in_milan }
@@ -274,6 +281,7 @@ political_decisions = {
 	repubblica_di_venezia = {
 		picture = "repubblica_di_venezia"
 		potential = {
+    exists = yes
 			tag = VEN
 			 is_vassal = no
 			 OR = {
@@ -310,6 +318,7 @@ political_decisions = {
 	venetian_ambition = {
 		picture = "venetian_ambition"
 		potential = {
+    exists = yes
 			NOT = { has_country_flag = venetian_ambition }
 			tag = VEN
 		}
@@ -354,6 +363,7 @@ political_decisions = {
 	codificazione_estense = {
 		picture = "codificazione_estense"
 		potential = {
+    exists = yes
 			tag = MOD
 			NOT = { has_country_flag = codificazione_estense_si }
 		}
@@ -383,6 +393,7 @@ political_decisions = {
 	roman_republic_joins = {
 		picture = "italia_irredenta"
 		potential = {
+    exists = yes
 			tag = PAP
 			ai = yes
 			NOT = { has_country_flag = roman_republic_joins }

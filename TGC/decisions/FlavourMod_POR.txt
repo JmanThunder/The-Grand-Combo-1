@@ -2,6 +2,7 @@ political_decisions = {
 	claim_olivenza = {
 		picture = olivenza_coa
 		potential = {
+    exists = yes
 			primary_culture = portuguese
 			NOT = { owns = 3287 } #Olivenza
 			NOT = { has_global_flag = claim_olivenza }

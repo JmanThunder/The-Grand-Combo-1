@@ -14,6 +14,7 @@ country_event = {
 	picture = "election_crowd"
 	
 	trigger = {
+	exists = yes
 		election = yes
 		war = yes
 		NOT = {
@@ -155,6 +156,7 @@ country_event = {
 	picture = "communist_riot"
 	
 	trigger = {
+	exists = yes
 		election = yes
 		OR = {
 			average_militancy = 2
@@ -295,6 +297,7 @@ country_event = {
 	picture = "demonstration"
 	
 	trigger = {
+	exists = yes
 		election = yes
 		OR = {
 			average_militancy = 2
@@ -418,6 +421,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		election = yes
 		any_owned_province = {
 			is_colonial = no
@@ -551,6 +555,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		election = yes
 		any_owned_province = {
 			is_colonial = no
@@ -782,6 +787,7 @@ country_event = {
 	picture = "chartists"
 	
 	trigger = {
+	exists = yes
 		election = yes
 		war = no
 		NOT = {
@@ -829,6 +835,7 @@ country_event = {
 	picture = "election_win"
 	
 	trigger = {
+	exists = yes
 		election = no
 		has_country_flag = election_initialized
 		ruling_party_ideology = conservative
@@ -1020,6 +1027,7 @@ country_event = {
 	picture = "election_win"
 	
 	trigger = {
+	exists = yes
 		election = no
 		has_country_flag = election_initialized
 		ruling_party_ideology = socialist
@@ -1213,6 +1221,7 @@ country_event = {
 	picture = "election_win"
 	
 	trigger = {
+	exists = yes
 		election = no
 		has_country_flag = election_initialized
 		ruling_party_ideology = liberal
@@ -1405,6 +1414,7 @@ country_event = {
 	picture = "election_win"
 	
 	trigger = {
+	exists = yes
 		election = no
 		has_country_flag = election_initialized
 		ruling_party_ideology = communist
@@ -1602,6 +1612,7 @@ country_event = {
 	picture = "election_win"
 	
 	trigger = {
+	exists = yes
 		election = no
 		has_country_flag = election_initialized
 		ruling_party_ideology = fascist
@@ -1789,6 +1800,7 @@ country_event = {
 	picture = "election_win"
 	
 	trigger = {
+	exists = yes
 		election = no
 		has_country_flag = election_initialized
 		ruling_party_ideology = reactionary
@@ -1981,6 +1993,7 @@ country_event = {
 	picture = "election_win"
 	
 	trigger = {
+	exists = yes
 		election = no
 		has_country_flag = election_initialized
 		ruling_party_ideology = anarcho_liberal
@@ -2178,6 +2191,7 @@ country_event = {
 	picture = "election_win"
 	
 	trigger = {
+	exists = yes
 		election = no
 		has_country_flag = election_initialized
 		ruling_party_ideology = social_liberal
@@ -2378,6 +2392,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		owner = { NOT = { war_policy = pacifism } }
 	}
@@ -2487,6 +2502,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		owner = { NOT = { war_policy = jingoism } }
 		has_pop_type = officers
@@ -2593,6 +2609,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		has_pop_type = soldiers
 	}
@@ -2735,6 +2752,7 @@ country_event = {
 	is_triggered_only = yes
 	issue_group = war_policy
 	trigger = {
+	exists = yes
 		is_colonial = no
 		has_pop_type = soldiers
 		has_pop_type = capitalists
@@ -2820,6 +2838,7 @@ country_event = {
 	election = yes
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		any_owned_province = {
 			OR = {
@@ -2889,6 +2908,7 @@ country_event = {
 	is_triggered_only = yes
 	issue_group = economic_policy
 	trigger = {
+	exists = yes
 		is_colonial = no
 		owner = { literacy = 0.5 }
 		owner = { NOT = { economic_policy = laissez_faire } }
@@ -2978,6 +2998,7 @@ country_event = {
 	is_triggered_only = yes
 	issue_group = economic_policy
 	trigger = {
+	exists = yes
 		is_colonial = no
 		has_pop_type = craftsmen
 		NOT = {
@@ -3078,6 +3099,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		has_pop_type = clergymen
 		owner = {
@@ -3222,6 +3244,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		any_pop = { 
 			is_state_religion = yes
@@ -3321,6 +3344,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		any_pop = { 
 			is_state_religion = no
@@ -3428,6 +3452,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		any_pop = {
 			OR = {
@@ -3577,6 +3602,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		owner = {
 			citizenship_policy = residency
@@ -3694,6 +3720,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		owner = {
 			citizenship_policy = limited_citizenship
@@ -3842,6 +3869,7 @@ country_event = {
 	issue_group = trade_policy
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		has_pop_type = artisans
 	}
@@ -3925,6 +3953,7 @@ country_event = {
 	is_triggered_only = yes
 	issue_group = trade_policy
 	trigger = {
+	exists = yes
 		is_colonial = no
 		has_pop_type = craftsmen
 		has_pop_type = capitalists
@@ -4014,6 +4043,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+	exists = yes
 		is_colonial = no
 		owner = {
 			slavery = yes_slavery
@@ -4082,6 +4112,7 @@ country_event = {
 	election = yes
 	is_triggered_only = yes
 	trigger = {
+	exists = yes
 		is_colonial = no
 		owner = {
 			slavery = yes_slavery
@@ -4147,6 +4178,7 @@ country_event = {
 	picture = "senate_debate"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		number_of_states = 3
@@ -4237,6 +4269,7 @@ country_event = {
 	picture = "senate_debate"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		number_of_states = 3
@@ -4380,6 +4413,7 @@ country_event = {
 	picture = "senate_debate"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		number_of_states = 3
 		election = yes
@@ -4523,6 +4557,7 @@ country_event = {
 	picture = "senate_debate"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		number_of_states = 3
 		election = yes
@@ -4632,6 +4667,7 @@ country_event = {
 	picture = "senate_debate"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		number_of_states = 3
 		election = yes
@@ -4779,6 +4815,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -4914,6 +4951,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -5077,6 +5115,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -5240,6 +5279,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -5431,6 +5471,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -5654,6 +5695,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -5913,6 +5955,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -6108,6 +6151,7 @@ country_event = {
 	picture = "streetriot"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -6239,6 +6283,7 @@ country_event = {
 	picture = "Socialism"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		socialist = 5
@@ -6352,6 +6397,7 @@ country_event = {
 	picture = "Socialism"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		OR = {
@@ -6482,6 +6528,7 @@ country_event = {
 	picture = "Fascist"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		fascist = 5
@@ -6599,6 +6646,7 @@ country_event = {
 	picture = "Finepeople"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		liberal = 5
@@ -6705,6 +6753,7 @@ country_event = {
 	picture = "AnarchoLiberals"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		OR = {
@@ -6812,6 +6861,7 @@ country_event = {
 	picture = "banquet"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		OR = {
@@ -6902,6 +6952,7 @@ country_event = {
 	picture = "finepeople"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		OR = {
@@ -7027,6 +7078,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		conservative = 5
@@ -7131,6 +7183,7 @@ country_event = {
 	picture = "Voting"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -7260,6 +7313,7 @@ country_event = {
 	picture = "Voting"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -7389,6 +7443,7 @@ country_event = {
 	picture = "Voting"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -7534,6 +7589,7 @@ country_event = {
 	picture = "Voting"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -7679,6 +7735,7 @@ country_event = {
 	picture = "Harassment"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -7821,6 +7878,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -7964,6 +8022,7 @@ country_event = {
 	picture = "Voting"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -8107,6 +8166,7 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -8273,6 +8333,7 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		not = { has_country_modifier = election_cooldown }
@@ -8463,6 +8524,7 @@ country_event = {
 	picture = "ChildLabor2"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		NOT = { has_country_modifier = election_cooldown }
@@ -8648,6 +8710,7 @@ country_event = {
 	picture = "demonstration"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		NOT = { has_country_modifier = election_cooldown }
@@ -8888,6 +8951,7 @@ country_event = {
 	picture = "demonstration"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		NOT = { has_country_modifier = election_cooldown }
@@ -9095,6 +9159,7 @@ country_event = {
 	picture = "Revolution"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		war = yes
@@ -9226,6 +9291,7 @@ country_event = {
 	picture = "Revolution"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		war = no
@@ -9346,6 +9412,7 @@ country_event = {
 	picture = "senate_debate"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = election_initialized
 		election = yes
 		NOT = { has_country_modifier = election_cooldown }

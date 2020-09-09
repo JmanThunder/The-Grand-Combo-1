@@ -16,6 +16,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = SWI
 		year = 1845
 		ruling_party_ideology = liberal
@@ -77,6 +78,7 @@ country_event = {
 	picture = "exemplar_colony"
 
 	trigger = {
+	exists = yes
 		civilized = yes
 		money = 55000
 		colonial_policy = no_colonies
@@ -270,6 +272,7 @@ country_event = {
 	picture = "rome_buildings"
 
 	trigger = {
+	exists = yes
 		tag = ITA
 		owns = 749 #Rome
 		total_pops = 8500000

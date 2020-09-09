@@ -4,6 +4,7 @@ political_decisions = {
 		picture = kaitakushi
 		alert = no
 		potential = {
+    exists = yes
             OR = {
                 has_country_flag = government_decisions_on
                 ai = yes

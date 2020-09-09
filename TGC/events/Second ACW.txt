@@ -19,6 +19,7 @@ country_event = {
 
 	major = yes
 	trigger = {
+	exists = yes
 		tag = USA
 		war = no
 		NOT = { government = democracy }
@@ -94,6 +95,7 @@ province_event = {
 	desc = "EVTDESC95261"
 
 	trigger = {
+	exists = yes
 		owner = {
 			tag = USA
 			has_global_flag = disunited_states
@@ -229,6 +231,7 @@ country_event = {
 	picture = "Celebration"
 
 	trigger = {
+	exists = yes
 		tag = USA
 		government = democracy
 		has_global_flag = disunited_states
@@ -266,6 +269,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 223
@@ -427,6 +431,7 @@ province_event = {
 	desc = "EVTDESC95266"
 	
 	trigger = {
+	exists = yes
 		owned_by = USA
 		is_core = FSA
 		is_colonial = no
@@ -543,6 +548,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 60
@@ -702,6 +708,7 @@ province_event = {
 	desc = "EVTDESC95268"
 	
 	trigger = {
+	exists = yes
 		owned_by = USA
 		is_core = CSA
 		is_colonial = no
@@ -818,6 +825,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 81
@@ -969,6 +977,7 @@ province_event = {
 	desc = "EVTDESC95270"
 	
 	trigger = {
+	exists = yes
 		owned_by = USA
 		is_core = UOR
 		is_colonial = no
@@ -1081,6 +1090,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 106
@@ -1230,6 +1240,7 @@ province_event = {
 	desc = "EVTDESC95272"
 	
 	trigger = {
+	exists = yes
 		owned_by = USA
 		is_core = UNB
 		is_colonial = no
@@ -1341,6 +1352,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 163
@@ -1490,6 +1502,7 @@ province_event = {
 	desc = "EVTDESC95274"
 	
 	trigger = {
+	exists = yes
 		owned_by = USA
 		is_core = UIL
 		is_colonial = no
@@ -1601,6 +1614,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 122
@@ -1750,6 +1764,7 @@ province_event = {
 	desc = "EVTDESC95276"
 	
 	trigger = {
+	exists = yes
 		owned_by = USA
 		is_core = DAK
 		is_colonial = no
@@ -1861,6 +1876,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 100
@@ -1987,6 +2003,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 97
@@ -2119,6 +2136,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 84
@@ -2248,6 +2266,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 133
@@ -2377,6 +2396,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		any_owned_province = {
 			province_id = 243
@@ -2506,6 +2526,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		3 = {
 			owned_by = THIS
@@ -2621,6 +2642,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		658 = {
 			owned_by = THIS

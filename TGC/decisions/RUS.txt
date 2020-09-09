@@ -2,6 +2,7 @@ political_decisions = {
 	abolish_serfdom = {
 		picture = abolish_serfdom
 		potential = {
+    exists = yes
 			tag = RUS
 			debt_law = serfdom
 			has_country_flag = serfdom_not_abolished
@@ -91,6 +92,7 @@ political_decisions = {
 	establish_the_sovnarkom = {
 		picture = establish_the_sovnarkom
 		potential = {
+    exists = yes
 			tag = RUS
 			NOT = {
 				has_country_flag = big_brother_is_watching
@@ -123,6 +125,7 @@ political_decisions = {
 	
 	manifesto_on_unshakable_autocracy = {
 		potential = {
+    exists = yes
 			tag = RUS
 			OR = {
 				government = hms_government
@@ -174,6 +177,7 @@ political_decisions = {
 	
 	promulgate_the_ems_ukaz = {
 		potential = {
+    exists = yes
 			tag = RUS
 			NOT = { has_country_flag = ems_ukaz_dispatched }
 			OR = { 
@@ -216,6 +220,7 @@ political_decisions = {
 	convention_of_peking = {
 		picture = peking_convention
 		potential = {
+    exists = yes
 			tag = RUS
 			is_greater_power = yes
 			1082 = {
@@ -290,6 +295,7 @@ political_decisions = {
 	mongolian_protectorate = {
 		picture = unequal_treaty
 		potential = {
+    exists = yes
 			tag = RUS
 			is_greater_power = yes
 			MGL = {
@@ -331,6 +337,7 @@ political_decisions = {
 	peking_convention_TPG = {
 		picture = peking_convention
 		potential = {
+    exists = yes
 			tag = RUS
 			is_greater_power = yes
 			TPG = { owns = 1082 }
@@ -363,6 +370,7 @@ political_decisions = {
 
 	russian_vladivostok = {
 		potential = {
+    exists = yes
 			tag = RUS
 			owns = 1085
 			owns = 1084
@@ -446,6 +454,7 @@ political_decisions = {
 	japanese_outer_manchuria = {
 		picture = outer_manchuria_map
 		potential = {
+    exists = yes
 			OR = {
 				tag = JAP
 				tag = TKG
@@ -479,6 +488,7 @@ political_decisions = {
 	chinese_outer_manchuria = {
 		picture = outer_manchuria_map
 		potential = {
+    exists = yes
 			OR = {
 				tag = CHI
 				tag = QNG
@@ -518,6 +528,7 @@ political_decisions = {
 		picture = russian_vladivostok
 		
 		potential = {
+    exists = yes
 			owns = 1082
 			owns = 1083
 			owns = 1084
@@ -561,6 +572,7 @@ political_decisions = {
 	
 	move_capital_to_moscow = {
 		potential = {
+    exists = yes
 			tag = RUS
 			NOT = { capital = 1008 }
 		}
@@ -605,6 +617,7 @@ political_decisions = {
 	treaty_of_tartu = {
 		picture = treaty_signing
 		potential = {
+    exists = yes
 			tag = FIN
 			RUS = { owns = 982 } #Petsamo
 			owns = 339 #Viipuri
@@ -634,6 +647,7 @@ political_decisions = {
 	reclaim_poland_RUS = {
 		picture = become_poland
 		potential = {
+    exists = yes
 			tag = RUS
 			OR = {
 				year = 1890
@@ -746,6 +760,7 @@ political_decisions = {
 	establish_panslavism = {
 	picture = establish_panslavism
 		potential = {
+    exists = yes
 			tag = SER
 			OR = { 
 				government = absolute_monarchy
@@ -786,6 +801,7 @@ political_decisions = {
 	the_great_game_bukhara = {
 		picture = gtfo
 		potential = {
+    exists = yes
 			OR = {
 				government = hms_government
 				government = prussian_constitutionalism
@@ -823,6 +839,7 @@ political_decisions = {
 	the_great_game_kokand = {
 		picture = gtfo
 		potential = {
+    exists = yes
 			OR = {
 				government = hms_government
 				government = prussian_constitutionalism
@@ -862,6 +879,7 @@ political_decisions = {
 	the_great_game_khiva = {
 		picture = gtfo
 		potential = {
+    exists = yes
 			OR = {
 				government = hms_government
 				government = prussian_constitutionalism
@@ -906,6 +924,7 @@ political_decisions = {
 	claim_sakhalin = {
 		picture = map_yellow_sea
 		potential = {
+    exists = yes
 			tag = RUS
 			1086 = { owned_by = THIS }
 			OR = {
@@ -953,6 +972,7 @@ political_decisions = {
 	names_of_the_revolution = {
 		picture = names_of_the_rev
 		potential = {
+    exists = yes
 			tag = RUS
 			government = proletarian_dictatorship
 			NOT = { has_country_flag = names_of_the_revolution }
@@ -995,6 +1015,7 @@ political_decisions = {
 	remove_names_of_the_revolution = {
 		picture = names_of_the_rev
 		potential = {
+    exists = yes
 			tag = RUS
 			NOT = { government = proletarian_dictatorship }
 			has_country_flag = names_of_the_revolution
@@ -1039,6 +1060,7 @@ political_decisions = {
 	names_of_the_revolution_ukraine = {
 		picture = names_of_the_rev
 		potential = {
+    exists = yes
 			tag = RUS
 			government = proletarian_dictatorship
 			NOT = { has_global_flag = names_of_the_revolution_ukraine }
@@ -1070,6 +1092,7 @@ political_decisions = {
 	remove_names_of_the_revolution_ukraine = {
 		picture = names_of_the_rev
 		potential = {
+    exists = yes
 			NOT = { government = proletarian_dictatorship }
 			has_global_flag = names_of_the_revolution_ukraine
 			owns = 972
@@ -1099,6 +1122,7 @@ political_decisions = {
 	expel_the_poles_GLM = {
 		picture = polish_expelled
 		potential = {
+    exists = yes
 			is_culture_group = east_slavic
 			OR = {
 				owns = 951
@@ -1155,6 +1179,7 @@ political_decisions = {
 	russify_baltic_states = {
 		picture = russify_baltic_states
 		potential = {
+    exists = yes
 			tag = RUS
 			NOT = { has_country_flag = russification_of_the_baltic_states }
 			is_our_vassal = UBD
@@ -1208,6 +1233,7 @@ political_decisions = {
 	establish_caucasus_viceroyalty = {
 		picture = caucasus_viceroyalty
 		potential = {
+    exists = yes
 			tag = RUS
 			NOT = { has_country_flag = caucasus_viceroyalty_established }
 			TCA = { ai = yes }
@@ -1265,6 +1291,7 @@ political_decisions = {
 	integrate_abkhazia = {
 		picture = integrate_abkhazia
 		potential = {
+    exists = yes
 			tag = RUS
 			NOT = { has_country_flag = integrated_abkhazia }
 			owns = 1051
@@ -1323,6 +1350,7 @@ political_decisions = {
 	drain_the_pinsk_marshes = {
 		picture = drain_the_pinsk_marshes
 		potential = {
+    exists = yes
 			NOT = { has_country_flag = marshes_ready }
 			OR = {
 				941 = {
@@ -1370,6 +1398,7 @@ political_decisions = {
 	colonize_uriankhai = {
 		picture = uriankhai_colony
 		potential = {
+    exists = yes
 			tag = RUS
 			owns = 1063
 			NOT = { has_country_flag = colonize_uriankhai }
@@ -1422,6 +1451,7 @@ political_decisions = {
 	integrate_uriankhai = {
 		picture = uriankhai_colony
 		potential = {
+    exists = yes
 			tag = RUS
 			has_country_flag = colonize_uriankhai
 			NOT = { has_country_flag = tannu_integrated }
@@ -1489,6 +1519,7 @@ political_decisions = {
 	alexander_reforms = {
 		picture = alexander_emancipating
 		potential = {
+    exists = yes
 			tag = RUS
 			OR = {
 				has_country_flag = crimean_war
@@ -1591,6 +1622,7 @@ political_decisions = {
 	petrograd_renaming_act = {
 		picture = petrograd_city
 		potential = {
+    exists = yes
 			tag = RUS
 			NOT = { has_country_flag = peters_city_renamed }
 			NOT = { has_country_flag = names_of_the_revolution }
@@ -1631,6 +1663,7 @@ political_decisions = {
 	integrate_kazakhstan = {
 		picture = unite_turkestan
 		potential = {
+    exists = yes
 			tag = RUS
 			any_owned_province = { is_core = KAZ }
 			NOT = { has_country_flag = kazakhstan_integrated }
@@ -1670,6 +1703,7 @@ political_decisions = {
 	russification_of_finland = {
 		picture = suomineito
 		potential = {
+    exists = yes
 			tag = RUS
 			is_our_vassal = FIN
 			revolution_n_counterrevolution = 1
@@ -1704,6 +1738,7 @@ political_decisions = {
 	liaodong_lease = {
 		picture = port_arthur
 		potential = {
+    exists = yes
 			owns = 1082
 			1481 = { NOT = { owned_by = THIS } owner = { is_culture_group = east_asian civilized = no } }
 			NOT = { has_country_flag = demanded_port_arthur }
@@ -1749,6 +1784,7 @@ political_decisions = {
 	break_the_treaty_of_tartu = {
 		picture = treaty_signing
 		potential = {
+    exists = yes
 			has_country_flag = treaty_of_tartu
 			NOT = { has_country_flag = tartu_treaty_broke }
 		}
@@ -1792,6 +1828,7 @@ political_decisions = {
 	tea_in_georgia = {
 		picture = tea_production
 		potential = {
+    exists = yes
 			owns = 1094
 			NOT = { has_global_flag = georgian_tea }
 		}
@@ -1823,6 +1860,7 @@ political_decisions = {
 	treaty_of_akhal = {
 		picture = treaty_of_turkmanchay
 		potential = {
+    exists = yes
 			OR = {
 				AND = {
 					owns = 1205
@@ -1880,6 +1918,7 @@ political_decisions = {
 	afghan_northern_borders = {
 		picture = treaty_of_turkmanchay
 		potential = {
+    exists = yes
 			OR = {
 				owns = 1208
 				1208 = { owner = { vassal_of = THIS } }

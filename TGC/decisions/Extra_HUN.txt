@@ -1,6 +1,7 @@
 political_decisions = {
 	primus_inter_pares = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			government = absolute_monarchy
@@ -28,6 +29,7 @@ political_decisions = {
 	
 	tizenket_pont = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			year = 1844
@@ -66,6 +68,7 @@ political_decisions = {
 	
 	king_of_rama = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			NOT = {
@@ -96,6 +99,7 @@ political_decisions = {
 
 	dalmatian_patrimony = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			NOT = {
@@ -126,6 +130,7 @@ political_decisions = {
 
 	halych_dominion = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			NOT = {
@@ -165,6 +170,7 @@ political_decisions = {
 
 	polish_enclave = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			NOT = {
@@ -209,6 +215,7 @@ political_decisions = {
 
 	croatian_compromise = {
 		potential = {
+    exists = yes
 			exists = yes
 			NOT = {
 				has_country_flag = croatian_compromise
@@ -259,6 +266,7 @@ political_decisions = {
 	
 	romanian_compromise = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			NOT = {
@@ -298,6 +306,7 @@ political_decisions = {
 
 	dominions_of_the_crown = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			NOT = {
@@ -346,6 +355,7 @@ political_decisions = {
 
 	nandorfehervar = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			NOT = {
@@ -381,6 +391,7 @@ political_decisions = {
 
 	rename_nandorfehervar = {
 		potential = {
+    exists = yes
 			exists = yes
 			OR = {
 				tag = SER
@@ -409,6 +420,7 @@ political_decisions = {
 	
 	pest_vac_railroad = {
 		potential = {
+    exists = yes
 			exists = yes
 			owns = 641
 			NOT = {
@@ -435,6 +447,7 @@ political_decisions = {
 	
 	lanchid_begins = {
 		potential = {
+    exists = yes
 			exists = yes
 			owns = 641
 			year = 1839
@@ -454,6 +467,7 @@ political_decisions = {
 	
 	lanchid = {
 		potential = {
+    exists = yes
 			exists = yes
 			has_country_flag = lanchid_begins
 			NOT = {
@@ -476,6 +490,7 @@ political_decisions = {
 	milenium = {
 	picture = milenium
 		potential = {
+    exists = yes
 			exists = yes
 			year = 1890
 			NOT = {
@@ -511,6 +526,7 @@ political_decisions = {
 
 	build_parliament = {
 		potential = {
+    exists = yes
 			exists = yes
 			owns = 641
 			has_country_flag = milenium
@@ -538,6 +554,7 @@ political_decisions = {
 	
 	purge_foreign_elite = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = BOS
 			BOS = { 
@@ -559,6 +576,7 @@ political_decisions = {
 	accepting_the_slovaks = {
 		picture = slovaks
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			SLV = {
@@ -631,6 +649,7 @@ political_decisions = {
 	stop_accepting_the_slovaks = {
 		picture = league_of_three_emperors
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			635 = {
@@ -653,6 +672,7 @@ political_decisions = {
 	hun_cro_settlement = {
 	picture = hun_cro_settlement
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			CRO = {
@@ -704,6 +724,7 @@ political_decisions = {
 		
 	triune_kingdom = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			771 = {
@@ -781,6 +802,7 @@ political_decisions = {
 	make_budapest_capital = {
 		picture = budapest_city
 		potential = {
+    exists = yes
 			exists = yes
 			tag = HUN
 			has_country_flag = budapest_founded

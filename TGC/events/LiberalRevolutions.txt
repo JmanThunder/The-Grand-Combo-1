@@ -6,6 +6,7 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		capital_scope = { continent = europe }
 		NOT = { tag = ENG }
@@ -132,6 +133,7 @@ country_event = {
 	picture = "Revolution"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 		OR = {
 			liberal = 15
@@ -275,6 +277,7 @@ country_event = {
 	id = 10051
 	
 	trigger = {
+	exists = yes
 		OR = {
 			has_country_flag = liberal_revolution_in_progress
 			has_country_flag = liberal_revolution_fired
@@ -378,6 +381,7 @@ country_event = {
 	id = 10050
 	
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_fired
 		NOT = { has_country_flag = had_liberal_revolution }
 		NOT = { has_country_modifier = springtime_of_nations }
@@ -426,6 +430,7 @@ country_event = {
 	picture = "famine"
 
 	trigger = {
+	exists = yes
 		civilized = yes
 		OR = {
 			NOT = { inorganic_chemistry = 1 }
@@ -569,6 +574,7 @@ country_event = {
 	picture = "Metis"
 
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 		any_owned_province = {
 			OR = {
@@ -732,6 +738,7 @@ country_event = {
 	picture = "Demonstration"
 
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 	}
 	
@@ -896,6 +903,7 @@ country_event = {
 	picture = "news"
 
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 		NOT = { press_rights = free_press }
 		any_state = {
@@ -1086,6 +1094,7 @@ country_event = {
 	picture = "chartists"
 
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 		NOT = {
 			vote_franschise = none_voting
@@ -1291,6 +1300,7 @@ country_event = {
 	picture = "Finepeople"
 
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 		NOT = { vote_franschise = none_voting }
 		NOT = { political_parties = secret_ballots }
@@ -1477,6 +1487,7 @@ country_event = {
 	picture = "luddites"
 
 	trigger = {
+	exists = yes
 		OR = {
 			has_country_flag = liberal_revolution_in_progress
 			has_country_modifier = springtime_of_nations
@@ -1718,6 +1729,7 @@ country_event = {
 	picture = "nationalists"
 
 	trigger = {
+	exists = yes
 		OR = {
 			has_country_flag = liberal_revolution_in_progress
 			has_country_modifier = springtime_of_nations
@@ -1821,6 +1833,7 @@ country_event = {
 	picture = "banquet"
 
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 		public_meetings = no_meeting
 		any_state = {
@@ -2014,6 +2027,7 @@ province_event = {
 	id = 10170
 
 	trigger = {
+	exists = yes
 		owner = {
 			OR = {
 				has_country_flag = liberal_revolution_in_progress
@@ -2166,6 +2180,7 @@ country_event = {
 	id = 10180
 
 	trigger = {
+	exists = yes
 		NOT = {
 			has_country_modifier = anti_jacobin_tract
 		}
@@ -2266,6 +2281,7 @@ province_event = {
 	id = 10190
 
 	trigger = {
+	exists = yes
 		owner = {
 			NOT = { has_country_modifier = springtime_of_nations }
 		}
@@ -2393,6 +2409,7 @@ province_event = {
 	id = 10200
 
 	trigger = {
+	exists = yes
 		has_province_modifier = liberal_agitation
 		liberal = 25
 		controlled_by = THIS
@@ -2607,6 +2624,7 @@ country_event = {
 	picture = "streetriot"
 
 	trigger = {
+	exists = yes
 		any_owned_province = {
 			controlled_by = THIS
 			has_province_modifier = liberal_agitation
@@ -2794,6 +2812,7 @@ province_event = {
 	id = 10210
 
 	trigger = {
+	exists = yes
 		has_province_modifier = liberal_agitation
 		NOT = { average_militancy = 6 }
 		average_consciousness = 5
@@ -2891,6 +2910,7 @@ country_event = {
 	picture = "nationalists"
 
 	trigger = {
+	exists = yes
 		civilized = yes
 		NOT = {
 			has_country_flag = liberal_revolution_in_progress
@@ -3026,6 +3046,7 @@ province_event = {
 	picture = "nationalists"
 
 	trigger = {
+	exists = yes
 		owner = {
 			OR = {
 				has_country_flag = liberal_revolution_in_progress
@@ -3262,6 +3283,7 @@ province_event = {
 	id = 10220
 
 	trigger = {
+	exists = yes
 		has_province_modifier = liberal_agitation
 		controlled_by = THIS
 	}
@@ -3443,6 +3465,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -3563,6 +3586,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = AUS
 		owns = 641
 		OR = {
@@ -3820,6 +3844,7 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
+	exists = yes
 		tag = HUN
 		war = no
 		AUS = {
@@ -3973,6 +3998,7 @@ country_event = {
 	picture = "danishgovernment"
 
 	trigger = {
+	exists = yes
 		tag = NET
 		exists = BEL
 		OR = {
@@ -4134,6 +4160,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		OR = {
 			tag = PRU
 			tag = NGF
@@ -4279,6 +4306,7 @@ country_event = {
 	picture = "Cholera"
 
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 		any_owned_province = {
 			OR = {
@@ -4375,6 +4403,7 @@ country_event = {
 	picture = "Revolution"
 
 	trigger = {
+	exists = yes
 		has_country_flag = liberal_revolution_in_progress
 		any_state = {
 			any_owned_province = {
@@ -4536,6 +4565,7 @@ country_event = {
 	picture = "Finepeople"
 
 	trigger = {
+	exists = yes
 		literacy = 0.4
 		civilized = yes
 		romanticism = 1
@@ -4603,6 +4633,7 @@ country_event = {
 	picture = "publishers"
 
 	trigger = {
+	exists = yes
 		literacy = 0.3
 		civilized = yes
 		average_consciousness = 3
@@ -4671,6 +4702,7 @@ country_event = {
 	picture = "Upperhouse"
 
 	trigger = {
+	exists = yes
 		NOT = {
 			economic_policy = laissez_faire
 			government = proletarian_dictatorship
@@ -4746,6 +4778,7 @@ country_event = {
 	picture = "Demonstration"
 
 	trigger = {
+	exists = yes
 		freedom_of_trade = 1
 		civilized = yes
 		NOT = {
@@ -4807,6 +4840,7 @@ country_event = {
 	picture = "demonstration"
 
 	trigger = {
+	exists = yes
 		NOT = {
 			OR = {
 				vote_franschise = universal_weighted_voting

@@ -352,6 +352,7 @@ country_event = {
 	major = yes	
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		any_state = {
 			any_owned_province = {
@@ -459,6 +460,7 @@ country_event = {
 	major = yes	
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		any_state = {
 			any_owned_province = {
@@ -571,6 +573,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		year = 1900
 			tag = SWE
 			any_state = {
@@ -669,6 +672,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		year = 1900
 		tag = SWE
 		any_state = {

@@ -5,6 +5,7 @@ country_event = {
 	desc = "EVTDESC7000"
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1830
 		NOT = { exists = BEL }
@@ -107,6 +108,7 @@ country_event = {
 	desc = "EVTDESC7001"
 	
 	trigger = {
+	exists = yes
 		year = 1835
 		NOT = { 
 			exists = TEX
@@ -183,6 +185,7 @@ country_event = {
 	desc = "EVTDESC7002"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		year = 1822
 		NOT = { exists = GRE }
@@ -246,6 +249,7 @@ country_event = {
 	desc = "EVTDESC183111"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		year = 1830
 		exists = GRE 
@@ -407,6 +411,7 @@ country_event = {
 	desc = "EVTDESC7004"
 	
 	trigger = {
+	exists = yes
 		tag = MEX
                 year = 1830
 		NOT = { year = 1840 }
@@ -509,6 +514,7 @@ country_event = {
 	picture = "caesars"
 	
 	trigger = {
+	exists = yes
 		tag = RME
                 year = 1874
                 owns = 572
@@ -597,6 +603,7 @@ country_event = {
 	desc = "EVTDESC7009"
 	
 	trigger = {
+	exists = yes
 		tag = SPA
                 year = 1828
 		NOT = { year = 1847 }
@@ -676,6 +683,7 @@ country_event = {
 	desc = "EVTDESC7015"
 
 	trigger = {
+	exists = yes
 		tag = GCO
 		year = 1831
 	}
@@ -805,6 +813,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = BRZ
 		year = 1825
                 war = no
@@ -837,7 +846,7 @@ country_event = {
 	}
 	option = {
 		name = "Proclaim the Republic."
-		2461 = { change_province_name = "Florianópolis" }
+		2461 = { change_province_name = "Florian?polis" }
 		government = democracy
 		PBR = {
 			all_core = { remove_core = PBR }
@@ -884,7 +893,7 @@ country_event = {
 	option = {
 		name = "Make a Revolution"
                 change_tag = RBR
-		2461 = { change_province_name = "Florianópolis" }
+		2461 = { change_province_name = "Florian?polis" }
 		government = democracy
 		BRZ = {
 			all_core = { add_core = RBR }
@@ -969,7 +978,7 @@ country_event = {
                 
 	}
 	option = {
-		name = "Remember the King of São Paulo!"
+		name = "Remember the King of S?o Paulo!"
 		change_tag = SAO
 		government = hms_goverment
 		BRZ = {
@@ -1029,6 +1038,7 @@ country_event = {
         picture = "farroupilha"
 
 	trigger = {
+	exists = yes
 		tag = BRZ
 		year = 1835
                 NOT = { 
@@ -1097,11 +1107,12 @@ country_event = {
 #Brazilian Independence
 country_event = {
 	id = 7012
-	title = "Independência ou Morte!"
+	title = "Independ?ncia ou Morte!"
 	desc = "EVTDESC7012"
         picture = "ipiranga"
 
 	trigger = {
+	exists = yes
 		tag = PBA
 		year = 1822
                 has_country_flag = recolonization
@@ -1159,6 +1170,7 @@ country_event = {
         picture = "ipiranga"
 
 	trigger = {
+	exists = yes
 		tag = POR
 		year = 1822
                 has_global_flag = independence
@@ -1255,14 +1267,15 @@ country_event = {
 	}
 }
 
-#Revolução Liberal
+#Revolu??o Liberal
 country_event = {
 	id = 701222
-	title = "A Revolução Liberal do Porto"
+	title = "A Revolu??o Liberal do Porto"
 	desc = "EVTDESC701222"
         picture = "revolucao"
 
 	trigger = {
+	exists = yes
 		tag = PBA
 		year = 1820
 
@@ -1285,14 +1298,14 @@ country_event = {
 		political_reform = limited
 		political_reform = gerrymandering
                 capital = 521
-                set_country_flag = revolução_do_porto
+                set_country_flag = revolu??o_do_porto
 		ai_chance = {
 			factor = 90
 		}
 	}
 
 	option = {
-		name = "Dom João VI won't accept this!"
+		name = "Dom Jo?o VI won't accept this!"
 		remove_accepted_culture = brazilian
                 release = POR
                 POR = { government = democracy }
@@ -1326,7 +1339,7 @@ country_event = {
 	}
 }
 
-#Revolução Mexicana
+#Revolu??o Mexicana
 country_event = {
 	id = 182333
 	title = "The Mexican Empire"
@@ -1334,6 +1347,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = MEX
 		year = 1822
 
@@ -1378,7 +1392,7 @@ country_event = {
 	}
 }
 
-#Dom João Dies
+#Dom Jo?o Dies
 country_event = {
 	id = 184555
 	title = "Emperor Pedro"
@@ -1386,6 +1400,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = PBA
 		year = 1845
 	}
@@ -1438,6 +1453,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = POR
 		has_country_flag = alcacer_quibir
                 NOT = { has_country_flag = investigate }
@@ -1474,6 +1490,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = POR
 		has_country_flag = investigate
                 NOT = { has_country_flag = el_rey }
@@ -1512,6 +1529,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = POR
 		has_country_flag = el_rey
                 NOT = { has_country_flag = el_rey_returns }
@@ -1563,6 +1581,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = KPO
 		has_country_flag = el_rey_returns
                 NOT = { has_country_flag = el_rey_dead }
@@ -1585,14 +1604,15 @@ country_event = {
 	}
 }
 
-#Age of Mauá
+#Age of Mau?
 country_event = {
 	id = 183550
-	title = "Era Mauá"
+	title = "Era Mau?"
 	desc = "EVTDESC183550"
         picture = "visconde_maua"
 
 	trigger = {
+	exists = yes
                 primary_culture = brazilian
 		year = 1850
 	}
@@ -1617,11 +1637,12 @@ country_event = {
 #Companhia de Navegacao do Amazonas
 country_event = {
 	id = 185050
-	title = "Companhia de Navegação do Amazonas"
+	title = "Companhia de Navega??o do Amazonas"
 	desc = "EVTDESC185050"
         major = yes
 
 	trigger = {
+	exists = yes
 		primary_culture = brazilian
 		year = 1850
                 has_country_flag = ageofmaua
@@ -1654,6 +1675,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = ENG
                 month = 7
 		year = 1861
@@ -1687,7 +1709,7 @@ country_event = {
 	}
 }
 
-#Revolução Russa
+#Revolu??o Russa
 country_event = {
 	id = 191777
 	title = "The Russian Revolution"
@@ -1696,6 +1718,7 @@ country_event = {
         major = yes
 
 	trigger = {
+	exists = yes
 		tag = RUS
 		year = 1917
 
@@ -1813,9 +1836,10 @@ country_event = {
         picture = "brazil"
 
 	trigger = {
+	exists = yes
 		tag = PBA
 		year = 1820
-                has_country_flag = revolução_do_porto
+                has_country_flag = revolu??o_do_porto
 	}
 
 	fire_only_once = yes
@@ -1860,6 +1884,7 @@ country_event = {
         picture = "diadofico"
 
 	trigger = {
+	exists = yes
 		tag = PBA
 		year = 1820
                 has_country_flag = recolonization
@@ -1889,6 +1914,7 @@ country_event = {
 	desc = "EVTDESC7016"
 
 	trigger = {
+	exists = yes
 		tag = UCA
 		year = 1838
 	}
@@ -2016,6 +2042,7 @@ country_event = {
 	desc = "EVTDESC7019"
 	
 	trigger = {
+	exists = yes
 		tag = AUS
 		year = 1848
 		NOT = { exists = HUN }
@@ -2078,6 +2105,7 @@ country_event = {
 	desc = "EVTDESC7024"
 
 	trigger = {
+	exists = yes
 		URU_2344 = { owned_by = THIS }
                 year = 1828
                 war = no

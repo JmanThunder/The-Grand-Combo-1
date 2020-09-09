@@ -8,6 +8,7 @@ country_event = {
 	picture = "italoturk"
 	
 	trigger = {
+	exists = yes
 		tag = ITA
 		invention = the_dark_continent
 		is_vassal = no
@@ -454,6 +455,7 @@ country_event = {
 	picture = "italoturk2"
 
 	trigger = {
+	exists = yes
 		tag = TUR
 		owns = 1731
 		has_global_flag = italy_fights_turk

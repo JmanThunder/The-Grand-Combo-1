@@ -2,6 +2,7 @@ political_decisions = {
 	outside_form_italy = {
 		picture = form_italy
 		potential = {
+    exists = yes
 			NOT = {
 				tag = AUS
 				tag = KUK
@@ -80,6 +81,7 @@ political_decisions = {
 	outside_form_italy2 = {
 		picture = form_italy
 		potential = {
+    exists = yes
 			tag = FRE
 			is_greater_power = yes
 			NOT = { exists = ITA }
@@ -145,6 +147,7 @@ political_decisions = {
 
 	outside_italia_irredenta = {
 		potential = {
+    exists = yes
 			NOT = {
 				tag = AUS
 				tag = KUK

@@ -2,6 +2,7 @@ political_decisions = {
 	
 	form_south_german_confederation = {
 		potential = {
+    exists = yes
 			capital_scope = { continent = europe }
 			is_greater_power = yes
 			primary_culture = south_german
@@ -108,6 +109,7 @@ political_decisions = {
 	
 	austrian_form_south_german_confederation = {
 		potential = {
+    exists = yes
 			OR = {
 				tag = AUS
 				tag = KUK
@@ -258,6 +260,7 @@ political_decisions = {
 	
 	form_north_german_confederation = {
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			primary_culture = north_german
 			capital_scope = { continent = europe }
@@ -361,6 +364,7 @@ political_decisions = {
 	form_union_nation = {
 		picture = form_union_nation
 		potential = {
+    exists = yes
 			culture_has_union_tag = yes
 			NOT = {
 				cultural_union = { exists = yes }
@@ -430,6 +434,7 @@ political_decisions = {
 		news_desc_medium = "form_germany_NEWS_MEDIUM"
 		news_desc_short = "form_germany_NEWS_SHORT"
 		potential = {
+    exists = yes
 			capital_scope = { continent = europe }
 			NOT = { has_country_flag = post_colonial_country }
 			OR = {
@@ -760,6 +765,7 @@ political_decisions = {
 		news_desc_medium = "form_germany_NEWS_MEDIUM"
 		news_desc_short = "form_germany_NEWS_SHORT"
 		potential = {
+    exists = yes
 			OR = { 
 				tag = AUS
 				tag = KUK
@@ -920,6 +926,7 @@ political_decisions = {
 	austria_annex_SGF = {
 		picture = austrian_form_south_german_confederation
 		potential = {
+    exists = yes
 			OR = {
 				tag = AUS
 				tag = KUK
@@ -972,6 +979,7 @@ political_decisions = {
 		news_desc_medium = "form_italy_NEWS_MEDIUM"
 		news_desc_short = "form_italy_NEWS_SHORT"
 		potential = {
+    exists = yes
 			is_culture_group = italian
 			capital_scope = { continent = europe }
 			NOT = {
@@ -1068,6 +1076,7 @@ political_decisions = {
 	form_india = {
 	picture = form_india
 		potential = {
+    exists = yes
 			OR = {
 				is_culture_group = south_asian
 				is_culture_group = indo_iranian
@@ -1171,6 +1180,7 @@ political_decisions = {
 	
 	reichsland_elsass = {
 		potential = {
+    exists = yes
 			is_culture_group = germanic
 			NOT = { tag = ALS }
 			owns = 410
@@ -1188,9 +1198,9 @@ political_decisions = {
 				change_province_name = "Kolmar"
 			}
 			409 = {
-				change_province_name = "Straﬂburg"
+				change_province_name = "Stra?burg"
 				state_scope = {
-					change_region_name = "Elsaﬂ-Lothringen"
+					change_region_name = "Elsa?-Lothringen"
 				}
 			}
 			ALS = { government = colonial_company }
@@ -1204,6 +1214,7 @@ political_decisions = {
 	
 	restore_alsace = {
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -1236,6 +1247,7 @@ political_decisions = {
 	form_north_german_confederation2 = {
 		picture = form_north_german_confederation
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			primary_culture = north_german
 			capital_scope = { continent = europe }
@@ -1328,6 +1340,7 @@ political_decisions = {
 	form_south_german_confederation2 = {
 		picture = form_south_german_confederation
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			primary_culture = south_german
 			capital_scope = { continent = europe }
@@ -1438,6 +1451,7 @@ political_decisions = {
 	become_holstein = {
 		picture = gtfo
 		potential = {
+    exists = yes
 			tag = SWH
 			OR = {
 				any_owned_province = { is_core = HOL }
@@ -1493,6 +1507,7 @@ political_decisions = {
 	become_schleswig = {
 		picture = gtfo
 		potential = {
+    exists = yes
 			tag = SWH
 			any_owned_province = { is_core = HOL }
 			exists = HOL
@@ -1530,6 +1545,7 @@ political_decisions = {
 	become_yemen = {
 		picture = map_arabia
 		potential = {
+    exists = yes
 			OR = {
 				tag = KTH
 				tag = LHJ
@@ -1609,6 +1625,7 @@ political_decisions = {
 	unite_the_caucasus = {
 		picture = unite_caucasus
 		potential = {
+    exists = yes
 			NOT = { has_global_flag = call_for_caucasus_unity }
 			OR = {
 				tag = CHY
@@ -1637,6 +1654,7 @@ political_decisions = {
 	form_antillean_confederation = {
 		picture = form_antillean_confederation
 		potential = {
+    exists = yes
 			primary_culture = caribeno
 			ATC = { exists = no }
 			2222 = { NOT = { is_core = ATC } }
@@ -1687,6 +1705,7 @@ political_decisions = {
     reject_pan_nationalism = {
         picture = indoctrinal_education_communist
         potential = {
+    exists = yes
             NOT = { has_country_flag = rejected_pan_nationalism }
             is_cultural_union = no
             OR = {

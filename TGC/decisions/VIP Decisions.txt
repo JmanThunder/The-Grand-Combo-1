@@ -2,6 +2,7 @@
 	a_telegraph_line_to_uruguay = { #original VIP event idea by General Perón, scripted by Scythe
 		picture = ems_dispatch
 		potential = {
+    exists = yes
 			tag = ARG
 			exists = URU
 			revolution_n_counterrevolution = 1
@@ -22,6 +23,7 @@
 	found_the_school_of_military_aviation = { #original VIP event idea by General Perón, scripted by Scythe
 		picture = found_the_school_of_military_aviation
 		potential = {
+    exists = yes
 			OR = {
 				tag = ARG
 				tag = LPL
@@ -45,6 +47,7 @@
 	state_visit_to_argentina = { #original VIP event idea by General Perón, scripted by Scythe
 		picture = court_yard_speech
 		potential = {
+    exists = yes
 			tag = BRZ
 			exists = ARG
 			NOT = { has_country_flag = state_visit_to_argentina }
@@ -79,6 +82,7 @@
 	recognize_argentinas_independence = { #original VIP event by Generalisimo
 		picture = court_yard_speech
 		potential = {
+    exists = yes
 			tag = SAR
 			exists = ARC
 			OR = {
@@ -123,6 +127,7 @@
 	establish_the_observatorio_astronomico = { #original VIP event idea by mfigueras, text and script by Scythe
 		picture = vesuvius_observatory
 		potential = {
+    exists = yes
 			tag = ECU
 			owns = 2279 #Quito
 			empiricism = 1
@@ -172,6 +177,7 @@
 	paraguayan_law_of_the_free_womb = { #original VIP event by PMLF
 		picture = enslave_the_serfs_image
 		potential = {
+    exists = yes
 			tag = PRG
 			slavery = yes_slavery
 			NOT = { has_country_flag = paraguayan_law_of_the_free_womb }
@@ -203,6 +209,7 @@
 	start_the_campaign_against_the_guaranis = { #original VIP event by PMLF
 		picture = occupy_misiones
 		potential = {
+    exists = yes
 			tag = PRG
 			NOT = { accepted_culture = guarani }
 			any_owned_province = { has_pop_culture = guarani }
@@ -244,6 +251,7 @@
 	student_exchange_and_importation_of_technicians = { #original VIP event by Pimparel
 		picture = dreams_of_empire
 		potential = {
+    exists = yes
 			tag = PRG
 			NOT = { has_country_flag = student_exchange_and_importation_of_technicians }
 		}
@@ -268,6 +276,7 @@
 	send_solano_lopez_to_europe = { #original VIP event by PMLF
 		picture = solano_lopez
 		potential = {
+    exists = yes
 			tag = PRG
 			has_country_flag = carlos_lopez_elected
 			government = presidential_dictatorship
@@ -290,6 +299,7 @@
 	slovene_language_at_celje_gymnasium = { #original VIP event by Hrast, edited by Palisadoes
 		picture = czech_autonomy
 		potential = {
+    exists = yes
 			is_culture_group = germanic
 			owns = 767 #Maribor
 			revolution_n_counterrevolution = 1
@@ -320,6 +330,7 @@
 	the_final_abolishment_of_serfdom = { #original VIP event by Hrast
 		picture = abolish_serfdom
 		potential = {
+    exists = yes
 			OR = {
 				tag = AUS
 				tag = KUK

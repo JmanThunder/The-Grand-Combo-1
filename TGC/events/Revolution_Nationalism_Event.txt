@@ -11,6 +11,7 @@ country_event = {
 	picture = "recruits"
 	
 	trigger = {
+	exists = yes
 		war = no
 		is_vassal = no
 		is_disarmed = no
@@ -369,6 +370,7 @@ province_event = {
 	news_desc_short = "EVTDESC97175_NEWS_SHORT"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			is_colonial = yes
 			is_overseas = yes
@@ -417,6 +419,7 @@ country_event = {
 	picture = "rebellion"
 
 	trigger = {
+	exists = yes
 		civilized = no
 		is_vassal = no
 		any_neighbor_country = {
@@ -610,6 +613,7 @@ province_event = {
 	desc = "EVTDESC97181"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			is_colonial = yes
 			is_overseas = yes
@@ -860,6 +864,7 @@ province_event = {
 	desc = "EVTDESC97185"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			is_colonial = yes
 			is_overseas = yes

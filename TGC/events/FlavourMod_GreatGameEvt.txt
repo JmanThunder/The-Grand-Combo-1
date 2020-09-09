@@ -74,6 +74,7 @@ country_event = {
 	news_desc_short = "EVTDESC99101_NEWS_SHORT"
 	
 	trigger = {
+	exists = yes
 		tag = ENG
 		AFG = {
 			vassal_of = ENG
@@ -227,6 +228,7 @@ province_event = {
 	desc = "EVTDESC99301"
 	
 	trigger = {
+	exists = yes
 		is_core = AFG
 		OR = {
 			is_core = KUN
@@ -263,6 +265,7 @@ country_event = {
 	picture = "2nd_anglo_sikh_war"
 	
 	trigger = {
+	exists = yes
 		tag = ENG
 		is_greater_power = yes
 		is_disarmed = no
@@ -328,7 +331,8 @@ country_event = {
 	picture = "siege_of_herat"
 	fire_only_once = yes
 	
-	trigger = { 
+	trigger = {
+	exists = yes 
 		tag = PER
 		war = no
 		1212 = {
@@ -462,6 +466,7 @@ country_event = {
 	picture = "anglo_persian_war"
 	
 	trigger = {
+	exists = yes
 		tag = ENG
 		is_greater_power = yes
 		is_disarmed = no
@@ -818,6 +823,7 @@ province_event = {
 	desc = "EVTDESC99301"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			is_core = PER
 			is_core = KHR

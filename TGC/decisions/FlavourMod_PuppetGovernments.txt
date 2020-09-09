@@ -1,6 +1,7 @@
 political_decisions = {
 	clean_up_unciv_monarchy = {
 		potential = {
+    exists = yes
 			ai = yes
 			exists = yes
 			OR = {
@@ -65,6 +66,7 @@ political_decisions = {
 	
 	clean_up_colonial_government = {
 		potential = {
+    exists = yes
 			ai = yes
 			is_vassal = yes
 			exists = yes
@@ -477,6 +479,7 @@ political_decisions = {
 	
 	clean_up_freed_colonial_govt = {
 		potential = {
+    exists = yes
 			is_vassal = no
 			OR = {
 				government = colonial_company

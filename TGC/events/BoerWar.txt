@@ -12,6 +12,7 @@ country_event = {
 	picture = "pioneer_wagons"
 	
 	trigger = {
+	exists = yes
 		tag = ENG
 		NOT = { has_global_flag = great_boer_trek }
 		NOT = { has_country_flag = boer_accepted }
@@ -44,6 +45,7 @@ country_event = {
 	picture = "pioneer_wagons"
 	
 	trigger = {
+	exists = yes
 		tag = ZUL
 		year = 1838
 		has_global_flag = great_boer_trek
@@ -342,6 +344,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		capital_scope = { continent = europe }
 		war = no
 		owns = 2087
@@ -532,6 +535,7 @@ country_event = {
 	picture = "pioneer_wagons"
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		owns = 2093
 		owns = 2087
@@ -793,6 +797,7 @@ country_event = {
 	picture = "pioneer_wagons"
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		owns = 2093
 		year = 1845
@@ -1137,6 +1142,7 @@ province_event = {
 	desc = "EVTDESC98225"
 
 	trigger = {
+	exists = yes
 		NOT = { has_country_flag = boer_accepted }
 		has_province_modifier = boer_exodus
 		ORA = { exists = yes }
@@ -1209,6 +1215,7 @@ province_event = {
 	desc = "EVTDESC98225"
 
 	trigger = {
+	exists = yes
 		NOT = { has_country_flag = boer_accepted }
 		has_province_modifier = boer_exodus
 		ORA = { exists = yes }
@@ -1279,6 +1286,7 @@ province_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		NOT = { has_country_flag = boer_accepted }
 		has_province_modifier = boer_exodus
 		OR = {
@@ -1452,6 +1460,7 @@ country_event = {
 	picture = "goldrush"
 	
 	trigger = {
+	exists = yes
 		is_greater_power = yes
 		NOT = { has_country_flag = boer_accepted }
 		any_neighbor_country = {
@@ -1533,6 +1542,7 @@ country_event = {
 	picture = "goldrush"
 	
 	trigger = {
+	exists = yes
 		NOT = { 
 			primary_culture = boer
 			has_country_flag = kimberley_goldrush
@@ -1570,6 +1580,7 @@ country_event = {
  	picture = "greatpowers"
 
 	trigger = {
+	exists = yes
 		OR = {
 			tag = TRN
 			tag = ORA
@@ -1713,6 +1724,7 @@ country_event = {
  	picture = "boer_war"
 
 	trigger = {
+	exists = yes
 		war = no
 		tag = ENG
 		TRN = {
@@ -2130,6 +2142,7 @@ country_event = {
  	picture = "zulu"
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			tag = ENG
@@ -2211,6 +2224,7 @@ country_event = {
 	picture = "zulu"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -2270,6 +2284,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -2347,6 +2362,7 @@ country_event = {
 	picture = "walvis"
 	
 	trigger = {
+	exists = yes
 		is_greater_power = yes
 		owns = 2088
 		owns = 2087
@@ -2389,6 +2405,7 @@ country_event = {
 	picture = "pioneer_wagons"
 	
 	trigger = {
+	exists = yes
 		tag = ENG
 		war = no
 		owns = 2087
@@ -2497,6 +2514,7 @@ country_event = {
 	picture = "diamonds_in_kimberley"
 	
 	trigger = {
+	exists = yes
 	OR = {
 		owns = 2558
 		AND = {

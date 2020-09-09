@@ -2,6 +2,7 @@ political_decisions = {
 	bowring_treaty = {
 		picture = john_bowring
 		potential = {
+    exists = yes
 			tag = ENG
 			is_greater_power = yes
 			1496 = {
@@ -33,6 +34,7 @@ political_decisions = {
 	enact_rama_iv_reforms = {
 		picture = mongkut
 		potential = {
+    exists = yes
 			tag = SIA
 			civilized = no
 			NOT = { has_country_flag = enact_rama_iv_reforms }
@@ -57,6 +59,7 @@ political_decisions = {
 	enact_rama_v_reforms = {
 		picture = chulalongkorn
 		potential = {
+    exists = yes
 			tag = SIA
 			civilized = no
 			has_country_flag = enact_rama_iv_reforms 
@@ -83,6 +86,7 @@ political_decisions = {
 	magha_puja = {
 		picture = magha_puja
 		potential = {
+    exists = yes
 			tag = SIA
 			has_country_flag = enact_rama_iv_reforms
 			NOT = { has_country_flag = magha_puja }
@@ -113,6 +117,7 @@ political_decisions = {
 	thai_constitution = {
 		picture = thai_constitution
 		potential = {
+    exists = yes
 			tag = SIA
 			civilized = yes
 			OR = { 
@@ -168,6 +173,7 @@ political_decisions = {
 	thesaphiban_reforms = {
 		picture = thai_map
 		potential = {
+    exists = yes
 			tag = SIA
 			civilized = yes
 			centralization = regionalism
@@ -206,6 +212,7 @@ political_decisions = {
 	an_elephant_for_america = {
 		picture = an_elephant_for_america
 		potential = {
+    exists = yes
 			tag = SIA
 			exists = USA
 			NOT = { has_country_flag = sent_an_elephant_to_america }
@@ -224,6 +231,7 @@ political_decisions = {
 	champassak_integration_act = {
 		picture = form_laos
 		potential = {
+    exists = yes
 			tag = SIA
 			CHK = { exists = yes vassal_of = SIA }
 			NOT = { has_country_flag = champassak_integrated }
@@ -245,6 +253,7 @@ political_decisions = {
 	chiang_mai_integration_act = {
 		picture = form_laos
 		potential = {
+    exists = yes
 			tag = SIA
 			SHA = { exists = yes vassal_of = SIA }
 			NOT = { has_country_flag = chiang_mai_integration }
@@ -274,6 +283,7 @@ political_decisions = {
 	pattani_integration_act = {
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			tag = SIA
 			PAT = { exists = yes vassal_of = SIA }
 			NOT = { has_country_flag = pattani_integration_act }

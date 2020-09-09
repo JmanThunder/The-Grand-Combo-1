@@ -15,6 +15,7 @@ country_event = {
 	picture = "greatwar"
 
 	trigger = {
+	exists = yes
 		war = yes
 		OR = {
 			has_country_flag = dismantle_declared
@@ -88,6 +89,7 @@ country_event = {
 	desc = "EVTDESC96001"
 
 	trigger = {
+	exists = yes
 		ai = yes
 		war = yes
 		NOT = { has_country_flag = calling_all_allies }
@@ -148,6 +150,7 @@ country_event = {
 	desc = "EVTDESC96002"
 
 	trigger = {
+	exists = yes
 		ai = yes
 		war = no
 		has_country_flag = calling_all_allies
@@ -169,6 +172,7 @@ country_event = {
 	desc = "EVTDESC96003"
 
 	trigger = {
+	exists = yes
 		ai = yes
 		war = yes
 		has_country_flag = calling_all_allies
@@ -202,6 +206,7 @@ country_event = {
 	picture = "food_shortage"
 
 	trigger = {
+	exists = yes
 		war = yes
 		has_country_modifier = great_war
 		NOT = { has_country_modifier = great_war2 }
@@ -282,6 +287,7 @@ country_event = {
 	picture = "demonstration"
 
 	trigger = {
+	exists = yes
 		war = yes
 		has_country_modifier = great_war2
 		NOT = { has_country_modifier = great_war3 }
@@ -367,6 +373,7 @@ country_event = {
 	picture = "rebellion"
 
 	trigger = {
+	exists = yes
 		war = yes
 		OR = {
 			has_country_modifier = great_war
@@ -436,6 +443,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -1605,6 +1613,7 @@ country_event = {
 	picture = "war_ended"
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -1654,6 +1663,7 @@ country_event = {
 	picture = "war_ended"
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -2241,6 +2251,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -3078,6 +3089,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -4085,6 +4097,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -4536,6 +4549,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -4974,6 +4988,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -5343,6 +5358,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -5862,6 +5878,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -6372,6 +6389,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			has_country_modifier = great_war
@@ -7264,6 +7282,7 @@ country_event = {
 	picture = "Demonstration"
 	
 	trigger = {
+	exists = yes
 		war = no
 		is_greater_power = yes
 		is_disarmed = no
@@ -7396,6 +7415,7 @@ country_event = {
 	picture = "ferdinand"
 	
 	trigger = {
+	exists = yes
 		war = no
 		is_greater_power = yes
 		is_disarmed = no
@@ -7536,6 +7556,7 @@ country_event = {
 	picture = "treaty"
 
 	trigger = {
+	exists = yes
 		war = no
 		has_country_modifier = punitive_effects
 		any_owned_province = {
@@ -7706,6 +7727,7 @@ country_event = {
 	picture = "treaty"
 
 	trigger = {
+	exists = yes
 		war = no
 		has_country_modifier = punitive_effects
 		NOT = {
@@ -7867,6 +7889,7 @@ country_event = {
 	picture = "treaty"
 
 	trigger = {
+	exists = yes
 		war = no
 		has_country_modifier = punitive_effects
 		NOT = {
@@ -8304,6 +8327,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = punitive_effects
 		OR = {
 			government = hms_government

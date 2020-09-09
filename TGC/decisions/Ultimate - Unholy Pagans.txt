@@ -3,6 +3,7 @@ political_decisions = {
 	form_rome = {
 		picture = form_romepic
 			potential = {
+    exists = yes
 			is_culture_group = italian
 			NOT = {
 			exists = RME
@@ -107,6 +108,7 @@ political_decisions = {
 	form_roman_kingdom = {
 		picture = form_romepic
 			potential = {
+    exists = yes
 			is_culture_group = italian
 			NOT = {
 			exists = RME
@@ -155,6 +157,7 @@ political_decisions = {
 	form_westrome = {
 		picture = form_romepic
 		potential = {
+    exists = yes
 			tag = RMK
                         
 			}
@@ -264,6 +267,7 @@ political_decisions = {
 	byzantium = {
 		picture = constantinople1453
 		potential = {
+    exists = yes
 			tag = WRE
 			NOT = { has_country_flag = constantinopleretaken }
 		}
@@ -293,6 +297,7 @@ political_decisions = {
 	constantinople = {
 		picture = constantinople1453
 		potential = {
+    exists = yes
 			tag = RME
 			NOT = { has_country_flag = constantinople }
 		}
@@ -322,6 +327,7 @@ political_decisions = {
 	delenda_cartago = {
 		picture = PunicWars1
 		potential = {
+    exists = yes
 			tag = RME
 			NOT = { has_country_flag = delenda_est_cartago }
 		}
@@ -349,6 +355,7 @@ political_decisions = {
 	mare_nostrum = {
 		picture = marenostrum
 		potential = {
+    exists = yes
 			tag = RME
 			NOT = { has_country_flag = mare_nostrum }
 		}
@@ -376,6 +383,7 @@ political_decisions = {
 	roman_empire = {
 		picture = caesar
 		potential = {
+    exists = yes
 			tag = RME
 			NOT = { has_country_flag = rome_restored }
 		}
@@ -401,6 +409,7 @@ political_decisions = {
 	european_empire4 = {
                 picture = empire_europa_pic
 		potential = {
+    exists = yes
 			tag = RME
 			NOT = { has_country_flag = post_colonial_country }
 		}

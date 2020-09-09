@@ -13,6 +13,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+	exists = yes
 		tag = TUR
 		war = no
 		TUN = { vassal_of = TUR }
@@ -384,6 +385,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+	exists = yes
 		war = no
 		NOT = {
 			exists = BUL
@@ -592,6 +594,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+	exists = yes
 		war = no
 		NOT = {
 			exists = ALB
@@ -790,6 +793,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+	exists = yes
 		war = no
 		NOT = {
 			exists = BOS
@@ -988,6 +992,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+	exists = yes
 		war = no
 		NOT = {
 			exists = IRQ
@@ -1190,6 +1195,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+	exists = yes
 		war = no
 		NOT = {
 			exists = CRE
@@ -1524,6 +1530,7 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		war = no
 		has_global_flag = berlin_conference
@@ -1633,6 +1640,7 @@ country_event = {
 	picture = "Ottoman"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		has_country_modifier = tanzimat_era
 		OR = {
@@ -1794,6 +1802,7 @@ country_event = {
 	picture = "Ottoman"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		has_country_modifier = tanzimat_era
 		OR = {
@@ -1959,6 +1968,7 @@ country_event = {
 	picture = "Ottoman"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		has_country_modifier = tanzimat_era
 		OR = {
@@ -2134,6 +2144,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		OR = {
 			government = prussian_constitutionalism
@@ -2296,6 +2307,7 @@ country_event = {
 	picture = "nationalists"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		has_global_flag = liberal_revolutions_should_now_fire
 		OR = {
@@ -2412,6 +2424,7 @@ country_event = {
 	picture = "young_turks"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		government = absolute_monarchy
 		revolution_n_counterrevolution = 1
@@ -2524,6 +2537,7 @@ country_event = {
 	picture = "young_turks"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		is_greater_power = no
 		has_global_flag = great_wars_enabled
@@ -2635,6 +2649,7 @@ country_event = {
 	picture = "young_turks"
 	
 	trigger = {
+	exists = yes
 		tag = TUR
 		war = no
 		NOT = { has_country_flag = ottomans_to_turks }		

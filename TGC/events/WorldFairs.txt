@@ -3,6 +3,7 @@ country_event = {
 	id = 30000 
 
 	trigger = {
+	exists = yes
 		year = 1849
 		not = { year = 1935 }
 		not = { has_global_flag = PlanWorldFair }
@@ -84,6 +85,7 @@ country_event = {
 	id = 30001 # hold world fair 
 
 	trigger = {
+	exists = yes
 		has_global_flag = PlanWorldFair
 		has_country_flag = world_fair_planner
 		year = 1849
@@ -136,6 +138,7 @@ country_event = {
 	id = 30002 
 
 	trigger = {
+	exists = yes
 		year = 1849
 		not = { year = 1935 }
 		not = { has_global_flag = PlanRegionalFair }
@@ -199,6 +202,7 @@ country_event = {
 	id = 30003 # hold regional fair 
 
 	trigger = {
+	exists = yes
 		has_global_flag = PlanRegionalFair
 		has_country_flag = regionalfairplanner
 		year = 1849
@@ -248,6 +252,7 @@ country_event = {
 	id = 30004 
 
 	trigger = {
+	exists = yes
 		year = 1880
 		not = { year = 1935 }
 		not = { has_global_flag = PlanColonialFair }
@@ -296,6 +301,7 @@ country_event = {
 	id = 30005 # hold colonial fair 
 
 	trigger = {
+	exists = yes
 		has_global_flag = PlanColonialFair
 		has_country_flag = colonialfairplanner
 		year = 1882

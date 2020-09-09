@@ -4,6 +4,7 @@ political_decisions = {
 		picture = italian_trentino
 
 		potential = {
+    exists = yes
 			exists = yes
 			tag = GER
 			exists = ITA
@@ -38,6 +39,7 @@ political_decisions = {
 		picture = wallonien
 
 		potential = {
+    exists = yes
 			exists = yes
 
 			tag = GER
@@ -88,6 +90,7 @@ political_decisions = {
 	annex_nm = {
 		picture = moresnet
 		potential = {
+    exists = yes
 			exists = yes
 
 			owns = 395
@@ -116,6 +119,7 @@ political_decisions = {
 	annex_cm = {
 		picture = cuotomisto
 		potential = {
+    exists = yes
 			exists = yes
 
 			OR = {
@@ -147,6 +151,7 @@ political_decisions = {
 	annex_kalisz = {
 		picture = kalisch
 		potential = {
+    exists = yes
 			exists = yes
 			tag = GER
 			NOT = { has_country_flag = annexkalisch }
@@ -180,6 +185,7 @@ political_decisions = {
 	lease_bergen = {
 		picture = bergen
 		potential = {
+    exists = yes
 			exists = yes
 			tag = GER
 			is_greater_power = yes

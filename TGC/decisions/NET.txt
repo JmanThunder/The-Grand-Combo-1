@@ -2,6 +2,7 @@ political_decisions = {
 	mediate_belgian_independence = {
 		picture = sign_treaty_of_london
 		potential = {
+    exists = yes
 			tag = ENG
 			is_greater_power = yes
 			BEL = { exists = yes }
@@ -51,6 +52,7 @@ political_decisions = {
 	embrace_the_boer = {
 		picture = embrace_the_boer
 		potential = {
+    exists = yes
 			tag = NET
 			NOT = { has_country_flag = boer_accepted }
 			any_owned_province = { 
@@ -87,6 +89,7 @@ political_decisions = {
 	annex_limburg_NET = {
 		picture = treaty_signing
 		potential = {
+    exists = yes
 			tag = NET
 			is_our_vassal = LBG
 			LBG = { exists = yes }
@@ -147,6 +150,7 @@ political_decisions = {
 	dutch_wallonia = {
 		picture = become_wallonia
 		potential = {
+    exists = yes
 			primary_culture = dutch
 			OR = {
 				AND = { owns = 381 owns = 387 NOT = { has_global_flag = dutch_rename_limburg } }

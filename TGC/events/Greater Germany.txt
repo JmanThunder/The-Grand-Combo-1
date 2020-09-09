@@ -21,6 +21,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -539,6 +540,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -1416,6 +1418,7 @@ country_event = {
 	picture = "unite"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -1562,6 +1565,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+	exists = yes
 		tag = AUS
 		is_greater_power = no
 		war = no

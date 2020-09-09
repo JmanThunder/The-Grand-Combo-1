@@ -2,6 +2,7 @@ political_decisions = {
 
 	NOR_industralisation = {
 		potential = {
+    exists = yes
 			exists = yes	
 			exists = NOR
 			tag = NOR

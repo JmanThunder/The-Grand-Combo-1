@@ -9,6 +9,7 @@ country_event = {
 	picture = "rebellion"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			tag = SIN
 			tag = KAL
@@ -314,6 +315,7 @@ country_event = {
 	picture = "Rebellion"
 	
 	trigger = {
+	exists = yes
 		vassal_of = RUS
 		ai = yes
 		civilized = no

@@ -12,6 +12,7 @@ country_event = {
 	picture = "Kiel"
 	
 	trigger = {
+	exists = yes
 		369 = { has_province_modifier = kiel_canal }
 		NOT = { has_country_modifier = kiel_canal_dividend }
 		NOT = { month = 1 }
@@ -45,6 +46,7 @@ country_event = {
 	picture = "Kiel"
 	
 	trigger = {
+	exists = yes
 		is_canal_enabled = 1
 		369 = {
 			owned_by = THIS
@@ -80,6 +82,7 @@ country_event = {
 	picture = "Kiel"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_kiel_canal_phase0
 		has_country_modifier = building_kiel_canal
 	}
@@ -122,6 +125,7 @@ country_event = {
 	picture = "Kiel"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_kiel_canal_phase1
 		has_country_modifier = building_kiel_canal
 	}
@@ -163,6 +167,7 @@ country_event = {
 	picture = "Kiel"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_kiel_canal_phase2
 		has_country_modifier = building_kiel_canal
 	}
@@ -208,6 +213,7 @@ country_event = {
 	picture = "Kiel"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_kiel_canal_phase3
 		has_country_modifier = building_kiel_canal
 	}
@@ -241,6 +247,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_kiel_canal
 		NOT = { owns = 369 }
 	}
@@ -267,6 +274,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		ai = no
 		NOT = {	has_country_flag = built_kiel }
 		is_canal_enabled = 1
@@ -291,6 +299,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		ai = no
 		has_global_flag = kiel_canal_global
 		NOT = { has_country_modifier = building_kiel_canal }
@@ -320,6 +329,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		1755 = { has_province_modifier = suez_canal }
 		NOT = { has_country_modifier = suez_canal_dividend }
 		NOT = { month = 1 }
@@ -357,6 +367,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		is_canal_enabled = 2
 		1755 = {
 			owned_by = THIS
@@ -387,6 +398,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		NOT = { is_canal_enabled = 2 }
 		has_country_modifier = building_suez_canal
 		1755 = {
@@ -422,6 +434,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_suez_canal_phase0
 		has_country_modifier = building_suez_canal
 		1755 = {
@@ -482,6 +495,7 @@ country_event = {
 	picture = "Suez1"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_suez_canal_phase1
 		has_country_modifier = building_suez_canal
 		1755 = {
@@ -554,6 +568,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_suez_canal_phase2
 		has_country_modifier = building_suez_canal
 		1755 = {
@@ -630,6 +645,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_suez_canal_phase3
 		has_country_modifier = building_suez_canal
 	}
@@ -692,6 +708,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_suez_canal
 		NOT = { has_global_flag = building_suez_canal_phase0 }
 	}
@@ -720,6 +737,7 @@ country_event = {
 	picture = "arab_revolt"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_suez_canal
 		NOT = { has_country_modifier = building_suez_canal_revolt }
 		NOT = { has_global_flag = building_suez_canal_phase0 }
@@ -749,6 +767,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_suez_canal
 		1755 = {
 			NOT = { owned_by = THIS }
@@ -803,6 +822,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = suez_canal_treaty
 		NOT = { has_country_modifier = suez_canal_treaty_annuity }
 		NOT = { month = 1 }
@@ -830,6 +850,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = suez_canal_treaty
 		NOT = { owns = 1755 }
 		NOT = { is_canal_enabled = 2 }
@@ -853,6 +874,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		ai = no
 		is_canal_enabled = 2
 	}
@@ -876,6 +898,7 @@ country_event = {
 	picture = "Suez3"
 	
 	trigger = {
+	exists = yes
 		ai = no
 		NOT = { has_country_modifier = building_suez_canal }
 		NOT = { has_country_flag = built_suez }
@@ -907,6 +930,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		1723 = { has_province_modifier = panama_canal }
 		NOT = { has_country_modifier = panama_canal_dividend }
 		NOT = { month = 1 }
@@ -944,6 +968,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		is_canal_enabled = 3
 		1723 = {
 			owned_by = THIS
@@ -974,6 +999,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		NOT = { is_canal_enabled = 3 }
 		has_country_modifier = building_panama_canal
 		1723 = {
@@ -1009,6 +1035,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		NOT = {
 			has_global_flag = building_panama_canal_phase1
@@ -1085,6 +1112,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_panama_canal_phase1
 		has_country_modifier = building_panama_canal
 		1723 = {
@@ -1181,6 +1209,7 @@ country_event = {
 	picture = "Panama2"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_panama_canal_phase2
 		has_country_modifier = building_panama_canal
 		1723 = {
@@ -1280,6 +1309,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		has_global_flag = building_panama_canal_phase3
 		has_country_modifier = building_panama_canal
 		1723 = {
@@ -1368,6 +1398,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		1723 = {
 			NOT = { owned_by = THIS }
@@ -1581,6 +1612,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = panama_canal_treaty
 		NOT = { has_country_modifier = panama_canal_treaty_annuity }
 		NOT = { month = 1 }
@@ -1608,6 +1640,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = panama_canal_treaty
 		NOT = { owns = 1723 }
 		NOT = { is_canal_enabled = 3 }
@@ -1636,6 +1669,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		ai = no
 		is_canal_enabled = 3
 	}
@@ -1660,6 +1694,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		OR = {
 			has_global_flag = building_panama_canal_phase1
@@ -1688,6 +1723,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		OR = {
 			has_global_flag = building_panama_canal_phase1
@@ -1731,6 +1767,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		OR = {
 			has_global_flag = building_panama_canal_phase1
@@ -1762,6 +1799,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		OR = {
 			has_global_flag = building_panama_canal_phase1
@@ -1792,6 +1830,7 @@ country_event = {
 	picture = "Panama3"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		OR = {
 			has_global_flag = building_panama_canal_phase1
@@ -1820,6 +1859,7 @@ country_event = {
 	picture = "Panama13"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		OR = {
 			has_global_flag = building_panama_canal_phase1
@@ -1935,6 +1975,7 @@ country_event = {
 	picture = "Panama13"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = building_panama_canal
 		has_country_flag = building_panama_canal_scandal
 	}
@@ -2020,6 +2061,7 @@ country_event = {
 	picture = "Panama13"
 	
 	trigger = {
+	exists = yes
 		NOT = { is_canal_enabled = 3 }
 		NOT = { has_country_modifier = building_panama_canal }
 		has_country_flag = building_panama_canal_scandal
@@ -2042,6 +2084,7 @@ country_event = {
 	id = 97450
 	
 	trigger = {
+	exists = yes
 		ai = no
 		NOT = { has_country_flag = built_panama }
 		has_global_flag = panama_canal_global

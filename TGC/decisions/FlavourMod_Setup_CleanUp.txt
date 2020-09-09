@@ -1,7 +1,8 @@
 political_decisions = {
 	viet_remove_sphere = {
 		picture = "reichstag"
-		potential = { 
+		potential = {
+    exists = yes 
 			ai = yes
 			OR = {
 				tag = DAI
@@ -31,7 +32,8 @@ political_decisions = {
 
 	japan_ai_dye = {
 		picture = "reichstag"
-		potential = { 
+		potential = {
+    exists = yes 
 			ai = yes
 			OR = {
 				tag = TKG
@@ -60,6 +62,7 @@ political_decisions = {
 	
 	enable_debug_decision = {
 		potential = {
+    exists = yes
 			ai = no
 			has_global_flag = looking_through_options
 			NOT = { has_country_flag = enable_debug_decision }
@@ -73,6 +76,7 @@ political_decisions = {
 
 	test_dec = {
 		potential = {
+    exists = yes
 			ai = no
 			has_country_flag = enable_debug_decision
 			#NOT = { has_country_flag = test_dec }
@@ -93,6 +97,7 @@ political_decisions = {
 	
 	disable_microstates = {
 		potential = {
+    exists = yes
 			ai = no
 			has_global_flag = looking_through_options
 			NOT = { has_global_flag = disable_microstates }
@@ -114,6 +119,7 @@ political_decisions = {
 	
 	cleanup_ant = {
 		potential = {
+    exists = yes
 			tag = ANT
 			exists = yes
 			GRE = { exists = yes }
@@ -127,6 +133,7 @@ political_decisions = {
 	
 	cleanup_eic = {
 		potential = {
+    exists = yes
 			tag = ENG
 			ai = yes
 			war = yes
@@ -201,6 +208,7 @@ political_decisions = {
 	
 	cleanup_morocco = {
 		potential = {
+    exists = yes
 			capital_scope = { continent = europe }
 			is_greater_power = yes
 			has_global_flag = tangier_protocol_succeeded
@@ -291,6 +299,7 @@ political_decisions = {
 	
 	cleanup_colonial_infamy = {
 		potential = {
+    exists = yes
 			OR = { 
 				tag = FRA
 				tag = BOR
@@ -320,6 +329,7 @@ political_decisions = {
 	
 	cleanup_war_with_non_existing_country = {
 		potential = {
+    exists = yes
 			ai = yes
 			OR = {
 				is_greater_power = yes
@@ -389,6 +399,7 @@ political_decisions = {
 	
 	rebel_tech_1850 = {
 		potential = {
+    exists = yes
 			ai = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -415,6 +426,7 @@ political_decisions = {
 	
 	rebel_tech_1870 = {
 		potential = {
+    exists = yes
 			ai = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -440,6 +452,7 @@ political_decisions = {
 	
 	rebel_tech_1900 = {
 		potential = {
+    exists = yes
 			ai = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -463,6 +476,7 @@ political_decisions = {
 	
 	rebel_tech_1920 = {
 		potential = {
+    exists = yes
 			ai = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -484,6 +498,7 @@ political_decisions = {
 
 	ai_give_warships_steamer = {
 		potential = {
+    exists = yes
 			ai = yes
 			OR = {
 				is_greater_power = yes
@@ -745,6 +760,7 @@ political_decisions = {
 	
 	ai_give_warships_steamer_secondary_power = {
 		potential = {
+    exists = yes
 			year = 1837
 			ai = yes
 			is_disarmed = no
@@ -892,6 +908,7 @@ political_decisions = {
 	
 	end_war_lan_kor_eng = {
 		potential = {
+    exists = yes
 			ai = yes
 			OR = {
 				tag = KOR
@@ -918,6 +935,7 @@ political_decisions = {
 	
 	american_catholic_pop_growth = {
 		potential = {
+    exists = yes
 			ai = yes
 			exists = yes
 			NOT = { year = 1850 }
@@ -1076,7 +1094,8 @@ political_decisions = {
 	}
 	
 	russia_ai_return_land = {
-		potential = { 
+		potential = {
+    exists = yes 
 			ai = yes
 			OR = { 
 				tag = RUS
@@ -1117,7 +1136,8 @@ political_decisions = {
 	
 	civilize_ai_countries = {
 		picture = "reichstag"
-		potential = { 
+		potential = {
+    exists = yes 
 			ai = yes
 			civilized = no
 			year = 1920
@@ -1157,7 +1177,9 @@ political_decisions = {
 
 	#test_end_really_long_wars = {
 		#picture = "reichstag"
-		#potential = { 
+		#potential = {
+    #exists = yes
+    exists = yes 
 			#tag = FRA
 			#war_with = RUS
 		#}

@@ -3,6 +3,7 @@ political_decisions = {
 	become_poland = {
 
 		potential = {
+    exists = yes
 			primary_culture = polish
 			NOT = { exists = POL }
 			NOT = { exists = INT }
@@ -32,6 +33,7 @@ political_decisions = {
 	become_poland_lithuania = {
 
 		potential = {
+    exists = yes
 			OR = {
 				primary_culture = polish
 				primary_culture = lithuanian
@@ -152,6 +154,7 @@ political_decisions = {
 		picture = become_poland_lithuania
 		alert = no
 		potential = {
+    exists = yes
 			tag = PLC
 			NOT = { exists = POL }
 		}
@@ -223,6 +226,7 @@ political_decisions = {
 	unite_with_poland = {
 
 		potential = {
+    exists = yes
 			primary_culture = polish
 			NOT = { tag = POL }
 			NOT = { tag = PLC }
@@ -338,6 +342,7 @@ political_decisions = {
 	intermarium = {
 		picture = intermarium
 		potential = {
+    exists = yes
 		    tag = PLC
 			NOT = {
 				exists = INT
@@ -420,6 +425,7 @@ political_decisions = {
 	galicia_annex_krakow = {
 		picture = unite_with_poland
 		potential = {
+    exists = yes
 			tag = KRA
 			exists = GLM
 			NOT = { has_country_flag = galicia_annex_krakow }
@@ -480,6 +486,7 @@ political_decisions = {
 	krakow_form_galicia = {
 		picture = become_poland
 		potential = {
+    exists = yes
 			tag = KRA
 			is_subject = no
 			not = { exists = GLM }
@@ -506,6 +513,7 @@ political_decisions = {
 	
 	form_baltic_states = {
 		potential = {
+    exists = yes
 			is_culture_group = baltic
 			NOT = { exists = UBD }
 			NOT = { has_global_flag = baltic_states_formed }
@@ -601,6 +609,7 @@ political_decisions = {
 	create_baltic_states = {
 		picture = form_baltic_states
 		potential = {
+    exists = yes
 			NOT = {
 				tag = SPQ
 				tag = GER

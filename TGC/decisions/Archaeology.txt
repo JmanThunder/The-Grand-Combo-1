@@ -2,6 +2,7 @@ political_decisions = {
 	search_for_machu_picchu = {
 		picture = search_for_machu_picchu
 		potential = {
+    exists = yes
 			NOT = { has_global_flag = machu_picchu_discovered }
 			NOT = { has_country_flag = looking_for_machu_picchu }
 			invention = modern_archaeology
@@ -54,6 +55,7 @@ political_decisions = {
 	search_for_aegean_civilizations = {
 		picture = priams_treasure
 		potential = {
+    exists = yes
 			invention = early_archaeology
 			NOT = { year = 1880 }
 			NOT = { has_global_flag = troy_discovered }
@@ -105,6 +107,7 @@ political_decisions = {
 	mycenaean_excavations = {
 		picture = "mycenaean_excavations"
 		potential = {
+    exists = yes
 			invention = early_archaeology
 			is_greater_power = yes
 			NOT = { owns = 840 }
@@ -131,6 +134,7 @@ political_decisions = {
 	forced_mycenaean_excavations = {
 		picture = "mycenaean_excavations"
 		potential = {
+    exists = yes
 			civilized = yes
 			OR = {
 				owns = 840
@@ -163,6 +167,7 @@ political_decisions = {
 	minoan_excavations = {
 		picture = "minoan_excavations"
 		potential = {
+    exists = yes
 			invention = early_archaeology
 			is_greater_power = yes
 			revolution_n_counterrevolution = 1
@@ -197,6 +202,7 @@ political_decisions = {
 	forced_minoan_excavations = {
 		picture = "minoan_excavations"
 		potential = {
+    exists = yes
 			invention = early_archaeology
 			OR = {
 				owns = 847

@@ -3,6 +3,7 @@ political_decisions = {
 	form_israel = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -81,6 +82,7 @@ political_decisions = {
 	madagascar_plan = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -177,6 +179,7 @@ political_decisions = {
 	andinia_plan = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -280,6 +283,7 @@ political_decisions = {
 	guiana_plan = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -348,6 +352,7 @@ political_decisions = {
 	slattery_report = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -446,6 +451,7 @@ political_decisions = {
 	uganda_plan = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -528,6 +534,7 @@ political_decisions = {
 	fugu_plan = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -599,6 +606,7 @@ political_decisions = {
 	cyrenaica_plan = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			OR = {
 				tag = TUR
@@ -681,6 +689,7 @@ political_decisions = {
 	angola_plan = {
 		picture = form_israel
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -765,6 +774,7 @@ political_decisions = {
 	 law_of_return = {
 	 picture = law_of_return
 	 	potential = {
+    exists = yes
 			OR = {
 				AND = {
 					tag = ISR
@@ -851,6 +861,7 @@ political_decisions = {
 	law_of_return_madagascar = {
 	picture = law_of_return
 	 	potential = {
+    exists = yes
 	 		tag = ISR
 	 		owns = 2115
 			owns = 2116
@@ -920,6 +931,7 @@ political_decisions = {
 	law_of_return_andinia = {
 	picture = law_of_return
 	 	potential = {
+    exists = yes
 	 		tag = ISR
 	 		owns = 2391
 			owns = 2392
@@ -989,6 +1001,7 @@ political_decisions = {
 	law_of_return_guiana = {
 	picture = law_of_return
 	 	potential = {
+    exists = yes
 	 		tag = ISR
 	 		owns = 1979
 			owns = 2239
@@ -1050,6 +1063,7 @@ political_decisions = {
 	law_of_return_alaska = {
 	picture = law_of_return
 	 	potential = {
+    exists = yes
 	 		tag = ISR
 	 		owns = 1
 			owns = 2
@@ -1113,6 +1127,7 @@ political_decisions = {
 	law_of_return_uganda = {
 	picture = law_of_return
 	 	potential = {
+    exists = yes
 	 		tag = ISR
 	 		owns = 2028
 			owns = 2019
@@ -1180,6 +1195,7 @@ political_decisions = {
 	law_of_return_japan = {
 	picture = law_of_return
 	 	potential = {
+    exists = yes
 	 		tag = ISR
 	 		owns = 1642
 			owns = 1643
@@ -1246,6 +1262,7 @@ political_decisions = {
 	law_of_return_cyrenaica = {
 	picture = law_of_return
 	 	potential = {
+    exists = yes
 	 		tag = ISR
 	 		owns = 1735
 			owns = 1736
@@ -1309,6 +1326,7 @@ political_decisions = {
 	law_of_return_angola = {
 	picture = law_of_return
 	 	potential = {
+    exists = yes
 	 		tag = ISR
 	 		owns = 2003
 			owns = 2004
@@ -1376,6 +1394,7 @@ political_decisions = {
 	greater_israel = {
 	 picture = greater_israel
 	 	potential = {
+    exists = yes
 			tag = ISR
 			has_global_flag = israel_palestine
 			government = fascist_dictatorship

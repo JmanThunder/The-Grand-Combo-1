@@ -8,6 +8,7 @@ country_event = {
 	#is_triggered_only = yes
 	
 	trigger = {
+	exists = yes
 			exists = yes
 		NOT = { has_global_flag = education_setup }
 		#ai = no
@@ -424,6 +425,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -537,6 +539,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -650,6 +653,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -763,6 +767,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -876,6 +881,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -989,6 +995,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -1102,6 +1109,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -1215,6 +1223,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -1328,6 +1337,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -1441,6 +1451,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {
@@ -1553,6 +1564,7 @@ province_event = {
 	desc = "Development in $STATENAME$ changes."
 
 	trigger = {
+	exists = yes
 			exists = yes
 	has_global_flag = education_setup
       state_scope = {

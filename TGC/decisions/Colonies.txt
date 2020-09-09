@@ -3,6 +3,7 @@ political_decisions = {
 	organize_colonial_armies = {
 		picture = begin_line_of_advantage
 		potential = {
+    exists = yes
 			OR = {
 				has_country_flag = government_decisions_on
 				ai = yes
@@ -29,6 +30,7 @@ political_decisions = {
 	commission_warship = {
 		picture = ironclad_commissions
 		potential = {
+    exists = yes
 			any_owned_province = { has_building = naval_base }
 			NOT = { iron_steamers = 1 }
 			OR = {
@@ -105,6 +107,7 @@ political_decisions = {
 	take_on_warship_commission = {
 		picture = ironclad_commissions
 		potential = {
+    exists = yes
 			any_owned_province = { has_building = naval_base }
 			OR = {
 				has_global_flag = warship_commissioned
@@ -175,6 +178,7 @@ political_decisions = {
 	commodity_production_in_uzbekistan = {
 		picture = commodities_in_central_asia
 		potential = {
+    exists = yes
 			owns = 1200
 			owns = 1198
 			owns = 1195
@@ -215,6 +219,7 @@ political_decisions = {
 	commodity_production_in_kyrgyzstan = {
 		picture = commodities_in_central_asia
 		potential = {
+    exists = yes
 			owns = 1203
 			owns = 1190
 			owns = 1189
@@ -252,6 +257,7 @@ political_decisions = {
 	commodity_production_in_turkmenia = {
 		picture = commodities_in_central_asia
 		potential = {
+    exists = yes
 			owns = 1206 
 			owns = 1196
 			owns = 1205 
@@ -288,6 +294,7 @@ political_decisions = {
 	commodity_production_in_tajikstan = {
 		picture = commodities_in_central_asia
 		potential = {
+    exists = yes
 			owns = 1208
 			owns = 1201
 			NOT = { has_global_flag = tajikstan_commodities }
@@ -323,6 +330,7 @@ political_decisions = {
 	commodity_production_in_philippines = {
         picture = map_philippines
 		potential = {
+    exists = yes
 			owns = 2565
 			owns = 1457
 			owns = 1458
@@ -360,6 +368,7 @@ political_decisions = {
 	commodity_production_in_new_zealand = {
 		picture = map_new_zealand
 		potential = {
+    exists = yes
 			owns = 2510
 			owns = 2571
 			owns = 2514
@@ -391,6 +400,7 @@ political_decisions = {
 	north_island_renaming = {
 		picture = map_new_zealand
 		potential = {
+    exists = yes
 			tag = ENG
 			owns = 2510
 			owns = 2511
@@ -455,6 +465,7 @@ political_decisions = {
 		picture = tea_production
 		
 		potential = {
+    exists = yes
 			owns = 1251
 			NOT = { has_global_flag = tea_monopoly_broken }
 			OR = {
@@ -602,6 +613,7 @@ political_decisions = {
 		picture = tea_production
 		
 		potential = {
+    exists = yes
 			AND = {
 				owns = 2034
 				owns = 2035
@@ -635,6 +647,7 @@ political_decisions = {
 	asian_rgo_normalization = {
 		picture = coffee_in_colombia
 		potential = {
+    exists = yes
 			OR = {
 				1485 = { owned_by = THIS NOT = { has_province_modifier = plantation } }
 				2681 = { owned_by = THIS NOT = { has_province_modifier = plantation } }
@@ -819,6 +832,7 @@ political_decisions = {
 	africa_rgo_normalization = {
 		picture = coffee_in_colombia
 		potential = {
+    exists = yes
 			any_owned_province = {
 					OR = {
 						continent = africa 
@@ -887,6 +901,7 @@ political_decisions = {
 	colonial_legacy = {
 		picture = begin_line_of_advantage
 		potential = {
+    exists = yes
 			civilized = no
 			tech_school = developing_tech_school
 		}
@@ -942,6 +957,7 @@ political_decisions = {
 	end_of_natural_dyes = {
 		picture = tea_production
 		potential = {
+    exists = yes
 			OR = {
 				any_greater_power = { invention = synthetic_dye }
 				any_neighbor_country = { invention = synthetic_dye }

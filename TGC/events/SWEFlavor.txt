@@ -7,6 +7,7 @@ country_event = {
 	news_desc_short = "EVTDESC36600_NEWS_SHORT"
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1838
 		NOT = {
@@ -46,6 +47,7 @@ country_event = {
 	id = 36601
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1842
 		NOT = {
@@ -85,6 +87,7 @@ country_event = {
 	id = 36602
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1836
 		NOT = {
@@ -129,6 +132,7 @@ province_event = {
 	id = 36603
 
 	trigger = {
+	exists = yes
 		province_id = 322 #stockholm
 		owned_by = SWE
 		owner = { 
@@ -178,6 +182,7 @@ country_event = {
 	id = 36604
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		invention = bessemer_steel
 		year = 1856
@@ -217,6 +222,7 @@ country_event = {
 	id = 36608
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		exists = NOR
 		year = 1865
@@ -264,6 +270,7 @@ country_event = {
 	id = 36610
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1879
 		NOT = {
@@ -317,6 +324,7 @@ country_event = {
 	news_desc_short = "EVTDESC36611_NEWS_SHORT"
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1879
 		realism = 1
@@ -357,6 +365,7 @@ country_event = {
 	id = 36612
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		owns = 321
 		year = 1900	
@@ -384,6 +393,7 @@ country_event = {
 	id = 36614
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1839
 		romanticism = 1
@@ -429,6 +439,7 @@ country_event = {
 	id = 36615
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1882
 		NOT = {
@@ -484,6 +495,7 @@ country_event = {
 	id = 36617
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1838
 		NOT = {
@@ -541,6 +553,7 @@ country_event = {
 	id = 36618 #parallel to NOR36400
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1895
 		impressionism = 1
@@ -593,6 +606,7 @@ country_event = {
 	id = 36619 #parallel to NOR36401
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1890
 		NOT = {
@@ -640,6 +654,7 @@ country_event = {
 	id = 36620 #parallel to NOR36402
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1880
 		NOT = {
@@ -688,6 +703,7 @@ country_event = {
 	id = 36621 #parallel to NOR36405
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1850
 		NOT = {
@@ -754,6 +770,7 @@ country_event = {
 	id = 36622 #see DAN36223 for parallel event
 
 	trigger = {
+	exists = yes
 		tag = SWE
 		year = 1856
 		war = no

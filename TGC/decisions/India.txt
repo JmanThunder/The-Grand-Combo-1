@@ -3,6 +3,7 @@ political_decisions = {
 	form_dravidistan = {
 	picture = form_dravidistan
         potential = {
+    exists = yes
 			OR = {
 				primary_culture = tamil
 				primary_culture = kannada
@@ -128,6 +129,7 @@ political_decisions = {
 	
 	form_rajputana = {
         potential = {
+    exists = yes
 			primary_culture = rajput
 			NOT = { has_global_flag = rajputana_formed }
 			NOT = { tag = HND }
@@ -272,6 +274,7 @@ political_decisions = {
 	form_rajputana_outside = {
 		picture = form_rajputana
         potential = {
+    exists = yes
 			tag = ENG
 			civilized = yes
 			has_country_flag = gov_india
@@ -466,6 +469,7 @@ political_decisions = {
 	form_baluchistan = {
 	picture = form_baluchistan
         potential = {
+    exists = yes
 			primary_culture = baluchi
 			NOT = { has_global_flag = baluchistan_formed }
 			NOT = { tag = HND }
@@ -505,6 +509,7 @@ political_decisions = {
 	form_baluchistan_agency = {
 		picture = form_baluchistan
         potential = {
+    exists = yes
 			tag = ENG
 			civilized = yes
 			has_country_flag = gov_india
@@ -634,6 +639,7 @@ political_decisions = {
 	form_central_india_agency = {
 	picture = map_india
         potential = {
+    exists = yes
 			tag = ENG
 			civilized = yes
 			OR = {
@@ -726,6 +732,7 @@ political_decisions = {
 	
 	form_durrani_empire = {
 		potential = {
+    exists = yes
 			primary_culture = pashtun
 			NOT = { has_global_flag = durrani_formed }
 			NOT = { tag = PAK }
@@ -773,6 +780,7 @@ political_decisions = {
 	claim_greater_bengal = {
 	picture = claim_greater_bengal
 		potential = {
+    exists = yes
 			tag = BNG
 			is_vassal = no
 			NOT = { has_country_flag = claimed_greater_bengal }
@@ -819,6 +827,7 @@ political_decisions = {
 	rangit_singh = {
 	picture = rangit_singh
 		potential = {
+    exists = yes
 			tag = PNJ
 			NOT = { has_country_flag = singh }
 		}
@@ -850,6 +859,7 @@ political_decisions = {
 	PNJ_embrace_pashtun_minority = {
 		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = PNJ
 			NOT = { has_country_flag = embraced_pashtun }
 			any_owned_province = { culture = pashtun }
@@ -875,6 +885,7 @@ political_decisions = {
 	PNJ_embrace_sindi_minority = {
 		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = PNJ
 			NOT = { has_country_flag = embraced_sindi }
 			any_owned_province = { culture = sindi }
@@ -901,6 +912,7 @@ political_decisions = {
 	PNJ_embrace_avadhi_minority = {
 		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = PNJ
 			NOT = { has_country_flag = embraced_avadhi }
 			any_owned_province = { culture = avadhi }
@@ -926,6 +938,7 @@ political_decisions = {
 	unite_with_nepal = {
 		picture = gtfo
 		potential = {
+    exists = yes
 			tag = SHI
 			exists = NEP
 			NOT = { has_country_flag = unite_with_nepal }
@@ -987,6 +1000,7 @@ political_decisions = {
 	reclaim_india_mughals = {
 		picture = map_india
 		potential = {
+    exists = yes
 			tag = MUG
 			owns = 1236
 			NOT = { has_country_flag = mughal_reborn }
@@ -1021,6 +1035,7 @@ political_decisions = {
 	mughal_declaration = {
 		picture = last_mughal
 		potential = {
+    exists = yes
 			tag = MUG
 			vassal_of = ENG
 			NOT = { has_country_flag = mughal_independence }
@@ -1071,6 +1086,7 @@ political_decisions = {
 		picture = muslim_league
 		alert = no
 		potential = {
+    exists = yes
 			NOT = { has_global_flag = pakistan_born }
 			NOT = { has_global_flag = pakistan_formed }
 			NOT = { has_country_flag = mughal_reborn }
@@ -1258,6 +1274,7 @@ political_decisions = {
 		picture = muslim_league
 		alert = no
 		potential = {
+    exists = yes
 			NOT = { has_global_flag = pakistan_born }
 			NOT = { has_global_flag = pakistan_formed }
 			NOT = { has_country_flag = post_colonial_country }
@@ -1327,6 +1344,7 @@ political_decisions = {
     create_india = {
     picture = form_india
         potential = {
+    exists = yes
             NOT = {
                 has_country_flag = post_colonial_country
                 exists = HND
@@ -1395,6 +1413,7 @@ political_decisions = {
     end_sikh_war = {
         picture = form_india
         potential = {
+    exists = yes
             war_with = PNJ
             alliance_with = ENG
             PNJ = {

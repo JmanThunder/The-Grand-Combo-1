@@ -12,6 +12,7 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
+	exists = yes
 		civilized = yes
 		OR = {
 			revolution_n_counterrevolution = 1
@@ -309,6 +310,7 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
+	exists = yes
 		is_vassal = yes
 		is_culture_group = arabic
 		NOT = { has_country_flag = arab_revolt }
@@ -344,6 +346,7 @@ country_event = {
 	picture = "arab_revolt"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = arab_revolt
 		NOT = {
 			has_country_flag = arab_revolt_ended
@@ -435,6 +438,7 @@ province_event = {
 	desc = "EVTDESC96106"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			has_country_flag = arab_revolt
 			NOT = {
@@ -560,6 +564,7 @@ country_event = {
 	picture = "arab_revolt"
 	fire_only_once = yes
 	trigger = {
+	exists = yes
 		OR = {
 			tag = HAL
 			tag = HDJ
@@ -624,6 +629,7 @@ country_event = {
 	picture = "administration"
 	fire_only_once = yes
 	trigger = {
+	exists = yes
 		tag = HDJ
 		vassal_of = EGY
 		in_sphere = TUR
@@ -717,6 +723,7 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
+	exists = yes
 		war = no
 		is_vassal = no
 		tag = NEJ
@@ -790,6 +797,7 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
+	exists = yes
 		war = no
 		tag = HAL
 		is_vassal = no
@@ -862,6 +870,7 @@ country_event = {
 	picture = "arab_revolt"
 	
 	trigger = {
+	exists = yes
 		owns = 1827
 		SUD = { exists = no }
 		year = 1870
@@ -956,6 +965,7 @@ province_event = {
 	desc = "EVTDESC97171"
 	
 	trigger = {
+	exists = yes
 		is_core = SUD
 		NOT = { controlled_by = REB }
 		NOT = {

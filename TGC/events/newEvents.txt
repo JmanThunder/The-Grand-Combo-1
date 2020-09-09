@@ -11,6 +11,7 @@ country_event = {
 	picture = "dixie"
 		
 	trigger = {
+	exists = yes
 		tag = USA
 		slavery = no_slavery
 		has_global_flag = american_civil_war_has_happened
@@ -67,6 +68,7 @@ province_event = {
 	desc = "A judge in the South seems awful soft on cross-burnin'..."
 		
 	trigger = {
+	exists = yes
 		has_province_modifier =	jim_crow
 	}
 	
@@ -114,6 +116,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		anti__rationalism = 1
 		not = { has_global_flag = pluto }
 	}
@@ -147,6 +150,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		idealism = 1
 		not = { has_global_flag = neptune }
 	}
@@ -186,6 +190,7 @@ country_event = {
 	picture = "greatwar"
 
 	trigger = {
+	exists = yes
 		has_country_flag = recruitment_drive
 		OR = {
 			AND = {
@@ -226,6 +231,7 @@ country_event = {
 	picture = "greatwar"
 
 	trigger = {
+	exists = yes
 		NOT = { has_country_modifier = recruitment_drive }
 		has_country_flag = recruitment_drive
 		OR = {
@@ -275,6 +281,7 @@ country_event = {
 	picture = "greatwar"
 	
 	trigger = {
+	exists = yes
 		ai = yes
 		NOT = { has_country_modifier = recruitment_drive }
 		NOT = { has_country_flag = recruitment_drive }
@@ -340,6 +347,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		war = no
 		OR = {
 			any_neighbor_country = {
@@ -385,6 +393,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+	exists = yes
 		war = no
 		ai = yes
 		is_greater_power = yes
@@ -442,6 +451,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = neutrality
 		NOT = {
 			badboy = 1
@@ -497,6 +507,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 100
 	}
 
@@ -528,6 +539,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 200
 	}
 
@@ -559,6 +571,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 300
 	}
 
@@ -590,6 +603,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 400
 	}
 
@@ -621,6 +635,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 500
 	}
 
@@ -652,6 +667,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 750
 	}
 
@@ -683,6 +699,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 1000
 	}
 
@@ -714,6 +731,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 1250
 	}
 
@@ -745,6 +763,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 1500
 	}
 
@@ -776,6 +795,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 2000
 	}
 
@@ -807,6 +827,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 2500
 	}
 
@@ -838,6 +859,7 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 	trigger = {
+	exists = yes
 		industrial_score = 3000
 	}
 
@@ -894,6 +916,7 @@ country_event = {
 	picture = "Bankruptcy"
 	
 	trigger = {
+	exists = yes
 		government = hms_government
 		ruling_party_ideology = fascist
 		NOT = { has_country_flag = political_showdown }
@@ -1068,6 +1091,7 @@ country_event = {
 	picture = "Bankruptcy"
 	
 	trigger = {
+	exists = yes
 		government = hms_government
 		ruling_party_ideology = communist
 		NOT = { has_country_flag = political_showdown }
@@ -1253,6 +1277,7 @@ country_event = {
 	picture = "Bankruptcy"
 	
 	trigger = {
+	exists = yes
 		government = hms_government
 		ruling_party_ideology = anarcho_liberal
 		NOT = { has_country_flag = political_showdown }
@@ -1391,6 +1416,7 @@ country_event = {
 	picture = "Bankruptcy"
 	
 	trigger = {
+	exists = yes
 		government = prussian_constitutionalism
 		ruling_party_ideology = communist
 		NOT = { has_country_flag = political_showdown }
@@ -1647,6 +1673,7 @@ country_event = {
 	picture = "Bankruptcy"
 	
 	trigger = {
+	exists = yes
 		government = prussian_constitutionalism
 		ruling_party_ideology = anarcho_liberal
 		NOT = { has_country_flag = political_showdown }
@@ -1885,6 +1912,7 @@ country_event = {
 	picture = "ferdinand"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = tour 
 		any_state = {
 			is_colonial = no
@@ -1968,6 +1996,7 @@ country_event = {
 	picture = "Riot"
 	
 	trigger = {
+	exists = yes
 		war = yes
 		civilized = yes
 	}
@@ -2077,6 +2106,7 @@ province_event = {
 	desc = "The deserts in $PROVINCENAME$ shall bloom with our new irrigartion network!"
 	
 	trigger = {
+	exists = yes
 		NOT = {
 			has_province_modifier = irrigration_network
 		}
@@ -2167,6 +2197,7 @@ country_event = {
 	picture = "Military_reform"
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		war = no
 		is_disarmed = no
@@ -2267,6 +2298,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		war = no
 		is_disarmed = no
@@ -2479,6 +2511,7 @@ country_event = {
 	picture = "Policeaction"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = secret_police
 		NOT = {
 			government = proletarian_dictatorship
@@ -2574,6 +2607,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -2606,6 +2640,7 @@ country_event = {
 	picture = "deliberation"
 
 	trigger = {
+	exists = yes
 		NOT = { market_determined_exchange_rates = 1 }
 		NOT = { has_country_modifier = tax_reforms }
 		civilized = yes
@@ -2631,6 +2666,7 @@ country_event = {
 	picture = "Revolution"
 	
 	trigger = {
+	exists = yes
 		is_ideology_enabled = socialist
 		civilized = yes
 		socialist = 15

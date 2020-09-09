@@ -5,6 +5,7 @@ political_decisions = {
         picture = pbc_argentina_border_treaty
         alert = yes
         potential = {
+    exists = yes
 			exists = yes
             OR = {
                 exists = BRZ
@@ -60,6 +61,7 @@ political_decisions = {
 	treaty_of_bogota2 = {
 		picture = colombia_map
 		potential = {
+    exists = yes
 			exists = yes
 			tag = BRZ
 			NOT = { has_country_flag = treaty_of_bogota2 }

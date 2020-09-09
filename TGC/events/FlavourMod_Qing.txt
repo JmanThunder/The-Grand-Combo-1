@@ -10,6 +10,7 @@ country_event = {
 	picture = "asian_administration"
 	
 	trigger = {
+	exists = yes
 		tag = QNG
 		has_country_modifier = lin_zexu
 		war = no
@@ -101,6 +102,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = QNG
 		year = 1870
 		owns = 1616 #Peking
@@ -153,6 +155,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = QNG
 		year = 1906
 		owns = 1616 #Peking

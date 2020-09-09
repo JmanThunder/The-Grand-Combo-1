@@ -10,6 +10,7 @@ country_event = {
 	picture = "german_new_guinea_company"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			tag = GCF
 			tag = GER
@@ -783,6 +784,7 @@ country_event = {
 	picture = "plan"
 
 	trigger = {
+	exists = yes
 		has_country_flag = purchased_jade
 		NOT = { has_country_flag = building_wilhelmshaven }
 		money = 15000
@@ -805,6 +807,7 @@ country_event = {
 	picture = "imperialshipyard"
 
 	trigger = {
+	exists = yes
 		has_country_flag = building_wilhelmshaven
 		NOT = { has_country_flag = built_wilhelmshaven }
 	}
@@ -1145,6 +1148,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = brothers_war_aggressor
 		war = no
 		NOT = { 
@@ -1226,6 +1230,7 @@ country_event = {
 	picture = "fokker"
 	
 	trigger = {
+	exists = yes
 		year = 1910
 		owns = 544
 		tag = GER

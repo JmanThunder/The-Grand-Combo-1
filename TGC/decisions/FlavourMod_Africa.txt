@@ -5,6 +5,7 @@ political_decisions = {
 	rhodesia_renaminc_act = {
 		picture = rhodesia_renaminc_act
 		potential = {
+    exists = yes
 			tag = RHO
 			owns = 2068
 			owns = 2070
@@ -29,6 +30,7 @@ political_decisions = {
 		picture = rhodesia_charter
 		alert = no
 		potential = {
+    exists = yes
 			any_owned_province = { is_core = RHO }
 			RHO = { exists = no }
 			NOT = {
@@ -82,6 +84,7 @@ political_decisions = {
 	
 	rhodesia_charter = {
 		potential = {
+    exists = yes
 			tag = ENG
 			owns = 2068
 			owns = 2069
@@ -143,6 +146,7 @@ political_decisions = {
 	gold_coast_treaty = {
 		picture = treaty_signing
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			NOT = { tag = NET }
 			owns = 1908
@@ -189,7 +193,8 @@ political_decisions = {
 	
 	british_matabale = {
 		picture = "british_somaliland"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ENG
 			ai = yes
 			has_global_flag = berlin_conference
@@ -227,6 +232,7 @@ political_decisions = {
 	end_mahadist_war = {
 		picture = map_africa
 		potential = {
+    exists = yes
 			capital_scope = { continent = europe }
 			is_greater_power = yes
 			OR = {
@@ -259,6 +265,7 @@ political_decisions = {
 	royal_niger_company = {
 		picture = george_goldie
 		potential = {
+    exists = yes
 			capital_scope = { continent = europe }
 			is_greater_power = yes
 			tag = ENG
@@ -326,7 +333,8 @@ political_decisions = {
 	
 	niger_coast_protectorate = {
 		picture = "oil_rivers_protectorate"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ENG
 			has_global_flag = berlin_conference
 			is_greater_power = yes
@@ -404,7 +412,8 @@ political_decisions = {
 	
 	northern_nigeria_protectorate = {
 		picture = "map_africa"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ENG
 			has_global_flag = berlin_conference
 			is_greater_power = yes
@@ -459,7 +468,8 @@ political_decisions = {
 	
 	fourth_ashanti_war = {
 		picture = "map_ghana"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ENG
 			has_global_flag = berlin_conference
 			is_greater_power = yes
@@ -526,6 +536,7 @@ political_decisions = {
 	zanzibar_protectorate = {
 		picture = zanzibar_protectorate
 		potential = {
+    exists = yes
 			tag = ENG
 			owns = 2029
 			is_greater_power = yes
@@ -555,6 +566,7 @@ political_decisions = {
 	british_east_africa = {
 		picture = british_east_africa
 		potential = {
+    exists = yes
 			tag = ENG
 			owns = 2029
 			OR = { 
@@ -600,7 +612,8 @@ political_decisions = {
 	
 	british_somaliland = {
 		picture = "british_somaliland"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ENG
 			has_global_flag = berlin_conference
 			is_greater_power = yes
@@ -646,7 +659,8 @@ political_decisions = {
 	
 	british_sierra_leone = {
 		picture = "rhodesia_renaminc_act"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ENG
 			has_global_flag = berlin_conference
 			is_greater_power = yes
@@ -684,6 +698,7 @@ political_decisions = {
 	brazzas_expedition = {
 		picture = brazzas_expedition
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -726,6 +741,7 @@ political_decisions = {
 	ai_french_west_africa = {
 		picture = voulet_chanoine
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -832,6 +848,7 @@ political_decisions = {
 	occupation_of_the_congo = {
 		picture = the_congo_conference
 		potential = {
+    exists = yes
 			has_global_flag = berlin_conference
 			NOT = { has_global_flag = congo_failed }
 			is_greater_power = yes
@@ -960,6 +977,7 @@ political_decisions = {
 	senegal_gambia_border_treaty = {
 		picture = map_africa
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			NOT = { owns = 1877 }
 			NOT = { owns = 1792 }
@@ -987,6 +1005,7 @@ political_decisions = {
 	libreville_protectorate = {
 		picture = DIM_piracy
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital_scope = { continent = europe }
@@ -1030,6 +1049,7 @@ political_decisions = {
 	cotonou_concession = {
 		picture = map_africa
 		potential = {
+    exists = yes
 			primary_culture = french
 			capital_scope = { continent = europe }
 			is_greater_power = yes
@@ -1071,6 +1091,7 @@ political_decisions = {
 	conquer_conakry = {
 		picture = louis_edouard
 		potential = {
+    exists = yes
 			primary_culture = french
 			capital_scope = { continent = europe }
 			is_greater_power = yes
@@ -1139,7 +1160,8 @@ political_decisions = {
 	
 	appoint_louis_briere = {
 		picture = "louis_briere"
-		potential = { 
+		potential = {
+    exists = yes 
 			primary_culture = french
 			is_greater_power = yes
 			NOT = { government = proletarian_dictatorship }
@@ -1212,6 +1234,7 @@ political_decisions = {
 	the_1854_plan = {
 		picture = faidherbe
 		potential = {
+    exists = yes
 			primary_culture = french
 			capital = 425
 			owns = 1784
@@ -1262,6 +1285,7 @@ political_decisions = {
 	ivory_coast_conquest = {
 		picture = dreams_of_empire
 		potential = {
+    exists = yes
 			owns = 1894
 			OR = {
 				is_greater_power = yes
@@ -1326,6 +1350,7 @@ political_decisions = {
 	notre_dame_afrique = {
 		picture = notre_dame_afrique
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -1354,6 +1379,7 @@ political_decisions = {
 	organize_algeria_departments = {
 		picture = organize_french_algeria
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -1413,6 +1439,7 @@ political_decisions = {
 	organize_algeria_fra = {
 		picture = "organize_french_algeria"
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -1469,6 +1496,7 @@ political_decisions = {
 	cremieux_decree = {
 		picture = cremieux_decree
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -1514,6 +1542,7 @@ political_decisions = {
 	integrating_french_algeria = {
 		picture = french_algeria
 		potential = {
+    exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -1571,6 +1600,7 @@ political_decisions = {
 	tunisian_colony = {
 		picture = tunisia_map
 		potential = {
+    exists = yes
 			capital_scope = { continent = europe }
 			TUN = { exists = yes civilized = no neighbour = THIS } 
 			is_greater_power = yes
@@ -1625,6 +1655,7 @@ political_decisions = {
 	#Madagascar
 	the_lambert_charter = {
 		potential = {
+    exists = yes
 			NOT = { has_country_flag = lambert_has_been_chartered }
 			primary_culture = french
 			is_greater_power = yes
@@ -1663,6 +1694,7 @@ political_decisions = {
 	end_the_merina_monarchy = {
 		picture = end_the_merina_monarchy
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			capital_scope = { continent = europe }
 			NOT = { has_global_flag = merina_monarchy_is_over }
@@ -1703,7 +1735,8 @@ political_decisions = {
 	#####################################################
 	italian_somaliland = {
 		picture = "italian_somaliland"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ITA
 			is_greater_power = yes
 			NOT = { government = proletarian_dictatorship }
@@ -1765,6 +1798,7 @@ political_decisions = {
 	east_africa_company = {
 		picture = german_east_africa
 		potential = {
+    exists = yes
 			OR = {
 				tag = GER
 				tag = GCF
@@ -1833,6 +1867,7 @@ political_decisions = {
 	purchase_lindi = {
 		picture = german_east_africa
 		potential = {
+    exists = yes
 			OR = {
 				tag = GER
 				tag = GCF
@@ -1896,6 +1931,7 @@ political_decisions = {
 	german_west_africa = {
 		picture = german_west_africa
 		potential = {
+    exists = yes
 			OR = {
 				tag = GER
 				tag = GCF
@@ -1972,6 +2008,7 @@ political_decisions = {
 	luderitz_expedition = {
 		picture = luderitz_expedition
 		potential = {
+    exists = yes
 			OR = {
 				primary_culture = north_german
 				primary_culture = south_german
@@ -2012,9 +2049,9 @@ political_decisions = {
 			prestige = 2
 			treasury = -50000
 			set_country_flag = founding_german_namibia 
-			2084 = { secede_province = THIS change_province_name = "Lüderitzbucht" any_pop = { literacy = -0.99 } life_rating = 21 }
+			2084 = { secede_province = THIS change_province_name = "L?deritzbucht" any_pop = { literacy = -0.99 } life_rating = 21 }
 			2086 = { secede_province = THIS change_province_name = "Keetmanshoop" any_pop = { literacy = -0.99 } life_rating = 25 }
-			2085 = { secede_province = THIS change_province_name = "Maltahöhe" any_pop = { literacy = -0.99 } life_rating = 25 }
+			2085 = { secede_province = THIS change_province_name = "Maltah?he" any_pop = { literacy = -0.99 } life_rating = 25 }
 			2078 = { secede_province = THIS any_pop = { literacy = -0.99 } }
 			2079 = { secede_province = THIS any_pop = { literacy = -0.99 } }
 			2080 = { secede_province = THIS any_pop = { literacy = -0.99 } }
@@ -2029,6 +2066,7 @@ political_decisions = {
 	claim_togoland = {
 		picture = togo_map
 		potential = {
+    exists = yes
 			capital_scope = { continent = europe }
 			NOT = { tag = RUS }
 			NOT = { tag = TUR }
@@ -2082,7 +2120,7 @@ political_decisions = {
 			#random_owned = {
 			#	limit = { owner = { is_culture_group = germanic } } 
 			#	owner = {
-			#		1915 = { change_province_name = "MisahÃ¶he" }
+			#		1915 = { change_province_name = "Misah??he" }
 			#	}
 			#}
 		}
@@ -2093,6 +2131,7 @@ political_decisions = {
 	form_mittelafrika = {
 		picture = "form_mittelafrika"
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			OR = {
 				tag = GER
@@ -2170,6 +2209,7 @@ political_decisions = {
 	return_cores_MIT = {
 		picture = return_cores_img
 		potential = {
+    exists = yes
 			is_culture_group = germanic
 			is_greater_power = yes
 			is_our_vassal = MIT
@@ -2223,6 +2263,7 @@ political_decisions = {
 	ai_portugal_east_africa = {
 		picture = map_africa
 		potential = {
+    exists = yes
 			tag = POR
 			ai = yes
 			OR = {

@@ -2,6 +2,7 @@ political_decisions = {
 	EUR_embrace_german_minorities = {
 #		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = EUR
 			NOT = { has_country_flag = embraced_german }
 
@@ -33,6 +34,7 @@ political_decisions = {
 	EUR_embrace_italian_minorities = {
 #		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = EUR
 			NOT = { has_country_flag = embraced_italian }
 
@@ -64,6 +66,7 @@ political_decisions = {
 	EUR_embrace_iberian_minorities = {
 #		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = EUR
 			NOT = { has_country_flag = embraced_iberian }
 
@@ -93,6 +96,7 @@ political_decisions = {
 	EUR_embrace_scandinavian_minorities = {
 #		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = EUR
 			NOT = { has_country_flag = embraced_scandinavian }
 
@@ -126,6 +130,7 @@ political_decisions = {
 	EUR_embrace_british_minorities = {
 #		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = EUR
 			NOT = { has_country_flag = embraced_british }
 
@@ -155,6 +160,7 @@ political_decisions = {
 	EUR_embrace_russian_minorities = {
 #		picture = sikh_empire
 		potential = {
+    exists = yes
 			tag = EUR
 			NOT = { has_country_flag = embraced_russian }
 

@@ -3,6 +3,7 @@ political_decisions = {
 	portuguese_civil_code = {
 		picture = enact_the_homestead_act
 		potential = {
+    exists = yes
 			tag = POR
 			state_n_government = 1
 			NOT = { has_country_flag = portuguese_civil_code }
@@ -36,6 +37,7 @@ political_decisions = {
 	ultimatum_to_portugal = {
 		picture = pink_map
 		potential = {
+    exists = yes
 			NOT = { has_country_flag = ultimatum_to_portugal_sent }
 			OR = {
 				tag = ENG
@@ -104,6 +106,7 @@ political_decisions = {
 	treaty_of_simulambuko = {
 		picture = treaty_signing
 		potential = {
+    exists = yes
 			tag = POR
 			KON = {
 				ai = yes
@@ -153,6 +156,7 @@ political_decisions = {
 	zanzibar_sale = {
 		picture = map_zanzibar
 		potential = {
+    exists = yes
 			ai = yes
 			war = no
 			NOT = {
@@ -219,6 +223,7 @@ political_decisions = {
 	mombasa_sale = {
 		picture = map_kenya
 		potential = {
+    exists = yes
 			ai = yes
 			war = no
 			NOT = {
@@ -285,6 +290,7 @@ political_decisions = {
 	conquest_of_mocamedes = {
 		picture = map_mozambique
 		potential = {
+    exists = yes
 			owns = 2003
 			civilized = yes
 			2004 = { empty = yes }
@@ -308,6 +314,7 @@ political_decisions = {
 	found_diamang = {
 		picture = diamond_extraction
 		potential = {
+    exists = yes
 			owns = 1999
 			civilized = yes
 			2010 = { NOT  = { trade_goods = precious_goods } }
@@ -363,6 +370,7 @@ political_decisions = {
 	sino_portuguese_treaty_of_peking = {
 		picture = macao_city
 		potential = {
+    exists = yes
 			owns = 1498
 			NOT = { is_culture_group = east_asian }
 			1498 = { is_core = CHI }

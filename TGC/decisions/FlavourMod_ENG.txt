@@ -4,7 +4,8 @@ political_decisions = {
 	#####################################################
 	begin_pax_britannica = {
 		picture = "pax_britannica"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ENG
 			has_global_flag = yes_isolation
 			NOT = { has_country_flag = pax_britannica }
@@ -18,7 +19,8 @@ political_decisions = {
 
 	break_alliance_AI = {
 		picture = "pax_britannica"
-		potential = { 
+		potential = {
+    exists = yes 
 			tag = ENG
 			NOT = { exists = IRE }
 			ai = yes
@@ -98,6 +100,7 @@ political_decisions = {
 	organize_west_indies = {
 		picture = map_caribbean
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			mass_politics = 1
 			OR = {
@@ -184,6 +187,7 @@ political_decisions = {
 
 	ai_get_british_wyoming = {
 		potential = {
+    exists = yes
 			tag = ENG
 			ai = yes
 			OR = { AND = {  owns = 93 owns = 114 owns = 83 owns = 78 } RPL = { vassal_of = THIS owns = 93 owns = 114 owns = 83 owns = 78 } }
@@ -206,6 +210,7 @@ political_decisions = {
 	mosquito_protectorate = {
 		picture = moskito_coast_reserve
 		potential = {
+    exists = yes
 			tag = ENG
 			is_greater_power = yes
 			MSK = { exists = yes in_sphere = THIS }
@@ -243,6 +248,7 @@ political_decisions = {
 	treaty_of_managua = {
 		picture = moskito_coast_reserve
 		potential = {
+    exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL

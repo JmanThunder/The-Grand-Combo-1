@@ -31,6 +31,7 @@ province_event = {
 	desc = "EVTDESC880010"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			civilized = yes
 			num_of_cities = 50
@@ -139,6 +140,7 @@ province_event = {
 	desc = "EVTDESC880011"
 	
 	trigger = {
+	exists = yes
 		has_province_modifier = reactionary_stronghold
 		NOT = { reactionary = 10 }
 	}
@@ -168,6 +170,7 @@ province_event = {
 	desc = "EVTDESC880012"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			civilized = yes
 			num_of_cities = 5
@@ -262,6 +265,7 @@ province_event = {
 	desc = "EVTDESC880020"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			civilized = yes
 			num_of_cities = 50
@@ -374,6 +378,7 @@ province_event = {
 	desc = "EVTDESC880021"
 	
 	trigger = {
+	exists = yes
 		has_province_modifier = conservative_stronghold
 		NOT = { conservative = 10 }
 	}
@@ -403,6 +408,7 @@ province_event = {
 	desc = "EVTDESC880022"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			civilized = yes
 			num_of_cities = 5
@@ -501,6 +507,7 @@ province_event = {
 	desc = "EVTDESC880030"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			civilized = yes
 			num_of_cities = 50
@@ -608,6 +615,7 @@ province_event = {
 	desc = "EVTDESC880031"
 	
 	trigger = {
+	exists = yes
 		has_province_modifier = liberal_stronghold
 		NOT = { liberal = 10 }
 	}
@@ -637,6 +645,7 @@ province_event = {
 	desc = "EVTDESC880032"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			civilized = yes
 			num_of_cities = 5
@@ -730,6 +739,7 @@ province_event = {
 	desc = "EVTDESC880040"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			is_ideology_enabled = anarcho_liberal
 			civilized = yes
@@ -840,6 +850,7 @@ province_event = {
 	desc = "EVTDESC880041"
 	
 	trigger = {
+	exists = yes
 		has_province_modifier = anarcho_liberal_stronghold
 		NOT = { anarcho_liberal = 10 }
 	}
@@ -869,6 +880,7 @@ province_event = {
 	desc = "EVTDESC880042"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			is_ideology_enabled = anarcho_liberal
 			civilized = yes
@@ -963,6 +975,7 @@ province_event = {
 	desc = "EVTDESC880050"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			is_ideology_enabled = socialist
 			civilized = yes
@@ -1066,6 +1079,7 @@ province_event = {
 	desc = "EVTDESC880051"
 	
 	trigger = {
+	exists = yes
 		has_province_modifier = socialist_stronghold
 		NOT = { socialist = 10 }
 	}
@@ -1095,6 +1109,7 @@ province_event = {
 	desc = "EVTDESC880052"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			is_ideology_enabled = socialist
 			civilized = yes
@@ -1185,6 +1200,7 @@ province_event = {
 	desc = "EVTDESC880060"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			is_ideology_enabled = communist
 			civilized = yes
@@ -1291,6 +1307,7 @@ province_event = {
 	desc = "EVTDESC880061"
 	
 	trigger = {
+	exists = yes
 		has_province_modifier = communist_stronghold
 		NOT = { communist = 10 }
 	}
@@ -1320,6 +1337,7 @@ province_event = {
 	desc = "EVTDESC880062"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			is_ideology_enabled = communist
 			civilized = yes
@@ -1410,6 +1428,7 @@ province_event = {
 	desc = "EVTDESC880070"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			is_ideology_enabled = fascist
 			civilized = yes
@@ -1515,6 +1534,7 @@ province_event = {
 	desc = "EVTDESC880071"
 	
 	trigger = {
+	exists = yes
 		has_province_modifier = fascist_stronghold
 		NOT = { fascist = 10 }
 	}
@@ -1544,6 +1564,7 @@ province_event = {
 	desc = "EVTDESC880072"
 	
 	trigger = {
+	exists = yes
 		owner = {
 			is_ideology_enabled = fascist
 			civilized = yes

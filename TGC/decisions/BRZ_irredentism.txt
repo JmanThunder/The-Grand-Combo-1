@@ -3,6 +3,7 @@ political_decisions = {
 	provincia_cisplatina={
 		picture = banda_oriental
 		potential = {
+    exists = yes
 			primary_culture = brazilian
 			NOT = {
 				has_country_flag = cisplatina_is_ours
@@ -60,6 +61,7 @@ political_decisions = {
 	guiana_negotiations = {
 		picture = guyanas
 		potential = {
+    exists = yes
                         primary_culture = brazilian
 			NOT = { has_country_flag = guiana_negotiations }
 		}
@@ -101,6 +103,7 @@ political_decisions = {
 	guiana_purchasebrz = {
 		picture = guyanas
 		potential = {
+    exists = yes
                         primary_culture = brazilian
 			NOT = { has_country_flag = guiana_purchase }
 		}
@@ -164,6 +167,7 @@ political_decisions = {
 	guiana_purchasepba = {
 		picture = guyanas
 		potential = {
+    exists = yes
                         tag = PBA
 			NOT = { has_country_flag = guiana_purchase }
 		}
@@ -221,6 +225,7 @@ political_decisions = {
 	buy_northernamazonas = {
 		picture = amazonia
 		potential = {
+    exists = yes
                         tag = BRZ
 			NOT = { has_country_flag = northern_amazonas }
 		}
@@ -256,6 +261,7 @@ political_decisions = {
 	buy_independence = {
 		picture = pedroi_pic
 		potential = {
+    exists = yes
                         primary_culture = brazilian
 			NOT = { has_country_flag = buy_independence }
 			NOT = { year = 1825 }
@@ -279,6 +285,7 @@ political_decisions = {
 	claim_independence = {
 		picture = pedroi_pic
 		potential = {
+    exists = yes
                         tag = BRZ
 			NOT = { has_country_flag = buy_independence }
 		}
@@ -301,6 +308,7 @@ political_decisions = {
 	give_bolivia_to_brazil = {
 		picture = acrewar_pic
 		potential = {
+    exists = yes
                         tag = SPA
 			NOT = { has_country_flag = give_bolivia }
 		}
@@ -323,6 +331,7 @@ political_decisions = {
 	bolivia_agreement = {
 		picture = acrewar_pic
 		potential = {
+    exists = yes
                         primary_culture = brazilian
 			NOT = { has_country_flag = bolivia_agreement }
 			NOT = { has_country_flag = acre_war }
@@ -365,6 +374,7 @@ political_decisions = {
 	petropolis_agreement = {
 		picture = acrewar_pic
 		potential = {
+    exists = yes
                         primary_culture = brazilian
 			NOT = { has_country_flag = petropolis_agreement }
 			NOT = { has_country_flag = acre_war }
@@ -399,6 +409,7 @@ political_decisions = {
 	build_brasilia = {
 		picture = brasilia
 		potential = {
+    exists = yes
                         primary_culture = brazilian
 			NOT = { has_country_flag = build_brasilia }
 		}
@@ -432,6 +443,7 @@ political_decisions = {
 	provincia_cisplatina2={
 		picture = banda_oriental
 		potential = {
+    exists = yes
 			tag = BRS
 			NOT = {
 				has_country_flag = cisplatina_is_ours 
@@ -467,6 +479,7 @@ political_decisions = {
 	rename_uruguay = {
 		picture = banda_oriental
 		potential = {
+    exists = yes
 			tag = BRZ
 			owns = 2344
 			owns = 2345
@@ -497,6 +510,7 @@ political_decisions = {
 	restore_uruguay = {
 		picture = banda_oriental
 		potential = {
+    exists = yes
 			OR = {
 				tag = URU
 				tag = ARG
@@ -530,6 +544,7 @@ political_decisions = {
 	acre_war = {
 		picture = acrewar_pic
 		potential = {
+    exists = yes
 			primary_culture = brazilian
 			NOT = { has_country_flag = acre_war }
 		}
@@ -558,6 +573,7 @@ political_decisions = {
 	claim_amazonia = {
 		picture = amazonia
 		potential = {
+    exists = yes
 			primary_culture = brazilian
 			NOT = { has_country_flag = amazonia_is_ours }
 		}
@@ -588,6 +604,7 @@ political_decisions = {
 	restore_empire = {
                 picture = second_reign_pic
 		potential = {
+    exists = yes
 			tag = HBE
 			NOT = {
 		         	government = absolute_monarchy
@@ -606,6 +623,7 @@ political_decisions = {
 	restore_america = {
                 picture = constitution
 		potential = {
+    exists = yes
 			primary_culture = brazilian
 			OR = {
 		         	government = absolute_monarchy
@@ -818,6 +836,7 @@ political_decisions = {
 	unite_south_america = {
 		picture = south_americapic
 		potential = {
+    exists = yes
 			primary_culture = brazilian
                         has_global_flag = continental_monarchy_done
 			NOT = { 
@@ -1026,6 +1045,7 @@ political_decisions = {
 	popeemperor = {
 		picture = papacy
 		potential = {
+    exists = yes
 			primary_culture = brazilian
                         has_global_flag = continental_monarchy_done
 			NOT = { 
@@ -1093,6 +1113,7 @@ political_decisions = {
 	holy_empire = {
 		picture = papacy
 		potential = {
+    exists = yes
 			tag = KBR
                         owns = 749
 			NOT = { has_country_flag = holy_empire }
@@ -1708,6 +1729,7 @@ political_decisions = {
 	american_expansion = {
 		picture = serpe_pic
 		potential = {
+    exists = yes
 			tag = SAE
 			NOT = { has_country_flag = south_american_expands }
 		}
@@ -1799,6 +1821,7 @@ political_decisions = {
 	bolivar_project = {
 		picture = serpe_pic
 		potential = {
+    exists = yes
 			tag = SAE
 			has_country_flag = south_american_expands
 			NOT = { 
@@ -1822,6 +1845,7 @@ political_decisions = {
 	anex_paraguay = {
                 picture = bacia_do_prata_pic
 		potential = {
+    exists = yes
 			tag = LBE
 			NOT = { has_country_flag = paraguay_is_ours }
 		}
@@ -1844,6 +1868,7 @@ political_decisions = {
 	anex_paraguay2 = {
                 picture = bacia_do_prata_pic
 		potential = {
+    exists = yes
 			tag = BRZ
 			NOT = { has_country_flag = paraguay_is_ours }
 		}
@@ -1866,6 +1891,7 @@ political_decisions = {
 	become_rio = {
 		picture = become_riopic
 		potential = {
+    exists = yes
 			tag = BRZ
 			NOT = {
                                 exists = RIO
@@ -1903,6 +1929,7 @@ political_decisions = {
 	national_unity = {
 		picture = pedroi_pic
 		potential = {
+    exists = yes
 			primary_culture = brazilian
                         has_country_flag = brazilian_unification
 			NOT = { 
@@ -1946,6 +1973,7 @@ political_decisions = {
 	unite_lusitania = {
 		picture = lusitan_union_pic
 		potential = {
+    exists = yes
 			primary_culture = brazilian
 			NOT = { 
                                has_country_flag = brazil_portugal 
@@ -2002,6 +2030,7 @@ political_decisions = {
 	form_luso_brazilian_empire = {
 		picture = lusitan_union_pic
 		potential = {
+    exists = yes
 			primary_culture = brazilian
 			has_country_flag = brazil_portugal
 			NOT = { 
@@ -2048,6 +2077,7 @@ political_decisions = {
 	angola_e_nossa = {
 		picture = rhodesia_charter
 		potential = {
+    exists = yes
 			tag = LBE
 			NOT = { has_country_flag = angola_e_nossa }
 		}
@@ -2081,6 +2111,7 @@ political_decisions = {
 	portuguese_africa = {
 		picture = rhodesia_charter
 		potential = {
+    exists = yes
 			tag = LBE
 			NOT = { has_country_flag = africa_e_nossa }
 		}
@@ -2134,6 +2165,7 @@ political_decisions = {
 	portuguese_project = {
 		picture = rhodesia_charter
 		potential = {
+    exists = yes
 			tag = LBE
 			NOT = { has_country_flag = portuguese_america }
 			NOT = { has_country_flag = emperor_pedro }
@@ -2258,6 +2290,7 @@ political_decisions = {
 	anex_spain = {
                 picture = serpe_pic
 		potential = {
+    exists = yes
 			tag = LBE
 			NOT = { has_country_flag = iberia_is_ours }
 		}
@@ -2287,6 +2320,7 @@ political_decisions = {
 	reclaim_india = {
                 picture = map_india
 		potential = {
+    exists = yes
 			tag = LBE
 			NOT = { has_country_flag = india_is_ours }
 			NOT = { has_country_flag = portuguese_america }
@@ -2351,6 +2385,7 @@ political_decisions = {
 	reclaim_india2 = {
                 picture = map_india
 		potential = {
+    exists = yes
 			tag = PBA
 			NOT = { has_country_flag = india_is_ours }
 			NOT = { has_country_flag = portuguese_america }
@@ -2414,6 +2449,7 @@ political_decisions = {
 	rio_da_prata={
 		picture = rhodesia_charter
 		potential = {
+    exists = yes
 			tag = BRS
 			NOT = {
 				has_country_flag = prata_is_ours 
@@ -2457,6 +2493,7 @@ political_decisions = {
 	rio_da_prata2={
 		picture = rhodesia_charter
 		potential = {
+    exists = yes
 			tag = BRZ
 			NOT = {
 				has_country_flag = prata_is_ours 
@@ -2499,6 +2536,7 @@ political_decisions = {
 	rio_da_prata3={
 		picture = rhodesia_charter
 		potential = {
+    exists = yes
 			tag = LBE
 			NOT = {
 				has_country_flag = prata_is_ours 

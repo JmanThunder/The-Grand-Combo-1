@@ -9,7 +9,7 @@ fascist_group = {
 	
 		
 		add_political_reform = {
-			base = 1
+			base = 0
 			modifier = {
 				factor = -1
 				NOT = { ruling_party_ideology = fascist }
@@ -27,7 +27,7 @@ fascist_group = {
 	
 	
 		add_social_reform = {
-			base = 1
+			base = 0
 			modifier = {
 				factor = -1
 				NOT = { ruling_party_ideology = fascist }
@@ -392,7 +392,7 @@ socialist_group = {
 			}
 		}
 		remove_political_reform = {
-			base = 0
+			base = -1
 		}
 		add_social_reform = {
 			base = 1

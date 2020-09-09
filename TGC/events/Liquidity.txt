@@ -5,6 +5,7 @@ country_event = { #raised the money trigger, hopefully fixes AI not building arm
 	picture = "Poor"
 	
 	trigger = {
+	exists = yes
 		#money = 300000
 		AI = yes
 		money = 1000000

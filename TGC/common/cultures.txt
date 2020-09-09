@@ -100,6 +100,81 @@ scandinavian = {
 		first_names = { Asllak Biejas Dure Erke Hanno Iskko Joha Laras Markkos Mikko Niillas Osku Uhkku }
 		last_names = { Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell }
 	}
+	mordvin = {
+		color = {126 158 181}
+		first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
+		Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari
+		Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin
+		Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent
+		Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar
+		}
+
+		last_names = { Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson
+		Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
+		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
+		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+		}
+	}
+	komi = {
+		color = {176 176 176}
+		first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
+		Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari
+		Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin
+		Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent
+		Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar
+		}
+
+		last_names = { Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson
+		Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
+		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
+		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+		}
+	}
+	mari = {
+		color = {239 239 239}
+		first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
+		Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari
+		Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin
+		Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent
+		Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar
+		}
+
+		last_names = { Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson
+		Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
+		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
+		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+		}
+	}
+	udmurt = {
+		color = {112 112 112}
+		first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
+		Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari
+		Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin
+		Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent
+		Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar
+		}
+
+		last_names = { Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson
+		Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
+		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
+		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+		}
+	}
+	veps = { 
+		color = { 112 193 112 }
+		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
+		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
+		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
+		
+		last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält
+		Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay
+		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
+		radicalism = 5
+	}
 	union = SCA
 }
 
@@ -315,6 +390,20 @@ polish_culture_group = {
 		first_names = { Adam Aleksander Antoni Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Emil Eustachy Felicjan Franciszek Gustaw Henryk Ignacy Jakub Jan Jedrzej Józef Juliusz Karol Kazimierz Klemens Konstanty Lech Leon Leopold Lucjan Ludwik Maciej Marceli Marian Mariusz Melchior Michal Mieczyslaw Roman Romuald Samuel Stanislaw Stefan Tadeusz Tomasz Waclaw Wilhelm Witold Wladyslaw Wojciech Zygmunt }
 		last_names = { Bem Bór-Komorowski Brzóska Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Fabryvy Hauke-Boask Iszikowski Jasinski Klicki Konopczynski Krukowiecki Kruszewski Langiewicz Madalinski Mierolawski Mikolajczyk Mokronowski Niepokólczycki Ostrowski Pac Pilsudski Poniatowski Potocki Preadzynski Radziwill Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski Taczaneowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
 	}
+	sorbian = {
+		color = {83 118 135}
+		first_names = { Adam Aleksander Antoni Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Emil
+		Eustachy Felicjan Franciszek Gustaw Henryk Ignacy Jakub Jan Jedrzej Józef
+		Juliusz Karol Kazimierz Klemens Konstanty Lech Leon Leopold Lucjan Ludwik
+		Maciej Marceli Marian Mariusz Melchior Michal Mieczyslaw Roman Romuald Samuel
+		Stanislaw Stefan Tadeusz Tomasz Waclaw Wilhelm Witold Wladyslaw Wojciech Zygmunt }
+
+		last_names = { Bem Bór-Komorowski Brzóska Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Fabryvy
+		Hauke-Boask Iszikowski Jasinski Klicki Konopczynski Krukowiecki Kruszewski Langiewicz Madalinski Mierolawski
+		Mikolajczyk Mokronowski Niepokólczycki Ostrowski Pac Pilsudski Poniatowski Potocki Preadzynski Radziwill
+		Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski
+		Taczaneowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
+	}
 	union = POL
 }
 
@@ -435,6 +524,21 @@ turko_semitic = {
 		last_names = { Ahmadbek Ahmadzade Akbarzade Edigar Ganjavi Ibrahimbek Mehmandar Nakhchivani Qasimbek Qasimzade Rasulzade Tahirzade Talishkhan Topchubashi Zardabi }
 		radicalism = 5
 	}
+	qashqai = {
+		color = {17 144 192}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
 }
 
 caucasian = {
@@ -472,6 +576,136 @@ caucasian = {
 		last_names = { Neghwey al-Shishani Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe }
 		radicalism = 20
 		}
+		avar = {
+		color = {192 150 190}
+		first_names = {
+			Hadji Sheyh Rasul Umma Halil Gadzhimurat Ghazi "Gamzat-bek" Najmuddin Tapa Ali-Khaji Akusha Haidar Várkony Shamil Kamil Magomet Ibrahim Muhammad Mansur Dzhokhar Avshalumov Aliyeva Askerkhanov Gamzatov Puterbrot Abdulkhakim Adam Buvaysar Kuramagomed Khabib Ali Rustam
+			}
+		
+		last_names = { 
+			Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+		}
+		}
+				lezgin = {
+		color = {230 95 92}
+		first_names = {
+			Hadji Sheyh Rasul Umma Halil Gadzhimurat Ghazi "Gamzat-bek" Najmuddin Tapa Ali-Khaji Akusha Haidar Várkony Shamil Kamil Magomet Ibrahim Muhammad Mansur Dzhokhar Avshalumov Aliyeva Askerkhanov Gamzatov Puterbrot Abdulkhakim Adam Buvaysar Kuramagomed Khabib Ali Rustam
+			}
+		
+		last_names = { 
+			Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+		}
+		}
+		
+		rutul = {
+		color = {198 25 11}
+		first_names = {
+			Hadji Sheyh Rasul Umma Halil Gadzhimurat Ghazi "Gamzat-bek" Najmuddin Tapa Ali-Khaji Akusha Haidar Várkony Shamil Kamil Magomet Ibrahim Muhammad Mansur Dzhokhar Avshalumov Aliyeva Askerkhanov Gamzatov Puterbrot Abdulkhakim Adam Buvaysar Kuramagomed Khabib Ali Rustam
+			}
+		
+		last_names = { 
+			Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+		}
+		}
+		
+		tabasaran = {
+		color = {240 0 83}
+		first_names = {
+			Hadji Sheyh Rasul Umma Halil Gadzhimurat Ghazi "Gamzat-bek" Najmuddin Tapa Ali-Khaji Akusha Haidar Várkony Shamil Kamil Magomet Ibrahim Muhammad Mansur Dzhokhar Avshalumov Aliyeva Askerkhanov Gamzatov Puterbrot Abdulkhakim Adam Buvaysar Kuramagomed Khabib Ali Rustam
+			}
+		
+		last_names = { 
+			Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+		}
+		}
+		
+		agul = {
+		color = {188 183 128}
+		first_names = {
+			Hadji Sheyh Rasul Umma Halil Gadzhimurat Ghazi "Gamzat-bek" Najmuddin Tapa Ali-Khaji Akusha Haidar Várkony Shamil Kamil Magomet Ibrahim Muhammad Mansur Dzhokhar Avshalumov Aliyeva Askerkhanov Gamzatov Puterbrot Abdulkhakim Adam Buvaysar Kuramagomed Khabib Ali Rustam
+			}
+		
+		last_names = { 
+			Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+		}
+		}
+		
+		lak = {
+		color = {207 107 119}
+		first_names = {
+			Hadji Sheyh Rasul Umma Halil Gadzhimurat Ghazi "Gamzat-bek" Najmuddin Tapa Ali-Khaji Akusha Haidar Várkony Shamil Kamil Magomet Ibrahim Muhammad Mansur Dzhokhar Avshalumov Aliyeva Askerkhanov Gamzatov Puterbrot Abdulkhakim Adam Buvaysar Kuramagomed Khabib Ali Rustam
+			}
+		
+		last_names = { 
+			Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+		}
+		}
+		
+		tsakhur = {
+		color = {146 49 45}
+		first_names = {
+			Hadji Sheyh Rasul Umma Halil Gadzhimurat Ghazi "Gamzat-bek" Najmuddin Tapa Ali-Khaji Akusha Haidar Várkony Shamil Kamil Magomet Ibrahim Muhammad Mansur Dzhokhar Avshalumov Aliyeva Askerkhanov Gamzatov Puterbrot Abdulkhakim Adam Buvaysar Kuramagomed Khabib Ali Rustam
+			}
+		
+		last_names = { 
+			Awaral Gamzatov Mussayassul Aliev Murad "Ma'arulal" "X'indalal" Andis Didoi Anchikh Bagulal Bezhta Archin Chamalal Hinukhs Ratsitl Godoberi Khvarshi Rachabalda Karata Tokita Tindi Akhvakh Botlikh Hunzib al-Shishani Dargwa Kumyk Lezgiyar Tabasaran Lak Nogai Aghul Rutul al-Tsakhur Muhammad Hotso Bamat Gadzhiyev Fazu Gamzatovna
+		}
+		}
+		ingush = {
+		color = {76 152 149}
+		first_names = {
+			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
+			}
+		
+		last_names = { 
+			Ajndi Shishani Akhmadov Dudayev Yamadayev Abramov Alkhanov Bargishev Basayev Dudaev Kadyrov Maskhadov Saidullayev Umarov Zakayev Akkiy Myalkiy Nokhchmakhkakhoy Alaroy Beltagoy Benoy Biltoy Dishni Chartoy Elistanzhkhoy Centoroy Enganoy Ersenoy Gendargenoy Gunoi Kharachoi Zandakhoi Terloy Beshni Chinkhoi Chanti Cheberloy Mutawakil Rigakhoy Buni Sharoy Shotoy Varandoy Batsbi al-Ingush al-Kist Tchermoeff
+		}
+		radicalism = 30
+		}
+		kabardine = {
+		color = {167 47 97}
+		first_names = {
+			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
+			}
+		
+		last_names = {
+			Neghwey al-Shishani Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
+		}
+		}
+		
+		karachai = {
+		color = {122 24 44}
+		first_names = {
+			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
+			}
+		
+		last_names = {
+			Neghwey al-Shishani Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
+		}
+		}
+		
+		cherkess = {
+		color = {255 50 91}
+		first_names = {
+			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
+			}
+		
+		last_names = {
+			Neghwey al-Shishani Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
+		}
+		}
+		
+		abkhaz = {
+		color = {210 55 55}
+		first_names = {
+			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
+			}
+		
+		last_names = {
+			Neghwey al-Shishani Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
+		}
+		}
+	}
 	}
 
 arab = {
@@ -607,6 +841,94 @@ iranian_turanian = {
 		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
 		radicalism = 1
 	}
+	nogai = {
+		color = {0 161 222}
+		first_names = { 
+			Afaq Ahmed Arshad Bahayeddin Burhan Daud Hakim Husayin Kemal Maqsud Muhammad Musa Rashidin Satuq Timur Yaqub
+			}
+		last_names = {
+			Beg Khan
+			}
+	}
+		tatar = {
+		color = {96 65 144}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}	
+	astrakhani = {
+		color = {76 52 114}#232 159 88
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}
+	crimean = {
+		color = {40 30 60}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}
+	chuvash = {
+		color = {99 63 99}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}	
+	tuvan = {
+		color = {106 83 130}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}	
+	altai = {
+		color = {106 83 82}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}	
+	bashkir = {
+		color = {71 97 224}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}
+	gagauz = {
+		color = {180 112 211}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+	}
 }
 
 central_asian = {
@@ -638,6 +960,55 @@ central_asian = {
 		first_names = { Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang }
 		last_names = { Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi }
 		radicalism = 10
+	}
+		nivkh = {
+		color = {52 105 128}
+		first_names = {
+               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory 
+		}
+		last_names = { 
+               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
+		}
+	}
+	
+	evenki = {
+		color = {0 135 150}
+		first_names = {
+               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory 
+		}
+		last_names = { 
+               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
+		}
+	}
+	
+	even = {
+		color = {33 81 148}
+		first_names = {
+               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory 
+		}
+		last_names = { 
+               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
+		}
+	}
+	
+	ket = {
+		color = {224 81 128}
+		first_names = {
+               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory 
+		}
+		last_names = { 
+               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
+		}
+	}
+	
+	nanai = {
+		color = {160 160 223}
+		first_names = {
+               Aleksandr Diniyar Mirsayet Sihabetdin Gabdull Afanasiy Viktor Grigory 
+		}
+		last_names = { 
+               Shaimiev Bilyaletdinov Shchapov Yadrintsev Krakovetsky Kolchak Potanin Shashkov
+		}
 	}
 }
 
@@ -698,6 +1069,22 @@ south_asian = {
 		color = { 211 91 84 }
 		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj }
 		last_names = { Pansara Vaghela Solanki Modhvadia Mehta Baro Parmar }
+	}
+		hindi = {
+		color = {255 140 0}
+		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
+			
+		}
+		
+		last_names = { Singh Valmiki Janak Jarasandh Mishra 
+               
+		}
+	}
+	indian_muslim = {
+		 #!religion = { sunni }
+		 color = { 0 100 0 }
+		 first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur }
+		 last_names = { Singh Kunwar Bahadur Dhillon Nalwa Ahluwalia Ramgarhia Mal Mulraj }
 	}
 	marathi = {
 		color = { 142 100 55 }

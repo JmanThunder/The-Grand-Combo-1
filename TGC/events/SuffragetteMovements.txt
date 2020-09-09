@@ -14,6 +14,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		literacy = 0.7
@@ -117,6 +118,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		literacy = 0.7
@@ -227,6 +229,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		slavery = no_slavery
@@ -331,6 +334,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		war = yes
 		war_exhaustion = 4
 		is_mobilised = yes
@@ -436,6 +440,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1890
 		civilized = yes
 		literacy = 0.7
@@ -543,6 +548,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		public_meetings = yes_meeting
@@ -674,6 +680,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		literacy = 0.7
@@ -783,6 +790,7 @@ country_event = {
 
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		is_ideology_enabled = socialist
@@ -900,6 +908,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		literacy = 0.7
@@ -1011,6 +1020,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		literacy = 0.7
@@ -1119,6 +1129,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		literacy = 0.7
@@ -1233,6 +1244,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1900
 		civilized = yes
 		literacy = 0.7
@@ -1337,6 +1349,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1870
 		civilized = yes
 		literacy = 0.7
@@ -1440,6 +1453,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1890
 		civilized = yes
 		literacy = 0.7
@@ -1548,6 +1562,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1890
 		civilized = yes
 		literacy = 0.7
@@ -1666,6 +1681,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1890
 		civilized = yes
 		literacy = 0.7
@@ -1781,6 +1797,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		year = 1890
 		civilized = yes
 		literacy = 0.7
@@ -1888,6 +1905,7 @@ country_event = {
 	picture = "Womensrights"
 	
 	trigger = {
+	exists = yes
 		has_country_modifier = female_suffrage
 		civilized = yes
 		OR = {

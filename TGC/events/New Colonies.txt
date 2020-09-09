@@ -11,6 +11,7 @@ province_event = {
 	desc = "EVTDESC98800"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = FRA_1923
 			region = FRA_1930
@@ -70,6 +71,7 @@ province_event = {
 	desc = "EVTDESC98800"
 	
 	trigger = {
+	exists = yes
 		region = SOK_1934
 		owned_by = THIS
 		controlled_by = THIS
@@ -125,6 +127,7 @@ province_event = {
 	desc = "EVTDESC98800"
 	
 	trigger = {
+	exists = yes
 		region = SOK_1945
 		owned_by = THIS
 		controlled_by = THIS
@@ -180,6 +183,7 @@ province_event = {
 	desc = "EVTDESC98800"
 	
 	trigger = {
+	exists = yes
 		region = SOK_1963
 		owned_by = THIS
 		controlled_by = THIS
@@ -253,6 +257,7 @@ province_event = {
 	desc = "EVTDESC98805"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1919
 		owned_by = THIS
 		controlled_by = THIS
@@ -312,6 +317,7 @@ province_event = {
 	desc = "EVTDESC98805"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1914
 		owned_by = THIS
 		controlled_by = THIS
@@ -366,6 +372,7 @@ province_event = {
 	desc = "EVTDESC98806"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1788
 		owned_by = THIS
 		controlled_by = THIS
@@ -422,6 +429,7 @@ province_event = {
 	desc = "EVTDESC98807"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1892
 		owned_by = THIS
 		controlled_by = THIS
@@ -476,6 +484,7 @@ province_event = {
 	desc = "EVTDESC98807"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1893
 		owned_by = THIS
 		controlled_by = THIS
@@ -533,6 +542,7 @@ province_event = {
 	desc = "EVTDESC98810"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1884
 		owned_by = THIS
 		controlled_by = THIS
@@ -587,6 +597,7 @@ province_event = {
 	desc = "EVTDESC98810"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = FRA_1883
 			region = FRA_1878
@@ -650,6 +661,7 @@ province_event = {
 	desc = "EVTDESC98810"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1893
 		owned_by = THIS
 		controlled_by = THIS
@@ -715,6 +727,7 @@ province_event = {
 	desc = "EVTDESC98815"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1878
 		owned_by = THIS
 		controlled_by = THIS
@@ -769,6 +782,7 @@ province_event = {
 	desc = "EVTDESC98815"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1883
 		owned_by = THIS
 		controlled_by = THIS
@@ -824,6 +838,7 @@ province_event = {
 	desc = "EVTDESC98815"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1884
 		owned_by = THIS
 		controlled_by = THIS
@@ -887,6 +902,7 @@ province_event = {
 	desc = "EVTDESC98815"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1788
 		owned_by = THIS
 		controlled_by = THIS
@@ -959,6 +975,7 @@ province_event = {
 	desc = "EVTDESC98820"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1783
 		owned_by = THIS
 		controlled_by = THIS
@@ -1012,6 +1029,7 @@ province_event = {
 	desc = "EVTDESC98820"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1788
 		owned_by = THIS
 		controlled_by = THIS
@@ -1075,6 +1093,7 @@ province_event = {
 	desc = "EVTDESC98825"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = FRA_1808
 			region = FRA_1813
@@ -1132,6 +1151,7 @@ province_event = {
 	desc = "EVTDESC98825"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = FRA_1927
 			region = SOK_1945
@@ -1201,6 +1221,7 @@ province_event = {
 	desc = "EVTDESC98825"
 	
 	trigger = {
+	exists = yes
 		region = ENG_1825
 		owned_by = THIS
 		controlled_by = THIS
@@ -1265,6 +1286,7 @@ province_event = {
 	desc = "EVTDESC98830"
 	
 	trigger = {
+	exists = yes
 		region = ENG_1818
 		owned_by = THIS
 		controlled_by = THIS
@@ -1319,6 +1341,7 @@ province_event = {
 	desc = "EVTDESC98830"
 	
 	trigger = {
+	exists = yes
 		region = ENG_1825
 		owned_by = THIS
 		controlled_by = THIS
@@ -1375,6 +1398,7 @@ province_event = {
 	desc = "EVTDESC98830"
 	
 	trigger = {
+	exists = yes
 		region = EGY_1842
 		owned_by = THIS
 		controlled_by = THIS
@@ -1447,6 +1471,7 @@ province_event = {
 	desc = "EVTDESC98830"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1813
 		owned_by = THIS
 		controlled_by = THIS
@@ -1510,6 +1535,7 @@ province_event = {
 	desc = "EVTDESC98830"
 	
 	trigger = {
+	exists = yes
 		region = TRI_1735
 		owned_by = THIS
 		controlled_by = THIS
@@ -1576,6 +1602,7 @@ province_event = {
 	desc = "EVTDESC98835"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = ENG_1956
 			region = SPA_1955
@@ -1641,6 +1668,7 @@ province_event = {
 	desc = "EVTDESC98835"
 	
 	trigger = {
+	exists = yes
 		region = SOK_1963
 		owned_by = THIS
 		controlled_by = THIS
@@ -1698,6 +1726,7 @@ province_event = {
 	desc = "EVTDESC98837"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = FRA_1972
 			region = SPA_1955
@@ -1755,6 +1784,7 @@ province_event = {
 	desc = "EVTDESC98837"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1978
 		owned_by = THIS
 		controlled_by = THIS
@@ -1816,6 +1846,7 @@ province_event = {
 	desc = "EVTDESC98840"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = FRA_1978
 			region = BEL_1977
@@ -1883,6 +1914,7 @@ province_event = {
 	desc = "EVTDESC98840"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1992
 		owned_by = THIS
 		controlled_by = THIS
@@ -1943,6 +1975,7 @@ province_event = {
 	desc = "EVTDESC98840"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1984
 		owned_by = THIS
 		controlled_by = THIS
@@ -2003,6 +2036,7 @@ province_event = {
 	desc = "EVTDESC98840"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1990
 		owned_by = THIS
 		controlled_by = THIS
@@ -2064,6 +2098,7 @@ province_event = {
 	desc = "EVTDESC98845"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1977
 		owned_by = THIS
 		controlled_by = THIS
@@ -2119,6 +2154,7 @@ province_event = {
 	desc = "EVTDESC98845"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1984
 		owned_by = THIS
 		controlled_by = THIS
@@ -2174,6 +2210,7 @@ province_event = {
 	desc = "EVTDESC98845"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1992
 		owned_by = THIS
 		controlled_by = THIS
@@ -2238,6 +2275,7 @@ province_event = {
 	desc = "EVTDESC98845"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = BEL_1990
 			region = BEL_1996
@@ -2304,6 +2342,7 @@ province_event = {
 	desc = "EVTDESC98845"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = POR_2006
 			region = BEL_1987
@@ -2364,6 +2403,7 @@ province_event = {
 	desc = "EVTDESC98852"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1965
 		owned_by = THIS
 		controlled_by = THIS
@@ -2417,6 +2457,7 @@ province_event = {
 #	desc = "EVTDESC98852"
 #	
 #	trigger = {
+	exists = yes
 #		region = FRA_1970
 #		owned_by = THIS
 #		controlled_by = THIS
@@ -2466,6 +2507,7 @@ province_event = {
 	desc = "EVTDESC98852"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = ENG_1844
 			region = EGY_1842
@@ -2534,6 +2576,7 @@ province_event = {
 	desc = "EVTDESC98852"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1992
 		owned_by = THIS
 		controlled_by = THIS
@@ -2606,6 +2649,7 @@ province_event = {
 	desc = "EVTDESC98852"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1990
 		owned_by = THIS
 		controlled_by = THIS
@@ -2669,6 +2713,7 @@ province_event = {
 	desc = "EVTDESC98852"
 	
 	trigger = {
+	exists = yes
 		region = SOK_1963
 		owned_by = THIS
 		controlled_by = THIS
@@ -2731,6 +2776,7 @@ province_event = {
 	desc = "EVTDESC98858"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = EGY_1842
 			region = ENG_1844
@@ -2790,6 +2836,7 @@ province_event = {
 	desc = "EVTDESC98860"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = ENG_2014
 			region = ENG_2016
@@ -2847,6 +2894,7 @@ province_event = {
 	desc = "EVTDESC98860"
 	
 	trigger = {
+	exists = yes
 		region = BEL_1987
 		owned_by = THIS
 		controlled_by = THIS
@@ -2907,6 +2955,7 @@ province_event = {
 	desc = "EVTDESC98860"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = POR_2003
 			region = POR_2006
@@ -2973,6 +3022,7 @@ province_event = {
 	desc = "EVTDESC98865"
 	
 	trigger = {
+	exists = yes
 		region = ENG_2024
 		owned_by = THIS
 		controlled_by = THIS
@@ -3027,6 +3077,7 @@ province_event = {
 	desc = "EVTDESC98865"
 	
 	trigger = {
+	exists = yes
 		region = ENG_2026
 		owned_by = THIS
 		controlled_by = THIS
@@ -3083,6 +3134,7 @@ province_event = {
 	desc = "EVTDESC98870"
 	
 	trigger = {
+	exists = yes
 		region = ENG_2044
 		owned_by = THIS
 		controlled_by = THIS
@@ -3136,6 +3188,7 @@ province_event = {
 	desc = "EVTDESC98870"
 	
 	trigger = {
+	exists = yes
 		region = ENG_2039
 		owned_by = THIS
 		controlled_by = THIS
@@ -3191,6 +3244,7 @@ province_event = {
 	desc = "EVTDESC98870"
 	
 	trigger = {
+	exists = yes
 		region = ENG_2036
 		owned_by = THIS
 		controlled_by = THIS
@@ -3252,6 +3306,7 @@ province_event = {
 	desc = "EVTDESC98870"
 	
 	trigger = {
+	exists = yes
 		region = POR_2060
 		owned_by = THIS
 		controlled_by = THIS
@@ -3313,6 +3368,7 @@ province_event = {
 	desc = "EVTDESC98875"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1803
 		owned_by = THIS
 		controlled_by = THIS
@@ -3367,6 +3423,7 @@ province_event = {
 	desc = "EVTDESC98875"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1798
 		owned_by = THIS
 		controlled_by = THIS
@@ -3422,6 +3479,7 @@ province_event = {
 	desc = "EVTDESC98875"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1801
 		owned_by = THIS
 		controlled_by = THIS
@@ -3479,6 +3537,7 @@ province_event = {
 	desc = "EVTDESC98875"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1775
 		owned_by = THIS
 		controlled_by = THIS
@@ -3536,6 +3595,7 @@ province_event = {
 	desc = "EVTDESC98875"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1798
 		owned_by = THIS
 		controlled_by = THIS
@@ -3596,6 +3656,7 @@ province_event = {
 	desc = "EVTDESC98880"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = TRI_1731
 			region = TRI_1735
@@ -3655,6 +3716,7 @@ province_event = {
 	desc = "EVTDESC98880"
 	
 	trigger = {
+	exists = yes
 		region = ENG_1825
 		owned_by = THIS
 		controlled_by = THIS
@@ -3717,6 +3779,7 @@ province_event = {
 	desc = "EVTDESC98883"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = ENG_2036
 			region = ENG_2039
@@ -3780,6 +3843,7 @@ province_event = {
 	desc = "EVTDESC98884"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = POR_2003
 			region = POR_2006
@@ -3839,6 +3903,7 @@ province_event = {
 	desc = "EVTDESC98885"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = POR_2049
 			region = POR_2053
@@ -3898,6 +3963,7 @@ province_event = {
 	desc = "EVTDESC98885"
 	
 	trigger = {
+	exists = yes
 		region = ENG_2039 
 		owned_by = THIS
 		controlled_by = THIS
@@ -3964,6 +4030,7 @@ province_event = {
 	desc = "EVTDESC98890"
 	
 	trigger = {
+	exists = yes
 		region = MOR_1696
 		owned_by = THIS
 		controlled_by = THIS
@@ -4023,6 +4090,7 @@ province_event = {
 	desc = "EVTDESC98891"
 	
 	trigger = {
+	exists = yes
 		region = MOR_1696
 		owned_by = THIS
 		controlled_by = THIS
@@ -4080,6 +4148,7 @@ province_event = {
 	desc = "EVTDESC98892"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = FRA_1892
 			region = FRA_1893
@@ -4149,6 +4218,7 @@ province_event = {
 	desc = "EVTDESC98893"
 	
 	trigger = {
+	exists = yes
 		region = FRA_1901
 		owned_by = THIS
 		controlled_by = THIS
@@ -4203,6 +4273,7 @@ province_event = {
 	desc = "EVTDESC98893"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = FRA_1798
 			region = FRA_1803
@@ -4266,6 +4337,7 @@ province_event = {
 	desc = "EVTDESC98895"
 	
 	trigger = {
+	exists = yes
 		region = ENG_2026
 		owned_by = THIS
 		controlled_by = THIS
@@ -4325,6 +4397,7 @@ province_event = {
 	desc = "EVTDESC98895"
 	
 	trigger = {
+	exists = yes
 		region = ENG_1844
 		owned_by = THIS
 		controlled_by = THIS
@@ -4391,6 +4464,7 @@ province_event = {
 	desc = "EVTDESC98900"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = ENG_2087
 			region = ENG_2092
@@ -4457,6 +4531,7 @@ province_event = {
 	desc = "EVTDESC98905"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			#region = ENG_6
 			region = ENG_9

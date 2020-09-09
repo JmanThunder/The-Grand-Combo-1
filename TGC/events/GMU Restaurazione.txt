@@ -108,6 +108,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = AUS
 		owns = 726
 		has_global_flag = hungarian_revolution_occurred
@@ -170,6 +171,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = SAR
 		OR = {
 			government = hms_government
@@ -336,6 +338,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = SAR
 		has_country_flag = first_war_of_italian_independence_intervention
 		NOT = { owns = 2669 }
@@ -419,6 +422,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = AUS
 		has_global_flag = liberal_revolution_somewhere
 		NOT = { has_country_flag = no_lombardo_venetian_independence }
@@ -628,6 +632,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = AUS
 		owns = 729
 		OR = {
@@ -707,6 +712,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = VEN
 		war = no
 		AUS = {
@@ -735,6 +741,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = VEN
 		war = no
 		AUS = {
@@ -785,6 +792,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = SAR
 		government = absolute_monarchy
 		NOT = { year = 1848 }
@@ -837,6 +845,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = SWI
 		has_global_flag = sardinia_demands_mazzini
 	}
@@ -900,6 +909,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = ENG
 		has_global_flag = mazzini_escaped
 	}
@@ -965,6 +975,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = SAR
 		has_global_flag = mazzini_arrested
 	}
@@ -989,6 +1000,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = SAR
 		has_global_flag = mazzini_in_exile
 	}
@@ -1022,6 +1034,7 @@ country_event = {
 	picture = "DIM_pope_pius_ix"
 
 	trigger = {
+	exists = yes
 		tag = PAP
 		government = theocracy
 		year = 1840
@@ -1097,6 +1110,7 @@ country_event = {
 	picture = "roman_republic"
 
 	trigger = {
+	exists = yes
 		war = no
 		tag = PAP
 		OR = {
@@ -1242,6 +1256,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		tag = PAP
 		has_global_flag = roman_republic_occured
@@ -1324,6 +1339,7 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
+	exists = yes
 		tag = SAR
 		war = no
 		OR = {  
@@ -1400,6 +1416,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		 OR = {  
 			tag = KUK
@@ -1515,6 +1532,7 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
+	exists = yes
 		tag = SAR
 		war = no
 		has_global_flag = venetian_insurrection_occurred
@@ -1569,6 +1587,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		war = no
 		 OR = {  
                         tag = KUK
@@ -1604,6 +1623,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
                 AUS = { war_with = THIS }
                 owns = 726 
 		has_country_flag = first_war_of_italian_independence_intervention
@@ -1643,6 +1663,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
                 AUS = { war_with = THIS }
                 owns = 726 
 		has_country_flag = first_war_of_italian_independence_intervention
@@ -1683,6 +1704,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
                 AUS = { war_with = THIS }
                 owns = 726 
 		has_country_flag = first_war_of_italian_independence_intervention
@@ -1723,6 +1745,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
                 tag = VEN
                 AUS = { war_with = THIS }
                 NOT = { has_country_modifier = italico_valore }
@@ -1777,6 +1800,7 @@ country_event = {
 	picture = "Verdi_WF"
 
 	trigger = {
+	exists = yes
 		year = 1859
 		NOT = { year = 1900 }
 		has_global_flag = Mameli
@@ -1851,6 +1875,7 @@ country_event = {
 	picture = "Manzoni"
 
 	trigger = {
+	exists = yes
 		tag = AUS
 		has_country_flag = liberal_revolution_in_progress
 		owns = 726 #Milan
@@ -2016,6 +2041,7 @@ country_event = {
 	picture = "Mameli"
 
 	trigger = {
+	exists = yes
                 tag = SAR
                 year = 1847
 	}
@@ -2028,7 +2054,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Fratelli d'Italia, l'Italia s'è desta!"
+		name = "Fratelli d'Italia, l'Italia s'? desta!"
                 set_global_flag = Mameli
                 prestige = 5
                 plurality = 2
@@ -2116,7 +2142,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Fratelli d'Italia, l'Italia s'è desta!"
+		name = "Fratelli d'Italia, l'Italia s'? desta!"
                 prestige = 2
                 plurality = 1
 		any_pop = {
@@ -2152,7 +2178,7 @@ country_event = {
 	}
 }
 
-#Inno Mameli für Österreich
+#Inno Mameli f?r ?sterreich
 country_event = {
 
 	id = 202037
@@ -2200,6 +2226,7 @@ country_event = {
 	picture = "Foscolo"
 
 	trigger = {
+	exists = yes
 		tag = ITA
 		owns = 749
 		owns = 744
@@ -2298,6 +2325,7 @@ country_event = {
 	picture = "Foscolo"
 
 	trigger = {
+	exists = yes
 		tag = ITA
 		has_global_flag = Foscolo_denied
 	}
@@ -2328,6 +2356,7 @@ country_event = {
 	picture = "Foscolo"
 
 	trigger = {
+	exists = yes
 		tag = ITA
 		has_global_flag = Foscolo_returns
 	}
@@ -2360,6 +2389,7 @@ country_event = {
 	picture = "Marconi"
 
 	trigger = {
+	exists = yes
                 tag = ENG
                 year = 1902
                 behaviorism = 1
@@ -2422,6 +2452,7 @@ country_event = {
 	picture = "Turin"
 
 	trigger = {
+	exists = yes
 		tag = ITA
 		owns = 720
 		money = 20000
@@ -2454,6 +2485,7 @@ country_event = {
 	picture = "Macchi"
 
 	trigger = {
+	exists = yes
 		tag = ITA
 		has_country_flag = porco_rosso
 		year = 1934
@@ -2479,6 +2511,7 @@ country_event = {
 	picture = "Sisi"
 
 	trigger = {
+	exists = yes
 		OR = { 
 			tag = AUS
             tag = KUK
@@ -2513,6 +2546,7 @@ country_event = {
 	picture = "campanile_san_marco"
 
 	trigger = {
+	exists = yes
 		owns = 729
 		year = 1902
 	}
@@ -2612,7 +2646,8 @@ country_event = {
 	desc = "EVTDESC202049"
 	picture = "Leopardi"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1837
 		tag = SIC
 	}
@@ -2634,7 +2669,8 @@ country_event = {
 	desc = "EVTDESC202050"
 	picture = "Carducci"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1887
 		NOT = { year = 1907 }
 		tag = ITA
@@ -2659,7 +2695,8 @@ country_event = {
 	desc = "EVTDESC202051"
 	picture = "Pascoli"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		has_country_flag = guerra_di_libia
 		is_culture_group = italian
 		capital = 749
@@ -2695,7 +2732,8 @@ country_event = {
 	desc = "EVTDESC202052"
 	picture = "Dannunzio"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		is_culture_group = italian
 		capital = 749
 		impressionism = 1
@@ -2723,7 +2761,8 @@ country_event = {
 	desc = "EVTDESC202053"
 	picture = "Svevo"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1923
 		NOT = { year = 1929 }
 		primary_culture = north_italian
@@ -2752,7 +2791,8 @@ country_event = {
 	desc = "EVTDESC202054"
 	picture = "Rossini"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1836
 		tag = PAP
 	}
@@ -2773,7 +2813,8 @@ country_event = {
 	desc = "EVTDESC202055"
 	picture = "Donizetti"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1844
 		NOT = { year = 1848 }
 		owns = 754
@@ -2809,7 +2850,8 @@ country_event = {
 	desc = "EVTDESC202056"
 	picture = "Mascagni"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1890
 		is_culture_group = italian
 		capital = 749
@@ -2832,7 +2874,8 @@ country_event = {
 	desc = "EVTDESC202057"
 	picture = "Respighi"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1916
 		is_culture_group = italian
 		capital = 749
@@ -2855,7 +2898,8 @@ country_event = {
 	desc = "EVTDESC202058"
 	picture = "Puccini"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1926
 		is_culture_group = italian
 		capital = 749
@@ -2878,7 +2922,8 @@ country_event = {
 	desc = "EVTDESC202059"
 	picture = "Aida"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1871
 		NOT = { year = 1900 }
 		tag = EGY
@@ -2917,7 +2962,8 @@ country_event = {
 	desc = "EVTDESC202061"
 	picture = "Rigoletto"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1851
 		NOT = { year = 1900 }
 		OR = { 
@@ -2976,7 +3022,8 @@ country_event = {
 	desc = "EVTDESC202063"
 	picture = "Verdi_Requiem"
 
-	trigger = {       
+	trigger = {
+	exists = yes       
 		year = 1874
 		NOT = { year = 1900 }
 		is_culture_group = italian
@@ -3004,6 +3051,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+	exists = yes
 		NOT = { year = 1848 }
 		is_culture_group = italian
 		is_secondary_power = yes

@@ -1,6 +1,7 @@
 political_decisions = {
 	switch_to_army_tech = {
 		potential = {
+    exists = yes
 			civilized = yes
 			tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
@@ -44,6 +45,7 @@ political_decisions = {
 	
 	switch_to_navy_tech = {
 		potential = {
+    exists = yes
 			civilized = yes
 			tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
@@ -96,6 +98,7 @@ political_decisions = {
 	
 	switch_to_culture_tech = {
 		potential = {
+    exists = yes
 			civilized = yes
 			tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
@@ -134,6 +137,7 @@ political_decisions = {
 	
 	switch_to_trade_tech = {
 		potential = {
+    exists = yes
 			civilized = yes
 			tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
@@ -186,6 +190,7 @@ political_decisions = {
 	
 	switch_to_industry_tech = {
 		potential = {
+    exists = yes
 			civilized = yes
 			tech_school = traditional_academic
             NOT = { has_country_modifier = interment_camps }
@@ -238,6 +243,7 @@ political_decisions = {
 	switch_to_traditional_academic = {
 		alert = no
 		potential = {
+    exists = yes
             OR = {
                 has_country_flag = government_decisions_on
                 ai = yes
@@ -293,6 +299,7 @@ political_decisions = {
 	encourage_the_skoda_works = {
 		picture = skoda_works
 		potential = {
+    exists = yes
 			NOT = { tech_school = czech_tech_school }
             NOT = { has_country_modifier = interment_camps }
 			is_culture_group = czecho_slovak_culture_group
@@ -316,6 +323,7 @@ political_decisions = {
 	switch_to_japanese_tech_school = {
 		picture = yamagata_aritomo
 		potential = {
+    exists = yes
 			NOT = { tech_school = japanese_tech_school }
             NOT = { has_country_modifier = interment_camps }
 			OR = {
@@ -346,6 +354,7 @@ political_decisions = {
 		alert = no
 		picture = switch_to_order
 		potential = {
+    exists = yes
 			tech_school = traditional_academic
 			ai = no
 			civilized = yes
@@ -366,6 +375,7 @@ political_decisions = {
 		picture = switch_to_productivity
 		alert = no
 		potential = {
+    exists = yes
 			tech_school = traditional_academic
 			ai = no
 			civilized = yes

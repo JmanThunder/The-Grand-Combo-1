@@ -5,6 +5,7 @@ country_event = {
 	picture = "walvis"
 	
 	trigger = {
+	exists = yes
 		is_greater_power = no
 		is_secondary_power = no
 		has_country_modifier = opened_frontiers
@@ -42,6 +43,7 @@ country_event = {
 	picture = "cape_map"
 	
 	trigger = {
+	exists = yes
 		AND = {
 			primary_culture = boer
 			owns = 2049
@@ -83,6 +85,7 @@ country_event = {
 	picture = "cape_map"
 	
 	trigger = {
+	exists = yes
 		AND = {
 			primary_culture = boer
 			owns = 2087
@@ -111,6 +114,7 @@ country_event = {
 	picture = "walvis"
 	
 	trigger = {
+	exists = yes
 		primary_culture = boer
 		OR = { 
 			is_greater_power = yes
@@ -158,6 +162,7 @@ country_event = {
 	picture = "fascist_march"
 	
 	trigger = {
+	exists = yes
 		AND = {
 			primary_culture = boer
 			OR = { 
@@ -232,7 +237,8 @@ country_event = { #Transvaal wants to bring about a confederation with Oranje
 	picture = "volksraad"
 	 
 
-	trigger = { 
+	trigger = {
+	exists = yes 
 		tag = TRN
 		year = 1857
 		TRN = { 
@@ -444,6 +450,7 @@ country_event = {
 	picture = "cape_map" 
 	
 	trigger = {
+	exists = yes
 		AND = {
 			primary_culture = boer
 			owns = 2087
@@ -527,6 +534,7 @@ country_event = {
 	picture = "south_africa_gold_miners"
 	
 	trigger = {
+	exists = yes
 		owns = 2094
 		owns = 2095
 		owns = 2101
@@ -573,6 +581,7 @@ country_event = {
 	picture = "boer_concentration_camp"
 	
 	trigger = {
+	exists = yes
 		has_country_flag = exterminate_british
 		NOT = { has_country_flag = concentration_camps }
 	}
@@ -625,6 +634,7 @@ country_event = {
 	picture = "cape_map"
 	
 	trigger = {
+	exists = yes
 		AND = {
 			primary_culture = boer
 			owns = 2113 
@@ -658,6 +668,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		OR = {
 			AND = {
 				2068 = { empty = yes }
@@ -710,6 +721,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		AND = {
 			2068 = { owned_by = SAF }
 			2070 = { owned_by = SAF }
@@ -731,7 +743,7 @@ country_event = {
 		name = "EVT6012OPTB"
 		set_country_flag = rename_mashonaland_boer
 		2068 = { change_province_name = "Herculaastad" }
-		2068 = { state_scope = { change_region_name = Rhodesië } }
+		2068 = { state_scope = { change_region_name = Rhodesi?? } }
 	}
 	
 	option = {
@@ -822,6 +834,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		primary_culture = boer
 		AND = {
 			OR = {
@@ -890,6 +903,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		OR = {
 			ruling_party_ideology = reactionary
 			ruling_party_ideology = fascist
@@ -1036,6 +1050,7 @@ province_event = {
 	desc = "EVTDESC6016"
 
 	trigger = {
+	exists = yes
 		NOT = { has_country_flag = no_slaughter }
 		has_province_modifier = african_exodus
 		owner = { 
@@ -1087,6 +1102,7 @@ province_event = {
 	desc = "EVTDESC6017"
 
 	trigger = {
+	exists = yes
 		NOT = { has_country_flag = no_slaughter }
 		has_province_modifier = african_extermination
 		owner = { 
@@ -1121,6 +1137,7 @@ province_event = {
 #	picture = vaal_painting
 #		
 #	trigger = {
+	exists = yes
 #		AND = {
 #			owns = 2105
 #			owns = 2106
@@ -1177,6 +1194,7 @@ country_event = {
 	picture = boer_troops
 		
 	trigger = {
+	exists = yes
 		primary_culture = boer
 		NOT = { year = 1890 }
 		NOT = { 
@@ -1207,6 +1225,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+	exists = yes
 		year = 1860
 		tag = TRN
 		exists = ORA
@@ -1314,6 +1333,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+	exists = yes
 		OR = {
 			tag = SAF
 			tag = VLK
@@ -1396,6 +1416,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+	exists = yes
 		tag = ZOU
 	}
 	
@@ -1431,6 +1452,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = ZOU
 		year = 1842
 		NOT = { has_country_flag = zoutpansbergdorp }
@@ -1488,6 +1510,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+	exists = yes
 		OR = { 
 			tag = VLK
 			tag = SAF
@@ -1520,6 +1543,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+	exists = yes
 		tag = XHO
 		militancy = 4
 		year = 1850
@@ -1625,6 +1649,7 @@ country_event = {
 	picture = xhosa_bushfighting
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		year = 1840
 		neighbour = SUA
@@ -1675,6 +1700,7 @@ country_event = {
 	picture = xhosa_bushfighting
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		year = 1840
 		neighbour = ZUL
@@ -1725,6 +1751,7 @@ country_event = {
 	picture = xhosa_bushfighting
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		year = 1840
 		neighbour = BSH
@@ -1782,6 +1809,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = ORA
 		year = 1889
 		in_sphere = ENG
@@ -1846,6 +1874,7 @@ country_event = { #Petition Portugal for port access
 	picture = "walvis"
 	
 	trigger = {
+	exists = yes
 		tag = TRN #Event for Transvaal
 		money = 10000 #This will cost money for the railroads
 		AND = {
@@ -1856,7 +1885,7 @@ country_event = { #Petition Portugal for port access
 				owned_by = THIS 
 			}
 		}
-		2049 = { #Portugal owns Lourenço Marques
+		2049 = { #Portugal owns Louren??o Marques
 			owned_by = POR
 		}
 		relation = { #Needs positive relations with Portugal
@@ -1988,6 +2017,7 @@ country_event = { #We have a port of our own
 	picture = "walvis"
 
 	trigger = {
+	exists = yes
 		AND =  {
 				has_country_flag = portugal_port_access #has access through Portuguese ports
 				total_num_of_ports = 1 #no longer landlocked
@@ -2022,7 +2052,8 @@ country_event = { #Ask UK for port access through the Cape
 	desc = "EVTDESC6036"
 	picture = "cape_map"
 
-	trigger = { #what triggers the event
+	trigger = {
+	exists = yes #what triggers the event
 		tag = ORA #Event for Oranje
 		money = 6000 #This will cost money for the railroads
 		in_sphere = ENG
@@ -2161,6 +2192,7 @@ country_event = { #We have a port of our own
 	picture = "walvis"
 
 	trigger = {
+	exists = yes
 		AND =  {
 				has_country_flag = cape_port_access #has access through UK controlled Cape
 				total_num_of_ports = 1 #no longer landlocked
@@ -2194,6 +2226,7 @@ country_event = {
 	picture = "diamonds_in_kimberley"
 
     trigger = {
+	exists = yes
 		year = 1836
 		NOT = { year = 1910 }
 		owns = 2107 # Klerksdorp 
@@ -2228,6 +2261,7 @@ country_event = {
 	picture = "south_africa_gold_miners"
 
     trigger = {
+	exists = yes
 		year = 1870
 		NOT = { year = 1910 }
 		owns = 2108 # Nylstroom
@@ -2266,6 +2300,7 @@ country_event = { #Transvaal bankrupt
 	picture = "stock_crash"
 
 	trigger = {
+	exists = yes
 		tag = ENG
 		year = 1890
 		THIS = {
@@ -2305,6 +2340,7 @@ country_event = { #Petition Britain for annexing Transvaal to the Oranje Free St
 	picture = "volksraad"
 
 	trigger = {
+	exists = yes
 		tag = ORA
 		year = 1868
 		THIS = {
@@ -2393,7 +2429,8 @@ country_event = {
 	desc = "EVTDESC6047"
 	picture = "boer_war"
 
-	trigger = { #what triggers the event
+	trigger = {
+	exists = yes #what triggers the event
 		tag = TRN
 		year = 1880
 		NOT =  { has_global_flag = first_boer_war }
@@ -2502,6 +2539,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		OR = {
 			tag = TRN
 			tag = VLK
@@ -2704,6 +2742,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = TRN
 		has_country_flag = jameson_raid
 		year = 1896

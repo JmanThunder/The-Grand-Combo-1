@@ -16,6 +16,7 @@ country_event = {
 	picture = "Alberdi"
 
 	trigger = {
+	exists = yes
 		tag = BRU
 		war = no
 		part_of_sphere = no
@@ -108,6 +109,7 @@ country_event = {
 	picture = "danishgovernment"
 
 	trigger = {
+	exists = yes
 		tag = NET
 		war = no
 		is_disarmed = no
@@ -509,6 +511,7 @@ country_event = {
 	picture = "Bankruptcy"
 	
 	trigger = {
+	exists = yes
 		tag = LXA
 		war = no
 		is_greater_power = no
@@ -651,6 +654,7 @@ province_event = {
 	desc = "EVTDESC97130"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = BAL_1438 #Bali
 			region = NET_1398 #Djambi
@@ -714,6 +718,7 @@ province_event = {
 	desc = "EVTDESC97130"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = NET_1446 #Flores
 			region = NET_1449 #Sulawesi
@@ -772,6 +777,7 @@ province_event = {
 	desc = "EVTDESC97130"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = NET_1451 #West New Guinea
 			region = AST_2528 #Southeast New Guinea

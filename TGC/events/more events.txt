@@ -168,6 +168,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		OR = {
 			tag = AUS
 			tag = AUB
@@ -786,7 +787,7 @@ country_event = {
 
 country_event = {
 	id = 6542984
-	title = "Treaty of Elsaﬂ-Lorraine"
+	title = "Treaty of Elsa?-Lorraine"
 	desc = EVTDESC6542984
 	picture = Frankfurt
 	is_triggered_only = yes
@@ -878,7 +879,7 @@ country_event = {
 
 country_event = {
 	id = 7184127
-	title = "France Refuses to Negotiate in Elsaﬂ-Lothringen"
+	title = "France Refuses to Negotiate in Elsa?-Lothringen"
 	desc = EVTDESC7184127
 	picture = Frankfurt
 	is_triggered_only = yes
@@ -908,7 +909,7 @@ country_event = {
 
 country_event = {
 	id = 7686768
-	title = "The Treaty of Elsaﬂ-Lorraine is Ratified"
+	title = "The Treaty of Elsa?-Lorraine is Ratified"
 	desc = EVTDESC7686768
 	major = yes
 	is_triggered_only = yes
@@ -933,7 +934,7 @@ country_event = {
 			remove_core = GER
 			remove_core = GCF
 			state_scope = {
-				change_region_name = "Elsaﬂ-Lorraine"
+				change_region_name = "Elsa?-Lorraine"
 			}
 		}
 		move_issue_percentage = { 
@@ -954,7 +955,7 @@ country_event = {
 
 country_event = {
 	id = 2317187
-	title = "$FROMCOUNTRY$ Nullifies Treaty of Elsaﬂ-Lorraine"
+	title = "$FROMCOUNTRY$ Nullifies Treaty of Elsa?-Lorraine"
 	desc = EVTDESC2317187
 	major = yes
 	is_triggered_only = yes
@@ -1015,6 +1016,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		government = proletarian_dictatorship
 		3251 = {
 			NOT = { 
@@ -2013,6 +2015,7 @@ country_event = { ####result of HUN no/Rom yes
 	picture = translyvania
 	
 	trigger = {
+	exists = yes
 		has_country_flag = transvan_treaty_partion
 		ROM = { has_country_flag = yes_transvana }
 		HUN = { has_country_flag = no_transvana }
@@ -2091,6 +2094,7 @@ country_event = { ####result of ROM no/Hun yes
 	picture = translyvania
 	
 	trigger = {
+	exists = yes
 		has_country_flag = transvan_treaty_partion
 		HUN = { has_country_flag = yes_transvana}
 		ROM = { has_country_flag = no_transvana }
@@ -2169,6 +2173,7 @@ country_event = { ####result of ROM no/Hun no
 	picture = translyvania
 
 	trigger = {
+	exists = yes
 		has_country_flag = transvan_treaty_partion
 		HUN = { has_country_flag = no_transvana}
 		ROM = { has_country_flag = no_transvana }
@@ -2287,6 +2292,7 @@ country_event = { ####Treaty partition success
 	major = yes
 	
 	trigger = {
+	exists = yes
 		has_country_flag = transvan_treaty_partion
 		HUN = { has_country_flag = yes_transvana}
 		ROM = { has_country_flag = yes_transvana }

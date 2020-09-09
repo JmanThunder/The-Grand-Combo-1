@@ -17,6 +17,7 @@ country_event = {
 	picture = "california_gold_rush"
 	
 	trigger = {
+	exists = yes
 		year = 1848
 		OR = { 
 			has_country_flag = hasmanifestdestiny
@@ -114,6 +115,7 @@ country_event = {
 	picture = "texas_state"
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		owns = 133
 		TEX = {
@@ -188,6 +190,7 @@ country_event = {
 	picture = "MEX_Bear_Flag_Revolt"	
 	
 	trigger = {
+	exists = yes
 		tag = MEX
 		owns = 104
 		war_with = USA
@@ -254,6 +257,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = USA
 		has_global_flag = treaty_of_new_york
 		war = no
@@ -312,6 +316,7 @@ country_event = {
 	picture = "migration_usa"
 	
 	trigger = {
+	exists = yes
 		year = 1880
 		tag = USA
 		is_greater_power = yes
@@ -539,6 +544,7 @@ country_event = {
 	picture = "newyorkfire"
 
 	trigger = {
+	exists = yes
 		tag = USA
 		year = 1845
 		owns = 232 #NewYork
@@ -660,6 +666,7 @@ country_event = {
 	picture = "chicagofire"
 
 	trigger = {
+	exists = yes
 		tag = USA
 		year = 1871
 		owns = 163 #Chicago

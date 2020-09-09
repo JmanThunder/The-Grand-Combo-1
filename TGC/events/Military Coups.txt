@@ -11,6 +11,7 @@ country_event = {
 	picture = "Military_reform"
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		war = no
 		is_disarmed = no
@@ -112,6 +113,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		civilized = yes
 		war = no
 		is_disarmed = no

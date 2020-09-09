@@ -1,7 +1,8 @@
 political_decisions = {
 	singapore_strategy = {
 		picture = "fortress_singapore"
-		potential = { 
+		potential = {
+    exists = yes 
 			is_greater_power = yes
 			steel_steamers = 1
 			owns = 1384
@@ -32,6 +33,7 @@ political_decisions = {
 	brunei_protectorate = {
 		picture = brunei_protectorate
 		potential = {
+    exists = yes
 			tag = ENG
 			OR = {
 				SWK = { 
@@ -93,6 +95,7 @@ political_decisions = {
 	johor_protectorate = { 
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			NOT = { has_country_flag = integrated_johore }
 			OR = {
 				is_sphere_leader_of = JOH
@@ -153,6 +156,7 @@ political_decisions = {
 	pahang_protectorate = { 
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			is_sphere_leader_of = PHG
 			NOT = { has_country_flag = integrated_pahang }
 			PHG = {
@@ -196,6 +200,7 @@ political_decisions = {
 	selangor_protectorate = { 
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			is_sphere_leader_of = SLG
 			NOT = { has_country_flag = integrated_selangor }
 			SLG = {
@@ -239,6 +244,7 @@ political_decisions = {
 	perak_protectorate = { 
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			is_sphere_leader_of = PRK
 			NOT = { has_country_flag = integrated_perak }
 			PRK = {
@@ -281,6 +287,7 @@ political_decisions = {
 	unite_indonesia = {
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			OR = {
 				tag = DJA
 				tag = KLM
@@ -490,6 +497,7 @@ political_decisions = {
 	unite_malaya = {
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			primary_culture = malay
 			NOT = {
 				has_global_flag = malaya_formed
@@ -620,6 +628,7 @@ political_decisions = {
 	create_malaya = {
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			OR = {
 				any_owned_province = {
 					OR = {
@@ -913,6 +922,7 @@ political_decisions = {
 	sarawak_protectorate = {
 		picture = sarawak
 		potential = {
+    exists = yes
 			OR = {
 				tag = ENG
 				tag = EIC
@@ -960,6 +970,7 @@ political_decisions = {
 	north_borneo_company = {
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			OR = {
 				tag = ENG
 				tag = EIC
@@ -1047,6 +1058,7 @@ political_decisions = {
 	sulu_protectorate = {
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			NOT = { has_country_flag = the_sulu_protectorate }
 			OR = {
 				is_greater_power = yes
@@ -1103,6 +1115,7 @@ political_decisions = {
 		picture = map_east_indies
 		alert = no
 		potential = {
+    exists = yes
 			war = no
 			NOT = { has_country_flag = flores_sale }
 			tag = POR
@@ -1171,6 +1184,7 @@ political_decisions = {
 	create_cambodian_protectorate = {
 		picture = unequal_treaty
 		potential = {
+    exists = yes
 			owns = 1380
 			is_greater_power = yes
 			capital_scope = { continent = europe }
@@ -1211,6 +1225,7 @@ political_decisions = {
 	create_laos_protectorate = {
 		picture = unequal_treaty
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
@@ -1298,6 +1313,7 @@ political_decisions = {
 	siamese_border_treaty = {
 		picture = unequal_treaty
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
@@ -1332,6 +1348,7 @@ political_decisions = {
 	annex_champasak = {
 		picture = unequal_treaty
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
@@ -1364,6 +1381,7 @@ political_decisions = {
 	unequal_treaty_DAI = {
 		picture = unequal_treaty
 		potential = {
+    exists = yes
 			is_greater_power = yes
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
@@ -1375,7 +1393,7 @@ political_decisions = {
 				war_with = THIS
 				NOT = { has_country_flag = negotiate_unequal_treaty }
 				OR = {
-					owns = 1375 # Hué
+					owns = 1375 # Hu?
 					owns = 1380 # Saigon
 				}
 			}
@@ -1412,6 +1430,7 @@ political_decisions = {
 	organize_laos = {
 		picture = unequal_treaty
 		potential = {
+    exists = yes
 			civilized = yes
 			NOT = {
 				exists = LUA
@@ -1477,6 +1496,7 @@ political_decisions = {
 	form_french_indochina = {
 		picture = map_east_indies
 		potential = {
+    exists = yes
 			primary_culture = french
 			1380 = {
 				owned_by = THIS
@@ -1532,6 +1552,7 @@ political_decisions = {
 	form_laos = {
 		picture = form_laos
 		potential = {
+    exists = yes
 			primary_culture = lao
 			OR = {
 				owns = 1356
@@ -1607,6 +1628,7 @@ political_decisions = {
 	introduce_coffee_in_vietnam = {
 		picture = vietnam_coffee
 		potential = {
+    exists = yes
 			capital_scope = { continent = europe }
 			OR = {
 				AND = {
@@ -1655,6 +1677,7 @@ political_decisions = {
 	rename_bismarck_islands = {
 		picture = bismarck_archipelago
 		potential = {
+    exists = yes
 			owns = 2537
 			owns = 1531
 			NOT = { tag = GER }

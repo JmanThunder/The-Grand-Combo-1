@@ -2,6 +2,7 @@ political_decisions = {
 
 	declare_independence_unilaterally = {
 		potential = {
+    exists = yes
 			exists = yes
 			is_vassal = yes
 			NOT = { has_country_flag = unilateral_independence }
@@ -54,6 +55,7 @@ political_decisions = {
 
 	petition_for_independence = {
 		potential = {
+    exists = yes
 			exists = yes
 			is_vassal = yes
 			NOT = { has_country_flag = peaceful_independence }
@@ -91,6 +93,7 @@ political_decisions = {
 	
 	balfour_declaration_1926 = {
 		potential = {
+    exists = yes
 			exists = yes
 			tag = ENG
 			NOT = { 
@@ -116,6 +119,7 @@ political_decisions = {
 	adopt_statute_of_westminster = {
 		alert = no
 		potential = {
+    exists = yes
 			exists = yes
 			has_country_flag = british_monarchical_dominion
 			has_global_flag = statute_of_westminster_passed
@@ -158,6 +162,7 @@ political_decisions = {
 	
 	british_empire_games = {
 		potential = {
+    exists = yes
 			exists = yes
 			OR = {
 				tag = ENG

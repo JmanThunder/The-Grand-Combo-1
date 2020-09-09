@@ -2,6 +2,7 @@ political_decisions = {
 	bonapartist_spain = {
                 picture = create_iberia
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reborn
 			NOT = { has_country_flag = bonapartist_spain }
@@ -44,6 +45,7 @@ political_decisions = {
 	warsaw_duchy = {
                 picture = napoleoniii_pic
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reborn
 			NOT = { has_country_flag = warsaw_duchy }
@@ -97,6 +99,7 @@ political_decisions = {
 	rhine_confederation = {
                 picture = austerlitz
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reconquer
 			NOT = { has_country_flag = rhine_confederation }
@@ -197,6 +200,7 @@ political_decisions = {
 	end_austria = {
                 picture = austerlitz
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reborn
 			NOT = { has_country_flag = end_austria }
@@ -251,6 +255,7 @@ political_decisions = {
 	end_austria2 = {
                 picture = austerlitz
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reborn
 			NOT = { has_country_flag = end_austria }
@@ -311,6 +316,7 @@ political_decisions = {
 	end_prussia = {
                 picture = prussia
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reborn
 			NOT = { has_country_flag = end_prussia }
@@ -367,6 +373,7 @@ political_decisions = {
 	end_russia = {
                 picture = russia_campaign
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reborn
 			NOT = { has_country_flag = end_russia }
@@ -450,6 +457,7 @@ political_decisions = {
 	end_ottomans = {
                 picture = egypt_camp
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reconquer
 			NOT = { has_country_flag = end_ottomans }
@@ -493,6 +501,7 @@ political_decisions = {
 	end_usa = {
                 picture = 1812_pic
 		potential = {
+    exists = yes
 			tag = FRE
 			has_country_flag = the_empire_reborn
 			NOT = { has_country_flag = end_usa }

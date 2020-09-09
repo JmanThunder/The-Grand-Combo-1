@@ -10,6 +10,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		OR = {
 			government = prussian_constitutionalism
@@ -48,6 +49,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		OR = {
 			government = prussian_constitutionalism
@@ -166,6 +168,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = NET
 		OR = {
 			government = prussian_constitutionalism
@@ -310,6 +313,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		OR = {
 			government = prussian_constitutionalism
@@ -409,6 +413,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		war = no
 		OR = {
@@ -505,6 +510,7 @@ country_event = {
 	news_desc_short = "NEWS_aprilbeweging_short"
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		has_global_flag = DIM_restored_bishops
 	}
@@ -599,6 +605,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		has_country_flag = DIM_aprilbeweging
 	}
@@ -663,6 +670,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = NET
 		has_country_flag = DIM_aprilbeweging
 		OR = {
@@ -745,6 +753,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		OR = {
 			ruling_party_ideology = conservative
@@ -802,6 +811,7 @@ country_event = {
 	picture = "DIM_jacobs_university"
 	fire_only_once = yes	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1871
 		NOT = { has_country_flag = aletta_jacobs }
@@ -861,6 +871,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		OR = {
 			ruling_party_ideology = conservative
@@ -899,6 +910,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		NOT = {
 			OR = {
@@ -940,6 +952,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1882
 		has_country_flag = aletta_jacobs
@@ -995,6 +1008,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1893
 		has_country_flag = aletta_jacobs
@@ -1067,6 +1081,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1893
 		has_country_flag = aletta_jacobs
@@ -1105,6 +1120,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1893
 		has_country_flag = aletta_jacobs
@@ -1144,6 +1160,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1898
 		NOT = {		
@@ -1186,6 +1203,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1883
 		invention = aerial_bacteria_and_antiseptic_principle
@@ -1304,6 +1322,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		OR = {
 			has_country_flag = cultuurstelsel
@@ -1368,6 +1387,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		has_country_flag = atjeh_oorlog
 		OR = {
@@ -1417,6 +1437,7 @@ country_event = {
 	news_desc_long = "NEWS_batavian_revolution_long"
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		owns = 1413
 		OR = {
@@ -1511,6 +1532,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		owns = 1413
 		controls = 1414
@@ -1630,6 +1652,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		owns = 1413
 		has_global_flag = kina_aanplant
 		year = 1860
@@ -1652,6 +1675,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		owns = 1413
 		has_country_flag = kina_succesvol
@@ -1714,6 +1738,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		owns = 1413
 		NOT = { has_country_flag = cultuurstelsel }
@@ -1785,6 +1810,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		owns = 1406
 		owns = 382
@@ -1961,6 +1987,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1850
 		any_owned = { continent = east_indies }
@@ -2000,6 +2027,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		owns = 382
 		year = 1850
 		OR = {
@@ -2032,6 +2060,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		owns = 377
 		year = 1856
 		OR = {
@@ -2069,6 +2098,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		owns = 382
 		year = 1856
 		OR = {
@@ -2106,6 +2136,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		owns = 383
 		year = 1872
 		OR = {
@@ -2139,6 +2170,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		owns = 378
 		year = 1901
 		OR = {
@@ -2176,6 +2208,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+	exists = yes
 		owns = 390
 		year = 1901
 		OR = {
@@ -2213,6 +2246,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		owns = 375
 		owns = 384
 		owns = 385
@@ -2255,6 +2289,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		owns = 379
 		year = 1921
 		OR = {
@@ -2292,6 +2327,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		owns = 1413
 		year = 1835
@@ -2349,6 +2385,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1860
 		NOT = {
@@ -2436,6 +2473,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		year = 1880
 		has_country_flag = NHM_banking
@@ -2537,6 +2575,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		has_country_flag = NHM_banking
 		OR = {
@@ -2731,6 +2770,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = NET
 		war = no
 		NOT = {

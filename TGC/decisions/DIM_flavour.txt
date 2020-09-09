@@ -4,6 +4,7 @@ political_decisions = {
 		picture = DIM_catholic
 		alert = no
 		potential = {
+    exists = yes
 			owns = 749 #Rome
 			NET = { has_country_flag = thorbecke_reforms }
 			NOT = { has_global_flag = DIM_restored_bishops }
@@ -45,6 +46,7 @@ political_decisions = {
 		alert = no
 		picture = DIM_NHM_decision
 		potential = {
+    exists = yes
 			tag = NET
 			OR = {
 				government = hms_government
@@ -80,6 +82,7 @@ political_decisions = {
 	DIM_NET_uitbreiding_amsterdam = {
 		picture = amsterdam_renovation
 		potential = {
+    exists = yes
 			tag = NET
 			colonial_nation = yes
 			capital = 375

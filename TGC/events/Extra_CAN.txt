@@ -6,6 +6,7 @@ country_event = {
 	picture = "mcgeefuneral"
 
 	trigger = {
+	exists = yes
 			exists = yes
 		tag = CAN 
 		year = 1866
@@ -56,6 +57,7 @@ country_event = {
 	picture = "diamonds_in_kimberley"
 
 	trigger = {
+	exists = yes
 			exists = yes
 		owns = 17
 		year = 1880
@@ -90,6 +92,7 @@ country_event = {
 	picture = "diamonds_in_kimberley"
 
 	trigger = {
+	exists = yes
 			exists = yes
 		tag = CAN
 		owns = 7

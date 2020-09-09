@@ -12,6 +12,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 	}
 	
@@ -57,6 +58,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		war = no
 		owns = 2201
@@ -110,6 +112,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		war = no
 		owns = 2197
@@ -163,6 +166,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		war = no
 		owns = 2193
@@ -213,6 +217,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		war = no
 		2191 = {
@@ -250,6 +255,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		war = no
 		2193 = {
@@ -301,6 +307,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		war = no
 		2197 = {
@@ -352,6 +359,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		war = no
 		2201 = {
@@ -396,6 +404,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		exists = ELS
 		any_owned_province = {
@@ -491,6 +500,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		exists = HON
 		any_owned_province = {
@@ -586,6 +596,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		NOT = { has_country_flag = nicaragua_independence }
 		exists = NIC
@@ -682,6 +693,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		NOT = { has_country_flag = costa_rica_independence }
 		exists = COS
@@ -782,6 +794,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		war = no
 		OR = {
@@ -998,6 +1011,7 @@ country_event = {
 	desc = "We must end the civil war. It has gone on too long."
 	
 	trigger = {
+	exists = yes
 		tag = UCA
 		ai = yes
 		OR = {

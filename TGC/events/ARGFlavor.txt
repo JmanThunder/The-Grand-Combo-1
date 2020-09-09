@@ -8,6 +8,7 @@ country_event = {
     news_desc_short = "EVTDESC46600_NEWS_SHORT"
 
     trigger = {
+	exists = yes
         OR = {
             tag = ARG
             tag = ARC
@@ -105,6 +106,7 @@ country_event = {
 	news_desc_short = "EVTDESC46601_NEWS_SHORT" 
 
 	trigger = {
+	exists = yes
 		OR = {
 			tag = ARG
 			tag = ARC
@@ -232,6 +234,7 @@ country_event = {
     picture = "conquest_of_the_desert"
 
     trigger = {
+	exists = yes
         OR = {
             tag = ARG
             tag = ARC
@@ -436,6 +439,7 @@ province_event = {
 	picture = "pacification_of_patagonia"
 	
 	trigger = {
+	exists = yes
 		OR = {
 			region = CHL_2332
 			region = ARG_2398

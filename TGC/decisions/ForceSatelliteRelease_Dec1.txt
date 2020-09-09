@@ -2,6 +2,7 @@ political_decisions = {
 
 	force_vassal_freedom = {
 		potential = {
+    exists = yes
 			civilized = yes
 			is_vassal = yes
 			any_greater_power = {
@@ -64,6 +65,7 @@ political_decisions = {
 	
 	vassal_rebellion = {
 		potential = {
+    exists = yes
 			ai = yes
 			is_vassal = yes
 			has_country_flag = refused_independence_request

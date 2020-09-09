@@ -4,6 +4,7 @@ political_decisions = {
 greater_california = {
 	picture = CAL_greater_california
 	potential = {
+    exists = yes
 		tag = CAL			
 		NOT = { has_country_flag = greater_california }
 	}
@@ -57,6 +58,7 @@ greater_california = {
 rancho = {
 	picture = MEX_rancho
 	potential = {
+    exists = yes
 		OR = { 
 			tag = MEX
 			tag = CAL
@@ -108,6 +110,7 @@ rancho = {
 annex_california = {
 	picture = USA_annex_california
 	potential = {
+    exists = yes
 		tag = USA
 		is_greater_power = yes 
 		has_recently_lost_war = no	

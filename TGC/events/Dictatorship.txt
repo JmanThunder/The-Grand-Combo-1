@@ -34,6 +34,7 @@ country_event = {
 	id = 20010
 
 	trigger = {
+	exists = yes
 		year = 1865
 		government = presidential_dictatorship
 		average_consciousness = 2
@@ -98,6 +99,7 @@ province_event = {
 	id = 20001
 
 	trigger = {
+	exists = yes
 		owner = {
 			government = presidential_dictatorship
 			has_country_flag = dictatorship_agitation
@@ -247,6 +249,7 @@ country_event = {
 	id = 20002
 
 	trigger = {
+	exists = yes
 		government = presidential_dictatorship
 		average_consciousness = 3.0
 		has_country_flag = dictatorship_agitation
@@ -459,6 +462,7 @@ country_event = {
 	id = 20003
 
 	trigger = {
+	exists = yes
 		government = presidential_dictatorship
 		average_consciousness = 3.0
 		average_militancy = 1.0
@@ -576,6 +580,7 @@ country_event = {
 	id = 20004
 
 	trigger = {
+	exists = yes
 		has_country_modifier = revolutionary_society
 	}
 
@@ -618,6 +623,7 @@ country_event = {
 	id = 20005
 
 	trigger = {
+	exists = yes
 		government = presidential_dictatorship
 		has_country_flag = dictator_assassination_attempts
 		has_country_modifier = revolutionary_society
@@ -680,6 +686,7 @@ country_event = {
 	id = 20006
 
 	trigger = {
+	exists = yes
 		government = presidential_dictatorship
 		has_country_flag = dictator_assassination_attempts
 		has_country_modifier = revolutionary_society
@@ -751,6 +758,7 @@ country_event = {
 	id = 20007
 
 	trigger = {
+	exists = yes
 		government = presidential_dictatorship
 		has_country_flag = dictator_killed
 	}
@@ -854,6 +862,7 @@ country_event = {
 	id = 20008
 
 	trigger = {
+	exists = yes
 		government = presidential_dictatorship
 		has_country_flag = dictator_killed
 	}
@@ -932,6 +941,7 @@ country_event = {
 	id = 20009
 
 	trigger = {
+	exists = yes
 		NOT = { government = presidential_dictatorship }
 		has_country_flag = dictatorship_revolution_initialised
 	}

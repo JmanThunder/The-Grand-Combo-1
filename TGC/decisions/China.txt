@@ -1,6 +1,7 @@
 political_decisions = {
 	torching_of_the_summer_palace = {
 		potential = {
+    exists = yes
 			NOT = { tag = QNG }
 			QNG = { owns = 1616 }
 			civilized = yes
@@ -25,6 +26,7 @@ political_decisions = {
 	clear_out_the_manchu_elite = {
 		picture = clear_out_the_manchu_elite
 		potential = {
+    exists = yes
 			tag = QNG
 			OR = {
 				government = absolute_monarchy
@@ -60,6 +62,7 @@ political_decisions = {
 	abandon_neutral_faction = {
 		picture = abandon_faction
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			has_global_flag = warlord_era_has_begun
@@ -143,6 +146,7 @@ political_decisions = {
 	abandon_kuomintang_faction = {
 		picture = abandon_faction
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			has_global_flag = warlord_era_has_begun
@@ -208,6 +212,7 @@ political_decisions = {
 	abandon_communist_faction = {
 		picture = abandon_faction
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			has_global_flag = warlord_era_has_begun
@@ -276,6 +281,7 @@ political_decisions = {
 	abandon_beiyang_faction = {
 		picture = abandon_faction
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			has_global_flag = warlord_era_has_begun
@@ -339,6 +345,7 @@ political_decisions = {
 	
 	become_leader_of_kuomintang = {
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			has_global_flag = warlord_era_has_begun
@@ -400,6 +407,7 @@ political_decisions = {
 	become_leader_of_beiyang = {
 	picture = become_leader_of_beiyang
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			has_global_flag = warlord_era_has_begun
@@ -440,6 +448,7 @@ political_decisions = {
 
 	become_leader_of_communists = {
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			has_global_flag = warlord_era_has_begun
@@ -481,6 +490,7 @@ political_decisions = {
 	
 	join_the_KMT = {
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			has_global_flag = warlord_era_has_begun
@@ -509,6 +519,7 @@ political_decisions = {
 	reunification_of_china_KMT = {
 		picture = become_leader_of_kuomintang
 		potential = {
+    exists = yes
 			tag = KMT
 			has_global_flag = warlord_era_has_begun
 		}
@@ -714,6 +725,7 @@ political_decisions = {
 	reunification_of_china_communist = {
 		picture = become_leader_of_communists
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			NOT = { tag = KMT }
@@ -939,6 +951,7 @@ political_decisions = {
 		alert = yes
 		picture = support_boxers
 		potential = {
+    exists = yes
 			exists = CHI
 			has_global_flag = taiping_has_happened
 			NOT = { has_country_modifier = taiping_draft }
@@ -967,6 +980,7 @@ political_decisions = {
 		alert = yes
 		picture = support_boxers
 		potential = {
+    exists = yes
 			exists = QNG
 			has_global_flag = dungan_rebellion
 			NOT = { has_country_modifier = small_country_draft }
@@ -1013,6 +1027,7 @@ political_decisions = {
 		alert = yes
 		picture = support_boxers
 		potential = {
+    exists = yes
 			exists = QNG
 			has_global_flag = panthay_rebellion
 			NOT = { has_country_modifier = small_country_draft }
@@ -1059,6 +1074,7 @@ political_decisions = {
 		alert = yes
 		picture = support_boxers
 		potential = {
+    exists = yes
 			exists = TPG
 			has_global_flag = taiping_has_happened
 			NOT = { has_country_modifier = taiping_draft }
@@ -1086,6 +1102,7 @@ political_decisions = {
 	reunification_of_china = {
 		picture = form_china
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			NOT = { tag = LAN }
 			NOT = { tag = KMT }
@@ -1342,6 +1359,7 @@ political_decisions = {
 	self_strengthening_movement = {
 	picture = self_strengthening_movement
 		potential = {
+    exists = yes
 			OR = {
 				AND = {
 					tag = QNG
@@ -1397,6 +1415,7 @@ political_decisions = {
 	annex_the_kumul = {
 	picture = self_strengthening_movement
 		potential = {
+    exists = yes
 			NOT = { has_global_flag = kumul_over }
 			neighbour = KML
 			NOT = { tag = LAN }
@@ -1444,6 +1463,7 @@ political_decisions = {
 	claim_tibet = {
 	picture = tibet_capital
 		potential = {
+    exists = yes
 			OR = {
 				tag = KMT
 				tag = CHI
@@ -1477,6 +1497,7 @@ political_decisions = {
 	heavenly_capital = {
 	picture = heavenly_seal
 		potential = {
+    exists = yes
 			tag = TPG
 			NOT = { has_global_flag = heavenly_capital_decreted }
 		}
@@ -1498,6 +1519,7 @@ political_decisions = {
 	abolish_heavenly_capital = {
 	picture = heavenly_seal
 		potential = {
+    exists = yes
 			NOT = { tag = TPG }
 			NOT = { tag = LAN }
 			is_culture_group = east_asian
@@ -1519,6 +1541,7 @@ political_decisions = {
 	claim_sakhalin_china = {
 	picture = map_yellow_sea
 		potential = {
+    exists = yes
 			OR = {
 				tag = TPG
 				tag = QNG
@@ -1580,6 +1603,7 @@ political_decisions = {
 	formosa_independence = {
 	picture = form_china
 		potential = {
+    exists = yes
 			tag = TAI
 			exists = yes
 			OR = {
@@ -1612,6 +1636,7 @@ political_decisions = {
 	revoke_sino_portuguese_treaty = {
 	picture = macao_city
 		potential = {
+    exists = yes
 			OR = {
 				QNG = { exists = yes owns = 1616 NOT = { TPG = { exists = yes } CHI = { exists = yes } } }
 				TPG = { exists = yes owns = 1616 NOT = { QNG = { exists = yes } CHI = { exists = yes } } }
@@ -1668,6 +1693,7 @@ political_decisions = {
 	alert = no
 	picture = form_china
 		potential = {
+    exists = yes
 			is_culture_group = east_asian
 			year = 1910
 			NOT = { has_country_flag = abolish_forced_work }
@@ -1695,6 +1721,7 @@ political_decisions = {
 	claim_tsushima = { #Move to its own file later
 	picture = tsushima_japan
 		potential = {
+    exists = yes
 			tag = KOR
 			civilized = yes
 			OR = {

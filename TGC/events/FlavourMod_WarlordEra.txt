@@ -5,7 +5,8 @@ country_event = {
 	desc = "EVTDESC999960"
 	picture = "siege_of_peking"
 
-	trigger = {	
+	trigger = {
+	exists = yes	
 		OR = { 
 			tag = QNG
 			tag = CHI
@@ -94,6 +95,7 @@ country_event = {
 	picture = "guangzhou_uprising"
 	
 	trigger = {
+	exists = yes
 		tag = QNG
 		OR = {
 			NOT = { owns = 1485 } #Taipei

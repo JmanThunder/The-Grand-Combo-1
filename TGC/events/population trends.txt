@@ -11,6 +11,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		NOT = {
 			has_country_modifier = point_five_children 
 			has_country_modifier = one_child
@@ -136,6 +137,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		NOT = {
 			has_country_modifier = point_five_children 
 			has_country_modifier = one_child
@@ -258,6 +260,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		NOT = {
 			has_country_modifier = point_five_children 
 			has_country_modifier = one_child
@@ -380,6 +383,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		NOT = {
 			has_country_modifier = point_five_children 
 			has_country_modifier = one_child
@@ -503,6 +507,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		NOT = {
 			has_country_modifier = point_five_children 
 			has_country_modifier = one_child
@@ -625,6 +630,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		NOT = {
 			has_country_modifier = point_five_children 
 			has_country_modifier = one_child
@@ -748,6 +754,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+	exists = yes
 		NOT = {
 			has_country_modifier = point_five_children 
 			has_country_modifier = one_child

@@ -8,6 +8,7 @@ country_event = {
 	picture = "riga"
 	
 	trigger = {
+	exists = yes
 		tag = UBD
 		is_vassal = no
 		war = no

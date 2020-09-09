@@ -6,6 +6,7 @@ political_decisions = {
 	reforms_of_abdulmejid_i = {
 		picture = abdulmejid_i
 		potential = {
+    exists = yes
 			tag = TUR
 			is_disarmed = no
 			OR = {
@@ -51,6 +52,7 @@ political_decisions = {
 	
 	tanzimat_reforms = {
 		potential = {
+    exists = yes
 			tag = TUR
 			NOT = { has_country_flag = tanzimat_reforms_enacted }
 			has_country_modifier = ottoman_oppression
@@ -116,6 +118,7 @@ political_decisions = {
 	hatt_i_humayun = {
 		picture = kanun_i_esasi
 		potential = {
+    exists = yes
 			tag = TUR
 			OR = {
 				government = hms_government
@@ -183,6 +186,7 @@ political_decisions = {
 	ottoman_national_anthemn = {
 		picture = necip_ahmed_pasha
 		potential = {
+    exists = yes
 			tag = TUR
 			OR = {
 				government = hms_government
@@ -215,6 +219,7 @@ political_decisions = {
 	reforms_of_abdul_hamid_ii = {
 		picture = abdul_hamid_ii
 		potential = {
+    exists = yes
 			tag = TUR
 			year = 1880
 			is_disarmed = no
@@ -294,6 +299,7 @@ political_decisions = {
 	authorize_bulgarian_exarchate = {
 		picture = bulgarian_orthodox_church
 		potential = {
+    exists = yes
 			tag = TUR
 			any_owned_province = { is_core = BUL }
 			NOT = { exists = BUL }
@@ -334,6 +340,7 @@ political_decisions = {
 	turkish_tea = {
 		picture = turkish_coffee_house
 		potential = {
+    exists = yes
 			tag = TUR
 			NOT = { has_country_flag = turkish_tea_in_turkey }
 		}
@@ -363,6 +370,7 @@ political_decisions = {
 	
 	republican_reforms = {
 		potential = {
+    exists = yes
 			tag = TUR
 			government = democracy
 			NOT = { has_country_flag = had_ataturk_reforms }
@@ -390,6 +398,7 @@ political_decisions = {
 	greater_turkey = {
 		picture = "greater_turkey"
 		potential = {
+    exists = yes
 			tag = TUR
 			government = fascist_dictatorship
 			has_country_flag = ottomans_to_turks
@@ -443,6 +452,7 @@ political_decisions = {
 	end_wallachia_independence = {
 		picture = map_wallachia
 		potential = {
+    exists = yes
 			tag = TUR
 			OR = { 
 				government = absolute_monarchy
@@ -502,6 +512,7 @@ political_decisions = {
 	end_moldavia_independence = {
 		picture = map_moldavia
 		potential = {
+    exists = yes
 			tag = TUR
 			OR = { 
 				government = absolute_monarchy
@@ -560,6 +571,7 @@ political_decisions = {
 	conquer_montenegro = {
 		picture = montenegro_map
 		potential = {
+    exists = yes
 			NOT = { has_country_flag = montenegro_claims }
 			tag = TUR
 			exists = MON
@@ -600,6 +612,7 @@ political_decisions = {
 	revoke_samos_autonomy = {
 		picture = gtfo
 		potential = {
+    exists = yes
 			tag = TUR
 			OR = { 
 				government = absolute_monarchy
@@ -654,6 +667,7 @@ political_decisions = {
 	claim_bahrain = {
 		picture = bahrain_trade
 		potential = {
+    exists = yes
 			tag = TUR
 			has_country_flag = qatar_protection
 			NOT = { has_country_flag = claimed_the_persian_gulf }
@@ -685,6 +699,7 @@ political_decisions = {
 	revoke_kuwait_autonomy = {
 		picture = bahrain_trade
 		potential = {
+    exists = yes
 			tag = TUR
 			OR = { 
 				government = absolute_monarchy
@@ -735,6 +750,7 @@ political_decisions = {
 	claim_arab_coast = {
 		picture = nejd_sanjak
 		potential = {
+    exists = yes
 			tag = TUR
 			NOT = { has_country_flag = claimed_arab_coast }
 			NOT = { 1163 = { is_core = THIS } }
@@ -768,6 +784,7 @@ political_decisions = {
 	centralize_kurdish_states = {
 		picture = old_kurdistan_map
 		potential = {
+    exists = yes
 			tag = TUR
 			NOT = { has_country_flag = centralized_kurdish_states }
 			any_neighbor_country = { vassal_of = THIS primary_culture = kurdish }
@@ -824,6 +841,7 @@ political_decisions = {
 	end_tunisian_independence = {
 		picture = tunisia_map
 		potential = {
+    exists = yes
 			tag = TUR
 			NOT = { has_country_flag = tunisia_annexed }
 			OR = { 
@@ -881,6 +899,7 @@ political_decisions = {
 	christian_question_armenia = {
 		picture = christian_question_armenia
 		potential = {
+    exists = yes
 			OR = {
 				AND = {
 					any_owned_province = { is_core = ARM }
@@ -1070,6 +1089,7 @@ political_decisions = {
 	yazidi_kurdistan = {
 		picture = yazidi_symbol
 		potential = {
+    exists = yes
 			tag = BHT
 			NOT = { has_country_flag = yazidi_kurdistan }
 			has_country_flag = yazidi_country
@@ -1095,6 +1115,7 @@ political_decisions = {
 	become_kurdistan = {
 		picture = old_kurdistan_map
 		potential = {
+    exists = yes
 			NOT = { tag = KDS }
 			NOT = { has_country_flag = yazidi_country }
 			NOT = { has_country_flag = became_kurdistan }
@@ -1141,6 +1162,7 @@ political_decisions = {
 	adopt_yazidi = {
 		picture = yazidi_symbol
 		potential = {
+    exists = yes
 			tag = BHT
 			NOT = { has_country_flag = yazidi_country }
 		}
@@ -1168,6 +1190,7 @@ political_decisions = {
 		picture = constantinople
 		#alert = yes
 		potential = {
+    exists = yes
 			OR = {
 				is_culture_group = pan_albanian
 				is_culture_group = pan_romanian
@@ -1195,7 +1218,7 @@ political_decisions = {
 			random_owned = {
 				limit = { owner = { primary_culture = greek } }
 				860 = {
-					change_province_name = "Konstantinoúpolis"
+					change_province_name = "Konstantino?polis"
 					any_pop = { limit = { is_culture_group = levantine } militancy = -1 }
 				}
 			}
@@ -1226,6 +1249,7 @@ political_decisions = {
 		picture = constantinople
 		#alert = yes
 		potential = {
+    exists = yes
 			OR = {
 				is_culture_group = pan_albanian
 				is_culture_group = pan_romanian
@@ -1269,6 +1293,7 @@ political_decisions = {
 	renamed_istanbul_back = {
 		picture = constantinople
 		potential = {
+    exists = yes
 			is_culture_group = turko_semitic
 			owns = 860
 				OR = {
@@ -1302,6 +1327,7 @@ political_decisions = {
 	
 	release_albania = {
 		potential = {
+    exists = yes
 			tag = TUR
 			owns = 849
 			is_greater_power = no

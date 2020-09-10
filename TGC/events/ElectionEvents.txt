@@ -16,7 +16,7 @@
 #	picture = "election_polls"
 #	
 #	trigger = {
-	exists = yes
+#	exists = yes
 #	election = yes
 #	NOT = {
 #		OR = {

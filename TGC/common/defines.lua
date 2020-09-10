@@ -1,7 +1,7 @@
 defines = {
 
 start_date = '1836.1.1',
-end_date = '1936.1.1',
+end_date = '1950.12.31',
 
 country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
@@ -628,12 +628,12 @@ pops = {
 	IMMIGRATION_SCALE = 0.005,
 
 	PROMOTION_SCALE = 0.002,
-	PROMOTION_ASSIMILATION_CHANCE = 0.0005,
+	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 0.8,
-	BASE_POPGROWTH = 0.000085,
+	BASE_POPGROWTH = 0.0001,
 	MIN_LIFE_RATING_FOR_GROWTH = 30,
-	LIFE_RATING_GROWTH_BONUS = 0.000085,
+	LIFE_RATING_GROWTH_BONUS = 0.0001,
 	LIFE_NEED_STARVATION_LIMIT = 0.5,
 
 	MIL_LACK_EVERYDAY_NEED = 0.1,
@@ -672,7 +672,7 @@ pops = {
 	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 5, -- Minimum efficiency of an artisan
-	SLAVE_GROWTH_DIVISOR = 10.0, -- Slaves have N times lower growth
+	SLAVE_GROWTH_DIVISOR = 10, -- Slaves have N times lower growth
 	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxury goods

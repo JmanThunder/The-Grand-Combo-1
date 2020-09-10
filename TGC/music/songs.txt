@@ -226,12 +226,7 @@ song = {
 		factor = 1
 	}
 }
-song = {
-	name = "8.559058-1.mp3"
-	chance = {
-		factor = 1
-	}
-}
+
 song = {
 	name = "8.559058-5.mp3"
 	chance = {
@@ -250,12 +245,7 @@ song = {
 		factor = 1
 	}
 }
-song = {
-	name = "8.559200-9.mp3"
-	chance = {
-		factor = 1
-	}
-}
+
 song = {
 	name = "adayatthecourt.mp3"
 	chance = {
@@ -776,7 +766,7 @@ song = {
 		modifier = {
 			factor = 2
 			OR = {
-				is_culture_group = european_spanish
+				is_culture_group = spanish
 				is_culture_group = latin_american_cultures
 				primary_culture = european
 			} 
@@ -785,7 +775,7 @@ song = {
 			factor = 0
 			NOT = {
 				OR = {
-					is_culture_group = european_spanish
+					is_culture_group = spanish
 					is_culture_group = latin_american_cultures
 					primary_culture = european
 				} 
@@ -805,7 +795,7 @@ song = {
 		modifier = {
 			factor = 2
 			OR = {
-				is_culture_group = european_spanish
+				is_culture_group = spanish
 				is_culture_group = latin_american_cultures
 				primary_culture = european
 			}
@@ -867,7 +857,7 @@ song = {
 		modifier = {
 			factor = 2
 			OR = {
-				is_culture_group = european_french
+				is_culture_group = french
 				primary_culture = european
 			} 
 		}		
@@ -875,7 +865,7 @@ song = {
 			factor = 0
 			NOT = {
 				OR = {
-					is_culture_group = european_french
+					is_culture_group = french
 					primary_culture = european
 				} 
 			}
@@ -894,9 +884,9 @@ song = {
 		modifier = {
 			factor = 2
 			OR = {
-				is_culture_group = european_french
-				is_culture_group = european_italian
-				is_culture_group = european_spanish
+				is_culture_group = french
+				is_culture_group = italian
+				is_culture_group = spanish
 				is_culture_group = british_cultures
 				is_culture_group = germanic_cultures
 				is_culture_group = european
@@ -912,9 +902,9 @@ song = {
 			factor = 0
 			NOT = {
 				OR = {
-					is_culture_group = european_french
-					is_culture_group = european_italian
-					is_culture_group = european_spanish
+					is_culture_group = french
+					is_culture_group = italian
+					is_culture_group = spanish
 					is_culture_group = british_cultures
 					is_culture_group = germanic_cultures
 					is_culture_group = european
@@ -1034,107 +1024,6 @@ song = {
 	}
 }
 
-# DEFCON 
-song = {
-	name = "defcon1.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			war = yes
-			OR = {
-				has_country_modifier = task_nuke
-				any_owned_province = {has_province_modifier = nuked}
-			}
-		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			NOT = {has_country_modifier = task_nuke}
-			NOT = {any_owned_province = {has_province_modifier = nuked}}
-		}
-	}
-}
-
-song = {
-	name = "defcon2.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 20
-			war = yes
-			has_country_flag = stall_nuclear_peace
-		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_country_flag = stall_nuclear_peace }
-		}		
-	}
-}
-
-song = {
-	name = "defcon3.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			war = yes
-			any_neighbor_country = {
-				war_with = THIS
-				has_country_flag = nuclear_weapon_power
-			}
-			NOT = { has_country_modifier = task_nuke }
-			NOT = { has_country_flag = stall_nuclear_peace }
-		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = {
-					any_neighbor_country = {
-						war_with = THIS
-						has_country_flag = nuclear_weapon_power
-					}
-				}
-				has_country_modifier = task_nuke
-				has_country_flag = stall_nuclear_peace
-			}
-		}
-	}
-}
-
-# Doomsday Clock
-song = {
-	name = "nukeatmosphere.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			any_neighbor_country = {
-				has_country_flag = nuclear_weapon_power
-				NOT = { relation = { who = THIS value = -150 } }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				any_neighbor_country = {
-					has_country_flag = nuclear_weapon_power
-					NOT = { relation = { who = THIS value = -150 } }
-				}
-			}
-		}		
-	}
-}
 
 song = {
 	name = "Gridlock.mp3"

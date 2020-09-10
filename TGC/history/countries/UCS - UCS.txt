@@ -32,7 +32,7 @@ the_command_principle = 1
 ideological_thought = 1
 state_n_government = 1
 freedom_of_trade = 1
-publishing_industry = 1
+
 mechanized_mining = 1
 experimental_railroad = 1
 basic_chemistry = 1
@@ -215,7 +215,7 @@ non_state_culture_literacy = 0.10
 	phenomenalism = 1
 	
 	practical_steam_engine = 1
-	publishing_industry = 1
+	
 	mechanical_production = 1
 	interchangeable_parts = 1
 	mechanized_mining = 1
@@ -388,7 +388,7 @@ high_n_low_pressure_steam_engines = 1
 steam_turbine = 1
 combustion_engine = 1
 electrical_power_generation = 1
-publishing_industry = 1
+
 mechanical_production = 1
 interchangeable_parts = 1
 semi_automatization = 1

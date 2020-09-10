@@ -27,7 +27,7 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 
-1970.11.1 {
+1970.11.1 = {
 ruling_party = SYC_conservative_2
 last_election = 1979.4.1
 upper_house = {
@@ -289,13 +289,13 @@ psychoanalysis = 1
 behaviorism = 1
 
 
-water_wheel_power = 1
+
 practical_steam_engine = 1
 high_n_low_pressure_steam_engines = 1
 steam_turbine = 1
 combustion_engine = 1
 electrical_power_generation = 1
-publishing_industry = 1
+
 mechanical_production = 1
 interchangeable_parts = 1
 semi_automatization = 1

@@ -43,7 +43,7 @@ upper_house = {
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
 no_standard = 1
-water_wheel_power = 1
+
 
 #Inventions
 

@@ -70,7 +70,7 @@ country_event = {
 country_event = {
 	id = 970020
 	title = "Our rank in the World!"
-	desc = "It has not met our quotas!
+	desc = "It has not met our quotas!"
 	
 	trigger = {
 	exists = yes
@@ -164,7 +164,7 @@ country_event = {
 country_event = {
 	id = 970040
 	title = "Our Industry!"
-	desc = "It has not met our quotas!
+	desc = "It has not met our quotas!"
 	
 	trigger = {
 	exists = yes
@@ -258,7 +258,7 @@ country_event = {
 country_event = {
 	id = 970060
 	title = "Our Army!"
-	desc = "It has not met our quotas!
+	desc = "It has not met our quotas!"
 	
 	trigger = {
 	exists = yes

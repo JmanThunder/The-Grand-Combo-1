@@ -18,8 +18,8 @@ press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = underground_parties
-minorities_reform = limited
-immigration_policy = quota_immigration
+
+
 conscription = mandatory_service
 
 # Social Reforms
@@ -29,10 +29,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+
 child_labor = child_labor_legal
-arts_endowment=no_endowment
-education = elite
+
+
 
 ruling_party = RGS_conservative
 set_country_flag = tory_election_win
@@ -58,8 +58,8 @@ guild_based_production = 1
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
 enlightenment_thought = 1
-water_wheel_power = 1
-publishing_industry = 1
+
+
 
 # Inventions
 

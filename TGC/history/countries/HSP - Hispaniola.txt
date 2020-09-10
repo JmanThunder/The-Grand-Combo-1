@@ -46,8 +46,8 @@ private_banks = 1
 no_standard = 1
 guild_based_production = 1
 enlightenment_thought = 1
-water_wheel_power = 1
-publishing_industry = 1
+
+
 
 # Inventions
 

@@ -2158,6 +2158,8 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		}
+	}
+}
 
 	option = {
 		name = "Let them go."
@@ -2186,4 +2188,3 @@ country_event = {
 		}
 	}
 }
-

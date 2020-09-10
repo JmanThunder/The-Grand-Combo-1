@@ -25,7 +25,7 @@ trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = underground_parties
 minorities_reform = oppression
-immigration_policy = quota_immigration
+
 conscription=mandatory_service
 
 # Social Reforms
@@ -35,10 +35,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+
 child_labor = child_labor_legal
-arts_endowment=small_endowment
-education = elite
+
+
 
 ruling_party = RUS_conservative
 upper_house = {
@@ -73,8 +73,8 @@ private_banks = 1
 no_standard = 1
 early_classical_theory_and_critique = 1
 guild_based_production = 1
-water_wheel_power = 1
-publishing_industry = 1
+
+
 mechanized_mining = 1
 basic_chemistry = 1
 
@@ -148,9 +148,9 @@ oob = "RUS_oob.txt"
 	introspectionism = 1
 	associationism = 1
 	
-	water_wheel_power = 1
+	
 	practical_steam_engine = 1
-	publishing_industry = 1
+	
 	mechanized_mining = 1
 	clean_coal = 1
 	experimental_railroad = 1
@@ -170,7 +170,7 @@ oob = "RUS_oob.txt"
 	voting_system = jefferson_method
 	political_parties = underground_parties
 	minorities_reform = oppression
-	immigration_policy = quota_immigration
+	
 	conscription=mandatory_service
 
 
@@ -181,8 +181,8 @@ oob = "RUS_oob.txt"
 	health_care =trinket_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions
-	pollution=no_controls
+	
 	child_labor = child_labor_legal
-	arts_endowment=small_endowment
-	education = elite
+	
+	
 }

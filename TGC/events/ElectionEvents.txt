@@ -1834,7 +1834,7 @@ country_event = {
 	}
 }
 
--# Election events; ones about the state of the dictatorship show economic policy opinions and boost social democracy, economic issues show trade policy and boost market communism
+# Election events; ones about the state of the dictatorship show economic policy opinions and boost social democracy, economic issues show trade policy and boost market communism
 # Secret Police
 country_event = {
 	id = 8023301

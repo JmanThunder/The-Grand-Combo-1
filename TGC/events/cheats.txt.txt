@@ -98,7 +98,6 @@ factor = 0.25
 }
 }
 }
-RAW Paste Data
 
 # Consciousness
 country_event = {

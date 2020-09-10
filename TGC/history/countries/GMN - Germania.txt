@@ -17,8 +17,8 @@ press_rights = free_press
 trade_unions = all_trade_unions
 voting_system = first_past_the_post
 political_parties = non_secret_ballots
-minorities_reform = limited
-immigration_policy = quota_immigration
+
+
 conscription = two_year_draft
 
 # Social Reforms
@@ -28,10 +28,10 @@ safety_regulations = good_safety
 health_care = good_health_care
 unemployment_subsidies = low_subsidies
 pensions = good_pensions
-pollution = no_controls
+
 child_labor = child_labor_restricted
-arts_endowment = no_endowment
-education = elite
+
+
 
 govt_flag = 
 {

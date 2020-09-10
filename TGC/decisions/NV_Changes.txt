@@ -1,294 +1,287 @@
-political+AF8-decisions +AD0- +AHs-
+political_decisions = {
 
-	change+AF8-national+AF8-value+AF8-on +AD0- +AHs-
-		alert +AD0- yes
-		picture +AD0- national+AF8-value
-		potential +AD0- +AHs-
-    exists +AD0- yes
-			nationalvalue +AD0- nv+AF8-tradition
-			NOT +AD0- +AHs-	has+AF8-country+AF8-flag +AD0- nv+AF8-change +AH0-
-			civilized +AD0- no
-		+AH0-
+	change_national_value_on = {
+		alert = yes
+		picture = national_value
+		potential = {
+			nationalvalue = nv_tradition
+			NOT = {	has_country_flag = nv_change }
+			civilized = no
+		}
 		
-		allow +AD0- +AHs-
-			civilization+AF8-progress +AD0- 0.5
-			NOT +AD0- +AHs-	has+AF8-country+AF8-modifier +AD0- national+AF8-confusion +AH0-
-			war +AD0- no
-			NOT +AD0- +AHs- num+AF8-of+AF8-revolts +AD0- 1 +AH0-
-		+AH0-
+		allow = {
+			civilization_progress = 0.5
+			NOT = {	has_country_modifier = national_confusion }
+			war = no
+			NOT = { num_of_revolts = 1 }
+		}
 		
-		effect +AD0- +AHs- set+AF8-country+AF8-flag +AD0- nv+AF8-change +AH0-
+		effect = { set_country_flag = nv_change }
 		
-		ai+AF8-will+AF8-do +AD0- +AHs- 
-			factor +AD0- 1 
+		ai_will_do = { 
+			factor = 1 
 			
-			modifier +AD0- +AHs-
-				factor +AD0- 0
-				OR +AD0- +AHs-
-					is+AF8-culture+AF8-group +AD0- east+AF8-asian
-					substate+AF8-of +AD0- QNG
-				+AH0-
-			+AH0-
-		+AH0-
-	+AH0-
+			modifier = {
+				factor = 0
+				OR = {
+					is_culture_group = east_asian
+					substate_of = QNG
+				}
+			}
+		}
+	}
 
-	change+AF8-national+AF8-value+AF8-off +AD0- +AHs-
-		alert +AD0- no
-		picture +AD0- national+AF8-value
-		potential +AD0- +AHs-
-    exists +AD0- yes
-			has+AF8-country+AF8-flag +AD0- nv+AF8-change
-		+AH0-
+	change_national_value_off = {
+		alert = no
+		picture = national_value
+		potential = {
+			has_country_flag = nv_change
+		}
 		
-		allow +AD0- +AHs- +AH0-
+		allow = { }
 		
-		effect +AD0- +AHs- clr+AF8-country+AF8-flag +AD0- nv+AF8-change +AH0-
+		effect = { clr_country_flag = nv_change }
 		
-		ai+AF8-will+AF8-do +AD0- +AHs- factor +AD0- 0 +AH0-
-	+AH0-
+		ai_will_do = { factor = 0 }
+	}
 
-    +ACM- All five national values are designed to be picked at random by eligible AI countries. Normally this would be
-    +ACM- achieved through e.g. a +AGA-random+AF8-list+AGA- command. Unfortunately this can be tricky to get right when done from a
-    +ACM- decision as all countries activating the same decision on the same day can get identical results.
-    +ACM-
-    +ACM- Instead we rely on the +AGA-ai+AF8-will+AF8-do+AGA- factor which, for a decision, is the chance (should all requirements be met)
-    +ACM- that the AI activates it on any given day. However because the engine processes available decisions top to bottom
-    +ACM- (order being the same as in the decision file) the actual factors have to be computed carefully.
-    +ACM-
-    +ACM- For instance if the first processed decision has weight A, the practical factor B' of the second decision
-    +ACM- should be the original weight B but rescaled over the smaller probability space in the outcome that the preceding
-    +ACM- decision was not activated, which has complement probablity (1 - A):
-    +ACM-
-    +ACM-     B' +AD0- B / (1 - A)
-    +ACM-
-    +ACM- This generalises to multiple successive decisions. Notably it leads to a last practical factor of 1, such that
-    +ACM- whenever it is the day for an AI country to pick a new national value they are guaranteed to choose (as long as no
-    +ACM- other higher priority decision is available to be taken).
-    +ACM-
-    +ACM- The following table summarises the desired random weights +ACY- probabilities, as well as some of the computation
-    +ACM- details leading to the final practical factor:
-    +ACM-
-    +ACM- National value +AHw- Weight +AHw- Probability +AHw- Cumulative Rescale Divisor (CRD) +AHw- Practical Factor (Probability over CRD)
-    +ACM- ---------------+--------+-------------+----------------------------------+----------------------------------------
-    +ACM- Order          +AHw-      1 +AHw-         20+ACU- +AHw-                                1 +AHw-                                  0.200
-    +ACM- Productivity   +AHw-      1 +AHw-         20+ACU- +AHw-                              0.8 +AHw-                                  0.250
-    +ACM- Autocracy      +AHw-      1 +AHw-         20+ACU- +AHw-                              0.6 +AHw-                                  0.333
-    +ACM- Liberty        +AHw-      1 +AHw-         20+ACU- +AHw-                              0.4 +AHw-                                  0.500
-    +ACM- Equality       +AHw-      1 +AHw-         20+ACU- +AHw-                              0.2 +AHw-                                  1.000
-    +ACM-
-    +ACM- (Note that in testing the engine did not seem to handle decimals well beyond the thousandth place.)
+    # All five national values are designed to be picked at random by eligible AI countries. Normally this would be
+    # achieved through e.g. a `random_list` command. Unfortunately this can be tricky to get right when done from a
+    # decision as all countries activating the same decision on the same day can get identical results.
+    #
+    # Instead we rely on the `ai_will_do` factor which, for a decision, is the chance (should all requirements be met)
+    # that the AI activates it on any given day. However because the engine processes available decisions top to bottom
+    # (order being the same as in the decision file) the actual factors have to be computed carefully.
+    #
+    # For instance if the first processed decision has weight A, the practical factor B' of the second decision
+    # should be the original weight B but rescaled over the smaller probability space in the outcome that the preceding
+    # decision was not activated, which has complement probablity (1 - A):
+    #
+    #     B' = B / (1 - A)
+    #
+    # This generalises to multiple successive decisions. Notably it leads to a last practical factor of 1, such that
+    # whenever it is the day for an AI country to pick a new national value they are guaranteed to choose (as long as no
+    # other higher priority decision is available to be taken).
+    #
+    # The following table summarises the desired random weights & probabilities, as well as some of the computation
+    # details leading to the final practical factor:
+    #
+    # National value | Weight | Probability | Cumulative Rescale Divisor (CRD) | Practical Factor (Probability over CRD)
+    # ---------------+--------+-------------+----------------------------------+----------------------------------------
+    # Order          |      1 |         20% |                                1 |                                  0.200
+    # Productivity   |      1 |         20% |                              0.8 |                                  0.250
+    # Autocracy      |      1 |         20% |                              0.6 |                                  0.333
+    # Liberty        |      1 |         20% |                              0.4 |                                  0.500
+    # Equality       |      1 |         20% |                              0.2 |                                  1.000
+    #
+    # (Note that in testing the engine did not seem to handle decimals well beyond the thousandth place.)
 
-	switch+AF8-to+AF8-order +AD0- +AHs-
-		picture +AD0- switch+AF8-to+AF8-order
-		potential +AD0- +AHs-
-    exists +AD0- yes
-			civilized +AD0- no
-			nationalvalue +AD0- nv+AF8-tradition
-			NOT +AD0- +AHs- has+AF8-country+AF8-flag +AD0- switched+AF8-nv +AH0-
-			has+AF8-country+AF8-flag +AD0- nv+AF8-change
-		+AH0-
+	switch_to_order = {
+		picture = switch_to_order
+		potential = {
+			civilized = no
+			nationalvalue = nv_tradition
+			NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+		}
 		
-		allow +AD0- +AHs-
-			war +AD0- no
-			NOT +AD0- +AHs- has+AF8-country+AF8-modifier +AD0- national+AF8-confusion +AH0-
-			NOT +AD0- +AHs- num+AF8-of+AF8-revolts +AD0- 1 +AH0-
-		+AH0-
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
 		
-		effect +AD0- +AHs-
-			clr+AF8-country+AF8-flag +AD0- nv+AF8-change
-			set+AF8-country+AF8-flag +AD0- switched+AF8-nv
-			nationalvalue +AD0- nv+AF8-order
-			add+AF8-country+AF8-modifier +AD0- +AHs-
-				name +AD0- national+AF8-confusion
-				duration +AD0- 3650
-			+AH0-
-			any+AF8-pop +AD0- +AHs-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- reactionary
-					factor +AD0- 8
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- conservative
-					factor +AD0- 2
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- liberal
-					factor +AD0- -2
-				+AH0-
-			+AH0-
-		+AH0-
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_order
+			add_country_modifier = {
+				name = national_confusion
+				duration = 3650
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 8
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
 		
-        ai+AF8-will+AF8-do +AD0- +AHs- factor +AD0- 0.200 +AH0-
-	+AH0-
+        ai_will_do = { factor = 0.200 }
+	}
 	
-	switch+AF8-to+AF8-production +AD0- +AHs-
-		picture +AD0- switch+AF8-to+AF8-productivity
-		potential +AD0- +AHs-
-    exists +AD0- yes
-			civilized +AD0- no
-			nationalvalue +AD0- nv+AF8-tradition
-			NOT +AD0- +AHs- has+AF8-country+AF8-flag +AD0- switched+AF8-nv +AH0-
-			has+AF8-country+AF8-flag +AD0- nv+AF8-change
-		+AH0-
+	switch_to_production = {
+		picture = switch_to_productivity
+		potential = {
+			civilized = no
+			nationalvalue = nv_tradition
+			NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+		}
 		
-		allow +AD0- +AHs-
-			war +AD0- no
-			NOT +AD0- +AHs- has+AF8-country+AF8-modifier +AD0- national+AF8-confusion +AH0-
-			NOT +AD0- +AHs- num+AF8-of+AF8-revolts +AD0- 1 +AH0-
-		+AH0-
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
 		
-		effect +AD0- +AHs-
-			clr+AF8-country+AF8-flag +AD0- nv+AF8-change
-			set+AF8-country+AF8-flag +AD0- switched+AF8-nv
-			nationalvalue +AD0- nv+AF8-productivity
-			add+AF8-country+AF8-modifier +AD0- +AHs-
-				name +AD0- national+AF8-confusion
-				duration +AD0- 3650
-			+AH0-
-			any+AF8-pop +AD0- +AHs-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- reactionary
-					factor +AD0- 8
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- conservative
-					factor +AD0- 2
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- liberal
-					factor +AD0- -2
-				+AH0-
-			+AH0-
-		+AH0-
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_productivity
+			add_country_modifier = {
+				name = national_confusion
+				duration = 3650
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 8
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
 		
-        ai+AF8-will+AF8-do +AD0- +AHs- factor +AD0- 0.250 +AH0-
-	+AH0-
+        ai_will_do = { factor = 0.250 }
+	}
 	
-	switch+AF8-to+AF8-autocracy +AD0- +AHs-
-		picture +AD0- switch+AF8-to+AF8-autocracy
-		potential +AD0- +AHs-
-    exists +AD0- yes
-			civilized +AD0- no
-			nationalvalue +AD0- nv+AF8-tradition
-			NOT +AD0- +AHs- has+AF8-country+AF8-flag +AD0- switched+AF8-nv +AH0-
-			has+AF8-country+AF8-flag +AD0- nv+AF8-change
-		+AH0-
+	switch_to_autocracy = {
+		picture = switch_to_autocracy
+		potential = {
+			civilized = no
+			nationalvalue = nv_tradition
+			NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+		}
 		
-		allow +AD0- +AHs-
-			war +AD0- no
-			NOT +AD0- +AHs- has+AF8-country+AF8-modifier +AD0- national+AF8-confusion +AH0-
-		+AH0-
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+		}
 		
-		effect +AD0- +AHs-
-			clr+AF8-country+AF8-flag +AD0- nv+AF8-change
-			set+AF8-country+AF8-flag +AD0- switched+AF8-nv
-			nationalvalue +AD0- nv+AF8-autocracy
-			add+AF8-country+AF8-modifier +AD0- +AHs-
-				name +AD0- national+AF8-confusion
-				duration +AD0- 3650
-			+AH0-
-			any+AF8-pop +AD0- +AHs-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- reactionary
-					factor +AD0- 8
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- conservative
-					factor +AD0- 2
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- liberal
-					factor +AD0- -2
-				+AH0-
-			+AH0-
-		+AH0-
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_autocracy
+			add_country_modifier = {
+				name = national_confusion
+				duration = 3650
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 8
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
 		
-        ai+AF8-will+AF8-do +AD0- +AHs- factor +AD0- 0.333 +AH0-
-	+AH0-
+        ai_will_do = { factor = 0.333 }
+	}
 	
-	switch+AF8-to+AF8-equality +AD0- +AHs-
-		picture +AD0- switch+AF8-to+AF8-equality
-		potential +AD0- +AHs-
-    exists +AD0- yes
-			civilized +AD0- no
-			nationalvalue +AD0- nv+AF8-tradition
-			NOT +AD0- +AHs- has+AF8-country+AF8-flag +AD0- switched+AF8-nv +AH0-
-			has+AF8-country+AF8-flag +AD0- nv+AF8-change
-		+AH0-
+	switch_to_equality = {
+		picture = switch_to_equality
+		potential = {
+			civilized = no
+			nationalvalue = nv_tradition
+			NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+		}
 		
-		allow +AD0- +AHs-
-			war +AD0- no
-			NOT +AD0- +AHs- has+AF8-country+AF8-modifier +AD0- national+AF8-confusion +AH0-
-			NOT +AD0- +AHs- num+AF8-of+AF8-revolts +AD0- 1 +AH0-
-		+AH0-
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
 		
-		effect +AD0- +AHs-
-			clr+AF8-country+AF8-flag +AD0- nv+AF8-change
-			set+AF8-country+AF8-flag +AD0- switched+AF8-nv
-			nationalvalue +AD0- nv+AF8-equality
-			add+AF8-country+AF8-modifier +AD0- +AHs-
-				name +AD0- national+AF8-confusion
-				duration +AD0- 3650
-			+AH0-
-			any+AF8-pop +AD0- +AHs-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- reactionary
-					factor +AD0- 8
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- conservative
-					factor +AD0- 2
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- liberal
-					factor +AD0- -2
-				+AH0-
-			+AH0-
-		+AH0-
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_equality
+			add_country_modifier = {
+				name = national_confusion
+				duration = 3650
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 8
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
 		
-        ai+AF8-will+AF8-do +AD0- +AHs- factor +AD0- 0.500 +AH0-
-	+AH0-
+        ai_will_do = { factor = 0.500 }
+	}
 	
-	switch+AF8-to+AF8-liberty +AD0- +AHs-
-		picture +AD0- switch+AF8-to+AF8-liberty
-		potential +AD0- +AHs-
-    exists +AD0- yes
-			civilized +AD0- no
-			nationalvalue +AD0- nv+AF8-tradition
-			NOT +AD0- +AHs- has+AF8-country+AF8-flag +AD0- switched+AF8-nv +AH0-
-			has+AF8-country+AF8-flag +AD0- nv+AF8-change
-		+AH0-
+	switch_to_liberty = {
+		picture = switch_to_liberty
+		potential = {
+			civilized = no
+			nationalvalue = nv_tradition
+			NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+		}
 		
-		allow +AD0- +AHs-
-			war +AD0- no
-			NOT +AD0- +AHs- has+AF8-country+AF8-modifier +AD0- national+AF8-confusion +AH0-
-			NOT +AD0- +AHs- num+AF8-of+AF8-revolts +AD0- 1 +AH0-
-		+AH0-
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
 		
-		effect +AD0- +AHs-
-			clr+AF8-country+AF8-flag +AD0- nv+AF8-change
-			set+AF8-country+AF8-flag +AD0- switched+AF8-nv
-			nationalvalue +AD0- nv+AF8-liberty
-			add+AF8-country+AF8-modifier +AD0- +AHs-
-				name +AD0- national+AF8-confusion
-				duration +AD0- 3650
-			+AH0-
-			any+AF8-pop +AD0- +AHs-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- reactionary
-					factor +AD0- 8
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- conservative
-					factor +AD0- 2
-				+AH0-
-				scaled+AF8-militancy +AD0- +AHs-
-					ideology +AD0- liberal
-					factor +AD0- -2
-				+AH0-
-			+AH0-
-		+AH0-
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_liberty
+			add_country_modifier = {
+				name = national_confusion
+				duration = 3650
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 8
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
 		
-        ai+AF8-will+AF8-do +AD0- +AHs- factor +AD0- 1.000 +AH0-
-	+AH0-
-+AH0-
+        ai_will_do = { factor = 1.000 }
+	}
+}

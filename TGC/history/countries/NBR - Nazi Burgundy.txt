@@ -88,7 +88,7 @@ upper_house = {
 	phenomenalism = 1
 	
 	practical_steam_engine = 1
-	publishing_industry = 1
+	
 	mechanical_production = 1
 	interchangeable_parts = 1
 	mechanized_mining = 1

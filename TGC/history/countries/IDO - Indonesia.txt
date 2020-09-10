@@ -163,7 +163,7 @@ high_n_low_pressure_steam_engines = 1
 steam_turbine = 1
 combustion_engine = 1
 electrical_power_generation = 1
-publishing_industry = 1
+
 mechanical_production = 1
 interchangeable_parts = 1
 semi_automatization = 1

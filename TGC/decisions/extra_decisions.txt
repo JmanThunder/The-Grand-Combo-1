@@ -695,41 +695,6 @@ political_decisions = {
 			factor = 1
 		}
 	}	
-	
-	tonghak_reforms = {
-		potential = {
-    exists = yes
-			tag = KOR
-			has_country_flag = tonghak_rebellion_happened
-			NOT = { has_country_flag = tonghak }
-		}
-		allow = {
-			war = no
-			NOT = {
-				num_of_revolts = 1
-				any_owned_province = {
-					has_province_modifier = peasant_revolt
-				}
-			}
-		}
-		effect = {
-			set_country_flag = tonghak 
-			prestige = 20
-			years_of_research = 1
-			add_country_modifier = {
-				name = self_strengthening_movement
-				duration = 1095
-			}
-			poor_strata = {
-				militancy = -2
-				consciousness = -2
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	the_open_door = {
 		alert = yes
 		potential = {
@@ -1486,45 +1451,6 @@ political_decisions = {
 		}
 	}
 	
-	second_declaration_of_independence = {
-		alert = yes
-		picture = reform_csa
-		potential = {
-    exists = yes
-			tag = CSA
-			has_global_flag = american_civil_war_has_happened
-			NOT = { has_global_flag = declaration2 }
-		}
-		allow = {
-			war = no
-			state_n_government = 1
-		}
-		effect = {
-			prestige = 30
-			set_global_flag = declaration2
-			any_pop = {
-				limit = {
-					culture = dixie
-				}
-				militancy = -10
-			}
-			war_exhaustion = -10
-			any_country = {
-				limit = {
-					is_greater_power = yes
-					NOT = { tag = USA }
-				}
-				relation = {
-					who = THIS
-					value = 50
-				}
-			}
-			USA = { prestige = -30 }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	recognize_the_fsa = {
 		picture = form_fsa

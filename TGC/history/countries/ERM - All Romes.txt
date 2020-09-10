@@ -49,8 +49,8 @@ bronze_muzzle_loaded_artillery = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 no_standard = 1
-water_wheel_power = 1
-publishing_industry = 1
+
+
 
 #Inventions
 

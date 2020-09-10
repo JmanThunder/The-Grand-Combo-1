@@ -79,10 +79,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+
 child_labor = child_labor_legal
-arts_endowment=no_endowment
-education = elite
+
+
 
 ruling_party = BRI_reactionary
 set_country_flag = tory_election_win
@@ -121,8 +121,8 @@ ad_hoc_money_bill_printing = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
-water_wheel_power = 1
-publishing_industry = 1
+
+
 mechanized_mining = 1
 basic_chemistry = 1
 battleship_column_doctrine = 1

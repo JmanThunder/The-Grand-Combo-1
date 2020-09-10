@@ -44,7 +44,7 @@ clipper_design = 1
 alphabetic_flag_signaling = 0
 the_command_principle = 0
 no_standard = 1
-water_wheel_power = 1
+
 publishing_industry = 0
 
 #Inventions

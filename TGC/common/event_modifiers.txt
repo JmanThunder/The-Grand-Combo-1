@@ -9636,3 +9636,32 @@ kiel_canal_dividend = {
 	icon = 14
 }
 
+the_han_system = {
+	administrative_efficiency_modifier = -0.05
+	min_military_spending = 0.1
+	pension_level = 0.25
+	min_social_spending = 0.25
+	max_social_spending = 0.50
+	icon = 16
+}
+non_interventionism_trade_policy = {
+    min_tariff = 0.75
+    tariff_efficiency_modifier = 0.1
+    tax_efficiency = 0.05
+    icon = 9
+}
+csa_draft = {
+	pop_militancy_modifier = 0.01
+	mobilisation_size = 0.15
+	prestige = -0.02
+	war_exhaustion = -0.03
+	icon = 15
+}
+
+usa_draft = {
+	pop_militancy_modifier = 0.02
+	mobilisation_size = 0.05
+	war_exhaustion = -0.03
+	prestige = -0.02
+	icon = 15
+}

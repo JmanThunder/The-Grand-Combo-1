@@ -17,8 +17,8 @@ press_rights = censored_press
 trade_unions = non_socialist
 voting_system = first_past_the_post
 political_parties = gerrymandering
-minorities_reform = limited
-immigration_policy = quota_immigration
+
+
 conscription=four_year_draft
 
 # Social Reforms
@@ -28,10 +28,10 @@ safety_regulations = no_safety
 health_care = trinket_health_care
 unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions
-pollution=no_controls
+
 child_labor = child_labor_legal
-arts_endowment=no_endowment
-education = elite
+
+
 
 ruling_party = PLC_conservative
 upper_house = {

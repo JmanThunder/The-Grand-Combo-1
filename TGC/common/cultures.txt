@@ -706,7 +706,6 @@ caucasian = {
 		}
 		}
 	}
-	}
 
 arab = {
 	leader = arab
@@ -828,12 +827,6 @@ iranian_turanian = {
 		color = { 245 234 174 }
 		first_names = { Ahmed Haydar Mehmed Murad Nurberdi Qilich }
 		last_names = { Beg Khan }
-	}
-	tatar = {
-		color = { 191 181 124 }
-		first_names = { Asaf Baqi Galiaskar Ismail Makhmut Musa Rustam Yusuf }
-		last_names = { Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev }
-		radicalism = 10
 	}
 	gypsy = {
 		color = { 16 102 163 }

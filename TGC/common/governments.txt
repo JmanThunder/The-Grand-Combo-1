@@ -143,7 +143,18 @@ presidential_dictatorship = {
 	appoint_ruling_party = yes
 	flagType = republic
 }
-
+proletarian_democracy =
+{
+	#which ideology of parties.
+	communist = yes
+	socialist = yes
+	conservative = yes
+    liberal = yes
+	
+	election = yes
+	appoint_ruling_party = yes
+	flagType = communist
+}
 proletarian_dictatorship = {
 	#which ideology of parties.
 	communist = yes
@@ -186,4 +197,74 @@ trade_unions_congress = {
 	duration = 12
 	appoint_ruling_party = yes
 	flagType = communist
+}
+restored_monarchy = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+
+	election = yes
+	duration = 48
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+ 
+consulate_monarchy = {
+	liberal = yes
+	conservative = yes
+	reactionary = yes
+
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = republic
+}
+unciv_absolute_monarchy = {
+	liberal = yes
+	conservative = yes
+	reactionary = yes
+	
+	election = no
+	appoint_ruling_party = yes
+}
+
+absolute_empire = {
+	liberal = yes
+	conservative = yes
+	reactionary = yes
+	
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+ 
+semi_constitutional_empire = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+constitutional_empire = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+	
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = monarchy
 }

@@ -68,7 +68,7 @@ bronze_muzzle_loaded_artillery = 1
 post_nelsonian_thought = 1
 alphabetic_flag_signaling = 1
 the_command_principle = 1
-publishing_industry = 1
+
 mechanized_mining = 1
 basic_chemistry = 1
 post_renaissance_tech = 1
@@ -177,7 +177,7 @@ school_reforms = acceptable_schools
 	phenomenalism = 1
 	
 	practical_steam_engine = 1
-	publishing_industry = 1
+	
 	mechanical_production = 1
 	interchangeable_parts = 1
 	mechanized_mining = 1

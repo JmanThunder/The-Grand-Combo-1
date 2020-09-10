@@ -162,7 +162,7 @@ high_n_low_pressure_steam_engines = 1
 steam_turbine = 1
 combustion_engine = 1
 electrical_power_generation = 1
-publishing_industry = 1
+
 mechanical_production = 1
 interchangeable_parts = 1
 semi_automatization = 1
@@ -207,7 +207,6 @@ late_renaissance = 1
 mannerism = 1
 early_baroque = 1
 high_baroque = 1 #Until this for 1700
-rococo = 1
 neoclassicism = 1 #Until this for 1800
 early_romanticistic_culture = 1
 

@@ -434,7 +434,7 @@ political_decisions = {
 			badboy = -10
 		}
 	}
-
+}
 	inca_union = {
 		picture = inca2
 		potential = {
@@ -495,7 +495,7 @@ political_decisions = {
 			badboy = -10
 		}
 	}
-
+}
 	brazil_union = {
 		picture = bolivar
 		potential = {
@@ -524,4 +524,5 @@ political_decisions = {
 			badboy = -10
 		}
 	}
+}
 }

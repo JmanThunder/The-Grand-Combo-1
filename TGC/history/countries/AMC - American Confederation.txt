@@ -23,7 +23,7 @@ press_rights = free_press
 trade_unions = all_trade_unions
 voting_system = first_past_the_post
 political_parties = gerrymandering
-minorities_reform = limited
+
 immigration_policy = naturalization
 conscription=no_draft
 
@@ -34,10 +34,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+
 child_labor = child_labor_legal
-arts_endowment=no_endowment
-education = elite
+
+
 
 ruling_party = USA_conservative
 set_country_flag = tory_election_win
@@ -76,8 +76,8 @@ ad_hoc_money_bill_printing = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
-water_wheel_power = 1
-publishing_industry = 1
+
+
 mechanized_mining = 1
 basic_chemistry = 1
 battleship_column_doctrine = 1
@@ -140,9 +140,9 @@ oob = "USA_oob.txt"
 	health_care = no_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
-	pollution=no_controls
+	
 	child_labor = child_labor_legal
-	arts_endowment=no_endowment
+	
 	education = church
 
 # Technologies
@@ -197,10 +197,10 @@ oob = "USA_oob.txt"
 	introspectionism = 1
 	associationism = 1
 	
-	water_wheel_power = 1
+	
 	practical_steam_engine = 1
 	high_n_low_pressure_steam_engines = 1
-	publishing_industry = 1
+	
 	mechanical_production = 1
 	interchangeable_parts = 1
 	mechanized_mining = 1

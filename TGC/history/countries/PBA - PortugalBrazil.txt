@@ -18,8 +18,8 @@ press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = non_secret_ballots
-minorities_reform = limited
-immigration_policy = quota_immigration
+
+
 conscription=two_year_draft
 
 # Social Reforms
@@ -29,10 +29,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+
 child_labor = child_labor_restricted
-arts_endowment=no_endowment
-education = elite
+
+
 
 ruling_party = POR_liberal
 set_country_flag = liberal_election_win
@@ -70,8 +70,8 @@ no_standard = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
-water_wheel_power = 1
-publishing_industry = 1
+
+
 mechanized_mining = 1
 basic_chemistry = 1
 
@@ -100,8 +100,8 @@ press_rights = free_press
 trade_unions = non_socialist
 voting_system = jefferson_method
 political_parties = gerrymandering
-minorities_reform = limited
-immigration_policy = quota_immigration
+
+
 conscription=two_year_draft
 
 # Social Reforms
@@ -111,9 +111,9 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
-pollution=no_controls
+
 child_labor = child_labor_restricted
-arts_endowment=no_endowment
+
 education = church
 
 # Technologies
@@ -157,9 +157,9 @@ education = church
 	state_n_government = 1
 	introspectionism = 1
 	
-	water_wheel_power = 1
+	
 	practical_steam_engine = 1
-	publishing_industry = 1
+	
 	mechanical_production = 1
 	mechanized_mining = 1
 	clean_coal = 1

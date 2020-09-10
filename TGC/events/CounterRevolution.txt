@@ -313,6 +313,7 @@ country_event = {
 		set_country_flag = clerksresist1
 	}
 }
+}
 country_event = {
 	id = 9990010
 	title = "The Revolution finds subversion!"

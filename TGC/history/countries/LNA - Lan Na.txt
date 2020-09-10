@@ -27,10 +27,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution = no_controls
+
 child_labor = child_labor_legal
-arts_endowment = no_endowment
-education = elite
+
+
 
 ruling_party = LNN_conservative
 upper_house = {

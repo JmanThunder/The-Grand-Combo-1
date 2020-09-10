@@ -19,8 +19,8 @@ press_rights = free_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = non_secret_ballots
-minorities_reform = limited
-immigration_policy = quota_immigration
+
+
 conscription=two_year_draft
 
 # Social Reforms
@@ -30,10 +30,10 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+
 child_labor = child_labor_restricted
-arts_endowment=no_endowment
-education = elite
+
+
 
 ruling_party = SMI_conservative
 upper_house = {

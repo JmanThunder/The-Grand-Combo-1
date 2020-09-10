@@ -45,7 +45,7 @@ post_napoleonic_thought = 1
 bronze_muzzle_loaded_artillery = 1
 no_standard = 1
 guild_based_production = 1
-water_wheel_power = 1
+
 
 #Inventions
 

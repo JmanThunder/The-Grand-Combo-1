@@ -966,6 +966,69 @@ political_decisions = {
 		}
 	}
 	
+	RUM_invite_romania = {
+		picture = form_yugoslavia
+		potential = {
+			tag = RUM
+			ROM = {
+				exists = yes
+				NOT = { has_country_flag = not_join_balkans }
+			}
+			NOT = { has_country_flag = invited_romania_to_RUM }
+		}
+		
+		allow = {
+			war = no
+			NOT = { government = theocracy }
+			ROM = {
+				war = no
+				neighbour = RUM
+				NOT = { truce_with = THIS }
+				OR = {
+					is_vassal = no
+					vassal_of = THIS
+				}
+				OR = {
+					AND = {
+						part_of_sphere = no
+						relation = { who = THIS value = 150 }
+					}
+					in_sphere = THIS
+					sphere_owner = { is_sphere_leader_of = THIS }
+				}
+			}	
+		}
+		
+		effect = {
+			set_country_flag = invited_romania_to_RUM
+			ROM = { country_event = 11120 }
+			ROM = { all_core = { add_core = RUM } }
+			add_accepted_culture = romanian
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				ROM = {
+					NOT = {
+						OR = {
+							AND = {
+								part_of_sphere = no
+								OR = {
+									has_country_flag = newly_released_nation
+									relation = { who = THIS value = 100 }
+								}
+							}
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+	}
 	invite_slovenia_to_YUG = {
 		picture = form_yugoslavia
 		potential = {
@@ -1336,6 +1399,73 @@ political_decisions = {
 		}
 	}
 	
+attach_bulgaria_to_YUG = {
+		picture = form_yugoslavia
+		potential = {
+			NOT = {
+				tag = YUG
+			}
+			BUL = {
+				exists = yes
+				NOT = { has_country_flag = not_join_yugoslavia }
+			}
+			YUG = {
+				exists = yes
+				OR = {
+					AND = {
+						is_vassal = no
+						in_sphere = THIS
+					}
+					vassal_of = THIS
+				}
+				NOT = { has_country_flag = invited_bulgarians_to_YUG }
+			}
+		}
+		
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			BUL = {
+				war = no
+				neighbour = YUG
+				OR = {
+					AND = {
+						is_vassal = no
+						in_sphere = THIS
+					}
+					vassal_of = THIS
+				}
+			}
+		}
+		
+		effect = {
+			BUL = { all_core = { add_core = YUG } }
+			YUG = { inherit = BUL }
+			YUG = { add_accepted_culture = bulgarian }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				BUL = {
+					NOT = {
+						OR = {
+							AND = {
+								part_of_sphere = no
+								OR = {
+									has_country_flag = newly_released_nation
+									relation = { who = THIS value = 100 }
+								}
+							}
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+	}
 	invite_macedonia_to_YUG = {
 		picture = form_yugoslavia
 		potential = {

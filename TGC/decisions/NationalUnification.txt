@@ -13,6 +13,7 @@ political_decisions = {
 				exists = GCF
 				tag = DNB
 				tag = AUS
+				tag = AUB
 				tag = KUK
 				tag = GCF
 				has_country_flag = inherit_sgf
@@ -58,6 +59,12 @@ political_decisions = {
 				CRO = { all_core = { remove_core = KUK } }
 				owner = { remove_accepted_culture = hungarian }
 			}
+			random_owned = {
+				limit = { owner = { tag = AUB } }
+				BOH = { all_core = { remove_core = AUB } }
+				CRO = { all_core = { remove_core = AUB } }
+				owner = { remove_accepted_culture = czech }
+			}
 			all_core = { add_core = SGF }
 			any_owned = {
 				limit = {
@@ -76,6 +83,15 @@ political_decisions = {
 				owner = {
 					all_core = {
 						remove_core = KUK
+						add_core = AUS
+					}
+				}
+			}
+	random_owned = {
+				limit = { owner = { tag = AUB } }
+				owner = {
+					all_core = {
+						remove_core = AUB
 						add_core = AUS
 					}
 				}
@@ -590,7 +606,7 @@ political_decisions = {
 			change_tag = GER
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
-			add_accepted_culture = volga_german
+
 			random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
 			random_owned = { limit = { owner = { accepted_culture = polish } } owner = { remove_accepted_culture = polish } }
 			random_owned = { limit = { owner = { accepted_culture = danish } } owner = { remove_accepted_culture = danish } }
@@ -629,6 +645,7 @@ political_decisions = {
 					OR = {
 						tag = AUS
 						tag = KUK
+						tag = AUB
 					}
 					exists = yes
 					is_greater_power = no
@@ -655,6 +672,7 @@ political_decisions = {
 					is_culture_group = germanic
 					exists = no
 					NOT = { tag = AUS }
+					NOT = { tag = AUB }
 					NOT = { tag = KUK }
 					NOT = { tag = DNB }
 					NOT = { tag = PRU }
@@ -673,6 +691,7 @@ political_decisions = {
 				limit = {
 					OR = {
 						tag = AUS
+						tag = AUB
 						tag = KUK
 						tag = DNB
 					}
@@ -732,6 +751,7 @@ political_decisions = {
 					NOT = { 
 						tag = KUK
 						tag = AUS
+						tag = AUB
 						tag = DNB
 						tag = BAN
 						tag = UBD
@@ -753,6 +773,13 @@ political_decisions = {
 				}
 				country_event = 11101
 			}
+			BAV_595 = { add_core = BAV }
+			BAV_599 = { add_core = BAV }
+			PRU_690 = { add_core = PRU }
+			PRU_695 = { add_core = PRU }
+			SAX_558 = { add_core = SAX }
+			539 = { add_core = BRE }
+			528 = { add_core = HAM }
 			
 		}
 		ai_will_do = { factor = 1 }
@@ -768,6 +795,7 @@ political_decisions = {
     exists = yes
 			OR = { 
 				tag = AUS
+				tag = AUB
 				tag = KUK
 			}
 			NOT = { exists = GER }
@@ -845,6 +873,7 @@ political_decisions = {
 			add_accepted_culture = north_german
 			add_accepted_culture = volga_german
 			remove_accepted_culture = hungarian
+			remove_accepted_culture = czech
 			set_global_flag = 3hurrahs
 			any_country = {
 				limit = {
@@ -853,6 +882,7 @@ political_decisions = {
 					NOT = { 
 						tag = KUK
 						tag = AUS
+						tag = AUB
 						tag = DNB
 						tag = BAN
 						tag = UBD
@@ -895,6 +925,7 @@ political_decisions = {
 					NOT = { 
 						tag = KUK
 						tag = AUS
+						tag = AUB
 						tag = DNB
 						tag = BAN
 						tag = UBD
@@ -929,6 +960,7 @@ political_decisions = {
     exists = yes
 			OR = {
 				tag = AUS
+				tag = AUB
 				tag = KUK
 			}
 			is_greater_power = yes
@@ -961,7 +993,9 @@ political_decisions = {
 				}
 			}
 			inherit = SGF
+			change_tag = SGF
 			political_reform = federalism
+			remove_accepted_culture = hungarian
 		}
 		
 		ai_will_do = {
@@ -985,6 +1019,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = post_colonial_country
 				exists = ITA
+				exists = ITS
 			}
 		}
 		
@@ -1054,6 +1089,7 @@ political_decisions = {
 						tag = BOR
 						tag = FRA
 						tag = AUS
+						tag = AUB
 						tag = KUK
 						AND = {
 							neighbour = ITA
@@ -1350,6 +1386,7 @@ political_decisions = {
 				exists = GER
 				exists = GCF
 				tag = AUS
+				tag = AUB
 				tag = KUK
 				tag = DNB
 				tag = GCF
@@ -1412,6 +1449,7 @@ political_decisions = {
 					in_sphere = THIS
 					NOT = { tag = THIS }
 					NOT = { tag = KUK }
+					NOT = { tag = AUB }
 					NOT = { tag = DNB }
 					NOT = { tag = BAN }
 					NOT = { has_country_flag = post_colonial_country }

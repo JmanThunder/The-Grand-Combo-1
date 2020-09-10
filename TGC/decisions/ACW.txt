@@ -10,6 +10,9 @@ political_decisions = {
 				tag = TEX
 				tag = CAL
 				tag = LSK
+				tag = YUC
+				primary_culture = anglo_canadian
+				primary_culture = french_canadian
 			}
 			OR = {
 				is_vassal = no
@@ -22,6 +25,7 @@ political_decisions = {
 			ai = yes
 			government = democracy
 			NOT = { has_country_flag = usstatehood_we_have_applied }
+			NOT = { has_country_flag = LSK_form }
 		}
 		allow = {
 			139 = { owned_by = USA }
@@ -196,12 +200,14 @@ political_decisions = {
 					name = indian_territory
 					duration = -1
 				}
+				add_core = CHE
 			}
 			131 = {
 				add_province_modifier = {
 					name = indian_territory
 					duration = -1
 				}
+				add_core = CHE
 			}
 		}
 		

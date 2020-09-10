@@ -282,8 +282,7 @@ country_event = {
 	issue_group = trade_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	
 	option = {
@@ -375,8 +374,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14010"
@@ -445,8 +443,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14020"
@@ -515,8 +512,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14030"
@@ -571,8 +567,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14040"
@@ -641,8 +636,7 @@ country_event = {
 	issue_group = trade_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14050"
@@ -713,8 +707,7 @@ country_event = {
 	issue_group = trade_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14060"
@@ -785,8 +778,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14070"
@@ -857,8 +849,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14080"
@@ -929,8 +920,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14090"
@@ -1001,8 +991,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14100"
@@ -1073,8 +1062,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14110"
@@ -1145,8 +1133,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14120"
@@ -1217,8 +1204,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14130"
@@ -1289,8 +1275,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14140"
@@ -1361,8 +1346,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14150"
@@ -1433,8 +1417,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14160"
@@ -1505,8 +1488,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14170"
@@ -1577,8 +1559,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14180"
@@ -1649,8 +1630,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14190"
@@ -1721,8 +1701,7 @@ country_event = {
 	election = yes
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14200"
@@ -1794,8 +1773,7 @@ country_event = {
 	election = yes
 	is_triggered_only = yes
 	#trigger = {
-	#exists = yes
-	exists = yes country = { has_country_modifier = will_influence_elections } }
+	#exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14210"

@@ -57,7 +57,7 @@ the_command_principle = 1
 private_banks = 1
 no_standard = 1
 guild_based_production = 1
-classicism_n_early_romanticism = 1
+
 late_enlightenment_philosophy = 1
 enlightenment_thought = 1
 piston_steam_engine = 1
@@ -102,7 +102,7 @@ nonstate_consciousness = 0
 	# freedom_of_trade = 1
 	# market_structure = 1
 	# guild_based_production = 1
-	# classicism_n_early_romanticism = 1
+	# 
 	# romanticism = 1
 	# late_enlightenment_philosophy = 1
 	# idealism = 1

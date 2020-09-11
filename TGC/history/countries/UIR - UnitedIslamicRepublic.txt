@@ -100,7 +100,7 @@ early_modern_philosphies = 1 #Until this for 1700
 enlightenment = 1
 counter_enligthenment = 1 #Until this for 1800
 revolutionary_ideas = 1
-early_romanticism = 1
+
 		}
 1930.1.1 = {
 civilized = yes
@@ -285,5 +285,5 @@ early_modern_philosphies = 1 #Until this for 1700
 enlightenment = 1
 counter_enligthenment = 1 #Until this for 1800
 revolutionary_ideas = 1
-early_romanticism = 1
+
 }

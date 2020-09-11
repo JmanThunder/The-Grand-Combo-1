@@ -111,7 +111,7 @@ oob = "TUR_oob.txt"
 	# guild_based_production = 1
 	# organized_factories = 1
 	
-	# classicism_n_early_romanticism = 1
+	# 
 	# late_enlightenment_philosophy = 1
 	# positivism = 1
 	# enlightenment_thought = 1

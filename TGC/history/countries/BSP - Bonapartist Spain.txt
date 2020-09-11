@@ -60,7 +60,7 @@ clipper_design = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
 the_command_principle = 1
-classicism_n_early_romanticism = 1
+
 late_enlightenment_philosophy = 1
 malthusian_thought = 1
 enlightenment_thought = 1
@@ -88,9 +88,6 @@ govt_flag = {
 	flag = democracy
 }
 
-oob = "SPC_oob.txt"
-1861.1.1 = {
-	oob = "/1861/SPC_oob.txt"
 
 # Political reforms
 slavery = yes_slavery
@@ -115,7 +112,6 @@ pensions = no_pensions
 
 child_labor = child_labor_legal
 
-education = church
 
 
 # Technologies
@@ -130,7 +126,7 @@ education = church
 	early_classical_theory_and_critique = 1
 	freedom_of_trade = 1
 	guild_based_production = 1
-	classicism_n_early_romanticism = 1
+	
 	late_enlightenment_philosophy = 1
 	idealism = 1
 	malthusian_thought = 1

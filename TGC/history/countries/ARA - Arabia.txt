@@ -92,7 +92,7 @@ market_structure = 1
 #Commerce - Organization
 guild_based_production = 1
 #Culture - Aesthetics
-classicism_n_early_romanticism = 1
+
 #Culture - Philosophy
 late_enlightenment_philosophy = 1
 #Culture - Social Thought

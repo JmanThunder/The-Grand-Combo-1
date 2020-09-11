@@ -256,7 +256,7 @@ management_strategy = 1
 organizational_development = 1
 
 
-classicism_n_early_romanticism = 1
+
 romanticism = 1
 realism = 1
 impressionism = 1
@@ -354,7 +354,7 @@ early_modern_philosphies = 1
 enlightenment = 1
 counter_enligthenment = 1
 revolutionary_ideas = 1
-early_romanticism = 1
+
 
 #Inventions
 #corvettes = yes

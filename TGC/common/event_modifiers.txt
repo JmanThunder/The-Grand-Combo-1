@@ -9665,3 +9665,13 @@ usa_draft = {
 	prestige = -0.02
 	icon = 15
 }
+### Neutrality ###
+neutrality_modifier = {
+	max_military_spending = -0.10
+	leadership_modifier = -0.7
+	diplomatic_points_modifier = -0.3
+	core_pop_militancy_modifier = -0.01
+	prestige = -0.5
+	global_immigrant_attract = 0.25
+	icon = 7
+}

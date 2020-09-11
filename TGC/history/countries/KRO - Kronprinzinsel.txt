@@ -87,7 +87,7 @@ portland_cement = yes
 canning_process = yes
 modern_winemaking = yes
 # Culture Technologies
-classicism_n_early_romanticism = 1
+
 romanticism = 1
 late_enlightenment_philosophy = 1
 malthusian_thought = 1

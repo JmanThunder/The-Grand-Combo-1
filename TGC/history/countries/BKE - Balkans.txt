@@ -65,7 +65,7 @@ clipper_design = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
 the_command_principle = 1
-classicism_n_early_romanticism = 1
+
 late_enlightenment_philosophy = 1
 malthusian_thought = 1
 enlightenment_thought = 1
@@ -100,7 +100,7 @@ nonstate_consciousness = 2
 	early_classical_theory_and_critique = 1
 	freedom_of_trade = 1
 	guild_based_production = 1
-	classicism_n_early_romanticism = 1
+	
 	late_enlightenment_philosophy = 1
 	malthusian_thought = 1
 	enlightenment_thought = 1

@@ -57,7 +57,7 @@ clipper_design = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
 the_command_principle = 1
-classicism_n_early_romanticism = 1
+
 late_enlightenment_philosophy = 1
 malthusian_thought = 1
 enlightenment_thought = 1
@@ -134,7 +134,7 @@ oob = "NOR_oob.txt"
 	# guild_based_production = 1
 	# organized_factories = 1
 	
-	# classicism_n_early_romanticism = 1
+	# 
 	# romanticism = 1
 	# realism = 1
 	# late_enlightenment_philosophy = 1

@@ -17,7 +17,7 @@ press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = non_secret_ballots
-minorities_reform = oppression
+
 
 conscription = two_year_draft
 

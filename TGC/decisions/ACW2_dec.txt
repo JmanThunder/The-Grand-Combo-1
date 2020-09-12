@@ -480,7 +480,7 @@ political_decisions = {
 	restore_the_union = {
 		picture = switch_to_liberty
 		potential = {
-    exists = yes
+    		exists = yes
 			is_culture_group = american_cultures
 			BRI = { exists = no }
 			USA = { exists = no }
@@ -824,6 +824,5 @@ political_decisions = {
 				}
 			}
 		}
-	}
-			
+	}		
 }

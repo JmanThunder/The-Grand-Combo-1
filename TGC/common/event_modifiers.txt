@@ -9779,3 +9779,56 @@ famine = {
 	mine_rgo_eff = -0.1
 	icon = 4
 }
+free_city_krakow = {
+	max_tariff = -0.25
+	max_tax = 0.25
+	tariff_efficiency_modifier = -0.1
+	global_immigrant_attract = 0.8
+	administrative_efficiency_modifier = 0.05
+	import_cost = -0.05
+	icon = 5
+}
+### Pop Growth Trends ###
+population_trend = {
+	icon = 7
+}
+
+point_five_children = {
+	global_population_growth = -0.003
+	education_efficiency_modifier = 0.5
+	icon = 18
+}
+
+one_child = {
+	global_population_growth = -0.002
+	education_efficiency_modifier = 0.25
+	icon = 18
+}
+
+one_point_five_children = {
+	global_population_growth = -0.001
+	education_efficiency_modifier = 0.1
+	icon = 18
+}
+
+two_children = {
+	icon = 17
+}
+
+two_point_five_children = {
+	global_population_growth = 0.001
+	education_efficiency_modifier = -0.1
+	icon = 17
+}
+
+three_children = {
+	global_population_growth = 0.002
+	education_efficiency_modifier = -0.25
+	icon = 17
+}
+
+four_children = {
+	global_population_growth = 0.003
+	education_efficiency_modifier = -0.5
+	icon = 17
+}

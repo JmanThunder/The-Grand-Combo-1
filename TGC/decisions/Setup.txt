@@ -2309,7 +2309,6 @@ political_decisions = {
 	
 	1836_initial_setup = {
 		potential = {
-    exists = yes
 			ai = yes
 			exists = yes
 			civilized = yes
@@ -2324,207 +2323,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = 1836_set_up
-			set_country_flag = existing_country
-			any_country = { limit = { exists = yes } set_country_flag = existing_country }
-			#################Class Literacy Setup######################
-			any_country = {
-				limit = {
-					exists = yes
-					is_greater_power = yes
-				}
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-						}
-					}
-					literacy = 0.3
-				}
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						location = { is_colonial = no }
-						is_primary_culture = no
-						is_accepted_culture = no
-					}
-					literacy = 0.15
-				}
-				any_pop = {
-					limit = {
-						strata = middle
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-						}
-					}
-					literacy = 0.1
-				}
-				any_pop = {
-					limit = {
-						strata = middle
-						NOT = { religion = animist }
-						location = { is_colonial = no }
-						is_primary_culture = no
-						is_accepted_culture = no
-					}
-					literacy = 0.05
-				}
-			}
-			
-			any_country = {
-				limit = {
-					exists = yes
-					is_greater_power = no
-					is_secondary_power = yes
-				}
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-						}
-					}
-					literacy = 0.2
-				}
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						location = { is_colonial = no }
-						is_primary_culture = no
-						is_accepted_culture = no
-					}
-					literacy = 0.1
-				}
-				any_pop = {
-					limit = {
-						strata = middle
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-						}
-					}
-					literacy = 0.05
-				}
-				any_pop = {
-					limit = {
-						strata = middle
-						NOT = { religion = animist }
-						location = { is_colonial = no }
-						is_primary_culture = no
-						is_accepted_culture = no
-					}
-					literacy = 0.02
-				}
-			}
-			
-			any_country = {
-				limit = {
-					exists = yes
-					civilized = yes
-					is_greater_power = no
-					is_secondary_power = no
-				}
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-						}
-					}
-					literacy = 0.1
-				}
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						location = { is_colonial = no }
-						is_primary_culture = no
-						is_accepted_culture = no
-					}
-					literacy = 0.05
-				}
-				any_pop = {
-					limit = {
-						strata = middle
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-						}
-					}
-					literacy = 0.02
-				}
-			}
-			
-			any_country = {
-				limit = {
-					exists = yes
-					civilized = no
-					civilization_progress = 0.2
-				}
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-							has_pop_culture = beifaren
-							has_pop_culture = nanfaren
-						}
-					}
-					literacy = 0.05
-				}
-			}
-			
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-						}
-					}
-					literacy = 0.1
-				}
-				any_pop = {
-					limit = {
-						strata = rich
-						NOT = { religion = animist }
-						location = { is_colonial = no }
-						is_primary_culture = no
-						is_accepted_culture = no
-					}
-					literacy = 0.05
-				}
-				any_pop = {
-					limit = {
-						strata = middle
-						NOT = { religion = animist }
-						OR = {
-							is_primary_culture = yes
-							is_accepted_culture = yes
-						}
-					}
-					literacy = 0.02
-				}
-			
-			#################Class Literacy Setup######################
-			
-			#################Provinces Setup######################
+			#################New RGO Setup######################
 			2250 = { trade_goods = lead }
             2369 = { trade_goods = lead }
             1569 = { trade_goods = lead }
@@ -2603,8 +2402,8 @@ political_decisions = {
             616 = { trade_goods = lead }
             1985 = { trade_goods = lead }
             1701 = { trade_goods = lead }
-            1757 = { trade_goods = copper }
-            1067 = { trade_goods = copper }
+            
+            1067 = { trade_goods = copper }            1757 = { trade_goods = copper }
             726 = { trade_goods = copper }
             581 = { trade_goods = copper }
             580 = { trade_goods = copper }
@@ -2947,6 +2746,208 @@ political_decisions = {
             1024 = { trade_goods = furs }
             991 = { trade_goods = furs }
             1023 = { trade_goods = furs }
+            #################Country Flags Setup######################
+			set_global_flag = 1836_set_up
+			set_country_flag = existing_country
+			any_country = { limit = { exists = yes } set_country_flag = existing_country }
+			#################Class Literacy Setup######################
+			any_country = {
+				limit = {
+					exists = yes
+					is_greater_power = yes
+				}
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					literacy = 0.3
+				}
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						location = { is_colonial = no }
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					literacy = 0.15
+				}
+				any_pop = {
+					limit = {
+						strata = middle
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					literacy = 0.1
+				}
+				any_pop = {
+					limit = {
+						strata = middle
+						NOT = { religion = animist }
+						location = { is_colonial = no }
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					literacy = 0.05
+				}
+			}
+			
+			any_country = {
+				limit = {
+					exists = yes
+					is_greater_power = no
+					is_secondary_power = yes
+				}
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					literacy = 0.2
+				}
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						location = { is_colonial = no }
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					literacy = 0.1
+				}
+				any_pop = {
+					limit = {
+						strata = middle
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					literacy = 0.05
+				}
+				any_pop = {
+					limit = {
+						strata = middle
+						NOT = { religion = animist }
+						location = { is_colonial = no }
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					literacy = 0.02
+				}
+			}
+			
+			any_country = {
+				limit = {
+					exists = yes
+					civilized = yes
+					is_greater_power = no
+					is_secondary_power = no
+				}
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					literacy = 0.1
+				}
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						location = { is_colonial = no }
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					literacy = 0.05
+				}
+				any_pop = {
+					limit = {
+						strata = middle
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					literacy = 0.02
+				}
+			}
+			
+			any_country = {
+				limit = {
+					exists = yes
+					civilized = no
+					civilization_progress = 0.2
+				}
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+							has_pop_culture = beifaren
+							has_pop_culture = nanfaren
+						}
+					}
+					literacy = 0.05
+				}
+			}
+			
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					literacy = 0.1
+				}
+				any_pop = {
+					limit = {
+						strata = rich
+						NOT = { religion = animist }
+						location = { is_colonial = no }
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					literacy = 0.05
+				}
+				any_pop = {
+					limit = {
+						strata = middle
+						NOT = { religion = animist }
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					literacy = 0.02
+				}
+			
+			#################Class Literacy Setup######################
+			
+			#################Provinces Setup######################
 			2509 = { add_province_modifier = { name = small_immigration_boom duration = 10950 } }	#Auckland, NZ
 			46 = { add_province_modifier = { name = small_immigration_boom duration = 10950 } }		#Toronto, CA
 			56 = { add_province_modifier = { name = small_immigration_boom duration = 7300 } }		#Kingston, CA

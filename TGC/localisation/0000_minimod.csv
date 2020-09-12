@@ -1,17 +1,82 @@
 ;;;;;;;;;;;;;x
 welsh;Welsh;;;;;;;;;;;;;x
+scottish;Scottish;;;;;;;;;;;;;x
 wallonian;Walloon;;;;;;;;;;;;x
+montenegrin;Montenegrin;;;;;;;;;;;;;x
+faroese;Faroese;;;;;;;;;;;;;x
 galician;Galician;;;;;;;;;;;;;x
 volga_german;Eastern German;;;;;;;;;;;;;x
 arpitan;Arpitan;;;;;;;;;;;;;x
+leonese;Leonese;;;;;;;;;;;;;x
 hanhui;Hui;;;;;;;;;;;;;x
-siebenburger;Siebenbürger;;;;;;;;;;;;;x
+siebenburger;Transylvanian-Saxon;;;;;;;;;;;;;x
+jerriais;Jerriais;;;;;;;;;;;;;x
 anglo_canadian;Anglo-Canadian;Anglo-canadien;Anglokanadisch;;Anglocanadiense;;;;;;;;;x;;;;
 french_canadian;French-Canadien;Franco-canadien;Frankokanadisch;;Franco-canadiense;;;;;;;;;x;;;;
 anglo_indian;Anglo-Indian;;;;;;;;;;;;;x
-british;English;;;;;;;;;;x;;;;
+british;English;Britannique;Britisch;;Britå«•ica;;;;;;;;;x;;;;
 pan_french_nationalism;Pan-French Nationalism;;;;;;;;;x;;;;
-dayak;Dayak;Dayak;Dayak;;Dayak;;;;;;;;;x
-sumatran;Sumatran;;;;;;;;;;;;;x
-moro;Moro;;;;;;;;;;;;;x
-2nd_republic;2nd French Republic;;;;;;;;;x;;;;
+AmericancultureGroup_title;American Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+AmericancultureGroup_desc;Contains Yankee, Dixie, Texan, Mexican, and Afro American.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+SwisscultureGroup_title;Swiss Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+SwisscultureGroup_desc;Contains Swiss German, Swiss French, Swiss Italian, Romansh, Ashkenazi, and Sephardic.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+GermancultureGroup_title;German Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+GermancultureGroup_desc;Contains North German, South German, Transylvanian-Saxon, Dutch, Flemish, and Eastern German.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+FrenchcultureGroup_title;French Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+FrenchcultureGroup_desc;Contains French, Breton, Occitan, Arpitan, Rhinelander, Picard.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+SouthSlavcultureGroup_title;South Slavs Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+SouthSlavcultureGroup_desc;Contains Bosniak, Serb, Croat, Montenegrin, Bulgarian, Slovene.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+NonSlavBalkancultureGroup_title;Non Slavic Balkan Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+NonSlavBalkancultureGroup_desc;Contains Albanian, Greek, Turkish, Romanian, Hungarian, Gypsy.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+IberiancultureGroup_title;Iberian Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+IberiancultureGroup_desc;Contains Spanish, Portuguese, Galician, Basque, Catalan, and Brazilian.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EastSlaviccultureGroup_title;East Slavic Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EastSlaviccultureGroup_desc;Contains Russian, Ukrainian, Ugrian, Polish, West Slavic, and Byelorussian.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ArabcultureGroup_title;Arab Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ArabcultureGroup_desc;Contains Mashriqi, Misri, Bedouin, Berber, Sudanese, Maghrebi.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ScandinaviancultureGroup_title;Scandinavian Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ScandinaviancultureGroup_desc;Contains Swedish, Danish, Finnish, Norwegian, Sami, and Icelandic.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+BritishcultureGroup_title;British Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+BritishcultureGroup_desc;Contains British, Scottish, Welsh, Irish, Maltese, and Anglo Indian.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+LatinAmericancultureGroup_title;Latin American Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+LatinAmericancultureGroup_desc;Contains Central American, Caribeno, North and South Andean, Platinean, and French Canadians.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ItalianBalticsCzechscultureGroup_title;Italian, Baltics, and Czechoslovak Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ItalianBalticsCzechscultureGroup_desc;Contains North and South Italians, Estonian, Latvian, Lithuanian, Wallonian, Czech, and Slovak.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+NativeAmericancultureGroup_title;Native American Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+NativeAmericancultureGroup_desc;Contains Mayan, Nahua, Quechua, Aimara, Guarani, Patagonian, Amazonian, Tupinamba, Metis, Dakota, Cherokee, Pueblo, Inuit, Cree, Navajo, and Native American Minors.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ChinesecultureGroup_title;Chinese Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ChinesecultureGroup_desc;Contains North and South Han, Manchu, Hui, Miao, Yi, Yue, Min, Zhuang, Hakka, Tibetan, and Uighur.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+CaucasiancultureGroup_title;Caucasian Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+CaucasiancultureGroup_desc;Contains Georgian, Armenian, Chechen, Dagestani, Azerbaijani, and Circassian.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+NonChineseFarEastcultureGroup_title;Non-Chinese Far Eastern Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+NonChineseFarEastcultureGroup_desc;Contains Korean, Japanese, Ainu, Mongol, Siberian, and Vietnamese.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+IraniancultureGroup_title;Iranian and Central Asian Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+IraniancultureGroup_desc;Contains Persian, Hazara, Pashtun, Turkmen, Kazak, Kirgiz, Uzbek, Tajik, Baluchi, Tatar, Kurdish, and Assyrian.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+IndiancultureGroup_title;Indian Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+IndiancultureGroup_desc;Contains Nepali, Bihari, Manipuri, Oriya, Sinhala, Avadhi, Kanauji, Kashmiri, Gujarati, Marathi, Rajput, Kannada, Malayalam, Tamil, Telegu, Bengali, Punjabi, and Sindi.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+SEAsiancultureGroup_title;Southeast Asian Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+SEAsiancultureGroup_desc;Contains Khmer, Malay, Filipino, Javanese, Moluccan, Thai, Lao, Shan, Burmese, Asian Minor, Kachin, Karen, and Assamese.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+AsianNativescultureGroup_title;Asian Natives Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+AsianNativescultureGroup_desc;Contains Yakut, Hawaiian, Polynesian, Melanesian, Micronesian, Maori, and Aborigine.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+AfricanDiasporacultureGroup_title;African Diaspora Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+AfricanDiasporacultureGroup_desc;Contains Afro Caribbean, Afro Caribeno, Afro Brazilian, Afro Antillean, Kreol, and Griqua.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ImmigrantOptions_title;Immigrant Options;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+ImmigrantOptions_desc;Manage your province selector and immigrator buildings.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+CultureSelectOptions_title;Options for Culture Selection;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+CultureSelectOptions_desc;Decide if you want cultural selection or not, but also remove all cultural selection.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+province_selector_activate;Province Selector;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+province_selector_activate_desc;Activate the province selector building.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+immigrator_activate;Immigrator;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+immigrator_activate_desc;Activate the immigrator building.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+immigrator;Immigrator;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+province_selector;Province Selector;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+NeoEuropeancultureGroup_title;Neo European Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+NeoEuropeancultureGroup_desc;Contains Boer, Australian, Alaskan, Neo Zelandais, Louisianan, Cajun, and French Australian.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+WestAfricancultureGroup_title;West African Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+WestAfricancultureGroup_desc;Contains Akan, Bambara, Dyula, Edo, Ewe, Fon, Fulbe, Hausa, Ibibio, Itsekari, Ibo, Kru, Mande, Western Nigritic, Mossi, Gur, Senufo, Songhai, Tiv, Tuareg, and Wolof.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+CentralAfricancultureGroup_title;Central African Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+CentralAfricancultureGroup_desc;Contains Yoruba, East Kwa, Bakongo, Baguirmi, Fang, Kanuri, Kuba, Luba, Lunda, Lendu, Kingwana, Chokwe, Kavango, Mongo, Sara, Teda, Ubangian, Forest Bantu, South Forest Bantu, and Maures;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EastAfricancultureGroup_title;Eastern African Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EastAfricancultureGroup_desc;Contains Amhara, Afar, Azande, Baganda, Beja, Dinka, Fur, Harari, Kefficho, Kikuyu, Luo, Maasai, Nuer, Nuba, Oromo, Ruanda, Somali, Sukuma, Swahili, Tigray, and Unyamwezi.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+SouthAfricancultureGroup_title;South African Culture Group;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+SouthAfricancultureGroup_desc;Contains Kilombero, Lacustrine Bantu, Cushitic, Nilotic, Chewa, Nyasa, Herero, Khoisan, Lomwe, Makua, Malagasy, Nguni, Southern Bantu, Ovimbundu, Sena, Shona, Sotho, Tonga, Tswana, Xhosa, Yao, and Zulu.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,

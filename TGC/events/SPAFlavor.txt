@@ -438,7 +438,7 @@ country_event = {
 #	picture = "Administration"
 #	
 #	trigger = {
-	exists = yes
+#	exists = yes
 #		OR = {
 #			tag = SPA
 #			tag = SPC

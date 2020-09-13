@@ -1533,7 +1533,7 @@ country_event = {
 #	picture = "abraham_speech"
 #	
 #	trigger = {
-	exists = yes
+#	exists = yes
 #		tag = USA
 #		has_global_flag = american_civil_war_has_happened
 #		NOT = { war_with = CSA }

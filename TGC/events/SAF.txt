@@ -1137,7 +1137,7 @@ province_event = {
 #	picture = vaal_painting
 #		
 #	trigger = {
-	exists = yes
+#	exists = yes
 #		AND = {
 #			owns = 2105
 #			owns = 2106

@@ -2654,7 +2654,7 @@ country_event = {
 #	fire_only_once = yes
 #	
 #	trigger = {
-	exists = yes
+#	exists = yes
 #		civilized = yes
 #		2599 = { NOT = { owned_by = THIS } empty = no }
 #		2630 = { NOT = { owned_by = THIS } empty = no }

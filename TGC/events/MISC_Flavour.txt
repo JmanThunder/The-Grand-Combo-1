@@ -164,7 +164,7 @@ country_event = {
 #	desc = "EVTDESC110092"
 #	
 #	trigger = {
-	exists = yes
+#	exists = yes
 #		owner = { 
 #			tag = USA 
 #			has_country_flag = has_used_radical_reconstruction

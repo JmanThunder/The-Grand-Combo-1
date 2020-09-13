@@ -364,7 +364,7 @@ country_event = {
 #	allow_multiple_instances = no
 #	
 #	trigger = {
-	exists = yes
+#	exists = yes
 #		AND = {
 #			province_id = 843
 #			#year = 1881

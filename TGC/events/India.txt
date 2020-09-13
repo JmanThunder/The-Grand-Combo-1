@@ -580,7 +580,7 @@ country_event = {
 #	picture = "afghan_tribes"
 #	
 #	trigger = {
-	exists = yes
+#	exists = yes
 #		NOT = { has_country_modifier = afghan_tribal_warfare }
 #		tag = AFG
 #		war = yes

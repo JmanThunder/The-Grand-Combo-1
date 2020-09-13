@@ -16,7 +16,10 @@ rebel = {
 	irregular = 1
 }
 
-
+life_needs = {
+	timber = 2
+	grain =  2.5
+}
 everyday_needs = {
 	coal = 1
 }

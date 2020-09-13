@@ -39,13 +39,18 @@ life_needs = {
 	fish =  2
 	fruit =  2
 	grain =  5
+	timber = 4
+	sugar = 1 
+	spices = 1.5
 }
 
 #Total cash needed: 151 - Vanilla value: 119.1
 everyday_needs = {
 	coal = 2			#4.6
 	liquor = 4			#17.6
-	#wine = 1
+	cigarettes = 2.25
+	pharmaceuticals = 1.5
+	wine = 1
 	regular_clothes = 5 #29
 	furniture = 4		#19.6
 	paper = 5			#17

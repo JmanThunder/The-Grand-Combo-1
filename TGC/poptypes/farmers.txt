@@ -12,6 +12,7 @@ life_needs = {
 	fish =  1 	  #1.5
 	fruit =  1 	  #1.8
 	grain =  2.5  #5.5
+	timber = 2
 }
 
 #Total cash needed: 50.75 - Vanilla value: 49.25
@@ -19,11 +20,15 @@ everyday_needs = {
 	tea = 4
 	coal = 1
 	liquor = 2
+	cigarettes = 0.6
+	pharmaceuticals = 0.4
 	regular_clothes = 1.2
 	furniture = 1.1
 	coffee = 1
 	tobacco = 1
 	fertilizer = 0.5 #0
+	sugar = 0.75
+	spices = 0.8
 }
 
 #Total cash needed: 136.78 - Vanilla value: 125.995
@@ -35,7 +40,10 @@ luxury_needs = {
 	automobiles = 0.5
 	radio = 1.0
 	fuel = 0.1
-	#dye = 0.5
+	dye = 0.5
+	cigarettes = 0.6
+	pharmaceuticals = 0.4
+	cocoa = 0.25
 }
 
 country_migration_target = {

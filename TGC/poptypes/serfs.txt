@@ -21,6 +21,7 @@ life_needs = {
 	fish =  1 	  #1.5
 	fruit =  1 	  #1.8
 	grain =  2.5  #5.5
+	timber = 2
 }
 
 everyday_needs = {
@@ -49,6 +50,9 @@ luxury_needs = {
 	radio = 1.0
 	fuel = 0.1
 	opium = 2
+	sugar = 0.75
+	spices = 0.8
+	cocoa = 0.25
 }
 
 

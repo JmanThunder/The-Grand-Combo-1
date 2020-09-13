@@ -52,6 +52,8 @@ everyday_needs = {
 	furniture = 4
 	paper = 5
 	glass = 1
+	cigarettes = 2.25
+	pharmaceuticals = 1.5
 	tobacco = 3
 	tea = 5
 }
@@ -156,7 +158,12 @@ country_migration_target =
 migration_target =
 {
 	factor = 0.01
-	
+
+	modifier = {
+		factor = -100
+		NOT = { has_building = immigrator }
+		country = { ai = no }
+	}
 	modifier = {
 		factor = 0.1
 		unemployment = 0.1

@@ -2268,7 +2268,7 @@ attach_bulgaria_to_YUG = {
 #	abolish_transylvania = {
 #		picture = create_romania
 #		potential = {
-    exists = yes
+#    exists = yes
 #			tag = ROM
 #			SIE = { exists = no }
 #			exists = yes

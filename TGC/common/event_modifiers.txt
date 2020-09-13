@@ -9953,3 +9953,7 @@ census = {
 recruitment_drive = {
 	icon = 17
 }
+tax_reforms = {
+	tax_efficiency = 0.05
+	icon = 9
+}

@@ -1,7 +1,7 @@
 owner = UCA
 controller = UCA
 add_core = COS
-trade_goods = coffee
+trade_goods = coffee_beans
 life_rating = 31
 #terrain = jungle_mountains
 1861.1.1 = {

@@ -199,6 +199,7 @@ upper_house = { #total 100
 }
 schools = naval_tech_school
 decision = literacy_ENG
+decision = 1836_initial_setup
 govt_flag = {
 	government = presidential_dictatorship
 	flag = theocracy

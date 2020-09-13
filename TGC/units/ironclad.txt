@@ -10,14 +10,13 @@ ironclad = {
 	select_sound = steam_selected
 	active = no
 	floating_flag = yes
-	can_build_overseas = no
-	colonial_points = 10
+	colonial_points = 16
 
 
 	#Core Abilities
 	priority = 35
 	max_strength = 100
-	default_organisation = 35
+	default_organisation = 30
 	maximum_speed = 6
 	weighted_value = 6.0
 
@@ -25,27 +24,24 @@ ironclad = {
 	#Building Costs
 	build_time = 360
 	build_cost = {	
-		steamer_convoy = 25
-		artillery = 10
+		steamer_convoy = 20
+		artillery = 6
 		canned_food = 10
-		regular_clothes = 12
 	}
 	min_port_level = 2
-	limit_per_port = 10
-	supply_consumption_score = 3
+	limit_per_port = -1
+	supply_consumption_score = 8
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.075
-		artillery = 0.02
-		canned_food = 0.04
-		ammunition = 0.02
+		steamer_convoy = 0.5
+		artillery = 0.2
 	}
 	
 	#Naval Abilties
-	hull = 15
-	gun_power = 15
-	fire_range = 0.6
+	hull = 7
+	gun_power = 7
+	fire_range = 0.4
 	evasion = 0
 }
 

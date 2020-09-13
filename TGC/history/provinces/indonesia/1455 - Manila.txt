@@ -1,7 +1,7 @@
 owner = SPA
 controller = SPA
 add_core = PHL
-trade_goods = coffee
+trade_goods = coffee_beans
 life_rating = 40
 terrain = urban_manila
 colonial = 2

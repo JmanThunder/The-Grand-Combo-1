@@ -827,7 +827,7 @@ coal_mine = {
 
 coffee_plantation = {
 	template = RGO_template_farmers
-	output_goods = coffee 
+	output_goods = coffee_beans 
 	value = 1.5	#1.5
 	farm = yes
 }
@@ -932,7 +932,7 @@ sulphur_mine = {
 
 tea_plantation = {
 	template = RGO_template_farmers
-	output_goods = tea 
+	output_goods = tea_leaves 
 	value = 1.75	#1.75
 	farm = yes
 }
@@ -1786,4 +1786,85 @@ wool_fabric_factory = {
 			}
 		value = 0.125
 	}
+}
+pharmaceutical_plant = {       
+	template = factory_template		#8.825
+	input_goods = {        
+		opium = 7.5		#23.25
+		glass = 2		#5.8	total input+maint = 37.875
+	}
+	output_goods = pharmaceuticals 
+	value = 8			#44
+}
+
+cigarette_factory = {
+	template = cheap_factory_template	#4.25
+	input_goods = {   
+		tobacco = 10	#16
+		paper = 2		#6.4	total input+maint = 26.65
+	}
+	output_goods = cigarettes 
+	value = 12			#36
+	bonus = {
+		trigger = { trade_goods_in_state = tobacco }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { has_building = paper_mill }
+		value = 0.1
+	}
+}
+
+tea_packaging_factory = {
+	template = cheap_factory_template	#4.25
+	input_goods = {   
+		tea_leaves = 7	#18.2
+		paper = 1		#3.4	total input+maint = 28.45
+	}
+	output_goods = tea
+	value = 8			#36
+	bonus = {
+		trigger = { trade_goods_in_state = tea_leaves }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { has_building = paper_mill }
+		value = 0.1
+	}
+}
+
+coffee_packaging_factory = {
+	template = cheap_factory_template	#4.25
+	input_goods = {   
+		coffee_beans = 8	#20.8
+		paper = 1			#3.4	total input+maint = 28.45
+	}
+	output_goods = coffee
+	value = 8				#36
+	bonus = {
+		trigger = { trade_goods_in_state = coffee_beans }
+		value = 0.15
+	}
+	bonus = {
+		trigger = { has_building = paper_mill }
+		value = 0.1
+	}
+}
+banker_gold_gold_output = {       
+	input_goods = {   
+		cigarettes = 5	#5.22
+		paper = 25		#19.5
+		pharmaceuticals = 5		#19.5
+	}
+	output_goods = precious_goods 
+	value = 75			#65
+
+	owner = {
+		poptype = bankers 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 10000
 }

@@ -360,8 +360,8 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = turkish_tea_in_turkey
-			884 = { trade_goods = tea }
-			882 = { trade_goods = tea }
+			884 = { trade_goods = tea_leaves }
+			882 = { trade_goods = tea_leaves }
 			relation = { who = ENG value = -50 }
 		}
 		

@@ -1,7 +1,7 @@
 owner = POR
 controller = POR
 add_core = TMR
-trade_goods = coffee
+trade_goods = coffee_beans
 life_rating = 32
 colonial = 2
 #terrain = jungle_hills

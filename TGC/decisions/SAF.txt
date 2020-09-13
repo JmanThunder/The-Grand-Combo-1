@@ -183,7 +183,7 @@ political_decisions = {
 		}
 	}
 	clearances_in_natal = {
-		picture = tea_production
+		picture = tea_leaves_production
 		
 		potential = {
     exists = yes

@@ -6,8 +6,6 @@ hussar = {
 	active = no
 	unit_type = cavalry
 	floating_flag = yes
-	#move_sound = cavalry_move
-	#select_sound = cavalry_selected
 	
 	#Avatar
 	sprite_override = Cavalry
@@ -27,15 +25,15 @@ hussar = {
 	build_cost = {
 		small_arms = 10
 		canned_food = 10
-		luxury_clothes = 5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		small_arms = 0.015 #0.01
-		ammunition = 0.0075 #0
-		canned_food = 0.008 #0.08
-		regular_clothes = 0.04 #0
+		small_arms = 0.03
+		ammunition = 0.10
+		canned_food = 0.05
+		regular_clothes = 0.1
+		grain = 0.2
 	}
 	
 
@@ -45,6 +43,6 @@ hussar = {
 	defence = 3
 	discipline = 1.0
 	support = 0.0
-	maneuver = 4
+	maneuver = 5
 	
 }

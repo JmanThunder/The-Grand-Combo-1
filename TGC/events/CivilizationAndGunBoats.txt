@@ -4678,7 +4678,7 @@ province_event = {
 		random_list = {
 			25 = { trade_goods = fish }
 			25 = { trade_goods = silk }
-			25 = { trade_goods = tea }
+			25 = { trade_goods = tea_leaves }
 			25 = { trade_goods = opium }
 		}
 	}

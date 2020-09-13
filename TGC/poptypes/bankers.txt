@@ -1,8 +1,9 @@
-sprite = 4
+sprite = 14
 color = { 18 129 10 }
 strata = rich
+unemployment = yes
 state_capital_only = yes
-
+is_artisan = yes
 demote_migrant = yes
 can_build = yes
 
@@ -45,8 +46,8 @@ everyday_needs = {
 
 #Total cash needed: 3883 - Vanilla value: 3863
 luxury_needs = {
-	#luxury_clothes = 0.5
-	#luxury_furniture = 0.5
+	luxury_clothes = 0.5
+	luxury_furniture = 0.5
 	opium = 20
 	steel = 0.5
 	cement = 0.5
@@ -335,129 +336,6 @@ migration_target = {
 
 promote_to =
 {
-		bankers = {
-		factor = 0.01
-		modifier = {
-			factor = -1
-			OR = {
-				terrain = desert
-				terrain = arctic
-				terrain = semidesert
-				terrain = boreal
-				terrain = small_island
-				terrain = montane_tundra
-				terrain = coral_island
-			}
-		}
-		modifier = {
-			factor = -1
-			state_scope = {
-				has_factories = no
-				NOT = { total_pops = 200000 }
-			}
-		}	
-		modifier = {
-			factor = -1 
-			is_accepted_culture = no
-		}
-		
-		modifier = {
-			factor = -20
-			NOT = { literacy = 0.30 }
-		}
-		
-		modifier = {
-			factor = -2
-			country = { debt_law = serfdom }
-		}
-		
-		modifier = {
-			factor = 3
-			economic_policy = laissez_faire 
-		}
-		
-		modifier = {
-			factor = 5
-			state_scope = {
-				has_factories = yes
-				NOT = { bankers = 0.001 }
-			}
-		}
-		
-		group = {
-			modifier = {
-				factor = -1
-				state_scope = { bankers = 0.001 }
-				country = { ai = no }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bankers = 0.003 }
-				country = { ai = no }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bankers = 0.005 }
-				country = { ai = no }
-			}
-			modifier = {
-				factor = -100
-				state_scope = { bankers = 0.007 }
-			}
-		}
-
-		modifier = {
-			factor = -100
-			OR = {
-				state_scope = { is_colonial = yes }
-				country = { civilized = no }
-				country = { economic_policy = planned_economy }
-			}
-		}
-
-		group = {
-			modifier = {
-				factor = 1
-				luxury_needs = 0.1
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 0.2
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 0.3
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 0.4
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 0.5
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 0.6
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 0.7
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 0.8
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 0.9
-			}
-			modifier = {
-				factor = 1
-				luxury_needs = 1
-			}
-		}
-	}
 	post_revolt_bureau = {
 		factor = 0.01
 		group = {

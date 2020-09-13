@@ -1,7 +1,7 @@
 owner = SPA
 controller = SPA
 add_core = PRI
-trade_goods = coffee
+trade_goods = coffee_beans
 life_rating = 35
 colonial = 2
 terrain = urban_san_juan

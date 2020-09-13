@@ -1276,7 +1276,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = annexed_hawaii
-			658 = { trade_goods = coffee }
+			658 = { trade_goods = coffee_beans }
 			prestige = 2
 			HAW = { civilized = no }
 			inherit = HAW

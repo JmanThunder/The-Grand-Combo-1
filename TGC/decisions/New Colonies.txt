@@ -2431,9 +2431,9 @@ political_decisions = {
 				clr_country_flag = sikh_country
 				clr_country_flag = animist_country
 			}
-			2026 = { trade_goods = tea }
-			2027 = { trade_goods = tea }
-			2028 = { trade_goods = tea }
+			2026 = { trade_goods = tea_leaves }
+			2027 = { trade_goods = tea_leaves }
+			2028 = { trade_goods = tea_leaves }
 			
 			random_owned = { limit = { owner = { has_country_flag = catholic_country } } KNY = { religion = catholic set_country_flag = catholic_country } }
 			random_owned = {
@@ -3221,7 +3221,7 @@ political_decisions = {
 			2067 = {
 				add_core = MLW
 				remove_core = KZB
-				trade_goods = tea
+				trade_goods = tea_leaves
 				life_rating = 25
 				add_province_modifier = { name = colonial_exploitation duration = 1095 }
 			}

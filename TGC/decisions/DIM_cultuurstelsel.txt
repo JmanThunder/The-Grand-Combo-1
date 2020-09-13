@@ -34,9 +34,9 @@ political_decisions = {
 						region = NET_1449 #Celebes
 					}
 					OR = {
-						trade_goods = coffee
+						trade_goods = coffee_beans
 						trade_goods = dye
-						trade_goods = tea
+						trade_goods = tea_leaves
 						trade_goods = fruit
 					}
 				}

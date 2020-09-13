@@ -315,13 +315,13 @@ appoint_amir_kabir = {
 }
 
 
-#Bring Tea to Iran
+#Bring tea_leaves to Iran
 bring_tea_to_iran = {
 		picture = prince_mirza
 		potential = {
     exists = yes
 			tag = PER
-			NOT = { has_country_flag = tea_in_iran }
+			NOT = { has_country_flag = tea_leaves_in_iran }
 			OR = {
 				government = hms_government
 				government = prussian_constitutionalism
@@ -344,12 +344,12 @@ bring_tea_to_iran = {
 		}
 		
 		effect = {
-			set_country_flag = tea_in_iran
-			1113 = { trade_goods = tea }
-			1115 = { trade_goods = tea }
-			1114 = { trade_goods = tea }
-			1121 = { trade_goods = tea }
-			1116 = { trade_goods = tea }
+			set_country_flag = tea_leaves_in_iran
+			1113 = { trade_goods = tea_leaves }
+			1115 = { trade_goods = tea_leaves }
+			1114 = { trade_goods = tea_leaves }
+			1121 = { trade_goods = tea_leaves }
+			1116 = { trade_goods = tea_leaves }
 			relation = { who = ENG value = -50 }
 		}
 		ai_will_do = { factor = 1 }

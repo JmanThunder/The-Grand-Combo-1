@@ -1,4 +1,4 @@
 add_core = HBY
-trade_goods = coffee
+trade_goods = coffee_beans
 #terrain = savanna
 life_rating = 10

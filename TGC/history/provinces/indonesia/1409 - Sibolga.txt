@@ -1,6 +1,6 @@
 owner = ATJ
 controller = ATJ
 add_core = ATJ
-trade_goods = coffee
+trade_goods = coffee_beans
 life_rating = 35
 #terrain = jungle_farmland

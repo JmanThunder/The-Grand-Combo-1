@@ -703,9 +703,9 @@ province_event = {
 			}	
 		}
 		OR = {
-			trade_goods = coffee
+			trade_goods = coffee_beans
 			trade_goods = dye
-			trade_goods = tea
+			trade_goods = tea_leaves
 			AND = {
 				trade_goods = fruit
 				NOT = { has_country_flag = suikerwet }
@@ -1006,7 +1006,7 @@ country_event = {
 		name = "EVTOPTA211440"
 		set_country_flag = koffiewet
 		any_owned = {
-			limit = { trade_goods = coffee }
+			limit = { trade_goods = coffee_beans }
 			remove_province_modifier = cultuurstelsel
 			remove_province_modifier = cultuurstelsel_reformed			
 		}
@@ -1039,13 +1039,13 @@ province_event = {
 		}
 		continent = east_indies
 		OR = {
-			trade_goods = coffee
+			trade_goods = coffee_beans
 			trade_goods = cotton
 			trade_goods = dye
 			trade_goods = rubber
 			trade_goods = fruit
 			trade_goods = tobacco
-			trade_goods = tea
+			trade_goods = tea_leaves
 		}
 		NOT = {
 			has_province_modifier = cultuurstelsel

@@ -645,7 +645,7 @@ political_decisions = {
 	}
 	
 	commodities_in_south_east_asia = {
-		picture = coffee_in_colombia
+		picture = coffee_beans_in_colombia
 		potential = {
     exists = yes
 			OR = {
@@ -666,14 +666,14 @@ political_decisions = {
 		effect = {
 			set_global_flag = commodities_in_south_east_asia_placed
 			#Vietnam
-			1369 = { trade_goods = tea }
-			1370 = { trade_goods = coffee }
-			1371 = { trade_goods = coffee }
-			1376 = { trade_goods = coffee }
+			1369 = { trade_goods = tea_leaves }
+			1370 = { trade_goods = coffee_beans }
+			1371 = { trade_goods = coffee_beans }
+			1376 = { trade_goods = coffee_beans }
 			1375 = { trade_goods = tobacco }
 			#Thailand
-			1346 = { trade_goods = coffee }
-			1358 = { trade_goods = coffee }
+			1346 = { trade_goods = coffee_beans }
+			1358 = { trade_goods = coffee_beans }
 		}
 		
 		ai_will_do = { factor = 1 }

@@ -2,6 +2,6 @@ owner = QNG
 controller = QNG
 add_core = CHI
 add_core = FJN
-trade_goods = tea
+trade_goods = tea_leaves
 terrain = urban_taipei
 life_rating = 35

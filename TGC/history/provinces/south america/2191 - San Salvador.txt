@@ -1,7 +1,7 @@
 owner = UCA
 controller = UCA
 add_core = ELS
-trade_goods = coffee
+trade_goods = coffee_beans
 life_rating = 32
 terrain = urban_san_salvador
 naval_base = 1

@@ -1826,7 +1826,7 @@ political_decisions = {
 	
 	
 	tea_in_georgia = {
-		picture = tea_production
+		picture = tea_leaves_production
 		potential = {
     exists = yes
 			owns = 1094
@@ -1848,9 +1848,9 @@ political_decisions = {
 		effect = {
 			set_global_flag = georgian_tea
 			money = -10000
-			1096 = { trade_goods = tea }
-			1095 = { trade_goods = tea }
-			1094 = { trade_goods = tea }
+			1096 = { trade_goods = tea_leaves }
+			1095 = { trade_goods = tea_leaves }
+			1094 = { trade_goods = tea_leaves }
 		}
 
 		ai_will_do = { factor = 1 }

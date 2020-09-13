@@ -70,7 +70,7 @@ country_event = {
 	}
 }
 
-# Excavation team gets into trouble
+# Excavation tea_leavesm gets into trouble
 country_event = {
 	id = 190431
 	title = "EVTNAME190431"
@@ -309,7 +309,7 @@ country_event = {
 	}
 }
 
-#Excavation team gets into trouble
+#Excavation tea_leavesm gets into trouble
 country_event = {
 	id = 1904312
 	title = "EVTNAME1904312"

@@ -3,5 +3,5 @@ controller = HAR
 add_core = HAR
 add_core = WRL
 add_core = ETH
-trade_goods = coffee
+trade_goods = coffee_beans
 life_rating = 35

@@ -440,24 +440,24 @@ political_decisions = {
 		effect = {
 			set_global_flag = rgo_change_sa
 			#Colombia
-			2253 = { trade_goods = coffee }
-			2254 = { trade_goods = coffee }
-			2256 = { trade_goods = coffee }
-			2248 = { trade_goods = coffee }
-			2250 = { trade_goods = coffee }
-			2247 = { trade_goods = coffee }
+			2253 = { trade_goods = coffee_beans }
+			2254 = { trade_goods = coffee_beans }
+			2256 = { trade_goods = coffee_beans }
+			2248 = { trade_goods = coffee_beans }
+			2250 = { trade_goods = coffee_beans }
+			2247 = { trade_goods = coffee_beans }
 			2260 = { trade_goods = cattle }
 			2261 = { trade_goods = cattle }
 			2257 = { trade_goods = tobacco }
 			2258 = { trade_goods = tobacco }
 			2255 = { trade_goods = tobacco }
 			#Peru
-			2302 = { trade_goods = coffee }
-			2292 = { trade_goods = coffee }
-			2297 = { trade_goods = coffee }
+			2302 = { trade_goods = coffee_beans }
+			2292 = { trade_goods = coffee_beans }
+			2297 = { trade_goods = coffee_beans }
 			#Ecuador
-			2279 = { trade_goods = coffee }
-			2280 = { trade_goods = coffee }
+			2279 = { trade_goods = coffee_beans }
+			2280 = { trade_goods = coffee_beans }
 		}
 		
 		ai_will_do = { factor = 1 }
@@ -488,15 +488,15 @@ political_decisions = {
 		effect = {
 			set_global_flag = rgo_change_central_america
 			#FRCA
-			2201 = { trade_goods = coffee }
-			2193 = { trade_goods = coffee }
-			2194 = { trade_goods = coffee }
-			2188 = { trade_goods = coffee }
+			2201 = { trade_goods = coffee_beans }
+			2193 = { trade_goods = coffee_beans }
+			2194 = { trade_goods = coffee_beans }
+			2188 = { trade_goods = coffee_beans }
 			#Mexico
-			2172 = { trade_goods = coffee }
-			2180 = { trade_goods = coffee }
-			2168 = { trade_goods = coffee }
-			2169 = { trade_goods = coffee }
+			2172 = { trade_goods = coffee_beans }
+			2180 = { trade_goods = coffee_beans }
+			2168 = { trade_goods = coffee_beans }
+			2169 = { trade_goods = coffee_beans }
 		}
 		
 		ai_will_do = { factor = 1 }

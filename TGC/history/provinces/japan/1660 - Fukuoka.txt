@@ -2,5 +2,5 @@ owner = SAT
 controller = SAT
 add_core = SAT
 add_core = TKG
-trade_goods = tea
+trade_goods = tea_leaves
 life_rating = 35

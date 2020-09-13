@@ -134,8 +134,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -283,8 +283,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -436,8 +436,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -668,8 +668,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -692,7 +692,7 @@ province_event = {
 
 province_event = {
 	id = 199016
-	title = "EVTNAME199015" #Cash Crops - Tea
+	title = "EVTNAME199015" #Cash Crops - tea_leaves
 	desc = "EVTDESC199016"
 	
 	trigger = {
@@ -705,7 +705,7 @@ province_event = {
 			civilized = yes
 		}
 		NOT = {
-			trade_goods = tea
+			trade_goods = tea_leaves
 			has_province_modifier = switched_production
 		}
 		OR = {
@@ -829,15 +829,15 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
 
 	option = {
 		name = "EVT199022OPTA"
-		trade_goods = tea
+		trade_goods = tea_leaves
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1039,8 +1039,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -1210,8 +1210,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -1346,8 +1346,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -1370,7 +1370,7 @@ province_event = {
 
 province_event = {
 	id = 199021
-	title = "EVTNAME199015" #Cash Crops - Coffee
+	title = "EVTNAME199015" #Cash Crops - coffee_beans
 	desc = "EVTDESC199021"
 	
 	trigger = {
@@ -1383,7 +1383,7 @@ province_event = {
 			civilized = yes
 		}
 		NOT = {
-			trade_goods = coffee
+			trade_goods = coffee_beans
 			continent = europe
 			has_province_modifier = switched_production
 		}
@@ -1489,15 +1489,15 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
 
 	option = {
 		name = "EVT199022OPTA"
-		trade_goods = coffee
+		trade_goods = coffee_beans
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1641,8 +1641,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -1724,8 +1724,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -1896,8 +1896,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -1982,8 +1982,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -2260,8 +2260,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}
@@ -2539,8 +2539,8 @@ province_event = {
 			NOT = { trade_goods = fruit }
 			NOT = { trade_goods = grain }
 			NOT = { trade_goods = tobacco }
-			NOT = { trade_goods = tea }
-			NOT = { trade_goods = coffee }
+			NOT = { trade_goods = tea_leaves }
+			NOT = { trade_goods = coffee_beans }
 			NOT = { trade_goods = opium }
 		}
 	}

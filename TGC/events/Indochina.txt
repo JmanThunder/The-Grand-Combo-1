@@ -121,7 +121,7 @@ country_event = {
 		any_owned = {
 			limit = { region = DAI_1380 }
 			secede_province = FROM
-			1380 = { trade_goods = coffee }
+			1380 = { trade_goods = coffee_beans }
 		}
 		ai_chance = { factor = 10 }
 	}

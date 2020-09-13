@@ -259,9 +259,9 @@ province_event = {
 	
 	trigger = {
 	exists = yes
-		produces = tea
+		produces = tea_leaves
 		state_scope = { has_pop_type = bureaucrats }
-		owner = { tea = 40 }
+		owner = { tea_leaves = 40 }
 		NOT = { has_global_flag = workplace_events_disabled }
 	}
 		
@@ -299,7 +299,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA12050"
-		owner = { tea = -40 }
+		owner = { tea_leaves = -40 }
 	}
 	
 	option = {
@@ -1062,7 +1062,7 @@ province_event = {
 	
 	trigger = {
 	exists = yes
-		produces = tea
+		produces = tea_leaves
 		NOT = { unemployment_by_type = { type = farmers value = 0.1 } }
 		NOT = { has_global_flag = workplace_events_disabled }
 	}
@@ -1085,7 +1085,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA12220"
-		owner = { tea = 20 }
+		owner = { tea_leaves = 20 }
 	}
 		
 	option = {
@@ -1100,13 +1100,13 @@ province_event = {
 		name = "EVTOPTC12220"
 		owner = {
 			random_owned = {
-				limit = { has_pop_type = aristocrats produces = tea owner = { NOT = { government = proletarian_dictatorship } } }
+				limit = { has_pop_type = aristocrats produces = tea_leaves owner = { NOT = { government = proletarian_dictatorship } } }
 				state_scope = { aristocrats = { money = 50 } } 
 			}
 		}
 		owner = {
 			random_owned = {
-				limit = { produces = tea owner = { government = proletarian_dictatorship } }
+				limit = { produces = tea_leaves owner = { government = proletarian_dictatorship } }
 				state_scope = { any_pop = { money = 1 } }
 			}
 		}

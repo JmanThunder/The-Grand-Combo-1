@@ -1532,7 +1532,7 @@ attach_bulgaria_to_YUG = {
 		#picture = form_yugoslavia
 		#potential = {
     #exists = yes
-    exists = yes
+    #exists = yes
 			#tag = YUG
 			#GRE = {
 				#exists = yes
@@ -1663,7 +1663,7 @@ attach_bulgaria_to_YUG = {
 		#picture = embrace_minority
 		#potential = {
     #exists = yes
-    exists = yes
+    #exists = yes
 			#tag = YUG
 			#any_owned_province = { culture = greek }
 			#NOT = {
@@ -2112,7 +2112,7 @@ attach_bulgaria_to_YUG = {
 		#picture = form_yugoslavia
 		#potential = {
     #exists = yes
-    exists = yes
+    #exists = yes
 			#tag = YUG
 			#NOT = { exists = GRE any_owned_province = { NOT = { is_core = GRE } } }
 		#}

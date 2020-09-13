@@ -46,7 +46,7 @@ political_decisions = {
         picture = government_decisions
         alert = no
         potential = {
-    exists = yes
+          exists = yes
             ai = no
             NOT = { has_country_flag = government_decisions_on }
             OR = {

@@ -2,7 +2,7 @@ political_decisions = {
 
 	banda_oriental = {
 		potential = {
-    exists = yes
+            exists = yes
 			tag = ARG
 			NOT = {
 				has_country_flag = banda_oriental_is_ours

@@ -2457,7 +2457,7 @@ province_event = {
 #	desc = "EVTDESC98852"
 #	
 #	trigger = {
-	exists = yes
+#	exists = yes
 #		region = FRA_1970
 #		owned_by = THIS
 #		controlled_by = THIS

@@ -9832,3 +9832,124 @@ four_children = {
 	education_efficiency_modifier = -0.5
 	icon = 17
 }
+### New Political Modifiers ###	
+five_year_plan = {
+	research_points_modifier = -0.01
+	global_pop_consciousness_modifier = 0.05
+	global_pop_militancy_modifier = 0.05
+	factory_throughput = 0.1
+	RGO_throughput = 0.1
+	icon = 5
+}
+	
+purge = {
+	global_pop_militancy_modifier = -0.1
+	global_pop_consciousness_modifier = -0.1
+	leadership_modifier = -0.75
+	global_population_growth = -0.01
+	prestige = -0.05
+	icon = 15
+}
+
+the_dragon_wakes = {
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+	prestige = 0.01
+	research_points_modifier = 0.1
+	icon = 13
+}
+	
+just_civilized = {
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.1
+	prestige = 0.02
+	research_points_modifier = 0.1
+	icon = 13
+}
+	
+the_rights_of_man = {
+	prestige = 0.02
+	global_pop_consciousness_modifier = 0.01
+	icon = 13
+}
+	
+political_ideology = {
+	prestige = 0.05
+	global_pop_consciousness_modifier = 0.02
+	icon = 13
+}
+
+of_state_n_government = {
+	prestige = 0.07
+	global_pop_consciousness_modifier = 0.03
+	icon = 13
+}
+	
+dreams_of_empire = {
+	prestige = 0.1
+	global_pop_consciousness_modifier = 0.04
+	icon = 13
+}
+	
+the_means_of_production  = {
+	prestige = 0.15
+	global_pop_consciousness_modifier = 0.05
+	icon = 13
+}
+	
+the_flaws_of_democracy = {
+	prestige = 0.25
+	global_pop_consciousness_modifier = 0.06
+	global_pop_militancy_modifier = 0.02
+	icon = 13
+}
+
+workshop_of_the_world = {
+	icon = 11
+	factory_owner_cost = -0.05
+	prestige = 0.02
+}
+
+secret_police = {
+	suppression_points_modifier = 0.5
+	icon = 15
+}
+
+general_strike = {
+	factory_throughput = -1
+	RGO_throughput = -1
+	social_reform_desire = 0.2
+	icon = 12
+}
+
+address = {
+	icon = 7
+}
+
+tour = {
+	icon = 7
+}
+
+futile = {
+	icon = 7
+}
+
+parade = {
+	icon = 7
+}
+
+conference = {
+	icon = 7
+}
+
+exhibition = {
+	icon = 7
+}
+
+census = {
+	icon = 7
+}
+
+recruitment_drive = {
+	icon = 17
+}
